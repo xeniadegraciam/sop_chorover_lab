@@ -1,0 +1,157 @@
+---
+title: "Standard Operating Procedures"
+author: "Xenia De Gracia Medina"
+date: today
+format:
+  html:
+    toc: true
+    number-sections: true
+    toc-depth: 3
+    theme: cosmo
+    fontsize: 1.3em
+    css: styles.css # optional, if you want to customize fonts later
+execute:
+  echo: false   # Hide all R code
+  warning: false # Hide warnings
+  message: false # Hide startup messages
+---
+
+::: {style="text-align: center; margin-top: 30px;"}
+<img src="Weekly_Report_files/figures/logos/cales_logo.png" style="margin-bottom: 10px;" width="300"/>
+
+[**Standard Operating Procedures**]{style="color: #00458C;"}
+
+[**Chorover Lab**]{style="color: #00458C;"}\
+
+Department of Environmental Sciences\
+[University of Arizona]{style="font-size: 1em;"}\
+
+📄 **For full background, [check out my repo on GitHub](https://github.com/xenidegracia/weekly_meetings)**\
+\> Contains links, data context, and additional visuals.
+
+<img src="Weekly_Report_files/figures/2503_XDG_AsMolecularSpeciation/Slide2.png" width="1000px" style="margin-bottom: 5px;"/>
+:::
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+# **LAB PROCEDURES**
+
+::: panel-tabset
+## Mineralogy
+
+### Full Pattern Summation with powdR package (Rockjock library)
+
+#### XRD Process Optimization
+
+-   **pH stability**
+    -   Selection of minerals based on the pH of the sample, prior to do the Full-Pattern Summation
+-   **Adding more minerals to Rockjock**
+    -   Adding Alunite and the other 20 to the Rockjock library
+-   Found Alunite in XAS
+    -   Discovered Alunite through XAS (Jarosite but with Al instead of Fe). showing the need to wider the Rockjock library with other minerals.
+-   Xpert is a slow process
+    -   Checking which site has Alunite in Xpert one by one is a long process
+-   Full Pattern Summation with Rockjock library
+    -   Instead: check the sites automatically through Full Pattern Summation with the Rockjock library
+-   VESTA to get XRD
+    -   CIFF files were used to get the XRD through VESTA Wavelength Copper 1.5406 2theta range: 5 – 65 Step size: 0.02
+
+### **Rietveld Refinement with X'pert HighScore**
+
+## XAS
+
+[SYNCHROTRON VISIT LOGBOOK](https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6) 
+
+The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.
+
+The link to the manual for data analyses of XAS is at this link: [XAS Analysis Manual](https://docs.google.com/document/d/11aBW2lp7dQ3Z7M_WR1V9nHGQpyaWus9GZM6z-x5BB98/edit?usp=sharing)
+
+### Arsenic XAS
+
+#### EXAFS Arsenic Speciation
+
+#### XANES Arsenic Oxidation State
+
+## Physico-chemical properties
+
+### pH
+
+### EC
+
+### Specific Surface Area
+
+### Particle size distribution
+
+## ICP-MS
+
+## FTIR
+
+### ATR FTIR
+
+- Computer Password: UCMerced2014
+- OMNIC Software
+- Experiment: iS50 ATR
+- Close the sampler (2 clicks)
+- Experiment Setup -> Collect  -> Number of scans: 64 -> Collect Background after 120 minutes -> Save
+- Collect Background (humidity always looks the same: 3 peaks between 2800 to 2000)
+- Start Collection (Up-right corner)
+- A message will come after saying the data collection has stopped. Add to a new window? YES!
+- File -> Save As -> Set Filename to Title -> Save it (SPA, SPC, CSV)
+- Experimental Setup -> Collect -> Use specified Background file -> Choose the one you just saved (get a new background every 4 hours) -> Ok
+- Put your sample under the sampler. Rotate it until hearing 2 clicks.
+- Collect Sample -> Fill the sample ID name –> Ok
+- Start Collection (Up-right corner) -> Add to Background? YES!
+- Common Scale. (Or Full scale if you prefer to see your sample closer.)
+- File -> Save As -> Set Filename to Title -> Save it (SPA, SPC, CSV)
+- Load a new sample to scan.
+- Collect Sample -> Fill the sample ID name –> Ok
+- Start Collection (Up-right corner) -> Add to Background? YES!
+- Common Scale. (Or Full scale if you prefer to see your sample closer.)
+- File -> Save As -> Set Filename to Title -> Save it (SPA, SPC, CSV)
+- Process -> Normalize Scale
+- Auto Baseline Correction
+- Analyze -> Search Peaks
+
+![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
+
+
+## **Experiment: Flow-through reactive mini-column experiment results**
+
+:::
+
+
+# **ADMINISTRATIVE PROCEDURES**
+
+::: panel-tabset
+
+## Buying Lab Supplies in BuyWays
+
+- Uacces
+- Financial
+- NetID
+- More Items
+- Orders
+- Shop catalogs
+- In the search tool, write what you're looking for (Catalog number, Product number or SKU number)
+- Add to cart
+- View my cart
+- ***You can only do one supplier at a time***
+- Proceed to Uaccess Financials
+- Document overview (Description, Explanation
+- Delivery -> Search -> Building Code = 38 -> Return value -> Room # = 518 ->
+- Items -> Setup distribution -> Account number (Superfund is 3035856)** Check that the name of your project is under the account number -> Object -> Code for chemicals (5280) -> For not chemicals (5290)  -> PLUS SIGN -> In the second, level Distribute to Items -> In Item Type for Chemicals is Quantity tax exempt, but for any other supplies Quantity Taxable.
+- At the bottom click CALCULATE
+- SUBMIT
+
+## Remote Access to 518 computer
+
+- Look for the "Remote Desktop Connection" app in your computer.
+- Enter the name of the computer you want to access remotely in the blank space. The one in 518 lab is: cals-envs22-45.bluecat.arizona.edu
+- Log in with your NetID Catcard credentials.
+- Look for the Geochemist Workbench Program.
+- In case you need access to the VPN, follow the next link to Download Install and LogIn to the VPN on your computer (this will just let you log in if you are outside campus, I don't think it let you log in if you are on-campus network).
+![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.PNG)
+
+:::
