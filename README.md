@@ -2,7 +2,7 @@
 
 Standard Operating Procedures I used while in Chorover's Lab.
 
-The complete lab procedures are stored on this Quarto file: [SOP](https://github.com/xenidegracia/sop_chorover_lab/blob/main/SOP.html)
+The complete lab procedures are stored on this other address: [SOP](https://xenidegracia.github.io/sop_chorover_lab/SOP.html)
 
 This repository has all the procedures and links I needed while working on Chorover's Lab at the University of Arizona. Some of them may not be complete, but they are a start.
 
