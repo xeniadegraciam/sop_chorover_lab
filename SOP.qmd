@@ -318,7 +318,7 @@ Dry part of the Soil-Water Characteristic Curve
     -   Brand: Fisher Scientific
     -   Model: AccuSkan FC microplate photometer
     -   Catalog number 14377575)
--   Wavelength filter for Iron should be **562 nm**. Buy it here: [ ](https://www.thermofisher.com/order/catalog/product/1425605)
+-   Wavelength filter for Iron should be **562 nm**. Buy it here: [](https://www.thermofisher.com/order/catalog/product/1425605)
 
 ### Sample preparation
 
