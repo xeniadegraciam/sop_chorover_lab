@@ -1,0 +1,26 @@
+name: Render and Publish SOP Weekly
+
+on:
+  schedule:
+    - cron: '0 6 * * 2'  # every Monday at 23:00 Arizona time (06:00 UTC time on Tuesdays)
+  workflow_dispatch:       # also allows manual trigger if needed
+
+jobs:
+  render-sop:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 'latest'
+
+      - name: Render SOP.qmd
+        run: quarto render SOP.qmd
+
+      - name: Commit and Push Updated SOP.html
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated re-render of SOP.html"
+          file_pattern: SOP.html

@@ -33,6 +33,51 @@ Department of Environmental Sciences\
 
 ------------------------------------------------------------------------
 
+# **ADMINISTRATIVE PROCEDURES**
+
+::: panel-tabset
+## RLSS
+
+Remember to check the fulfillment of the required safety training in the Research Laboratory and Safety Services.
+
+[Link to RLSS](https://rlss.arizona.edu/services/protected/index.xhtml)
+
+## **Chemical & Biohazard Waste Pickup Request**
+
+The hazardous waste pick up happens the SECOND Thursday of every month. You have to schedule it with enough time so they can pick it up, bring you extra tanks and tags for the chemicals.
+
+[Form for Chemical & Biohazard Waste Pickup Request](https://risk.arizona.edu/forms/chemical-waste-pickup)
+
+## Buying Lab Supplies in BuyWays
+
+-   Uacces
+-   Financial
+-   NetID
+-   More Items
+-   Orders
+-   [Shop catalogs](https://financials.uaccess.arizona.edu/kfs/b2b.do?methodToCall=shopCatalogs)
+-   In the search tool, write what you're looking for (Catalog number, Product number or SKU number)
+-   Add to cart
+-   View my cart
+-   ***You can only do one supplier at a time***
+-   Proceed to Uaccess Financials
+-   Document overview (Description, Explanation
+-   Delivery -\> Search -\> Building Code = 38 -\> Return value -\> Room \# = 518 -\>
+-   Items -\> Setup distribution -\> Account number (Superfund is 3035856)\*\* Check that the name of your project is under the account number -\> Object -\> Code for chemicals (5280) -\> For not chemicals (5290) -\> PLUS SIGN -\> In the second, level Distribute to Items -\> In Item Type for Chemicals is Quantity tax exempt, but for any other supplies Quantity Taxable.
+-   At the bottom click CALCULATE
+-   SUBMIT
+
+## Remote Access to 518 computer
+
+-   Look for the "Remote Desktop Connection" app in your computer.
+-   Enter the name of the computer you want to access remotely in the blank space. The one in 518 lab is: cals-envs22-45.bluecat.arizona.edu
+-   Log in with your NetID Catcard credentials.
+-   Look for the Geochemist Workbench Program.
+-   In case you need access to the VPN, follow the next link to Download Install and LogIn to the VPN on your computer (this will just let you log in if you are outside campus, I don't think it let you log in if you are on-campus network). ![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.PNG)
+:::
+
+
+
 # **MINERALOGY**
 
 ::: panel-tabset
@@ -90,6 +135,8 @@ Request permission from him before using their facilities, and also for safety c
 ## **Rietveld Refinement with X'pert HighScore**
 :::
 
+
+
 # **SPECTROSCOPY**
 
 [SYNCHROTRON VISIT LOGBOOK](https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6)
@@ -137,6 +184,8 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
 
 ![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
 :::
+
+
 
 # **PHYSICO-CHEMICAL PROPERTIES**
 
@@ -214,6 +263,8 @@ Dry part of the Soil-Water Characteristic Curve
 -   Read the dry weight of each sample after the 24 hours. Insert that value o the cell called ***“M_c_ds”***.
 -   Insert all this information into the Excel template made by Mohammadreza to get the water content equivalent to each matric potential
 :::
+
+
 
 # **ANALYTICAL PROCEDURES**
 
@@ -295,6 +346,8 @@ Dry part of the Soil-Water Characteristic Curve
 -   Nothing else is added to the sample
 :::
 
+
+
 # **EXPERIMENTS**
 
 ::: panel-tabset
@@ -309,39 +362,3 @@ Dry part of the Soil-Water Characteristic Curve
 ![SSE](SOP_files/figures/Slides_SOP/Slide33.PNG)
 :::
 
-# **ADMINISTRATIVE PROCEDURES**
-
-::: panel-tabset
-## RLSS
-
-Remember to check the fulfillment of the required safety training in the Research Laboratory and Safety Services.
-
-[Link to RLSS](https://rlss.arizona.edu/services/protected/index.xhtml)
-
-## Buying Lab Supplies in BuyWays
-
--   Uacces
--   Financial
--   NetID
--   More Items
--   Orders
--   [Shop catalogs](https://financials.uaccess.arizona.edu/kfs/b2b.do?methodToCall=shopCatalogs)
--   In the search tool, write what you're looking for (Catalog number, Product number or SKU number)
--   Add to cart
--   View my cart
--   ***You can only do one supplier at a time***
--   Proceed to Uaccess Financials
--   Document overview (Description, Explanation
--   Delivery -\> Search -\> Building Code = 38 -\> Return value -\> Room \# = 518 -\>
--   Items -\> Setup distribution -\> Account number (Superfund is 3035856)\*\* Check that the name of your project is under the account number -\> Object -\> Code for chemicals (5280) -\> For not chemicals (5290) -\> PLUS SIGN -\> In the second, level Distribute to Items -\> In Item Type for Chemicals is Quantity tax exempt, but for any other supplies Quantity Taxable.
--   At the bottom click CALCULATE
--   SUBMIT
-
-## Remote Access to 518 computer
-
--   Look for the "Remote Desktop Connection" app in your computer.
--   Enter the name of the computer you want to access remotely in the blank space. The one in 518 lab is: cals-envs22-45.bluecat.arizona.edu
--   Log in with your NetID Catcard credentials.
--   Look for the Geochemist Workbench Program.
--   In case you need access to the VPN, follow the next link to Download Install and LogIn to the VPN on your computer (this will just let you log in if you are outside campus, I don't think it let you log in if you are on-campus network). ![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.PNG)
-:::
