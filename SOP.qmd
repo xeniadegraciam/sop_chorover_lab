@@ -17,7 +17,7 @@ execute:
 ---
 
 ::: {style="text-align: center; margin-top: 30px;"}
-[**Standard Operating Procedures**]{style="color: #00458C;"}
+**STANDARD OPERATING PROCEDURES**
 
 [**Chorover's Lab**]{style="color: #00458C;"}\
 
@@ -70,7 +70,18 @@ The Liquid Nitrogen we order is: *Liquid Nitrogen, Refrigerated (Class 2.2 UN197
 
 We order 10 Liters (30 pounds) for the big bin.
 
-***Use the required gloves to handle Liquid Nitrogen.***
+**Safety measurements to consider:**
+
+- Use the required cryogenic gloves and a face shield to handle Liquid Nitrogen.
+
+- Make sure empty cylinders are labeled or tagged.
+
+- Make sure caps are in place when not in use
+
+- Cylinders are secured, not blocking exits or pathways and stored upright in racks, straps, chains, or stands.
+
+Extracted from the [University Chemical Hygiene Plan](https://research.arizona.edu/compliance/RLSS/chemical-safety)
+
 
 ## **Buying Lab Supplies in BuyWays**
 
@@ -295,7 +306,7 @@ Cite the database as: *Downs, R.T. and Hall-Wallace, M. (2003) The American Mine
 
 ## **Clay Mineral Identification Flow Diagram**
 
-The folowing chart from USGS helps identify the different clays using the separation in Armstrong. You can download that chart on the following link. *(I recommend PDF format for more readability)*.
+The following chart from USGS helps identify the different clays using the separation in Armstrong. You can download that chart on the following link. *(I recommend PDF format for more readability)*.
 
 USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
 
@@ -344,7 +355,7 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 ### **XRD Process Optimization**
 
 -   **pH stability**
-    -   Selection of minerals based on the pH of the sample, prior to do the Full-Pattern Summation
+    -   Selection of minerals based on the pH of the sample, prior to doing the Full-Pattern Summation
 -   **Adding more minerals to Rockjock**
     -   Adding Alunite and the other 20 to the Rockjock library
 -   Found Alunite in XAS
@@ -352,13 +363,16 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 -   Xpert is a slow process
     -   Checking which site has Alunite in Xpert one by one is a long process
 -   Full Pattern Summation with Rockjock library
-    -   Instead: check the sites automatically through Full Pattern Summation with the Rockjock library
+    -   Instead, check the sites automatically through Full Pattern Summation with the Rockjock library
 -   VESTA to get XRD
     -   CIFF files were used to get the XRD through VESTA Wavelength Copper 1.5406 2theta range: 5 – 65 Step size: 0.02
 
 ## **Rietveld Refinement with X'pert HighScore**
 
 We use the X'pert HighScore program to analyze the data with Rietveld Refinement.
+
+***Work in progress...***
+
 :::
 
 # **SPECTROSCOPY**
@@ -410,12 +424,12 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
 
 ### **Sample preparation:**
 
--   Liquid Nitrogen must be ordered previously, and you can pick it up from the Cryogenics Facilities from 8 to 11 am every day.
+-   Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities from 8 to 11 a.m. every day. (*See Administrative procedure for this, the link to order is there*)
 -   Check that the Gas Nitrogen is available for degassing.
--   Weight a clean empty tube
+-   Weight a clean, empty tube
 -   Fill it with a sample
 -   Weight the tube+sample
--   Degas the samples overnight with a temperature of 45 Celsius because I’m using tailings. If I increase the temperature I could convert my ferrihydrite to Goethite, and we don’t want that.
+-   Degas the samples overnight with a temperature of 45 Celsius because I’m using tailings. (If I increase the temperature I could convert my ferrihydrite to Goethite, and we don’t want that.)
 
 ### **Computer procedure: Gemini program**
 
@@ -439,9 +453,13 @@ This is done with the Laser Diffraction from *Marcel Schaap's Lab*.
 
 Request permission from him before using their facilities.
 
+***Work in progress...***
+
 ## **Soil-Water Characteristics**
 
 ### **HYPROP for Soil-Water Characteristic Curves**
+
+***Work in progress...***
 
 ### **WP4-C**
 
