@@ -17,15 +17,20 @@ execute:
 ---
 
 ::: {style="text-align: center; margin-top: 30px;"}
-
 [**Standard Operating Procedures**]{style="color: #00458C;"}
 
 [**Chorover's Lab**]{style="color: #00458C;"}\
 
 Department of Environmental Sciences\
 [University of Arizona]{style="font-size: 1em;"}\
+:::
 
-*This is an ongoing work and a gift for Rob, to give him some rest from repeating the same information every time someone joins the lab xD*
+::: {style="text-align: left; margin-top: 30px;"}
+*NOTES:*
+
+-   *English is not my primary language, so please excuse me if you notice any grammatical errors or sentences that don't make sense.*
+
+-   *This is an ongoing work and a gift for Rob, to give him some rest from repeating the same information every time someone joins the lab xD*
 :::
 
 ------------------------------------------------------------------------
@@ -41,9 +46,13 @@ Remember to check the fulfillment of the required safety training in the Researc
 
 [Link to RLSS](https://rlss.arizona.edu/services/protected/index.xhtml)
 
+## **Chemical Inventory**
+
+[Chemical Inventory Link](https://rlss.arizona.edu/services/protected/approval-management/chemical/inventory.xhtml?from=home)
+
 ## **Chemical & Biohazard Waste Pickup Request**
 
-The hazardous waste pick up happens the SECOND Thursday of every month. You have to schedule it with enough time so they can pick it up, bring you extra tanks and tags for the chemicals.
+The hazardous waste pick-up happens the SECOND Thursday of every month. You have to schedule it with enough time so they can pick it up and bring you extra tanks and tags for the chemicals.
 
 [Form for Chemical & Biohazard Waste Pickup Request](https://risk.arizona.edu/forms/chemical-waste-pickup)
 
@@ -51,11 +60,11 @@ The hazardous waste pick up happens the SECOND Thursday of every month. You have
 
 Use this [link](https://cryo.cores.arizona.edu/cgf/) to order the Liquid Nitrogen, or any gas you may need for your lab work.
 
-- Hours of Operation: M-F 8:00AM to 4:00PM
+-   Hours of Operation: M-F 8:00AM to 4:00PM
 
-- **Pickup 8:30AM to 11AM** 
+-   **Pickup 8:30AM to 11AM**
 
-- Cryo Closed 11:30AM to 12:30PM daily
+-   Cryo Closed 11:30AM to 12:30PM daily
 
 The Liquid Nitrogen we order is: *Liquid Nitrogen, Refrigerated (Class 2.2 UN1977 Non-Flammable). Please specify the quantity in liters. MAX 60 liters/order.*
 
@@ -63,8 +72,7 @@ We order 10 Liters (30 pounds) for the big bin.
 
 ***Use the required gloves to handle Liquid Nitrogen.***
 
-
-## **Buying Lab Supplies in BuyWays **
+## **Buying Lab Supplies in BuyWays**
 
 -   Uacces
 -   Financial
@@ -79,7 +87,7 @@ We order 10 Liters (30 pounds) for the big bin.
 -   Proceed to Uaccess Financials
 -   Document overview (Description, Explanation
 -   Delivery -\> Search -\> Building Code = 38 -\> Return value -\> Room \# = 518 -\>
--   Items -\> Setup distribution -\> Account number (Superfund is 3035856)\*\* Check that the name of your project is under the account number -\> Object -\> Code for chemicals (5280) -\> For not chemicals (5290) -\> PLUS SIGN -\> In the second, level Distribute to Items -\> In Item Type for Chemicals is Quantity tax exempt, but for any other supplies Quantity Taxable.
+-   Items -\> Setup distribution -\> Account number. \*Check that the name of your project is under the account number\* -\> Object -\> Code for chemicals (5280) -\> For not chemicals (5290) -\> PLUS SIGN -\> In the second, level Distribute to Items -\> In Item Type for Chemicals is Quantity tax exempt, but for any other supplies Quantity Taxable.
 -   At the bottom click CALCULATE
 -   SUBMIT
 
@@ -89,13 +97,184 @@ We order 10 Liters (30 pounds) for the big bin.
 -   Enter the name of the computer you want to access remotely in the blank space. The one in 518 lab is: cals-envs22-45.bluecat.arizona.edu
 -   Log in with your NetID Catcard credentials.
 -   Look for the Geochemist Workbench Program.
--   In case you need access to the VPN, follow the next link to Download Install and LogIn to the VPN on your computer (this will just let you log in if you are outside campus, I don't think it let you log in if you are on-campus network). 
-
+-   In case you need access to the VPN, follow the next link to Download, Install, and Log in to the VPN on your computer (this will only let you log in if you are outside campus; I don't think it will let you log in if you are on the on-campus network).
 
 ![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.PNG)
 :::
 
+# **ANALYTICAL PROCEDURES**
 
+::: panel-tabset
+## **ALEC Analytes**
+
+```{r}
+
+# Install if needed:
+# install.packages("DT")
+
+library(DT)
+
+# ✅ Fully aligned data frame (68 rows total)
+analyte_table <- data.frame(
+  Group = c(
+    rep(1, 4),
+    rep(2, 6),
+    rep(3, 13),
+    rep(4, 16),
+    rep(5, 9),
+    rep(6, 8),
+    rep(7, 11),
+    8
+  ),
+  Group_Name = c(
+    rep("Major Cations", 4),
+    rep("DRC", 6),
+    rep("Trace Metals", 13),
+    rep("REY", 16),
+    rep("Minor/HNO3", 9),
+    rep("Minor/HCl", 8),
+    rep("Minor/HF", 11),
+    "Hg"
+  ),
+  Element = c(
+    # Section 1 (4)
+    c("K", "Ca", "Na", "Mg"),
+    # Section 2 (6)
+    c("V", "Cr", "Fe", "Co", "As", "Se"),
+    # Section 3 (13)
+    c("Be", "Al", "Mn", "Ni", "Cu", "Zn", "Mo", "Ag", "Cd", "Sn", "Sb", "Ba", "Pb"),
+    # Section 4 (16)
+    c("Y", "Ce", "Dy", "Er", "Eu", "Gd", "Ho", "La", "Lu", "Nd", "Pr", "Sm", "Tb", "Th", "Tm", "Yb"),
+    # Section 5 (9)
+    c("Li", "Ga", "Rb", "Sr", "In", "Cs", "Tl", "Bi", "U"),
+    # Section 6 (8)
+    c("Ru", "Rh", "Pd", "Te", "Hf", "Ir", "Pt", "Au"),
+    # Section 7 (11)
+    c("B", "Si", "P", "Ti", "Ge", "Zr", "Nb", "Ta", "W", "Re", "Total S"),
+    # Section 8 (1)
+    "Hg"
+  )
+)
+
+
+# Set up the color palette for Sections 1–8 (light rainbow colors)
+section_colors <- c(
+  "1" = "lightpink",      # pink (favorite)
+  "2" = "thistle",       # purple (favorite)
+  "3" = "mediumaquamarine",
+  "4" = "khaki",
+  "5" = "lightblue",
+  "6" = "lightsalmon",
+  "7" = "lightcyan",
+  "8" = "lightgray"
+)
+
+
+# Max section size (for page length)
+max_section_size <- max(table(analyte_table$Group))
+
+# Render the interactive table with color formatting
+datatable(
+  analyte_table,
+  extensions = 'Buttons',
+  options = list(
+    pageLength = max_section_size,  # dynamically show up to 16 rows per page
+    autoWidth = TRUE,
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+    columnDefs = list(
+      list(width = '50px', targets = 0),  # Group column
+      list(width = '150px', targets = 1), # Group_Name column
+      list(width = '50px', targets = 2)   # Element column
+    )
+  )
+) %>%
+  formatStyle(
+    'Group',
+    target = 'row',
+    backgroundColor = styleEqual(names(section_colors), section_colors),
+    color = styleEqual(names(section_colors), rep("black", length(section_colors)))  # force dark text
+  )
+
+
+```
+
+## **ALEC Sample volume required for different analyses:**
+
+| **Analysis**                                          | **Volume needed**                      |
+|-----------------------------------------|-------------------------------|
+| ICP-MS / ICP-AES / Arsenic Speciation                 | 3 mL                                   |
+| Total Organic Carbon, Total Carbon and Total Nitrogen | 17 mL                                  |
+| Ion Chromatography                                    | 1 mL                                   |
+| HPLC ICP-MS                                           | 300 uL (*micro Liters*)                |
+| HPLC electrospray ionization (ESI) MS                 | 1 mL                                   |
+| Ferrozine method                                      | ALEC does not run this. Fan/Fan method |
+| **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
+
+## **ICP-MS (main cations) & Arsenic Speciation**
+
+***All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab***
+
+-   Prepare a batch of 2% of High Purity Nitric Acid (HNO3)
+-   Take 1 mL of the sample
+-   Add 7mL of EDTA 0.25M for As Speciation. ***this EDTA step messed up the tubing on the ICP-MS machine so be careful***
+-   Add 2 mL of HNO3
+-   Total volume of the mix in the tube: 10 mL
+-   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
+
+![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
+
+## **Ion Chromatography (Anions)**
+
+-   2 mL of the sample
+-   Nothing else is added to the samples
+
+## **Iron Speciation**
+
+-   Prepare a batch of 2% of Hydrochloric acid (HCL)
+-   Take 1 mL of the sample
+-   Add 9 mL of HCL
+-   Total volume of the mix in the tube: 10 mL
+-   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
+
+## **Ferrozine Method for Iron Speciation**
+
+### **Materials:**
+
+-   Ferrozine 5 grams container
+-   Ferrous Ammonium Sulphate 500 grams container
+-   Ammonium acetate in 245 or 518
+-   Spectrophotometer (We have one in 508.
+    -   Brand: Fisher Scientific
+    -   Model: AccuSkan FC microplate photometer
+    -   Catalog number 14377575
+-   Wavelength filter for Iron should be **562 nm**. Buy it here: [ ](https://www.thermofisher.com/order/catalog/product/1425605)
+
+### **Sample preparation**
+
+-   Complex is stable Between pH 4 and 10
+-   Concentrations Between 0.01 - 3 ppm or between 2 – 10 ppm.
+-   Match the metrics of your sample: Ionic Strength or Acid concentration
+-   Use the cuvettes the same orientation always.
+-   Add 100 microL of Ferrozine to all cuvettes. Including the blank, standards and samples.
+-   Add 50microL of Buffer to all cuvettes and wait 5 minutes to color development.
+
+### **Spectrophotometer**
+
+-   Turn on the spectrophotometer 15 minutes before the measurements
+-   Set wavelength to 562 nm.
+-   Use the cuvettes the same orientation always
+-   Put the blank into the spectrophotometer and press the ZERO key.
+-   Measure the standards and samples in the same manner and record the Absorbance values. As soon as possible to avoid degradation of color complexes.
+-   Remove the samples from spectrophotometer.
+-   Absorbance values above 2 are meaningless. Try again diluting them.
+-   Plot Absorbance VS Fe(II) ppm
+
+## **TOC (Total Organic Carbon)**
+
+-   5 mL of the sample
+-   Nothing else is added to the sample
+:::
 
 # **MINERALOGY**
 
@@ -113,6 +292,14 @@ Cite the database as: *Downs, R.T. and Hall-Wallace, M. (2003) The American Mine
 -   Then shake the ball mill with just Sand for another 3 minutes.
 -   Then proceed to shake your following sample.
 -   If you are **not** analyzing your samples yourself, you can send them to the *Chemistry & Biochemistry Lab (Andrei Astachkine: andrei\@arizona.edu)*
+
+## **Clay Mineral Identification Flow Diagram**
+
+The folowing chart from USGS helps identify the different clays using the separation in Armstrong. You can download that chart on the following link. *(I recommend PDF format for more readability)*.
+
+USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
+
+![](SOP_files/figures/clay_flow_usgs.gif){width="768"}
 
 ## **Craig's Rasmussen Lab Computer procedure for X-ray Diffraction**
 
@@ -145,9 +332,14 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 [Research paper](https://doi.org/10.1016/j.cageo.2020.104662): *powdR: An R package for quantitative mineralogy using full pattern summation of X-ray powder diffraction data.*
 
 **References:**
-- Chipera, Steve J., and David L. Bish. 2002. “FULLPAT: A full-pattern quantitative analysis program for X-ray powder diffraction using measured and calculated patterns.” Journal of Applied Crystallography 35 (6): 744–49. [](https://doi.org/10.1107/S0021889802017405).
-- 2013. “Fitting Full X-Ray Diffraction Patterns for Quantitative Analysis: A Method for Readily Quantifying Crystalline and Disordered Phases.” Advances in Materials Physics and Chemistry 03 (01): 47–53. [](https://doi.org/10.4236/ampc.2013.31A007).
-- Eberl, D. D. 2003. “User’s guide to ROCKJOCK - A program for determining quantitative mineralogy from powder X-ray diffraction data.” Boulder, CA: USGS.
+
+-   Chipera, Steve J., and David L. Bish. 2002. “FULLPAT: A full-pattern quantitative analysis program for X-ray powder diffraction using measured and calculated patterns.” Journal of Applied Crystallography 35 (6): 744–49. [ ](https://doi.org/10.1107/S0021889802017405).
+
+-   
+
+    2013. “Fitting Full X-Ray Diffraction Patterns for Quantitative Analysis: A Method for Readily Quantifying Crystalline and Disordered Phases.” Advances in Materials Physics and Chemistry 03 (01): 47–53. [ ](https://doi.org/10.4236/ampc.2013.31A007).
+
+-   Eberl, D. D. 2003. “User’s guide to ROCKJOCK - A program for determining quantitative mineralogy from powder X-ray diffraction data.” Boulder, CA: USGS.
 
 ### **XRD Process Optimization**
 
@@ -167,10 +359,7 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 ## **Rietveld Refinement with X'pert HighScore**
 
 We use the X'pert HighScore program to analyze the data with Rietveld Refinement.
-
 :::
-
-
 
 # **SPECTROSCOPY**
 
@@ -178,12 +367,10 @@ We use the X'pert HighScore program to analyze the data with Rietveld Refinement
 
 The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.
 
-
 ::: panel-tabset
 ## **XAS**
 
 The link to the manual for data analyses of XAS is at this link: [XAS Analysis Manual](https://docs.google.com/document/d/11aBW2lp7dQ3Z7M_WR1V9nHGQpyaWus9GZM6z-x5BB98/edit?usp=sharing)
-
 
 ## **FTIR**
 
@@ -216,12 +403,9 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
 ![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
 :::
 
-
-
-# **PHYSICO-CHEMICAL PROPERTIES**
+# **PHYSICAL PROPERTIES**
 
 ::: panel-tabset
-
 ## **Specific Surface Area**
 
 ### **Sample preparation:**
@@ -296,100 +480,18 @@ Dry part of the Soil-Water Characteristic Curve
 -   Insert all this information into the Excel template made by Mohammadreza to get the water content equivalent to each matric potential
 :::
 
-
-
-# **ANALYTICAL PROCEDURES**
-
-::: panel-tabset
-## **ALEC Sample volume required for different analyses:**
-
-| **Analysis**                                          | **Volume needed**                      |
-|-----------------------------------------|-------------------------------|
-| ICP-MS / ICP-AES / Arsenic Speciation                 | 3 mL                                   |
-| Total Organic Carbon, Total Carbon and Total Nitrogen | 17 mL                                  |
-| Ion Chromatography                                    | 1 mL                                   |
-| HPLC ICP-MS                                           | 300 uL (*micro Liters*)                |
-| HPLC electrospray ionization (ESI) MS                 | 1 mL                                   |
-| Ferrozine method                                      | ALEC does not run this. Fan/Fan method |
-| **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
-
-: ALEC Volumes {tbl-colwidths="\[75,25\]"}
-
-## **ICP-MS (main cations) & Arsenic Speciation**
-
-***All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab***
-
--   Prepare a batch of 2% of High Purity Nitric Acid (HNO3)
--   Take 1 mL of the sample
--   Add 7mL of EDTA 0.25M for As Speciation. ***this EDTA step messed up the tubing on the ICP-MS machine so be careful***
--   Add 2 mL of HNO3
--   Total volume of the mix in the tube: 10 mL
--   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
-
-![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
-
-
-
-## **Ion Chromatography (Anions)**
-
--   2 mL of the sample
--   Nothing else is added to the samples
-
-## **Iron Speciation**
-
--   Prepare a batch of 2% of Hydrochloric acid (HCL)
--   Take 1 mL of the sample
--   Add 9 mL of HCL
--   Total volume of the mix in the tube: 10 mL
--   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
-
-## **Ferrozine Method for Iron Speciation**
-
-### **Materials:**
-
--   Ferrozine 5 grams container
--   Ferrous Ammonium Sulphate 500 grams container
--   Ammonium acetate in 245 or 518
--   Spectrophotometer (We have one in 508.
-    -   Brand: Fisher Scientific
-    -   Model: AccuSkan FC microplate photometer
-    -   Catalog number 14377575
--   Wavelength filter for Iron should be **562 nm**. Buy it here: [](https://www.thermofisher.com/order/catalog/product/1425605)
-
-### **Sample preparation**
-
--   Complex is stable Between pH 4 and 10
--   Concentrations Between 0.01 - 3 ppm or between 2 – 10 ppm.
--   Match the metrics of your sample: Ionic Strength or Acid concentration
--   Use the cuvettes the same orientation always.
--   Add 100 microL of Ferrozine to all cuvettes. Including the blank, standards and samples.
--   Add 50microL of Buffer to all cuvettes and wait 5 minutes to color development.
-
-### **Spectrophotometer**
-
--   Turn on the spectrophotometer 15 minutes before the measurements
--   Set wavelength to 562 nm.
--   Use the cuvettes the same orientation always
--   Put the blank into the spectrophotometer and press the ZERO key.
--   Measure the standards and samples in the same manner and record the Absorbance values. As soon as possible to avoid degradation of color complexes.
--   Remove the samples from spectrophotometer.
--   Absorbance values above 2 are meaningless. Try again diluting them.
--   Plot Absorbance VS Fe(II) ppm
-
-## **TOC (Total Organic Carbon)**
-
--   5 mL of the sample
--   Nothing else is added to the sample
-:::
-
-
-
 # **EXPERIMENTS**
+
+The thesis of previous Chorover students help a lot with figuring out the steps to take for your experiments.
 
 ::: panel-tabset
 ## **Flow-through reactive mini-column experiment results**
 
+Lauren Bozeman's thesis (2018) is good to learn this process.
+
 ## **Selective Sequential Extraction**
+
+Nick Buchanan's thesis (2023) is good to learn this process.
 
 ![SSE](SOP_files/figures/Slides_SOP/Slide31.PNG)
 
@@ -397,4 +499,3 @@ Dry part of the Soil-Water Characteristic Curve
 
 ![SSE](SOP_files/figures/Slides_SOP/Slide33.PNG)
 :::
-
