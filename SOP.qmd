@@ -287,6 +287,158 @@ datatable(
 -   Nothing else is added to the sample
 :::
 
+# **SPECTROSCOPY**
+
+[SYNCHROTRON VISIT LOGBOOK](https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6)
+
+The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.
+
+::: panel-tabset
+## **XAS**
+
+The link to the manual for data analyses of XAS is at this link: [XAS Analysis Manual](https://docs.google.com/document/d/11aBW2lp7dQ3Z7M_WR1V9nHGQpyaWus9GZM6z-x5BB98/edit?usp=sharing)
+
+### **SIXPACK SOFTWARE**
+
+***For samples analyzed at SSRL:***
+
+**SAMS VIEW**
+
+- **Add many files**. All must be scan replicates of the same sample (*files must be .xdi or .dat*)
+- **Detector**: Germanium (*most commonly*).
+- Press Apply All.
+- **Channel** 
+  - 1 for Arsenic. Or,
+  - 2 for Iron (*check notebook*)
+- **Calibration**. To shift my value of gold to wherever the peak of gold is on my **muT2** Plot Type.
+  - Derivative must be First. Second one is too noisy.
+  - Replot
+  - Select the scan you want to calibrate.
+  - Press **Find Data E0**. This finds the peak for you. It must be around 11919 for gold.
+    - Apparent: the one it finds
+    - Actual: 11919 (gold) 
+    - Press **Enter**
+  - Press **Apply Shift to Data**. It will apply the shift that it found.
+
+![](SOP_files/figures/beamline_reference.png)
+
+- **Clean the channels** with weird data:
+  - Plot type: Column
+  - Derivative: None
+  - Column section: 
+    - IFall (*to see all the channels plot at once*)
+    - IFind (*to check channel by channel individually*)
+  - Zero Selected Channel: for channels that are not working correctly
+- Plot Type: muF
+- Derivative: None
+- Stack All Plots
+- Save
+  - Group Spectra
+
+
+### **ATHENA SOFTWARE**
+
+#### **DATA NORMALIZATION**
+
+- File
+- Import Files: your average .xdi file
+  - Numerator: u
+  - Denominator: nothing
+  - OK
+- Emax: 1100
+- E0: Depending on the element you are looking for, see below:
+  - 11885 for Arsenic
+  - 7125 for Fe
+  - 6565 for Mn
+  - 13100 for Pb
+- Deglitch and Truncate
+  - Locate this option on the Drop Menu under Main Window
+  - Truncate Data if you need to drop the last 3 data points (e.g. fluorescence from 11-2)
+  - Select the point you want to truncate at the end of the data. (Erase the last 3 points).
+- Main Window
+- Shade the first sample
+- On the Normalization Section:
+  - Pre-edge range: from -150,   to:  -70.
+  - Normalization range: from 150,   to: target the end of your curve
+  - With this, you are Normalizing the data, so the Edge step is [post-edge line - pre-edge line], this may have gotten a value of around 0.something.
+  - Choose the type of Normalization that will make the pre-edge and post-edge line to be almost parallel for your sample.
+    - Normalization order 
+      - 1 = no slope, (this one is UNcommon)
+      - 2 = linear slope, 
+      - 3 = quadratic function
+
+
+
+- Forward Fourier transform parameters
+  - K-range should be the same in ALL the samples
+- Mark all your samples.
+- Group
+  - Set marked group values to current.
+- Finally, mark all your samples.
+- File
+  - Save EACH marked current group as:
+    - Normalized E
+
+#### **LINEAR COMBINATION FITTING (automatic)**
+
+*NOTE: For this process you must have all the scanned standards possibly existing on your system, to get how much percentage of each species is present on your sample.*
+
+- **Load** your standards and sample files.
+- Shade your sample, do not mark it.
+- Mark your standards.
+- On the drop menu, look for the option: **Linear Combination Fitting**
+- Press **Use Marked Groups**.
+- On the **Combinatorics** section: select the number of standards you are using on the combination.
+  - Use at most ____ standards (the amount of standards you are using).
+- Beside the enlisted Standards, there is a **“Required”** checkbox, check it for your initial and ending species.
+- Press **“Fit all combinations”**
+- Results will be shown on the “Combinatorics” tab.
+  - The first combination on this list is your best fit, the one with the lower R-factor.
+  - The weight for each component is the percentage of the composition of your sample.
+- **Save combinatorial results as an Excel file**
+- Unselect your standards and select JUST the samples.
+- Now under the **Standard tab**, we have the correct weight parameters from the Combinatorial.
+- Press **“Fit Marked Groups”**, for all the scans to be fitted to this parameter.
+- Under the **Sequence tab**, we have all the scans with the composition of each (see column titles of the table), and the concentration of each.
+
+
+
+- Save that table by pressing **“Save fit sequence report as an Excel file”**
+- We can plot that data with **“Plot components from fit sequence”**.
+
+
+
+## **FTIR**
+
+### **ATR-FTIR**
+
+-   Computer Password: UCMerced2014
+-   OMNIC Software
+-   Experiment: iS50 ATR
+-   Close the sampler (2 clicks)
+-   Experiment Setup -\> Collect -\> Number of scans: 64 -\> Collect Background after 120 minutes -\> Save
+-   Collect Background (humidity always looks the same: 3 peaks between 2800 to 2000)
+-   Start Collection (Up-right corner)
+-   A message will come after saying the data collection has stopped. Add to a new window? YES!
+-   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
+-   Experimental Setup -\> Collect -\> Use specified Background file -\> Choose the one you just saved (get a new background every 4 hours) -\> Ok
+-   Put your sample under the sampler. Rotate it until hearing 2 clicks.
+-   Collect Sample -\> Fill the sample ID name –\> Ok
+-   Start Collection (Up-right corner) -\> Add to Background? YES!
+-   Common Scale. (Or Full scale if you prefer to see your sample closer.)
+-   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
+-   Load a new sample to scan.
+-   Collect Sample -\> Fill the sample ID name –\> Ok
+-   Start Collection (Up-right corner) -\> Add to Background? YES!
+-   Common Scale. (Or Full scale if you prefer to see your sample closer.)
+-   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
+-   Process -\> Normalize Scale
+-   Auto Baseline Correction
+-   Analyze -\> Search Peaks
+
+![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
+:::
+
 # **MINERALOGY**
 
 You can get the .CIFF files for minerals at the [RUFF database](https://rruff.geo.arizona.edu/AMS/amcsd.php).
@@ -373,48 +525,6 @@ We use the X'pert HighScore program to analyze the data with Rietveld Refinement
 
 ***Work in progress...***
 
-:::
-
-# **SPECTROSCOPY**
-
-[SYNCHROTRON VISIT LOGBOOK](https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6)
-
-The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.
-
-::: panel-tabset
-## **XAS**
-
-The link to the manual for data analyses of XAS is at this link: [XAS Analysis Manual](https://docs.google.com/document/d/11aBW2lp7dQ3Z7M_WR1V9nHGQpyaWus9GZM6z-x5BB98/edit?usp=sharing)
-
-## **FTIR**
-
-### **ATR-FTIR**
-
--   Computer Password: UCMerced2014
--   OMNIC Software
--   Experiment: iS50 ATR
--   Close the sampler (2 clicks)
--   Experiment Setup -\> Collect -\> Number of scans: 64 -\> Collect Background after 120 minutes -\> Save
--   Collect Background (humidity always looks the same: 3 peaks between 2800 to 2000)
--   Start Collection (Up-right corner)
--   A message will come after saying the data collection has stopped. Add to a new window? YES!
--   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
--   Experimental Setup -\> Collect -\> Use specified Background file -\> Choose the one you just saved (get a new background every 4 hours) -\> Ok
--   Put your sample under the sampler. Rotate it until hearing 2 clicks.
--   Collect Sample -\> Fill the sample ID name –\> Ok
--   Start Collection (Up-right corner) -\> Add to Background? YES!
--   Common Scale. (Or Full scale if you prefer to see your sample closer.)
--   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
--   Load a new sample to scan.
--   Collect Sample -\> Fill the sample ID name –\> Ok
--   Start Collection (Up-right corner) -\> Add to Background? YES!
--   Common Scale. (Or Full scale if you prefer to see your sample closer.)
--   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
--   Process -\> Normalize Scale
--   Auto Baseline Correction
--   Analyze -\> Search Peaks
-
-![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
 :::
 
 # **PHYSICAL PROPERTIES**
