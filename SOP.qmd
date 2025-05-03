@@ -255,11 +255,11 @@ datatable(
 -   Ferrozine 5 grams container
 -   Ferrous Ammonium Sulphate 500 grams container
 -   Ammonium acetate in 245 or 518
--   Spectrophotometer (We have one in 508.
+-   Spectrophotometer (*We have one in 508*).
     -   Brand: Fisher Scientific
     -   Model: AccuSkan FC microplate photometer
     -   Catalog number 14377575
--   Wavelength filter for Iron should be **562 nm**. Buy it here: [ ](https://www.thermofisher.com/order/catalog/product/1425605)
+-   Wavelength filter for Iron should be **562 nm**. Buy it here: [ThermoFisher](https://www.thermofisher.com/order/catalog/product/1425605)
 
 ### **Sample preparation**
 
