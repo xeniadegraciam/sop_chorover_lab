@@ -2,7 +2,7 @@
 
 Standard Operating Procedures I used while in Chorover's Lab.
 
-The complete lab procedures are stored on this other address: [SOP](https://xenidegracia.github.io/sop_chorover_lab/SOP.html)
+The complete lab procedures are stored on this other address: [SOP](https://xeniadegraciam.github.io/sop_chorover_lab/SOP.html)
 
 This is an ongoing work, this repository has all the procedures and links I needed while working on Chorover's Lab at the University of Arizona. Some of them may not be complete, but they are a start.
 
