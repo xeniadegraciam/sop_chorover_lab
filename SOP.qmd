@@ -339,6 +339,10 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 
 <https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/XANES_PCA_example.ipynb>
 
+#### FEFF Fitting
+
+<https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/feffit_cu_3paths.ipynb>
+
 ### **SIXPACK SOFTWARE**
 
 The link to the manual for data analyses of XAS is at this link: [XAS Analysis Manual](https://docs.google.com/document/d/11aBW2lp7dQ3Z7M_WR1V9nHGQpyaWus9GZM6z-x5BB98/edit?usp=sharing)
