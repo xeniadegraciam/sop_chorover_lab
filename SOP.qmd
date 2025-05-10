@@ -212,7 +212,7 @@ datatable(
 ## **ALEC Sample volume required for different analyses:**
 
 | **Analysis**                                          | **Volume needed**                      |
-|-------------------------------------------------------|----------------------------------------|
+|-----------------------------------------|-------------------------------|
 | ICP-MS / ICP-AES / Arsenic Speciation                 | 3 mL                                   |
 | Total Organic Carbon, Total Carbon and Total Nitrogen | 17 mL                                  |
 | Ion Chromatography                                    | 1 mL                                   |
@@ -222,6 +222,14 @@ datatable(
 | **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
 
 ## **ICP-MS (main cations) & Arsenic Speciation**
+
+Equipment:
+
+Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
+
+-   8900
+
+-   7700-X
 
 ***All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab***
 
@@ -235,6 +243,10 @@ datatable(
 ![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
 
 ## **Ion Chromatography (Anions)**
+
+Equipment:
+
+Ion Chromatography- Dionex ICS-6000
 
 -   2 mL of the sample
 -   Nothing else is added to the samples
@@ -281,6 +293,10 @@ datatable(
 -   Plot Absorbance VS Fe(II) ppm
 
 ## **TOC (Total Organic Carbon)**
+
+Equipment:
+
+Carbon/Nitrogen Analyzer- Shimadzu TOC-L (Total Organic Carbon) + TNM-L (Total Nitrogen)
 
 -   5 mL of the sample
 -   Nothing else is added to the sample
@@ -464,6 +480,8 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
 -   We can plot that data with **“Plot components from fit sequence”**.
 
 ## **FTIR**
+
+Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectrometer**](https://choroverlab.arizona.edu/Equipment%20pages/FTIR_bench.html)
 
 ### **ATR-FTIR**
 
