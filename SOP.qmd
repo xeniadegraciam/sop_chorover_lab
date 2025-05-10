@@ -19,7 +19,7 @@ execute:
 ::: {style="text-align: center; margin-top: 30px;"}
 **STANDARD OPERATING PROCEDURES**
 
-[**Chorover's Lab**]{style="color: #00458C;"}\
+[**Chorover's Lab**](https://choroverlab.arizona.edu){style="color: #00458C;"}\
 
 Department of Environmental Sciences\
 [University of Arizona]{style="font-size: 1em;"}\
@@ -212,7 +212,7 @@ datatable(
 ## **ALEC Sample volume required for different analyses:**
 
 | **Analysis**                                          | **Volume needed**                      |
-|-----------------------------------------|-------------------------------|
+|-------------------------------------------------------|----------------------------------------|
 | ICP-MS / ICP-AES / Arsenic Speciation                 | 3 mL                                   |
 | Total Organic Carbon, Total Carbon and Total Nitrogen | 17 mL                                  |
 | Ion Chromatography                                    | 1 mL                                   |
