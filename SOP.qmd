@@ -1,5 +1,5 @@
 ---
-title: "Standard Operating Procedures"
+title: "Lab Procedures & Notes"
 author: "Xenia De Gracia Medina"
 date: today
 format:
@@ -17,7 +17,7 @@ execute:
 ---
 
 ::: {style="text-align: center; margin-top: 30px;"}
-**STANDARD OPERATING PROCEDURES**
+**LAB PROCEDURES & NOTES**
 
 [**Chorover's Lab**](https://choroverlab.arizona.edu){style="color: #00458C;"}\
 
@@ -714,11 +714,37 @@ PPT with XANES explanation
 
 ### Sulfur XANES
 
+-   Anzures, B. A., Parman, S. W., Milliken, R. E., Lanzirotti, A., & Newville, M. (2019). XANES spectroscopy of sulfides stable under reducing conditions. American Mineralogist, 105(3), 375–381. <https://doi.org/10.2138/am-2020-7146>
+
+-   Langman, J. B., Blowes, D. W., Veeramani, H., Wilson, D., Smith, L., Sego, D. C., & Paktunc, D. (2015). The mineral and aqueous phase evolution of sulfur and nickel with weathering of pyrrhotite in a low sulfide, granitic waste rock. *Chemical Geology*, *401*, 169–179. <https://doi.org/10.1016/j.chemgeo.2015.02.024>
+
+-   Wilke, M., Klimm, K., & Kohn, S. C. (2011). Spectroscopic studies on sulfur speciation in synthetic and natural glasses. Reviews in Mineralogy and Geochemistry \| GeoScienceWorld. <https://doi.org/10.2138/rmg.2011.73.3>
+
 -   Almkvist, G., Boye, K., & Persson, I. (2010). K-edge XANES analysis of sulfur compounds: an investigation of the relative intensities using internal calibration. Journal of Synchrotron Radiation, 17(5), 683–688. <https://doi.org/10.1107/s0909049510022946>
+
+-   Fleet, M. E., Liu, X., Harmer, S. L., & King, P. L. (2005). SULFUR K-EDGE XANES SPECTROSCOPY: CHEMICAL STATE AND CONTENT OF SULFUR IN SILICATE GLASSES. *The Canadian Mineralogist*, *43*(5), 1605–1618. <https://doi.org/10.2113/gscanmin.43.5.1605>
+
+-   Li, D., Bancroft, G. M., Kasrai, M., Fleet, M. E., Feng, X., & Tan, K. (1995). S K-and L-edge X-ray absorption spectroscopy of metal sulfides and sulfates; applications in mineralogy and geochemistry. The Canadian Mineralogist, 33(5), 949-960. <https://pubs-geoscienceworld-org.ezproxy1.library.arizona.edu/mac/canmin/article/33/5/949/12722/S-K-and-L-edge-X-ray-absorption-spectroscopy-of>
+
+### Iron XAFS
+
+**Iron K-edge and L(III) edge analysis**
+
+-   Nakada, R., Sato, M., Ushioda, M., Tamura, Y., & Yamamoto, S. (2019). Variation of iron species in plagioclase crystals by X‐ray absorption fine Structure analysis. Geochemistry Geophysics Geosystems, 20(11), 5319–5333. <https://doi.org/10.1029/2018gc008131>
+
+"*Iron K-edge XANES has a pre-edge feature which shows the oxidation state and the coordination environment of an Fe atom. The pre-edge peak analysis was performed following the previous studies (Giuli et al., 2002; Nakada et al., 2014; Wilke et al., 2001).*"
+
+**Determination of Fe oxidation state using the pre-edge centroid position**
+
+-   Wilke, M., Partzsch, G. M., Bernhardt, R., & Lattard, D. (2004). Determination of the iron oxidation state in basaltic glasses using XANES at the K-edge. Chemical Geology, 213(1–3), 71–87. <https://doi.org/10.1016/j.chemgeo.2004.08.034>
+
+LMFIT Python tool
+
+-   <https://lmfit.github.io/lmfit-py/>
 
 ## Rob's suggestions
 
-### Iron speciation
+### Iron
 
 **Fe(OH)2 synthesis method**
 

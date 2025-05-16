@@ -1,6 +1,6 @@
 # **SOP - Chorover's lab**
 
-Standard Operating Procedures I used while in Chorover's Lab.
+Lab Procedures & Notes I used while in Chorover's Lab.
 
 The complete lab procedures are stored on this other address: [SOP](https://xeniadegraciam.github.io/sop_chorover_lab/SOP.html)
 
