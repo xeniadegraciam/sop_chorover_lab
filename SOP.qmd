@@ -714,9 +714,80 @@ PPT with XANES explanation
 
 ### Sulfur XANES
 
+```{r}
+#| label: sulfur-k-edge-table
+#| echo: false
+#| message: false
+#| warning: false
+
+# Load necessary library
+library(DT)
+
+# Create the data frame
+sulfur_edges_table <- data.frame(
+  Mineral = c(
+    "Anglesite", "Chalcopyrite", "Coquimbite", "Galena", "Gypsum", "Jarosite",
+    "Marcasite", "Melanterite", "Natrojarosite", "Pyrite", "Pyrrhotite-4C", "Sphalerite"
+  ),
+  Sulfur_K_edge_eV = c(
+    2481.8, 2472.0, 2482.6, 2472.7, 2482.5, 2482.8,
+    2472.0, 2482.2, 2482.7, 2472.1, 2470.2, 2473.8
+  ),
+  Reference = c(
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/anglesite/anglesite.pdf",
+    "https://xasdb.lightsource.ca/",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/coquimbite/coquimbite.pdf",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/galena/galena.pdf",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/gypsum/gypsum.pdf",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/jarosite/jarosite.pdf",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/marcassite/marcassite.pdf",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/melanterite/melanterite.pdf",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/natrojarosite/natrojarosite.pdf",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrite/pyrite.pdf",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrrhotite-4C/pyrrhotite4C.pdf",
+    "https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/sphalerite/sphalerite.pdf"
+  ),
+  stringsAsFactors = FALSE
+)
+
+# Show the interactive datatable
+datatable(
+  sulfur_edges_table,
+  extensions = 'Buttons',
+  options = list(
+    pageLength = 12,
+    autoWidth = TRUE,
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+    columnDefs = list(
+      list(width = '120px', targets = 0),
+      list(width = '80px', targets = 1),
+      list(width = '300px', targets = 2)
+    )
+  ),
+  rownames = FALSE
+)
+
+
+```
+
+
+
 -   Anzures, B. A., Parman, S. W., Milliken, R. E., Lanzirotti, A., & Newville, M. (2019). XANES spectroscopy of sulfides stable under reducing conditions. American Mineralogist, 105(3), 375–381. <https://doi.org/10.2138/am-2020-7146>
 
+*The SI of this paper has the Sulfur species calculation process with Gaussian curve fitting* 
+
+- Nash, W. M., Smythe, D. J., & Wood, B. J. (2018). Compositional and temperature effects on sulfur speciation and solubility in silicate melts. Earth and Planetary Science Letters, 507, 187–198. <https://doi.org/10.1016/j.epsl.2018.12.006>
+
 -   Langman, J. B., Blowes, D. W., Veeramani, H., Wilson, D., Smith, L., Sego, D. C., & Paktunc, D. (2015). The mineral and aqueous phase evolution of sulfur and nickel with weathering of pyrrhotite in a low sulfide, granitic waste rock. *Chemical Geology*, *401*, 169–179. <https://doi.org/10.1016/j.chemgeo.2015.02.024>
+
+*Fitting with Gaussian Curve Fitting (GCF)* 
+
+- Manceau, A., & Nagy, K. L. (2012). Quantitative analysis of sulfur functional groups in natural organic matter by XANES spectroscopy. Geochimica Et Cosmochimica Acta, 99, 206–223. <https://doi.org/10.1016/j.gca.2012.09.033>
+
+*Alunite pre-edge Iron Mountain paper*
+
+-   Majzlan, J., Alpers, C. N., Koch, C. B., McCleskey, R. B., Myneni, S. C., & Neil, J. M. (2011). Vibrational, X-ray absorption, and Mössbauer spectra of sulfate minerals from the weathered massive sulfide deposit at Iron Mountain, California. Chemical Geology, 284(3–4), 296–305. <https://doi.org/10.1016/j.chemgeo.2011.03.008>
 
 -   Wilke, M., Klimm, K., & Kohn, S. C. (2011). Spectroscopic studies on sulfur speciation in synthetic and natural glasses. Reviews in Mineralogy and Geochemistry \| GeoScienceWorld. <https://doi.org/10.2138/rmg.2011.73.3>
 
@@ -776,9 +847,7 @@ Ma'Ins suggestion on Arsenic speciation
 
 ### Mineralogy
 
-Iron Mountain paper
 
--   Majzlan, J., Alpers, C. N., Koch, C. B., McCleskey, R. B., Myneni, S. C., & Neil, J. M. (2011). Vibrational, X-ray absorption, and Mössbauer spectra of sulfate minerals from the weathered massive sulfide deposit at Iron Mountain, California. Chemical Geology, 284(3–4), 296–305. <https://doi.org/10.1016/j.chemgeo.2011.03.008>
 
 ### Bioaccesibility
 
