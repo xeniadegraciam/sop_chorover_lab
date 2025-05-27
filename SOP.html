@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Xenia De Gracia Medina">
-<meta name="dcterms.date" content="2025-05-16">
+<meta name="dcterms.date" content="2025-05-27">
 
 <title>Lab Procedures &amp; Notes</title>
 <style>
@@ -92,9 +92,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#experiments" id="toc-experiments" class="nav-link" data-scroll-target="#experiments"><span class="header-section-number">6</span> <strong>EXPERIMENTS</strong></a></li>
   <li><a href="#papers-and-references" id="toc-papers-and-references" class="nav-link" data-scroll-target="#papers-and-references"><span class="header-section-number">7</span> <strong>PAPERS AND REFERENCES</strong></a>
   <ul class="collapse">
-  <li><a href="#synchrotron" id="toc-synchrotron" class="nav-link" data-scroll-target="#synchrotron"><span class="header-section-number">7.0.1</span> Synchrotron</a></li>
-  <li><a href="#sulfur-xanes" id="toc-sulfur-xanes" class="nav-link" data-scroll-target="#sulfur-xanes"><span class="header-section-number">7.0.2</span> Sulfur XANES</a></li>
-  <li><a href="#iron-xafs" id="toc-iron-xafs" class="nav-link" data-scroll-target="#iron-xafs"><span class="header-section-number">7.0.3</span> Iron XAFS</a></li>
+  <li><a href="#larch-lmfit" id="toc-larch-lmfit" class="nav-link" data-scroll-target="#larch-lmfit"><span class="header-section-number">7.0.1</span> LARCH &amp; LMFIT</a></li>
+  <li><a href="#synchrotron" id="toc-synchrotron" class="nav-link" data-scroll-target="#synchrotron"><span class="header-section-number">7.0.2</span> Synchrotron</a></li>
+  <li><a href="#sulfur-xanes" id="toc-sulfur-xanes" class="nav-link" data-scroll-target="#sulfur-xanes"><span class="header-section-number">7.0.3</span> Sulfur XANES</a></li>
+  <li><a href="#iron-xafs" id="toc-iron-xafs" class="nav-link" data-scroll-target="#iron-xafs"><span class="header-section-number">7.0.4</span> Iron XAFS</a></li>
   <li><a href="#robs-suggestions" id="toc-robs-suggestions" class="nav-link" data-scroll-target="#robs-suggestions"><span class="header-section-number">7.1</span> Rob’s suggestions</a>
   <ul class="collapse">
   <li><a href="#iron" id="toc-iron" class="nav-link" data-scroll-target="#iron"><span class="header-section-number">7.1.1</span> Iron</a></li>
@@ -107,22 +108,25 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#by-journal" id="toc-by-journal" class="nav-link" data-scroll-target="#by-journal"><span class="header-section-number">7.2</span> By Journal</a>
   <ul class="collapse">
-  <li><a href="#environmental-pollution" id="toc-environmental-pollution" class="nav-link" data-scroll-target="#environmental-pollution"><span class="header-section-number">7.2.1</span> Environmental Pollution</a></li>
-  <li><a href="#journal-of-cleaner-production" id="toc-journal-of-cleaner-production" class="nav-link" data-scroll-target="#journal-of-cleaner-production"><span class="header-section-number">7.2.2</span> Journal of Cleaner Production</a></li>
-  <li><a href="#water-research" id="toc-water-research" class="nav-link" data-scroll-target="#water-research"><span class="header-section-number">7.2.3</span> Water Research</a></li>
-  <li><a href="#journal-of-hazardous-materials" id="toc-journal-of-hazardous-materials" class="nav-link" data-scroll-target="#journal-of-hazardous-materials"><span class="header-section-number">7.2.4</span> Journal of Hazardous Materials</a></li>
-  <li><a href="#environmental-science-technology" id="toc-environmental-science-technology" class="nav-link" data-scroll-target="#environmental-science-technology"><span class="header-section-number">7.2.5</span> Environmental Science &amp; Technology</a></li>
-  <li><a href="#journal-of-geochemical-exploration" id="toc-journal-of-geochemical-exploration" class="nav-link" data-scroll-target="#journal-of-geochemical-exploration"><span class="header-section-number">7.2.6</span> Journal of Geochemical Exploration</a></li>
-  <li><a href="#proceedings-of-the-national-academy-of-sciences-pnas" id="toc-proceedings-of-the-national-academy-of-sciences-pnas" class="nav-link" data-scroll-target="#proceedings-of-the-national-academy-of-sciences-pnas"><span class="header-section-number">7.2.7</span> Proceedings of the National Academy of Sciences (PNAS)</a></li>
-  <li><a href="#narute-communications" id="toc-narute-communications" class="nav-link" data-scroll-target="#narute-communications"><span class="header-section-number">7.2.8</span> Narute Communications</a></li>
-  <li><a href="#narute-communications-earth-environment" id="toc-narute-communications-earth-environment" class="nav-link" data-scroll-target="#narute-communications-earth-environment"><span class="header-section-number">7.2.9</span> Narute Communications Earth &amp; Environment</a></li>
-  <li><a href="#nature-scientific-reports" id="toc-nature-scientific-reports" class="nav-link" data-scroll-target="#nature-scientific-reports"><span class="header-section-number">7.2.10</span> Nature Scientific Reports</a></li>
-  <li><a href="#nature-precedings" id="toc-nature-precedings" class="nav-link" data-scroll-target="#nature-precedings"><span class="header-section-number">7.2.11</span> Nature Precedings</a></li>
-  <li><a href="#npj" id="toc-npj" class="nav-link" data-scroll-target="#npj"><span class="header-section-number">7.2.12</span> NPJ</a></li>
-  <li><a href="#applied-geochemistry" id="toc-applied-geochemistry" class="nav-link" data-scroll-target="#applied-geochemistry"><span class="header-section-number">7.2.13</span> Applied Geochemistry</a></li>
-  <li><a href="#geochimica-et-cosmochimica-acta" id="toc-geochimica-et-cosmochimica-acta" class="nav-link" data-scroll-target="#geochimica-et-cosmochimica-acta"><span class="header-section-number">7.2.14</span> Geochimica et Cosmochimica Acta</a></li>
-  <li><a href="#geochemical-transactions" id="toc-geochemical-transactions" class="nav-link" data-scroll-target="#geochemical-transactions"><span class="header-section-number">7.2.15</span> Geochemical transactions</a></li>
-  <li><a href="#journal-of-environmental-quality" id="toc-journal-of-environmental-quality" class="nav-link" data-scroll-target="#journal-of-environmental-quality"><span class="header-section-number">7.2.16</span> Journal of Environmental Quality</a></li>
+  <li><a href="#science-of-the-total-environment" id="toc-science-of-the-total-environment" class="nav-link" data-scroll-target="#science-of-the-total-environment"><span class="header-section-number">7.2.1</span> Science of the Total Environment</a></li>
+  <li><a href="#environmental-pollution" id="toc-environmental-pollution" class="nav-link" data-scroll-target="#environmental-pollution"><span class="header-section-number">7.2.2</span> Environmental Pollution</a></li>
+  <li><a href="#environmental-research" id="toc-environmental-research" class="nav-link" data-scroll-target="#environmental-research"><span class="header-section-number">7.2.3</span> Environmental Research</a></li>
+  <li><a href="#chemosphere" id="toc-chemosphere" class="nav-link" data-scroll-target="#chemosphere"><span class="header-section-number">7.2.4</span> Chemosphere</a></li>
+  <li><a href="#journal-of-cleaner-production" id="toc-journal-of-cleaner-production" class="nav-link" data-scroll-target="#journal-of-cleaner-production"><span class="header-section-number">7.2.5</span> Journal of Cleaner Production</a></li>
+  <li><a href="#water-research" id="toc-water-research" class="nav-link" data-scroll-target="#water-research"><span class="header-section-number">7.2.6</span> Water Research</a></li>
+  <li><a href="#journal-of-hazardous-materials" id="toc-journal-of-hazardous-materials" class="nav-link" data-scroll-target="#journal-of-hazardous-materials"><span class="header-section-number">7.2.7</span> Journal of Hazardous Materials</a></li>
+  <li><a href="#environmental-science-technology" id="toc-environmental-science-technology" class="nav-link" data-scroll-target="#environmental-science-technology"><span class="header-section-number">7.2.8</span> Environmental Science &amp; Technology</a></li>
+  <li><a href="#journal-of-geochemical-exploration" id="toc-journal-of-geochemical-exploration" class="nav-link" data-scroll-target="#journal-of-geochemical-exploration"><span class="header-section-number">7.2.9</span> Journal of Geochemical Exploration</a></li>
+  <li><a href="#proceedings-of-the-national-academy-of-sciences-pnas" id="toc-proceedings-of-the-national-academy-of-sciences-pnas" class="nav-link" data-scroll-target="#proceedings-of-the-national-academy-of-sciences-pnas"><span class="header-section-number">7.2.10</span> Proceedings of the National Academy of Sciences (PNAS)</a></li>
+  <li><a href="#narute-communications" id="toc-narute-communications" class="nav-link" data-scroll-target="#narute-communications"><span class="header-section-number">7.2.11</span> Narute Communications</a></li>
+  <li><a href="#narute-communications-earth-environment" id="toc-narute-communications-earth-environment" class="nav-link" data-scroll-target="#narute-communications-earth-environment"><span class="header-section-number">7.2.12</span> Narute Communications Earth &amp; Environment</a></li>
+  <li><a href="#nature-scientific-reports" id="toc-nature-scientific-reports" class="nav-link" data-scroll-target="#nature-scientific-reports"><span class="header-section-number">7.2.13</span> Nature Scientific Reports</a></li>
+  <li><a href="#nature-precedings" id="toc-nature-precedings" class="nav-link" data-scroll-target="#nature-precedings"><span class="header-section-number">7.2.14</span> Nature Precedings</a></li>
+  <li><a href="#npj" id="toc-npj" class="nav-link" data-scroll-target="#npj"><span class="header-section-number">7.2.15</span> NPJ</a></li>
+  <li><a href="#applied-geochemistry" id="toc-applied-geochemistry" class="nav-link" data-scroll-target="#applied-geochemistry"><span class="header-section-number">7.2.16</span> Applied Geochemistry</a></li>
+  <li><a href="#geochimica-et-cosmochimica-acta" id="toc-geochimica-et-cosmochimica-acta" class="nav-link" data-scroll-target="#geochimica-et-cosmochimica-acta"><span class="header-section-number">7.2.17</span> Geochimica et Cosmochimica Acta</a></li>
+  <li><a href="#geochemical-transactions" id="toc-geochemical-transactions" class="nav-link" data-scroll-target="#geochemical-transactions"><span class="header-section-number">7.2.18</span> Geochemical transactions</a></li>
+  <li><a href="#journal-of-environmental-quality" id="toc-journal-of-environmental-quality" class="nav-link" data-scroll-target="#journal-of-environmental-quality"><span class="header-section-number">7.2.19</span> Journal of Environmental Quality</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -149,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 16, 2025</p>
+      <p class="date">May 27, 2025</p>
     </div>
   </div>
   
@@ -258,8 +262,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <div class="cell">
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-40568bcec6ab73da8ec8" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-40568bcec6ab73da8ec8">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68"],[1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,8],["Major Cations","Major Cations","Major Cations","Major Cations","DRC","DRC","DRC","DRC","DRC","DRC","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Hg"],["K","Ca","Na","Mg","V","Cr","Fe","Co","As","Se","Be","Al","Mn","Ni","Cu","Zn","Mo","Ag","Cd","Sn","Sb","Ba","Pb","Y","Ce","Dy","Er","Eu","Gd","Ho","La","Lu","Nd","Pr","Sm","Tb","Th","Tm","Yb","Li","Ga","Rb","Sr","In","Cs","Tl","Bi","U","Ru","Rh","Pd","Te","Hf","Ir","Pt","Au","B","Si","P","Ti","Ge","Zr","Nb","Ta","W","Re","Total S","Hg"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Group<\/th>\n      <th>Group_Name<\/th>\n      <th>Element<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":16,"autoWidth":true,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[{"width":"50px","targets":0},{"width":"150px","targets":1},{"width":"50px","targets":2},{"className":"dt-right","targets":1},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Group","targets":1},{"name":"Group_Name","targets":2},{"name":"Element","targets":3}],"order":[],"orderClasses":false,"lengthMenu":[10,16,25,50,100],"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[1]; $(row).css({'color':value == \"1\" ? \"black\" : value == \"2\" ? \"black\" : value == \"3\" ? \"black\" : value == \"4\" ? \"black\" : value == \"5\" ? \"black\" : value == \"6\" ? \"black\" : value == \"7\" ? \"black\" : value == \"8\" ? \"black\" : null,'background-color':value == \"1\" ? \"lightpink\" : value == \"2\" ? \"thistle\" : value == \"3\" ? \"mediumaquamarine\" : value == \"4\" ? \"khaki\" : value == \"5\" ? \"lightblue\" : value == \"6\" ? \"lightsalmon\" : value == \"7\" ? \"lightcyan\" : value == \"8\" ? \"lightgray\" : null});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-e977621a292a6192a49c" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-e977621a292a6192a49c">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68"],[1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,8],["Major Cations","Major Cations","Major Cations","Major Cations","DRC","DRC","DRC","DRC","DRC","DRC","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Hg"],["K","Ca","Na","Mg","V","Cr","Fe","Co","As","Se","Be","Al","Mn","Ni","Cu","Zn","Mo","Ag","Cd","Sn","Sb","Ba","Pb","Y","Ce","Dy","Er","Eu","Gd","Ho","La","Lu","Nd","Pr","Sm","Tb","Th","Tm","Yb","Li","Ga","Rb","Sr","In","Cs","Tl","Bi","U","Ru","Rh","Pd","Te","Hf","Ir","Pt","Au","B","Si","P","Ti","Ge","Zr","Nb","Ta","W","Re","Total S","Hg"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Group<\/th>\n      <th>Group_Name<\/th>\n      <th>Element<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":16,"autoWidth":true,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[{"width":"50px","targets":0},{"width":"150px","targets":1},{"width":"50px","targets":2},{"className":"dt-right","targets":1},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Group","targets":1},{"name":"Group_Name","targets":2},{"name":"Element","targets":3}],"order":[],"orderClasses":false,"lengthMenu":[10,16,25,50,100],"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[1]; $(row).css({'color':value == \"1\" ? \"black\" : value == \"2\" ? \"black\" : value == \"3\" ? \"black\" : value == \"4\" ? \"black\" : value == \"5\" ? \"black\" : value == \"6\" ? \"black\" : value == \"7\" ? \"black\" : value == \"8\" ? \"black\" : null,'background-color':value == \"1\" ? \"lightpink\" : value == \"2\" ? \"thistle\" : value == \"3\" ? \"mediumaquamarine\" : value == \"4\" ? \"khaki\" : value == \"5\" ? \"lightblue\" : value == \"6\" ? \"lightsalmon\" : value == \"7\" ? \"lightcyan\" : value == \"8\" ? \"lightgray\" : null});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
 </div>
 </div>
 </div>
@@ -854,8 +858,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="papers-and-references" class="level1" data-number="7">
 <h1 data-number="7"><span class="header-section-number">7</span> <strong>PAPERS AND REFERENCES</strong></h1>
-<section id="synchrotron" class="level3" data-number="7.0.1">
-<h3 data-number="7.0.1" class="anchored" data-anchor-id="synchrotron"><span class="header-section-number">7.0.1</span> Synchrotron</h3>
+<section id="larch-lmfit" class="level3" data-number="7.0.1">
+<h3 data-number="7.0.1" class="anchored" data-anchor-id="larch-lmfit"><span class="header-section-number">7.0.1</span> LARCH &amp; LMFIT</h3>
+<p>LMFIT</p>
+<ul>
+<li>Newville, M., Otten, R., Nelson, A., Stensitzki, T., Ingargiola, A., Allan, D., Fox, A., Carter, F., &amp; Rawlik, M. (2025). LMFIT: Non-Linear Least-Squares Minimization and Curve-Fitting for Python (1.3.3). Zenodo. <a href="https://doi.org/10.5281/zenodo.15014437" class="uri">https://doi.org/10.5281/zenodo.15014437</a></li>
+</ul>
+<p>PCA with Larch</p>
+<ul>
+<li>14.3. XANES Analysis: Linear Methods, Pre-edge Peak Fitting — xraylarch 2025.2.0 documentation. (n.d.). <a href="https://xraypy.github.io/xraylarch/xafs_xanes.html#principal-component-analysis" class="uri">https://xraypy.github.io/xraylarch/xafs_xanes.html#principal-component-analysis</a></li>
+</ul>
+<p>Pre-edge fitting</p>
+<ul>
+<li>13.6. Fit Examples — xraylarch 2025.2.0 documentation. (n.d.). <a href="https://xraypy.github.io/xraylarch/fitting_examples.html#example-2-fitting-xanes-pre-edge-peaks" class="uri">https://xraypy.github.io/xraylarch/fitting_examples.html#example-2-fitting-xanes-pre-edge-peaks</a></li>
+</ul>
+</section>
+<section id="synchrotron" class="level3" data-number="7.0.2">
+<h3 data-number="7.0.2" class="anchored" data-anchor-id="synchrotron"><span class="header-section-number">7.0.2</span> Synchrotron</h3>
 <p>Normalization process</p>
 <ul>
 <li>Bugarin, L., Orduz, H. a. S., &amp; Glatzel, P. (2024). Area normalization of HERFD-XANES spectra. Journal of Synchrotron Radiation, 31(5), 1118–1125. <a href="https://doi.org/10.1107/s1600577524005307" class="uri">https://doi.org/10.1107/s1600577524005307</a></li>
@@ -863,16 +882,17 @@ ul.task-list li input[type="checkbox"] {
 <p>PPT with XANES explanation</p>
 <p><a href="https://docs.xrayabsorption.org/Workshops/NSLS2003/Bare.pdf" class="uri">https://docs.xrayabsorption.org/Workshops/NSLS2003/Bare.pdf</a></p>
 </section>
-<section id="sulfur-xanes" class="level3" data-number="7.0.2">
-<h3 data-number="7.0.2" class="anchored" data-anchor-id="sulfur-xanes"><span class="header-section-number">7.0.2</span> Sulfur XANES</h3>
+<section id="sulfur-xanes" class="level3" data-number="7.0.3">
+<h3 data-number="7.0.3" class="anchored" data-anchor-id="sulfur-xanes"><span class="header-section-number">7.0.3</span> Sulfur XANES</h3>
 <div class="cell">
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-036f6afb6f4975694656" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-036f6afb6f4975694656">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["Anglesite","Chalcopyrite","Coquimbite","Galena","Gypsum","Jarosite","Marcasite","Melanterite","Natrojarosite","Pyrite","Pyrrhotite-4C","Sphalerite"],[2481.8,2472,2482.6,2472.7,2482.5,2482.8,2472,2482.2,2482.7,2472.1,2470.2,2473.8],["https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/anglesite/anglesite.pdf","https://xasdb.lightsource.ca/","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/coquimbite/coquimbite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/galena/galena.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/gypsum/gypsum.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/jarosite/jarosite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/marcassite/marcassite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/melanterite/melanterite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/natrojarosite/natrojarosite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrite/pyrite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrrhotite-4C/pyrrhotite4C.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/sphalerite/sphalerite.pdf"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Mineral<\/th>\n      <th>Sulfur_K_edge_eV<\/th>\n      <th>Reference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":12,"autoWidth":true,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[{"width":"120px","targets":0},{"width":"80px","targets":1},{"width":"300px","targets":2},{"className":"dt-right","targets":1},{"name":"Mineral","targets":0},{"name":"Sulfur_K_edge_eV","targets":1},{"name":"Reference","targets":2}],"order":[],"orderClasses":false,"lengthMenu":[10,12,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-d5d910ce087bd890e163" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-d5d910ce087bd890e163">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["Anglesite","Chalcopyrite","Coquimbite","Galena","Gypsum","Jarosite","Marcasite","Melanterite","Natrojarosite","Pyrite","Pyrrhotite-4C","Sphalerite"],[2481.8,2472,2482.6,2472.7,2482.5,2482.8,2472,2482.2,2482.7,2472.1,2470.2,2473.8],["https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/anglesite/anglesite.pdf","https://xasdb.lightsource.ca/","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/coquimbite/coquimbite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/galena/galena.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/gypsum/gypsum.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/jarosite/jarosite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/marcassite/marcassite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/melanterite/melanterite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/natrojarosite/natrojarosite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrite/pyrite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrrhotite-4C/pyrrhotite4C.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/sphalerite/sphalerite.pdf"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Mineral<\/th>\n      <th>Sulfur_K_edge_eV<\/th>\n      <th>Reference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":12,"autoWidth":true,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[{"width":"120px","targets":0},{"width":"80px","targets":1},{"width":"300px","targets":2},{"className":"dt-right","targets":1},{"name":"Mineral","targets":0},{"name":"Sulfur_K_edge_eV","targets":1},{"name":"Reference","targets":2}],"order":[],"orderClasses":false,"lengthMenu":[10,12,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
+<p>.</p>
 <ul>
-<li>Anzures, B. A., Parman, S. W., Milliken, R. E., Lanzirotti, A., &amp; Newville, M. (2019). XANES spectroscopy of sulfides stable under reducing conditions. American Mineralogist, 105(3), 375–381. <a href="https://doi.org/10.2138/am-2020-7146" class="uri">https://doi.org/10.2138/am-2020-7146</a></li>
+<li>Anzures, B. A., Parman, S. W., Milliken, R. E., Lanzirotti, A., &amp; Newville, M. (2019). XANES spectroscopy of sulfides stable under reducing conditions. <em>American Mineralogist</em>, 105(3), 375–381. <a href="https://doi.org/10.2138/am-2020-7146" class="uri">https://doi.org/10.2138/am-2020-7146</a></li>
 </ul>
 <p><em>The SI of this paper has the Sulfur species calculation process with Gaussian curve fitting</em></p>
 <ul>
@@ -881,27 +901,27 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><em>Fitting with Gaussian Curve Fitting (GCF)</em></p>
 <ul>
-<li>Manceau, A., &amp; Nagy, K. L. (2012). Quantitative analysis of sulfur functional groups in natural organic matter by XANES spectroscopy. Geochimica Et Cosmochimica Acta, 99, 206–223. <a href="https://doi.org/10.1016/j.gca.2012.09.033" class="uri">https://doi.org/10.1016/j.gca.2012.09.033</a></li>
+<li>Manceau, A., &amp; Nagy, K. L. (2012). Quantitative analysis of sulfur functional groups in natural organic matter by XANES spectroscopy. <em>Geochimica Et Cosmochimica Acta</em>, 99, 206–223. <a href="https://doi.org/10.1016/j.gca.2012.09.033" class="uri">https://doi.org/10.1016/j.gca.2012.09.033</a></li>
 </ul>
 <p><em>Alunite pre-edge Iron Mountain paper</em></p>
 <ul>
-<li><p>Majzlan, J., Alpers, C. N., Koch, C. B., McCleskey, R. B., Myneni, S. C., &amp; Neil, J. M. (2011). Vibrational, X-ray absorption, and Mössbauer spectra of sulfate minerals from the weathered massive sulfide deposit at Iron Mountain, California. Chemical Geology, 284(3–4), 296–305. <a href="https://doi.org/10.1016/j.chemgeo.2011.03.008" class="uri">https://doi.org/10.1016/j.chemgeo.2011.03.008</a></p></li>
+<li><p>Majzlan, J., Alpers, C. N., Koch, C. B., McCleskey, R. B., Myneni, S. C., &amp; Neil, J. M. (2011). Vibrational, X-ray absorption, and Mössbauer spectra of sulfate minerals from the weathered massive sulfide deposit at Iron Mountain, California. <em>Chemical Geology</em>, 284(3–4), 296–305. <a href="https://doi.org/10.1016/j.chemgeo.2011.03.008" class="uri">https://doi.org/10.1016/j.chemgeo.2011.03.008</a></p></li>
 <li><p>Wilke, M., Klimm, K., &amp; Kohn, S. C. (2011). Spectroscopic studies on sulfur speciation in synthetic and natural glasses. Reviews in Mineralogy and Geochemistry | GeoScienceWorld. <a href="https://doi.org/10.2138/rmg.2011.73.3" class="uri">https://doi.org/10.2138/rmg.2011.73.3</a></p></li>
-<li><p>Almkvist, G., Boye, K., &amp; Persson, I. (2010). K-edge XANES analysis of sulfur compounds: an investigation of the relative intensities using internal calibration. Journal of Synchrotron Radiation, 17(5), 683–688. <a href="https://doi.org/10.1107/s0909049510022946" class="uri">https://doi.org/10.1107/s0909049510022946</a></p></li>
+<li><p>Almkvist, G., Boye, K., &amp; Persson, I. (2010). K-edge XANES analysis of sulfur compounds: an investigation of the relative intensities using internal calibration. <em>Journal of Synchrotron Radiation</em>, 17(5), 683–688. <a href="https://doi.org/10.1107/s0909049510022946" class="uri">https://doi.org/10.1107/s0909049510022946</a></p></li>
 <li><p>Fleet, M. E., Liu, X., Harmer, S. L., &amp; King, P. L. (2005). SULFUR K-EDGE XANES SPECTROSCOPY: CHEMICAL STATE AND CONTENT OF SULFUR IN SILICATE GLASSES. <em>The Canadian Mineralogist</em>, <em>43</em>(5), 1605–1618. <a href="https://doi.org/10.2113/gscanmin.43.5.1605" class="uri">https://doi.org/10.2113/gscanmin.43.5.1605</a></p></li>
-<li><p>Li, D., Bancroft, G. M., Kasrai, M., Fleet, M. E., Feng, X., &amp; Tan, K. (1995). S K-and L-edge X-ray absorption spectroscopy of metal sulfides and sulfates; applications in mineralogy and geochemistry. The Canadian Mineralogist, 33(5), 949-960. <a href="https://pubs-geoscienceworld-org.ezproxy1.library.arizona.edu/mac/canmin/article/33/5/949/12722/S-K-and-L-edge-X-ray-absorption-spectroscopy-of" class="uri">https://pubs-geoscienceworld-org.ezproxy1.library.arizona.edu/mac/canmin/article/33/5/949/12722/S-K-and-L-edge-X-ray-absorption-spectroscopy-of</a></p></li>
+<li><p>Li, D., Bancroft, G. M., Kasrai, M., Fleet, M. E., Feng, X., &amp; Tan, K. (1995). S K-and L-edge X-ray absorption spectroscopy of metal sulfides and sulfates; applications in mineralogy and geochemistry. <em>The Canadian Mineralogist</em>, 33(5), 949-960. <a href="https://pubs-geoscienceworld-org.ezproxy1.library.arizona.edu/mac/canmin/article/33/5/949/12722/S-K-and-L-edge-X-ray-absorption-spectroscopy-of" class="uri">https://pubs-geoscienceworld-org.ezproxy1.library.arizona.edu/mac/canmin/article/33/5/949/12722/S-K-and-L-edge-X-ray-absorption-spectroscopy-of</a></p></li>
 </ul>
 </section>
-<section id="iron-xafs" class="level3" data-number="7.0.3">
-<h3 data-number="7.0.3" class="anchored" data-anchor-id="iron-xafs"><span class="header-section-number">7.0.3</span> Iron XAFS</h3>
+<section id="iron-xafs" class="level3" data-number="7.0.4">
+<h3 data-number="7.0.4" class="anchored" data-anchor-id="iron-xafs"><span class="header-section-number">7.0.4</span> Iron XAFS</h3>
 <p><strong>Iron K-edge and L(III) edge analysis</strong></p>
 <ul>
-<li>Nakada, R., Sato, M., Ushioda, M., Tamura, Y., &amp; Yamamoto, S. (2019). Variation of iron species in plagioclase crystals by X‐ray absorption fine Structure analysis. Geochemistry Geophysics Geosystems, 20(11), 5319–5333. <a href="https://doi.org/10.1029/2018gc008131" class="uri">https://doi.org/10.1029/2018gc008131</a></li>
+<li>Nakada, R., Sato, M., Ushioda, M., Tamura, Y., &amp; Yamamoto, S. (2019). Variation of iron species in plagioclase crystals by X‐ray absorption fine Structure analysis.* Geochemistry Geophysics Geosystems*, 20(11), 5319–5333. <a href="https://doi.org/10.1029/2018gc008131" class="uri">https://doi.org/10.1029/2018gc008131</a></li>
 </ul>
 <p>“<em>Iron K-edge XANES has a pre-edge feature which shows the oxidation state and the coordination environment of an Fe atom. The pre-edge peak analysis was performed following the previous studies (Giuli et al., 2002; Nakada et al., 2014; Wilke et al., 2001).</em>”</p>
 <p><strong>Determination of Fe oxidation state using the pre-edge centroid position</strong></p>
 <ul>
-<li>Wilke, M., Partzsch, G. M., Bernhardt, R., &amp; Lattard, D. (2004). Determination of the iron oxidation state in basaltic glasses using XANES at the K-edge. Chemical Geology, 213(1–3), 71–87. <a href="https://doi.org/10.1016/j.chemgeo.2004.08.034" class="uri">https://doi.org/10.1016/j.chemgeo.2004.08.034</a></li>
+<li>Wilke, M., Partzsch, G. M., Bernhardt, R., &amp; Lattard, D. (2004). Determination of the iron oxidation state in basaltic glasses using XANES at the K-edge. <em>Chemical Geology</em>, 213(1–3), 71–87. <a href="https://doi.org/10.1016/j.chemgeo.2004.08.034" class="uri">https://doi.org/10.1016/j.chemgeo.2004.08.034</a></li>
 </ul>
 <p>LMFIT Python tool</p>
 <ul>
@@ -914,23 +934,23 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="7.1.1" class="anchored" data-anchor-id="iron"><span class="header-section-number">7.1.1</span> Iron</h3>
 <p><strong>Fe(OH)2 synthesis method</strong></p>
 <ul>
-<li>Ona-Nguema, G., Morin, G., Wang, Y., Menguy, N., Juillot, F., Olivi, L., Aquilanti, G., Abdelmoula, M., Ruby, C., Bargar, J. R., Guyot, F., Calas, G., &amp; Brown, G. E. (2008). Arsenite sequestration at the surface of nano-Fe(OH)2, ferrous-carbonate hydroxide, and green-rust after bioreduction of arsenic-sorbed lepidocrocite by Shewanella putrefaciens. Geochimica Et Cosmochimica Acta, 73(5), 1359–1381. <a href="https://doi.org/10.1016/j.gca.2008.12.005" class="uri">https://doi.org/10.1016/j.gca.2008.12.005</a></li>
+<li>Ona-Nguema, G., Morin, G., Wang, Y., Menguy, N., Juillot, F., Olivi, L., Aquilanti, G., Abdelmoula, M., Ruby, C., Bargar, J. R., Guyot, F., Calas, G., &amp; Brown, G. E. (2008). Arsenite sequestration at the surface of nano-Fe(OH)2, ferrous-carbonate hydroxide, and green-rust after bioreduction of arsenic-sorbed lepidocrocite by Shewanella putrefaciens. <em>Geochimica Et Cosmochimica Acta</em>, 73(5), 1359–1381. <a href="https://doi.org/10.1016/j.gca.2008.12.005" class="uri">https://doi.org/10.1016/j.gca.2008.12.005</a></li>
 </ul>
 </section>
 <section id="arsenic-speciation" class="level3" data-number="7.1.2">
 <h3 data-number="7.1.2" class="anchored" data-anchor-id="arsenic-speciation"><span class="header-section-number">7.1.2</span> Arsenic Speciation</h3>
 <p>Intro to the Arsenic Speciation</p>
 <ul>
-<li><p>Wisawapipat, W., Christl, I., Bouchet, S., Fang, X., Chareonpanich, M., &amp; Kretzschmar, R. (2024). Temporal development of arsenic speciation and extractability in acidified and non-acidified paddy soil amended with silicon-rich fly ash and manganese- or zinc-oxides under flooded and drainage conditions. Chemosphere, 351, 141140. <a href="https://doi.org/10.1016/j.chemosphere.2024.141140" class="uri">https://doi.org/10.1016/j.chemosphere.2024.141140</a></p></li>
-<li><p>Sherman, D. M., &amp; Randall, S. R. (2003). Surface complexation of arsenic(V) to iron(III) (hydr)oxides: structural mechanism from ab initio molecular geometries and EXAFS spectroscopy. Geochimica Et Cosmochimica Acta, 67(22), 4223–4230. <a href="https://doi.org/10.1016/s0016-7037(03)00237-0" class="uri">https://doi.org/10.1016/s0016-7037(03)00237-0</a></p></li>
+<li><p>Wisawapipat, W., Christl, I., Bouchet, S., Fang, X., Chareonpanich, M., &amp; Kretzschmar, R. (2024). Temporal development of arsenic speciation and extractability in acidified and non-acidified paddy soil amended with silicon-rich fly ash and manganese- or zinc-oxides under flooded and drainage conditions. <em>Chemosphere</em>, 351, 141140. <a href="https://doi.org/10.1016/j.chemosphere.2024.141140" class="uri">https://doi.org/10.1016/j.chemosphere.2024.141140</a></p></li>
+<li><p>Sherman, D. M., &amp; Randall, S. R. (2003). Surface complexation of arsenic(V) to iron(III) (hydr)oxides: structural mechanism from ab initio molecular geometries and EXAFS spectroscopy. <em>Geochimica Et Cosmochimica Acta</em>, 67(22), 4223–4230. <a href="https://doi.org/10.1016/s0016-7037(03)00237-0" class="uri">https://doi.org/10.1016/s0016-7037(03)00237-0</a></p></li>
 </ul>
 <p>Scorodite paper</p>
 <ul>
-<li>Foster, A. L., Ashley, R. P., &amp; Rytuba, J. J. (2011). Arsenic species in weathering mine tailings and biogenic solids at the Lava Cap Mine Superfund Site, Nevada City, CA. Geochemical Transactions, 12(1). <a href="https://doi.org/10.1186/1467-4866-12-1" class="uri">https://doi.org/10.1186/1467-4866-12-1</a></li>
+<li>Foster, A. L., Ashley, R. P., &amp; Rytuba, J. J. (2011). Arsenic species in weathering mine tailings and biogenic solids at the Lava Cap Mine Superfund Site, Nevada City, CA. <em>Geochemical Transactions</em>, 12(1). <a href="https://doi.org/10.1186/1467-4866-12-1" class="uri">https://doi.org/10.1186/1467-4866-12-1</a></li>
 </ul>
 <p>Arseniosiderite .CIFF file</p>
 <ul>
-<li>King, G., Celikin, M., Gomez, M. A., Becze, L., Petkov, V., &amp; Della Ventura, G. (2020). Revealing the structures and relationships of Ca(ii)–Fe(iii)–AsO4 minerals: arseniosiderite and yukonite. Environmental Science Nano, 7(12), 3735–3745. <a href="https://doi.org/10.1039/d0en00503g" class="uri">https://doi.org/10.1039/d0en00503g</a></li>
+<li>King, G., Celikin, M., Gomez, M. A., Becze, L., Petkov, V., &amp; Della Ventura, G. (2020). Revealing the structures and relationships of Ca(ii)–Fe(iii)–AsO4 minerals: arseniosiderite and yukonite. <em>Environmental Science Nano</em>, 7(12), 3735–3745. <a href="https://doi.org/10.1039/d0en00503g" class="uri">https://doi.org/10.1039/d0en00503g</a></li>
 </ul>
 <p>Schwertmannite and Jarosite in AMD</p>
 <ul>
@@ -938,7 +958,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Ma’Ins suggestion on Arsenic speciation</p>
 <ul>
-<li>Essilfie-Dughan, J., Hendry, M. J., Warner, J., &amp; Kotzer, T. (2012). Arsenic and iron speciation in uranium mine tailings using X-ray absorption spectroscopy. Applied Geochemistry, 28, 11–18. <a href="https://doi.org/10.1016/j.apgeochem.2012.10.022" class="uri">https://doi.org/10.1016/j.apgeochem.2012.10.022</a></li>
+<li>Essilfie-Dughan, J., Hendry, M. J., Warner, J., &amp; Kotzer, T. (2012). Arsenic and iron speciation in uranium mine tailings using X-ray absorption spectroscopy. <em>Applied Geochemistry</em>, 28, 11–18. <a href="https://doi.org/10.1016/j.apgeochem.2012.10.022" class="uri">https://doi.org/10.1016/j.apgeochem.2012.10.022</a></li>
 </ul>
 </section>
 <section id="mineralogy-1" class="level3" data-number="7.1.3">
@@ -947,8 +967,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="bioaccesibility" class="level3" data-number="7.1.4">
 <h3 data-number="7.1.4" class="anchored" data-anchor-id="bioaccesibility"><span class="header-section-number">7.1.4</span> Bioaccesibility</h3>
 <ul>
-<li><p>Kastury, F., Besedin, J., Betts, A. R., Asamoah, R., Herde, C., Netherway, P., Tully, J., Scheckel, K. G., &amp; Juhasz, A. L. (2024). Arsenic, cadmium, lead, antimony bioaccessibility and relative bioavailability in legacy gold mining waste. Journal of Hazardous Materials, 469, 133948. <a href="https://doi.org/10.1016/j.jhazmat.2024.133948" class="uri">https://doi.org/10.1016/j.jhazmat.2024.133948</a></p></li>
-<li><p>Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., &amp; Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. Geoderma, 432, 116377. <a href="https://doi.org/10.1016/j.geoderma.2023.116377" class="uri">https://doi.org/10.1016/j.geoderma.2023.116377</a></p></li>
+<li><p>Kastury, F., Besedin, J., Betts, A. R., Asamoah, R., Herde, C., Netherway, P., Tully, J., Scheckel, K. G., &amp; Juhasz, A. L. (2024). Arsenic, cadmium, lead, antimony bioaccessibility and relative bioavailability in legacy gold mining waste. <em>Journal of Hazardous Materials</em>, 469, 133948. <a href="https://doi.org/10.1016/j.jhazmat.2024.133948" class="uri">https://doi.org/10.1016/j.jhazmat.2024.133948</a></p></li>
+<li><p>Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., &amp; Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. <em>Geoderma</em>, 432, 116377. <a href="https://doi.org/10.1016/j.geoderma.2023.116377" class="uri">https://doi.org/10.1016/j.geoderma.2023.116377</a></p></li>
 </ul>
 </section>
 <section id="uxct" class="level3" data-number="7.1.5">
@@ -961,91 +981,105 @@ ul.task-list li input[type="checkbox"] {
 <section id="pyrite-weathering" class="level3" data-number="7.1.6">
 <h3 data-number="7.1.6" class="anchored" data-anchor-id="pyrite-weathering"><span class="header-section-number">7.1.6</span> Pyrite weathering</h3>
 <ul>
-<li><p>Roy, G., &amp; Valsala, R. (2024). Hydrogeochemical modelling of pyrite oxidation ion mobility in unsaturated mine waste rock piles. Environmental Earth Sciences, 83(4). <a href="https://doi.org/10.1007/s12665-023-11414-z" class="uri">https://doi.org/10.1007/s12665-023-11414-z</a></p></li>
-<li><p>Gu, X., Heaney, P. J., Reis, F. D. a. A., &amp; Brantley, S. L. (2020). Deep abiotic weathering of pyrite. Science, 370(6515). <a href="https://doi.org/10.1126/science.abb8092" class="uri">https://doi.org/10.1126/science.abb8092</a></p></li>
+<li><p>Roy, G., &amp; Valsala, R. (2024). Hydrogeochemical modelling of pyrite oxidation ion mobility in unsaturated mine waste rock piles. <em>Environmental Earth Sciences</em>, 83(4). <a href="https://doi.org/10.1007/s12665-023-11414-z" class="uri">https://doi.org/10.1007/s12665-023-11414-z</a></p></li>
+<li><p>Gu, X., Heaney, P. J., Reis, F. D. a. A., &amp; Brantley, S. L. (2020). Deep abiotic weathering of pyrite. <em>Science</em>, 370(6515). <a href="https://doi.org/10.1126/science.abb8092" class="uri">https://doi.org/10.1126/science.abb8092</a></p></li>
 </ul>
 </section>
 <section id="critical-zone" class="level3" data-number="7.1.7">
 <h3 data-number="7.1.7" class="anchored" data-anchor-id="critical-zone"><span class="header-section-number">7.1.7</span> Critical Zone</h3>
 <ul>
-<li>Fang, Q., Lu, A., Hong, H., Kuzyakov, Y., Algeo, T. J., Zhao, L., Olshansky, Y., Moravec, B., Barrientes, D. M., &amp; Chorover, J. (2023). Mineral weathering is linked to microbial priming in the critical zone. Nature Communications, 14(1). <a href="https://doi.org/10.1038/s41467-022-35671-x" class="uri">https://doi.org/10.1038/s41467-022-35671-x</a></li>
+<li>Fang, Q., Lu, A., Hong, H., Kuzyakov, Y., Algeo, T. J., Zhao, L., Olshansky, Y., Moravec, B., Barrientes, D. M., &amp; Chorover, J. (2023). Mineral weathering is linked to microbial priming in the critical zone. <em>Nature Communications</em>, 14(1). <a href="https://doi.org/10.1038/s41467-022-35671-x" class="uri">https://doi.org/10.1038/s41467-022-35671-x</a></li>
 </ul>
 </section>
 </section>
 <section id="by-journal" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="by-journal"><span class="header-section-number">7.2</span> By Journal</h2>
-<section id="environmental-pollution" class="level3" data-number="7.2.1">
-<h3 data-number="7.2.1" class="anchored" data-anchor-id="environmental-pollution"><span class="header-section-number">7.2.1</span> Environmental Pollution</h3>
+<section id="science-of-the-total-environment" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="science-of-the-total-environment"><span class="header-section-number">7.2.1</span> Science of the Total Environment</h3>
 <ul>
-<li><p>Bailey, A. S., Jamieson, H. E., &amp; Radková, A. B. (2021). Geochemical characterization of dust from arsenic-bearing tailings, Giant Mine, Canada. Applied Geochemistry, 135, 105119. <a href="https://doi.org/10.1016/j.apgeochem.2021.105119" class="uri">https://doi.org/10.1016/j.apgeochem.2021.105119</a></p></li>
-<li><p>Mensah, A. K., Marschner, B., Shaheen, S. M., Wang, J., Wang, S., &amp; Rinklebe, J. (2020). Arsenic contamination in abandoned and active gold mine spoils in Ghana: Geochemical fractionation, speciation, and assessment of the potential human health risk. Environmental Pollution, 261, 114116. <a href="https://doi.org/10.1016/j.envpol.2020.114116" class="uri">https://doi.org/10.1016/j.envpol.2020.114116</a></p></li>
-<li><p>Little, A. J., Sivarajah, B., Frendo, C., Sprague, D. D., Smol, J. P., &amp; Vermaire, J. C. (2019). The impacts of century-old, arsenic-rich mine tailings on multi-trophic level biological assemblages in lakes from Cobalt (Ontario, Canada). The Science of the Total Environment, 709, 136212. <a href="https://doi.org/10.1016/j.scitotenv.2019.136212" class="uri">https://doi.org/10.1016/j.scitotenv.2019.136212</a></p></li>
-<li><p>Beeston, M. P., Van Elteren, J. T., Šlejkovec, Z., &amp; Glass, H. J. (2008). Migration of arsenic from old tailings ponds—A case study on the King Edward Mine, Cornwall, UK. Environmental Research, 108(1), 28–34. <a href="https://doi.org/10.1016/j.envres.2008.05.002" class="uri">https://doi.org/10.1016/j.envres.2008.05.002</a></p></li>
-<li><p>Milton, A., &amp; Johnson, M. (1999). Arsenic in the food chains of a revegetated metalliferous mine tailings pond. Chemosphere, 39(5), 765–779. <a href="https://doi.org/10.1016/s0045-6535(99)00012-0" class="uri">https://doi.org/10.1016/s0045-6535(99)00012-0</a></p></li>
+<li>Little, A. J., Sivarajah, B., Frendo, C., Sprague, D. D., Smol, J. P., &amp; Vermaire, J. C. (2019). The impacts of century-old, arsenic-rich mine tailings on multi-trophic level biological assemblages in lakes from Cobalt (Ontario, Canada). <em>The Science of the Total Environment</em>, 709, 136212. <a href="https://doi.org/10.1016/j.scitotenv.2019.136212" class="uri">https://doi.org/10.1016/j.scitotenv.2019.136212</a></li>
 </ul>
 </section>
-<section id="journal-of-cleaner-production" class="level3" data-number="7.2.2">
-<h3 data-number="7.2.2" class="anchored" data-anchor-id="journal-of-cleaner-production"><span class="header-section-number">7.2.2</span> Journal of Cleaner Production</h3>
+<section id="environmental-pollution" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="environmental-pollution"><span class="header-section-number">7.2.2</span> Environmental Pollution</h3>
+<ul>
+<li>Mensah, A. K., Marschner, B., Shaheen, S. M., Wang, J., Wang, S., &amp; Rinklebe, J. (2020). Arsenic contamination in abandoned and active gold mine spoils in Ghana: Geochemical fractionation, speciation, and assessment of the potential human health risk. <em>Environmental Pollution</em>, 261, 114116. <a href="https://doi.org/10.1016/j.envpol.2020.114116" class="uri">https://doi.org/10.1016/j.envpol.2020.114116</a></li>
+</ul>
+</section>
+<section id="environmental-research" class="level3" data-number="7.2.3">
+<h3 data-number="7.2.3" class="anchored" data-anchor-id="environmental-research"><span class="header-section-number">7.2.3</span> Environmental Research</h3>
+<ul>
+<li>Beeston, M. P., Van Elteren, J. T., Šlejkovec, Z., &amp; Glass, H. J. (2008). Migration of arsenic from old tailings ponds—A case study on the King Edward Mine, Cornwall, UK. <em>Environmental Research</em>, 108(1), 28–34. <a href="https://doi.org/10.1016/j.envres.2008.05.002" class="uri">https://doi.org/10.1016/j.envres.2008.05.002</a></li>
+</ul>
+</section>
+<section id="chemosphere" class="level3" data-number="7.2.4">
+<h3 data-number="7.2.4" class="anchored" data-anchor-id="chemosphere"><span class="header-section-number">7.2.4</span> Chemosphere</h3>
+<ul>
+<li><p>Wang, S., &amp; Mulligan, C. N. (2008). Enhanced mobilization of arsenic and heavy metals from mine tailings by humic acid. <em>Chemosphere</em>, <em>74</em>(2), 274–279. <a href="https://doi.org/10.1016/j.chemosphere.2008.09.040" class="uri">https://doi.org/10.1016/j.chemosphere.2008.09.040</a></p></li>
+<li><p>Milton, A., &amp; Johnson, M. (1999). Arsenic in the food chains of a revegetated metalliferous mine tailings pond. <em>Chemosphere</em>, 39(5), 765–779. <a href="https://doi.org/10.1016/s0045-6535(99)00012-0" class="uri">https://doi.org/10.1016/s0045-6535(99)00012-0</a></p></li>
+</ul>
+</section>
+<section id="journal-of-cleaner-production" class="level3" data-number="7.2.5">
+<h3 data-number="7.2.5" class="anchored" data-anchor-id="journal-of-cleaner-production"><span class="header-section-number">7.2.5</span> Journal of Cleaner Production</h3>
 <ul>
 <li><p>Akhavan, A., &amp; Golchin, A. (2021). Estimation of arsenic leaching from Zn–Pb mine tailings under environmental conditions. <em>Journal of Cleaner Production</em>, <em>295</em>, 126477. <a href="https://doi.org/10.1016/j.jclepro.2021.126477" class="uri">https://doi.org/10.1016/j.jclepro.2021.126477</a></p></li>
 <li><p>Kim, B., Jang, J., Park, C., Han, O., &amp; Kim, H. (2016). Recycling of arsenic-rich mine tailings in controlled low-strength materials. <em>Journal of Cleaner Production</em>, <em>118</em>, 151–161. <a href="https://doi.org/10.1016/j.jclepro.2016.01.047" class="uri">https://doi.org/10.1016/j.jclepro.2016.01.047</a></p></li>
 <li><p>Argane, R., Benzaazoua, M., Hakkou, R., &amp; Bouamrane, A. (2015). A comparative study on the practical use of low sulfide base-metal tailings as aggregates for rendering and masonry mortars. <em>Journal of Cleaner Production</em>, <em>112</em>, 914–925. <a href="https://doi.org/10.1016/j.jclepro.2015.06.004" class="uri">https://doi.org/10.1016/j.jclepro.2015.06.004</a></p></li>
-<li><p>Wang, S., &amp; Mulligan, C. N. (2008). Enhanced mobilization of arsenic and heavy metals from mine tailings by humic acid. <em>Chemosphere</em>, <em>74</em>(2), 274–279. <a href="https://doi.org/10.1016/j.chemosphere.2008.09.040" class="uri">https://doi.org/10.1016/j.chemosphere.2008.09.040</a></p></li>
 <li><p>Park, J., Han, Y., Lee, E., Choi, U., Yoo, K., Song, Y., &amp; Kim, H. (2014). Bioleaching of highly concentrated arsenic mine tailings by Acidithiobacillus ferrooxidans. <em>Separation and Purification Technology</em>, <em>133</em>, 291–296. <a href="https://doi.org/10.1016/j.seppur.2014.06.054" class="uri">https://doi.org/10.1016/j.seppur.2014.06.054</a></p></li>
 </ul>
 </section>
-<section id="water-research" class="level3" data-number="7.2.3">
-<h3 data-number="7.2.3" class="anchored" data-anchor-id="water-research"><span class="header-section-number">7.2.3</span> Water Research</h3>
+<section id="water-research" class="level3" data-number="7.2.6">
+<h3 data-number="7.2.6" class="anchored" data-anchor-id="water-research"><span class="header-section-number">7.2.6</span> Water Research</h3>
 <ul>
-<li>Seidel, H., Görsch, K., Amstätter, K., &amp; Mattusch, J. (2005). Immobilization of arsenic in a tailings material by ferrous iron treatment. Water Research, 39(17), 4073–4082. <a href="https://doi.org/10.1016/j.watres.2005.08.001" class="uri">https://doi.org/10.1016/j.watres.2005.08.001</a></li>
+<li>Seidel, H., Görsch, K., Amstätter, K., &amp; Mattusch, J. (2005). Immobilization of arsenic in a tailings material by ferrous iron treatment. <em>Water Research</em>, 39(17), 4073–4082. <a href="https://doi.org/10.1016/j.watres.2005.08.001" class="uri">https://doi.org/10.1016/j.watres.2005.08.001</a></li>
 </ul>
 </section>
-<section id="journal-of-hazardous-materials" class="level3" data-number="7.2.4">
-<h3 data-number="7.2.4" class="anchored" data-anchor-id="journal-of-hazardous-materials"><span class="header-section-number">7.2.4</span> Journal of Hazardous Materials</h3>
+<section id="journal-of-hazardous-materials" class="level3" data-number="7.2.7">
+<h3 data-number="7.2.7" class="anchored" data-anchor-id="journal-of-hazardous-materials"><span class="header-section-number">7.2.7</span> Journal of Hazardous Materials</h3>
 <ul>
-<li><p>Faybishenko, B., Bakhtavar, E., Hewage, K., &amp; Sadiq, R. (2023). Chemical composition of arsenic-based acid mine drainage in the downstream of a gold mine: Fuzzy regression and clustering analysis. Journal of Hazardous Materials, 465, 133250. <a href="https://doi.org/10.1016/j.jhazmat.2023.133250" class="uri">https://doi.org/10.1016/j.jhazmat.2023.133250</a></p></li>
-<li><p>Wang, S., &amp; Mulligan, C. N. (2009). Effect of natural organic matter on arsenic mobilization from mine tailings. Journal of Hazardous Materials, 168(2–3), 721–726. <a href="https://doi.org/10.1016/j.jhazmat.2009.02.088" class="uri">https://doi.org/10.1016/j.jhazmat.2009.02.088</a></p></li>
+<li><p>Faybishenko, B., Bakhtavar, E., Hewage, K., &amp; Sadiq, R. (2023). Chemical composition of arsenic-based acid mine drainage in the downstream of a gold mine: Fuzzy regression and clustering analysis. <em>Journal of Hazardous Materials</em>, 465, 133250. <a href="https://doi.org/10.1016/j.jhazmat.2023.133250" class="uri">https://doi.org/10.1016/j.jhazmat.2023.133250</a></p></li>
+<li><p>Wang, S., &amp; Mulligan, C. N. (2009). Effect of natural organic matter on arsenic mobilization from mine tailings. <em>Journal of Hazardous Materials</em>, 168(2–3), 721–726. <a href="https://doi.org/10.1016/j.jhazmat.2009.02.088" class="uri">https://doi.org/10.1016/j.jhazmat.2009.02.088</a></p></li>
 </ul>
 </section>
-<section id="environmental-science-technology" class="level3" data-number="7.2.5">
-<h3 data-number="7.2.5" class="anchored" data-anchor-id="environmental-science-technology"><span class="header-section-number">7.2.5</span> Environmental Science &amp; Technology</h3>
+<section id="environmental-science-technology" class="level3" data-number="7.2.8">
+<h3 data-number="7.2.8" class="anchored" data-anchor-id="environmental-science-technology"><span class="header-section-number">7.2.8</span> Environmental Science &amp; Technology</h3>
 <ul>
-<li><p>Sun, X., Kong, T., Huang, D., Chen, Z., Zhang, Y., Häggblom, M. M., Soleimani, M., Liu, H., Ren, Y., Wang, Y., Huang, Y., Li, B., &amp; Sun, W. (2024). Microbial Sulfur and Arsenic Oxidation Facilitate the Establishment of Biocrusts during Reclamation of Degraded Mine Tailings. Environmental Science &amp; Technology, 58(28), 12441–12453. <a href="https://doi.org/10.1021/acs.est.3c10945" class="uri">https://doi.org/10.1021/acs.est.3c10945</a></p></li>
-<li><p>Gil-Loaiza, J., Field, J. P., White, S. A., Csavina, J., Felix, O., Betterton, E. A., Sáez, A. E., &amp; Maier, R. M. (2018). Phytoremediation Reduces Dust Emissions from Metal(loid)-Contaminated Mine Tailings. Environmental Science &amp; Technology, 52(10), 5851–5858. <a href="https://doi.org/10.1021/acs.est.7b05730" class="uri">https://doi.org/10.1021/acs.est.7b05730</a></p></li>
-<li><p>Hammond, C. M., Root, R. A., Maier, R. M., &amp; Chorover, J. (2017). Mechanisms of Arsenic Sequestration by Prosopis juliflora during the Phytostabilization of Metalliferous Mine Tailings. Environmental Science &amp; Technology, 52(3), 1156–1164. <a href="https://doi.org/10.1021/acs.est.7b04363" class="uri">https://doi.org/10.1021/acs.est.7b04363</a></p></li>
-<li><p>Majzlan, J., Plášil, J., Škoda, R., Gescher, J., Kögler, F., Rusznyak, A., Küsel, K., Neu, T. R., Mangold, S., &amp; Rothe, J. (2014). Arsenic-Rich Acid Mine Water with Extreme Arsenic Concentration: Mineralogy, Geochemistry, Microbiology, and Environmental Implications. Environmental Science &amp; Technology, 48(23), 13685–13693. <a href="https://doi.org/10.1021/es5024916" class="uri">https://doi.org/10.1021/es5024916</a></p></li>
-<li><p>Meunier, L., Walker, S. R., Wragg, J., Parsons, M. B., Koch, I., Jamieson, H. E., &amp; Reimer, K. J. (2010). Effects of Soil Composition and Mineralogy on the Bioaccessibility of Arsenic from Tailings and Soil in Gold Mine Districts of Nova Scotia. Environmental Science &amp; Technology, 44(7), 2667–2674. <a href="https://doi.org/10.1021/es9035682" class="uri">https://doi.org/10.1021/es9035682</a></p></li>
-<li><p>Paktunc, D., Foster, A., &amp; Laflamme, G. (2003). Speciation and characterization of arsenic in Ketza River mine tailings using X-ray absorption spectroscopy. Environmental Science &amp; Technology, 37(10), 2067–2074. <a href="https://doi.org/10.1021/es026185m" class="uri">https://doi.org/10.1021/es026185m</a></p></li>
+<li><p>Sun, X., Kong, T., Huang, D., Chen, Z., Zhang, Y., Häggblom, M. M., Soleimani, M., Liu, H., Ren, Y., Wang, Y., Huang, Y., Li, B., &amp; Sun, W. (2024). Microbial Sulfur and Arsenic Oxidation Facilitate the Establishment of Biocrusts during Reclamation of Degraded Mine Tailings. <em>Environmental Science &amp; Technology</em>, 58(28), 12441–12453. <a href="https://doi.org/10.1021/acs.est.3c10945" class="uri">https://doi.org/10.1021/acs.est.3c10945</a></p></li>
+<li><p>Gil-Loaiza, J., Field, J. P., White, S. A., Csavina, J., Felix, O., Betterton, E. A., Sáez, A. E., &amp; Maier, R. M. (2018). Phytoremediation Reduces Dust Emissions from Metal(loid)-Contaminated Mine Tailings. <em>Environmental Science &amp; Technology</em>, 52(10), 5851–5858. <a href="https://doi.org/10.1021/acs.est.7b05730" class="uri">https://doi.org/10.1021/acs.est.7b05730</a></p></li>
+<li><p>Hammond, C. M., Root, R. A., Maier, R. M., &amp; Chorover, J. (2017). Mechanisms of Arsenic Sequestration by Prosopis juliflora during the Phytostabilization of Metalliferous Mine Tailings. <em>Environmental Science &amp; Technology</em>, 52(3), 1156–1164. <a href="https://doi.org/10.1021/acs.est.7b04363" class="uri">https://doi.org/10.1021/acs.est.7b04363</a></p></li>
+<li><p>Majzlan, J., Plášil, J., Škoda, R., Gescher, J., Kögler, F., Rusznyak, A., Küsel, K., Neu, T. R., Mangold, S., &amp; Rothe, J. (2014). Arsenic-Rich Acid Mine Water with Extreme Arsenic Concentration: Mineralogy, Geochemistry, Microbiology, and Environmental Implications. <em>Environmental Science &amp; Technology</em>, 48(23), 13685–13693. <a href="https://doi.org/10.1021/es5024916" class="uri">https://doi.org/10.1021/es5024916</a></p></li>
+<li><p>Meunier, L., Walker, S. R., Wragg, J., Parsons, M. B., Koch, I., Jamieson, H. E., &amp; Reimer, K. J. (2010). Effects of Soil Composition and Mineralogy on the Bioaccessibility of Arsenic from Tailings and Soil in Gold Mine Districts of Nova Scotia. <em>Environmental Science &amp; Technology</em>, 44(7), 2667–2674. <a href="https://doi.org/10.1021/es9035682" class="uri">https://doi.org/10.1021/es9035682</a></p></li>
+<li><p>Paktunc, D., Foster, A., &amp; Laflamme, G. (2003). Speciation and characterization of arsenic in Ketza River mine tailings using X-ray absorption spectroscopy. <em>Environmental Science &amp; Technology</em>, 37(10), 2067–2074. <a href="https://doi.org/10.1021/es026185m" class="uri">https://doi.org/10.1021/es026185m</a></p></li>
 <li><p>American Chemical Society. (2002). Stabilization of available arsenic in highly contaminated mine tailings using iron. ACS Publications. <a href="https://doi.org/10.1021/es020799" class="uri">https://doi.org/10.1021/es020799</a></p></li>
 </ul>
 </section>
-<section id="journal-of-geochemical-exploration" class="level3" data-number="7.2.6">
-<h3 data-number="7.2.6" class="anchored" data-anchor-id="journal-of-geochemical-exploration"><span class="header-section-number">7.2.6</span> Journal of Geochemical Exploration</h3>
+<section id="journal-of-geochemical-exploration" class="level3" data-number="7.2.9">
+<h3 data-number="7.2.9" class="anchored" data-anchor-id="journal-of-geochemical-exploration"><span class="header-section-number">7.2.9</span> Journal of Geochemical Exploration</h3>
 <ul>
-<li>Kim, K., Lee, B., &amp; Kim, K. (2011). Arsenic stabilization in mine tailings using nano-sized magnetite and zero valent iron with the enhancement of mobility by surface coating. Journal of Geochemical Exploration, 113, 124–129. <a href="https://doi.org/10.1016/j.gexplo.2011.07.002" class="uri">https://doi.org/10.1016/j.gexplo.2011.07.002</a></li>
+<li>Kim, K., Lee, B., &amp; Kim, K. (2011). Arsenic stabilization in mine tailings using nano-sized magnetite and zero valent iron with the enhancement of mobility by surface coating. <em>Journal of Geochemical Exploration</em>, 113, 124–129. <a href="https://doi.org/10.1016/j.gexplo.2011.07.002" class="uri">https://doi.org/10.1016/j.gexplo.2011.07.002</a></li>
 </ul>
 </section>
-<section id="proceedings-of-the-national-academy-of-sciences-pnas" class="level3" data-number="7.2.7">
-<h3 data-number="7.2.7" class="anchored" data-anchor-id="proceedings-of-the-national-academy-of-sciences-pnas"><span class="header-section-number">7.2.7</span> Proceedings of the National Academy of Sciences (PNAS)</h3>
+<section id="proceedings-of-the-national-academy-of-sciences-pnas" class="level3" data-number="7.2.10">
+<h3 data-number="7.2.10" class="anchored" data-anchor-id="proceedings-of-the-national-academy-of-sciences-pnas"><span class="header-section-number">7.2.10</span> Proceedings of the National Academy of Sciences (PNAS)</h3>
 <ul>
-<li><p>Brown, G. E., Foster, A. L., &amp; Ostergren, J. D. (1999). Mineral surfaces and bioavailability of heavy metals: A molecular-scale perspective. Proceedings of the National Academy of Sciences, 96(7), 3388–3395. <a href="https://doi.org/10.1073/pnas.96.7.3388" class="uri">https://doi.org/10.1073/pnas.96.7.3388</a></p></li>
-<li><p>Nordstrom, D. K., &amp; Alpers, C. N. (1999). Negative pH, efflorescent mineralogy, and consequences for environmental restoration at the Iron Mountain Superfund site, California. Proceedings of the National Academy of Sciences, 96(7), 3455–3462. <a href="https://doi.org/10.1073/pnas.96.7.3455" class="uri">https://doi.org/10.1073/pnas.96.7.3455</a></p></li>
+<li><p>Brown, G. E., Foster, A. L., &amp; Ostergren, J. D. (1999). Mineral surfaces and bioavailability of heavy metals: A molecular-scale perspective. <em>Proceedings of the National Academy of Sciences</em>, 96(7), 3388–3395. <a href="https://doi.org/10.1073/pnas.96.7.3388" class="uri">https://doi.org/10.1073/pnas.96.7.3388</a></p></li>
+<li><p>Nordstrom, D. K., &amp; Alpers, C. N. (1999). Negative pH, efflorescent mineralogy, and consequences for environmental restoration at the Iron Mountain Superfund site, California. <em>Proceedings of the National Academy of Sciences</em>, 96(7), 3455–3462. <a href="https://doi.org/10.1073/pnas.96.7.3455" class="uri">https://doi.org/10.1073/pnas.96.7.3455</a></p></li>
 </ul>
 </section>
-<section id="narute-communications" class="level3" data-number="7.2.8">
-<h3 data-number="7.2.8" class="anchored" data-anchor-id="narute-communications"><span class="header-section-number">7.2.8</span> Narute Communications</h3>
+<section id="narute-communications" class="level3" data-number="7.2.11">
+<h3 data-number="7.2.11" class="anchored" data-anchor-id="narute-communications"><span class="header-section-number">7.2.11</span> Narute Communications</h3>
 <ul>
-<li>Mihajlov, I., Mozumder, M. R. H., Bostick, B. C., Stute, M., Mailloux, B. J., Knappett, P. S. K., Choudhury, I., Ahmed, K. M., Schlosser, P., &amp; Van Geen, A. (2020). Arsenic contamination of Bangladesh aquifers exacerbated by clay layers. Nature Communications, 11(1). <a href="https://doi.org/10.1038/s41467-020-16104-z" class="uri">https://doi.org/10.1038/s41467-020-16104-z</a></li>
+<li>Mihajlov, I., Mozumder, M. R. H., Bostick, B. C., Stute, M., Mailloux, B. J., Knappett, P. S. K., Choudhury, I., Ahmed, K. M., Schlosser, P., &amp; Van Geen, A. (2020). Arsenic contamination of Bangladesh aquifers exacerbated by clay layers. <em>Nature Communications</em>, 11(1). <a href="https://doi.org/10.1038/s41467-020-16104-z" class="uri">https://doi.org/10.1038/s41467-020-16104-z</a></li>
 </ul>
 </section>
-<section id="narute-communications-earth-environment" class="level3" data-number="7.2.9">
-<h3 data-number="7.2.9" class="anchored" data-anchor-id="narute-communications-earth-environment"><span class="header-section-number">7.2.9</span> Narute Communications Earth &amp; Environment</h3>
+<section id="narute-communications-earth-environment" class="level3" data-number="7.2.12">
+<h3 data-number="7.2.12" class="anchored" data-anchor-id="narute-communications-earth-environment"><span class="header-section-number">7.2.12</span> Narute Communications Earth &amp; Environment</h3>
 <ul>
-<li>Wu, M., Qi, C., Derrible, S., Choi, Y., Fourie, A., &amp; Ok, Y. S. (2024). Regional and global hotspots of arsenic contamination of topsoil identified by deep learning. Communications Earth &amp; Environment, 5(1). <a href="https://doi.org/10.1038/s43247-023-01177-7" class="uri">https://doi.org/10.1038/s43247-023-01177-7</a></li>
+<li>Wu, M., Qi, C., Derrible, S., Choi, Y., Fourie, A., &amp; Ok, Y. S. (2024). Regional and global hotspots of arsenic contamination of topsoil identified by deep learning. <em>Communications Earth &amp; Environment</em>, 5(1). <a href="https://doi.org/10.1038/s43247-023-01177-7" class="uri">https://doi.org/10.1038/s43247-023-01177-7</a></li>
 </ul>
 </section>
-<section id="nature-scientific-reports" class="level3" data-number="7.2.10">
-<h3 data-number="7.2.10" class="anchored" data-anchor-id="nature-scientific-reports"><span class="header-section-number">7.2.10</span> Nature Scientific Reports</h3>
+<section id="nature-scientific-reports" class="level3" data-number="7.2.13">
+<h3 data-number="7.2.13" class="anchored" data-anchor-id="nature-scientific-reports"><span class="header-section-number">7.2.13</span> Nature Scientific Reports</h3>
 <ul>
 <li><p>Ji, H., Zhang, J., Zhao, Y., Huang, H., Ma, Y., Liang, D., Chen, F., Huo, H., Wang, S., &amp; Xie, T. (2025). Heavy metal pollution migration and its ecological impact on microbial communities in the karst region of Guangxi. Scientific Reports, 15(1). <a href="https://doi.org/10.1038/s41598-025-98809-z" class="uri">https://doi.org/10.1038/s41598-025-98809-z</a></p></li>
 <li><p>Dradrach, A., Nowosad, K., Kozak, B., &amp; Karczewska, A. (2024). Arsenic uptake by Agrostis capillaris, as related to its genotypic diversity in the area of historical ore mining and processing. Scientific Reports, 14(1). <a href="https://doi.org/10.1038/s41598-024-63830-1" class="uri">https://doi.org/10.1038/s41598-024-63830-1</a></p></li>
@@ -1057,40 +1091,41 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Chung, A. P., Coimbra, C., Farias, P., Francisco, R., Branco, R., Simão, F. V., Gomes, E., Pereira, A., Vila, M. C., Fiúza, A., Mortensen, M. S., Sørensen, S. J., &amp; Morais, P. V. (2019). Tailings microbial community profile and prediction of its functionality in basins of tungsten mine. Scientific Reports, 9(1). <a href="https://doi.org/10.1038/s41598-019-55706-6" class="uri">https://doi.org/10.1038/s41598-019-55706-6</a></p></li>
 </ul>
 </section>
-<section id="nature-precedings" class="level3" data-number="7.2.11">
-<h3 data-number="7.2.11" class="anchored" data-anchor-id="nature-precedings"><span class="header-section-number">7.2.11</span> Nature Precedings</h3>
+<section id="nature-precedings" class="level3" data-number="7.2.14">
+<h3 data-number="7.2.14" class="anchored" data-anchor-id="nature-precedings"><span class="header-section-number">7.2.14</span> Nature Precedings</h3>
 <ul>
-<li>Rayne, S., &amp; Forest, K. (2008). Potential impacts of tailings and tailings cover fertilization on arsenic mobility in surface and ground waters. Nature Precedings. <a href="https://doi.org/10.1038/npre.2008.1740.1" class="uri">https://doi.org/10.1038/npre.2008.1740.1</a></li>
+<li>Rayne, S., &amp; Forest, K. (2008). Potential impacts of tailings and tailings cover fertilization on arsenic mobility in surface and ground waters. <em>Nature Precedings</em>. <a href="https://doi.org/10.1038/npre.2008.1740.1" class="uri">https://doi.org/10.1038/npre.2008.1740.1</a></li>
 </ul>
 </section>
-<section id="npj" class="level3" data-number="7.2.12">
-<h3 data-number="7.2.12" class="anchored" data-anchor-id="npj"><span class="header-section-number">7.2.12</span> NPJ</h3>
+<section id="npj" class="level3" data-number="7.2.15">
+<h3 data-number="7.2.15" class="anchored" data-anchor-id="npj"><span class="header-section-number">7.2.15</span> NPJ</h3>
 <ul>
 <li>Corkhill, C. L., Crean, D. E., Bailey, D. J., Makepeace, C., Stennett, M. C., Tappero, R., Grolimund, D., &amp; Hyatt, N. C. (2017). Multi-scale investigation of uranium attenuation by arsenic at an abandoned uranium mine, South Terras. Npj Materials Degradation, 1(1). <a href="https://doi.org/10.1038/s41529-017-0019-9" class="uri">https://doi.org/10.1038/s41529-017-0019-9</a></li>
 </ul>
 </section>
-<section id="applied-geochemistry" class="level3" data-number="7.2.13">
-<h3 data-number="7.2.13" class="anchored" data-anchor-id="applied-geochemistry"><span class="header-section-number">7.2.13</span> Applied Geochemistry</h3>
+<section id="applied-geochemistry" class="level3" data-number="7.2.16">
+<h3 data-number="7.2.16" class="anchored" data-anchor-id="applied-geochemistry"><span class="header-section-number">7.2.16</span> Applied Geochemistry</h3>
 <ul>
-<li>Slowey, A. J., Johnson, S. B., Newville, M., &amp; Brown, G. E. (2007). Speciation and colloid transport of arsenic from mine tailings. Applied Geochemistry, 22(9), 1884–1898. <a href="https://doi.org/10.1016/j.apgeochem.2007.03.053" class="uri">https://doi.org/10.1016/j.apgeochem.2007.03.053</a></li>
+<li><p>Bailey, A. S., Jamieson, H. E., &amp; Radková, A. B. (2021). Geochemical characterization of dust from arsenic-bearing tailings, Giant Mine, Canada. <em>Applied Geochemistry</em>, 135, 105119. <a href="https://doi.org/10.1016/j.apgeochem.2021.105119" class="uri">https://doi.org/10.1016/j.apgeochem.2021.105119</a></p></li>
+<li><p>Slowey, A. J., Johnson, S. B., Newville, M., &amp; Brown, G. E. (2007). Speciation and colloid transport of arsenic from mine tailings. <em>Applied Geochemistry</em>, 22(9), 1884–1898. <a href="https://doi.org/10.1016/j.apgeochem.2007.03.053" class="uri">https://doi.org/10.1016/j.apgeochem.2007.03.053</a></p></li>
 </ul>
 </section>
-<section id="geochimica-et-cosmochimica-acta" class="level3" data-number="7.2.14">
-<h3 data-number="7.2.14" class="anchored" data-anchor-id="geochimica-et-cosmochimica-acta"><span class="header-section-number">7.2.14</span> Geochimica et Cosmochimica Acta</h3>
+<section id="geochimica-et-cosmochimica-acta" class="level3" data-number="7.2.17">
+<h3 data-number="7.2.17" class="anchored" data-anchor-id="geochimica-et-cosmochimica-acta"><span class="header-section-number">7.2.17</span> Geochimica et Cosmochimica Acta</h3>
 <ul>
-<li>Hammond, C. M., Root, R. A., Maier, R. M., &amp; Chorover, J. (2020). Arsenic and iron speciation and mobilization during phytostabilization of pyritic mine tailings. Geochimica Et Cosmochimica Acta, 286, 306–323. <a href="https://doi.org/10.1016/j.gca.2020.07.001" class="uri">https://doi.org/10.1016/j.gca.2020.07.001</a></li>
+<li>Hammond, C. M., Root, R. A., Maier, R. M., &amp; Chorover, J. (2020). Arsenic and iron speciation and mobilization during phytostabilization of pyritic mine tailings. <em>Geochimica Et Cosmochimica Acta</em>, 286, 306–323. <a href="https://doi.org/10.1016/j.gca.2020.07.001" class="uri">https://doi.org/10.1016/j.gca.2020.07.001</a></li>
 </ul>
 </section>
-<section id="geochemical-transactions" class="level3" data-number="7.2.15">
-<h3 data-number="7.2.15" class="anchored" data-anchor-id="geochemical-transactions"><span class="header-section-number">7.2.15</span> Geochemical transactions</h3>
+<section id="geochemical-transactions" class="level3" data-number="7.2.18">
+<h3 data-number="7.2.18" class="anchored" data-anchor-id="geochemical-transactions"><span class="header-section-number">7.2.18</span> Geochemical transactions</h3>
 <ul>
-<li>Foster, A. L., Ashley, R. P., &amp; Rytuba, J. J. (2011). Arsenic species in weathering mine tailings and biogenic solids at the Lava Cap Mine Superfund Site, Nevada City, CA. Geochemical Transactions, 12(1). <a href="https://doi.org/10.1186/1467-4866-12-1" class="uri">https://doi.org/10.1186/1467-4866-12-1</a></li>
+<li>Foster, A. L., Ashley, R. P., &amp; Rytuba, J. J. (2011). Arsenic species in weathering mine tailings and biogenic solids at the Lava Cap Mine Superfund Site, Nevada City, CA. <em>Geochemical Transactions</em>, 12(1). <a href="https://doi.org/10.1186/1467-4866-12-1" class="uri">https://doi.org/10.1186/1467-4866-12-1</a></li>
 </ul>
 </section>
-<section id="journal-of-environmental-quality" class="level3" data-number="7.2.16">
-<h3 data-number="7.2.16" class="anchored" data-anchor-id="journal-of-environmental-quality"><span class="header-section-number">7.2.16</span> Journal of Environmental Quality</h3>
+<section id="journal-of-environmental-quality" class="level3" data-number="7.2.19">
+<h3 data-number="7.2.19" class="anchored" data-anchor-id="journal-of-environmental-quality"><span class="header-section-number">7.2.19</span> Journal of Environmental Quality</h3>
 <ul>
-<li>Rakotonimaro, T. V., Guittonny, M., Neculita, C. M., Trépanier, F., &amp; Pépin, G. (2019). Evaluation of Arsenic Leaching Potential in Gold Mine Tailings Amended with Peat and Mine Drainage Treatment Sludge. Journal of Environmental Quality, 48(3), 735–745. <a href="https://doi.org/10.2134/jeq2018.11.0392" class="uri">https://doi.org/10.2134/jeq2018.11.0392</a></li>
+<li>Rakotonimaro, T. V., Guittonny, M., Neculita, C. M., Trépanier, F., &amp; Pépin, G. (2019). Evaluation of Arsenic Leaching Potential in Gold Mine Tailings Amended with Peat and Mine Drainage Treatment Sludge. <em>Journal of Environmental Quality</em>, 48(3), 735–745. <a href="https://doi.org/10.2134/jeq2018.11.0392" class="uri">https://doi.org/10.2134/jeq2018.11.0392</a></li>
 </ul>
 </section>
 </section>

@@ -702,6 +702,21 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 # **PAPERS AND REFERENCES**
 
+### LARCH & LMFIT
+
+LMFIT
+
+-   Newville, M., Otten, R., Nelson, A., Stensitzki, T., Ingargiola, A., Allan, D., Fox, A., Carter, F., & Rawlik, M. (2025). LMFIT: Non-Linear Least-Squares Minimization and Curve-Fitting for Python (1.3.3). Zenodo. <https://doi.org/10.5281/zenodo.15014437>
+
+PCA with Larch
+
+-   14.3. XANES Analysis: Linear Methods, Pre-edge Peak Fitting — xraylarch 2025.2.0 documentation. (n.d.). <https://xraypy.github.io/xraylarch/xafs_xanes.html#principal-component-analysis>
+
+Pre-edge fitting
+
+-   13.6. Fit Examples — xraylarch 2025.2.0 documentation. (n.d.). <https://xraypy.github.io/xraylarch/fitting_examples.html#example-2-fitting-xanes-pre-edge-peaks>
+
+
 ### Synchrotron
 
 Normalization process
@@ -771,9 +786,9 @@ datatable(
 
 ```
 
+.
 
-
--   Anzures, B. A., Parman, S. W., Milliken, R. E., Lanzirotti, A., & Newville, M. (2019). XANES spectroscopy of sulfides stable under reducing conditions. American Mineralogist, 105(3), 375–381. <https://doi.org/10.2138/am-2020-7146>
+-   Anzures, B. A., Parman, S. W., Milliken, R. E., Lanzirotti, A., & Newville, M. (2019). XANES spectroscopy of sulfides stable under reducing conditions. *American Mineralogist*, 105(3), 375–381. <https://doi.org/10.2138/am-2020-7146>
 
 *The SI of this paper has the Sulfur species calculation process with Gaussian curve fitting* 
 
@@ -783,31 +798,31 @@ datatable(
 
 *Fitting with Gaussian Curve Fitting (GCF)* 
 
-- Manceau, A., & Nagy, K. L. (2012). Quantitative analysis of sulfur functional groups in natural organic matter by XANES spectroscopy. Geochimica Et Cosmochimica Acta, 99, 206–223. <https://doi.org/10.1016/j.gca.2012.09.033>
+- Manceau, A., & Nagy, K. L. (2012). Quantitative analysis of sulfur functional groups in natural organic matter by XANES spectroscopy. *Geochimica Et Cosmochimica Acta*, 99, 206–223. <https://doi.org/10.1016/j.gca.2012.09.033>
 
 *Alunite pre-edge Iron Mountain paper*
 
--   Majzlan, J., Alpers, C. N., Koch, C. B., McCleskey, R. B., Myneni, S. C., & Neil, J. M. (2011). Vibrational, X-ray absorption, and Mössbauer spectra of sulfate minerals from the weathered massive sulfide deposit at Iron Mountain, California. Chemical Geology, 284(3–4), 296–305. <https://doi.org/10.1016/j.chemgeo.2011.03.008>
+-   Majzlan, J., Alpers, C. N., Koch, C. B., McCleskey, R. B., Myneni, S. C., & Neil, J. M. (2011). Vibrational, X-ray absorption, and Mössbauer spectra of sulfate minerals from the weathered massive sulfide deposit at Iron Mountain, California. *Chemical Geology*, 284(3–4), 296–305. <https://doi.org/10.1016/j.chemgeo.2011.03.008>
 
 -   Wilke, M., Klimm, K., & Kohn, S. C. (2011). Spectroscopic studies on sulfur speciation in synthetic and natural glasses. Reviews in Mineralogy and Geochemistry \| GeoScienceWorld. <https://doi.org/10.2138/rmg.2011.73.3>
 
--   Almkvist, G., Boye, K., & Persson, I. (2010). K-edge XANES analysis of sulfur compounds: an investigation of the relative intensities using internal calibration. Journal of Synchrotron Radiation, 17(5), 683–688. <https://doi.org/10.1107/s0909049510022946>
+-   Almkvist, G., Boye, K., & Persson, I. (2010). K-edge XANES analysis of sulfur compounds: an investigation of the relative intensities using internal calibration. *Journal of Synchrotron Radiation*, 17(5), 683–688. <https://doi.org/10.1107/s0909049510022946>
 
 -   Fleet, M. E., Liu, X., Harmer, S. L., & King, P. L. (2005). SULFUR K-EDGE XANES SPECTROSCOPY: CHEMICAL STATE AND CONTENT OF SULFUR IN SILICATE GLASSES. *The Canadian Mineralogist*, *43*(5), 1605–1618. <https://doi.org/10.2113/gscanmin.43.5.1605>
 
--   Li, D., Bancroft, G. M., Kasrai, M., Fleet, M. E., Feng, X., & Tan, K. (1995). S K-and L-edge X-ray absorption spectroscopy of metal sulfides and sulfates; applications in mineralogy and geochemistry. The Canadian Mineralogist, 33(5), 949-960. <https://pubs-geoscienceworld-org.ezproxy1.library.arizona.edu/mac/canmin/article/33/5/949/12722/S-K-and-L-edge-X-ray-absorption-spectroscopy-of>
+-   Li, D., Bancroft, G. M., Kasrai, M., Fleet, M. E., Feng, X., & Tan, K. (1995). S K-and L-edge X-ray absorption spectroscopy of metal sulfides and sulfates; applications in mineralogy and geochemistry. *The Canadian Mineralogist*, 33(5), 949-960. <https://pubs-geoscienceworld-org.ezproxy1.library.arizona.edu/mac/canmin/article/33/5/949/12722/S-K-and-L-edge-X-ray-absorption-spectroscopy-of>
 
 ### Iron XAFS
 
 **Iron K-edge and L(III) edge analysis**
 
--   Nakada, R., Sato, M., Ushioda, M., Tamura, Y., & Yamamoto, S. (2019). Variation of iron species in plagioclase crystals by X‐ray absorption fine Structure analysis. Geochemistry Geophysics Geosystems, 20(11), 5319–5333. <https://doi.org/10.1029/2018gc008131>
+-   Nakada, R., Sato, M., Ushioda, M., Tamura, Y., & Yamamoto, S. (2019). Variation of iron species in plagioclase crystals by X‐ray absorption fine Structure analysis.* Geochemistry Geophysics Geosystems*, 20(11), 5319–5333. <https://doi.org/10.1029/2018gc008131>
 
 "*Iron K-edge XANES has a pre-edge feature which shows the oxidation state and the coordination environment of an Fe atom. The pre-edge peak analysis was performed following the previous studies (Giuli et al., 2002; Nakada et al., 2014; Wilke et al., 2001).*"
 
 **Determination of Fe oxidation state using the pre-edge centroid position**
 
--   Wilke, M., Partzsch, G. M., Bernhardt, R., & Lattard, D. (2004). Determination of the iron oxidation state in basaltic glasses using XANES at the K-edge. Chemical Geology, 213(1–3), 71–87. <https://doi.org/10.1016/j.chemgeo.2004.08.034>
+-   Wilke, M., Partzsch, G. M., Bernhardt, R., & Lattard, D. (2004). Determination of the iron oxidation state in basaltic glasses using XANES at the K-edge. *Chemical Geology*, 213(1–3), 71–87. <https://doi.org/10.1016/j.chemgeo.2004.08.034>
 
 LMFIT Python tool
 
@@ -819,23 +834,23 @@ LMFIT Python tool
 
 **Fe(OH)2 synthesis method**
 
--   Ona-Nguema, G., Morin, G., Wang, Y., Menguy, N., Juillot, F., Olivi, L., Aquilanti, G., Abdelmoula, M., Ruby, C., Bargar, J. R., Guyot, F., Calas, G., & Brown, G. E. (2008). Arsenite sequestration at the surface of nano-Fe(OH)2, ferrous-carbonate hydroxide, and green-rust after bioreduction of arsenic-sorbed lepidocrocite by Shewanella putrefaciens. Geochimica Et Cosmochimica Acta, 73(5), 1359–1381. <https://doi.org/10.1016/j.gca.2008.12.005>
+-   Ona-Nguema, G., Morin, G., Wang, Y., Menguy, N., Juillot, F., Olivi, L., Aquilanti, G., Abdelmoula, M., Ruby, C., Bargar, J. R., Guyot, F., Calas, G., & Brown, G. E. (2008). Arsenite sequestration at the surface of nano-Fe(OH)2, ferrous-carbonate hydroxide, and green-rust after bioreduction of arsenic-sorbed lepidocrocite by Shewanella putrefaciens. *Geochimica Et Cosmochimica Acta*, 73(5), 1359–1381. <https://doi.org/10.1016/j.gca.2008.12.005>
 
 ### Arsenic Speciation
 
 Intro to the Arsenic Speciation
 
--   Wisawapipat, W., Christl, I., Bouchet, S., Fang, X., Chareonpanich, M., & Kretzschmar, R. (2024). Temporal development of arsenic speciation and extractability in acidified and non-acidified paddy soil amended with silicon-rich fly ash and manganese- or zinc-oxides under flooded and drainage conditions. Chemosphere, 351, 141140. <https://doi.org/10.1016/j.chemosphere.2024.141140>
+-   Wisawapipat, W., Christl, I., Bouchet, S., Fang, X., Chareonpanich, M., & Kretzschmar, R. (2024). Temporal development of arsenic speciation and extractability in acidified and non-acidified paddy soil amended with silicon-rich fly ash and manganese- or zinc-oxides under flooded and drainage conditions. *Chemosphere*, 351, 141140. <https://doi.org/10.1016/j.chemosphere.2024.141140>
 
--   Sherman, D. M., & Randall, S. R. (2003). Surface complexation of arsenic(V) to iron(III) (hydr)oxides: structural mechanism from ab initio molecular geometries and EXAFS spectroscopy. Geochimica Et Cosmochimica Acta, 67(22), 4223–4230. <https://doi.org/10.1016/s0016-7037(03)00237-0>
+-   Sherman, D. M., & Randall, S. R. (2003). Surface complexation of arsenic(V) to iron(III) (hydr)oxides: structural mechanism from ab initio molecular geometries and EXAFS spectroscopy. *Geochimica Et Cosmochimica Acta*, 67(22), 4223–4230. <https://doi.org/10.1016/s0016-7037(03)00237-0>
 
 Scorodite paper
 
--   Foster, A. L., Ashley, R. P., & Rytuba, J. J. (2011). Arsenic species in weathering mine tailings and biogenic solids at the Lava Cap Mine Superfund Site, Nevada City, CA. Geochemical Transactions, 12(1). <https://doi.org/10.1186/1467-4866-12-1>
+-   Foster, A. L., Ashley, R. P., & Rytuba, J. J. (2011). Arsenic species in weathering mine tailings and biogenic solids at the Lava Cap Mine Superfund Site, Nevada City, CA. *Geochemical Transactions*, 12(1). <https://doi.org/10.1186/1467-4866-12-1>
 
 Arseniosiderite .CIFF file
 
--   King, G., Celikin, M., Gomez, M. A., Becze, L., Petkov, V., & Della Ventura, G. (2020). Revealing the structures and relationships of Ca(ii)–Fe(iii)–AsO4 minerals: arseniosiderite and yukonite. Environmental Science Nano, 7(12), 3735–3745. <https://doi.org/10.1039/d0en00503g>
+-   King, G., Celikin, M., Gomez, M. A., Becze, L., Petkov, V., & Della Ventura, G. (2020). Revealing the structures and relationships of Ca(ii)–Fe(iii)–AsO4 minerals: arseniosiderite and yukonite. *Environmental Science Nano*, 7(12), 3735–3745. <https://doi.org/10.1039/d0en00503g>
 
 Schwertmannite and Jarosite in AMD
 
@@ -843,7 +858,7 @@ Schwertmannite and Jarosite in AMD
 
 Ma'Ins suggestion on Arsenic speciation
 
--   Essilfie-Dughan, J., Hendry, M. J., Warner, J., & Kotzer, T. (2012). Arsenic and iron speciation in uranium mine tailings using X-ray absorption spectroscopy. Applied Geochemistry, 28, 11–18. <https://doi.org/10.1016/j.apgeochem.2012.10.022>
+-   Essilfie-Dughan, J., Hendry, M. J., Warner, J., & Kotzer, T. (2012). Arsenic and iron speciation in uranium mine tailings using X-ray absorption spectroscopy. *Applied Geochemistry*, 28, 11–18. <https://doi.org/10.1016/j.apgeochem.2012.10.022>
 
 ### Mineralogy
 
@@ -851,9 +866,9 @@ Ma'Ins suggestion on Arsenic speciation
 
 ### Bioaccesibility
 
--   Kastury, F., Besedin, J., Betts, A. R., Asamoah, R., Herde, C., Netherway, P., Tully, J., Scheckel, K. G., & Juhasz, A. L. (2024). Arsenic, cadmium, lead, antimony bioaccessibility and relative bioavailability in legacy gold mining waste. Journal of Hazardous Materials, 469, 133948. <https://doi.org/10.1016/j.jhazmat.2024.133948>
+-   Kastury, F., Besedin, J., Betts, A. R., Asamoah, R., Herde, C., Netherway, P., Tully, J., Scheckel, K. G., & Juhasz, A. L. (2024). Arsenic, cadmium, lead, antimony bioaccessibility and relative bioavailability in legacy gold mining waste. *Journal of Hazardous Materials*, 469, 133948. <https://doi.org/10.1016/j.jhazmat.2024.133948>
 
--   Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., & Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. Geoderma, 432, 116377. <https://doi.org/10.1016/j.geoderma.2023.116377>
+-   Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., & Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. *Geoderma*, 432, 116377. <https://doi.org/10.1016/j.geoderma.2023.116377>
 
 ### uXCT
 
@@ -863,27 +878,35 @@ Pink Beam
 
 ### Pyrite weathering
 
--   Roy, G., & Valsala, R. (2024). Hydrogeochemical modelling of pyrite oxidation ion mobility in unsaturated mine waste rock piles. Environmental Earth Sciences, 83(4). <https://doi.org/10.1007/s12665-023-11414-z>
+-   Roy, G., & Valsala, R. (2024). Hydrogeochemical modelling of pyrite oxidation ion mobility in unsaturated mine waste rock piles. *Environmental Earth Sciences*, 83(4). <https://doi.org/10.1007/s12665-023-11414-z>
 
--   Gu, X., Heaney, P. J., Reis, F. D. a. A., & Brantley, S. L. (2020). Deep abiotic weathering of pyrite. Science, 370(6515). <https://doi.org/10.1126/science.abb8092>
+-   Gu, X., Heaney, P. J., Reis, F. D. a. A., & Brantley, S. L. (2020). Deep abiotic weathering of pyrite. *Science*, 370(6515). <https://doi.org/10.1126/science.abb8092>
 
 ### Critical Zone
 
--   Fang, Q., Lu, A., Hong, H., Kuzyakov, Y., Algeo, T. J., Zhao, L., Olshansky, Y., Moravec, B., Barrientes, D. M., & Chorover, J. (2023). Mineral weathering is linked to microbial priming in the critical zone. Nature Communications, 14(1). <https://doi.org/10.1038/s41467-022-35671-x>
+-   Fang, Q., Lu, A., Hong, H., Kuzyakov, Y., Algeo, T. J., Zhao, L., Olshansky, Y., Moravec, B., Barrientes, D. M., & Chorover, J. (2023). Mineral weathering is linked to microbial priming in the critical zone. *Nature Communications*, 14(1). <https://doi.org/10.1038/s41467-022-35671-x>
 
 ## By Journal
 
+### Science of the Total Environment
+
+-   Little, A. J., Sivarajah, B., Frendo, C., Sprague, D. D., Smol, J. P., & Vermaire, J. C. (2019). The impacts of century-old, arsenic-rich mine tailings on multi-trophic level biological assemblages in lakes from Cobalt (Ontario, Canada). *The Science of the Total Environment*, 709, 136212. <https://doi.org/10.1016/j.scitotenv.2019.136212>
+
+
 ### Environmental Pollution
 
--   Bailey, A. S., Jamieson, H. E., & Radková, A. B. (2021). Geochemical characterization of dust from arsenic-bearing tailings, Giant Mine, Canada. Applied Geochemistry, 135, 105119. <https://doi.org/10.1016/j.apgeochem.2021.105119>
 
--   Mensah, A. K., Marschner, B., Shaheen, S. M., Wang, J., Wang, S., & Rinklebe, J. (2020). Arsenic contamination in abandoned and active gold mine spoils in Ghana: Geochemical fractionation, speciation, and assessment of the potential human health risk. Environmental Pollution, 261, 114116. <https://doi.org/10.1016/j.envpol.2020.114116>
+-   Mensah, A. K., Marschner, B., Shaheen, S. M., Wang, J., Wang, S., & Rinklebe, J. (2020). Arsenic contamination in abandoned and active gold mine spoils in Ghana: Geochemical fractionation, speciation, and assessment of the potential human health risk. *Environmental Pollution*, 261, 114116. <https://doi.org/10.1016/j.envpol.2020.114116>
 
--   Little, A. J., Sivarajah, B., Frendo, C., Sprague, D. D., Smol, J. P., & Vermaire, J. C. (2019). The impacts of century-old, arsenic-rich mine tailings on multi-trophic level biological assemblages in lakes from Cobalt (Ontario, Canada). The Science of the Total Environment, 709, 136212. <https://doi.org/10.1016/j.scitotenv.2019.136212>
+### Environmental Research
 
--   Beeston, M. P., Van Elteren, J. T., Šlejkovec, Z., & Glass, H. J. (2008). Migration of arsenic from old tailings ponds—A case study on the King Edward Mine, Cornwall, UK. Environmental Research, 108(1), 28–34. <https://doi.org/10.1016/j.envres.2008.05.002>
+-   Beeston, M. P., Van Elteren, J. T., Šlejkovec, Z., & Glass, H. J. (2008). Migration of arsenic from old tailings ponds—A case study on the King Edward Mine, Cornwall, UK. *Environmental Research*, 108(1), 28–34. <https://doi.org/10.1016/j.envres.2008.05.002>
 
--   Milton, A., & Johnson, M. (1999). Arsenic in the food chains of a revegetated metalliferous mine tailings pond. Chemosphere, 39(5), 765–779. <https://doi.org/10.1016/s0045-6535(99)00012-0>
+### Chemosphere
+
+-   Wang, S., & Mulligan, C. N. (2008). Enhanced mobilization of arsenic and heavy metals from mine tailings by humic acid. *Chemosphere*, *74*(2), 274–279. <https://doi.org/10.1016/j.chemosphere.2008.09.040>
+
+-   Milton, A., & Johnson, M. (1999). Arsenic in the food chains of a revegetated metalliferous mine tailings pond. *Chemosphere*, 39(5), 765–779. <https://doi.org/10.1016/s0045-6535(99)00012-0>
 
 ### Journal of Cleaner Production
 
@@ -893,53 +916,53 @@ Pink Beam
 
 -   Argane, R., Benzaazoua, M., Hakkou, R., & Bouamrane, A. (2015). A comparative study on the practical use of low sulfide base-metal tailings as aggregates for rendering and masonry mortars. *Journal of Cleaner Production*, *112*, 914–925. <https://doi.org/10.1016/j.jclepro.2015.06.004>
 
--   Wang, S., & Mulligan, C. N. (2008). Enhanced mobilization of arsenic and heavy metals from mine tailings by humic acid. *Chemosphere*, *74*(2), 274–279. <https://doi.org/10.1016/j.chemosphere.2008.09.040>
+
 
 -   Park, J., Han, Y., Lee, E., Choi, U., Yoo, K., Song, Y., & Kim, H. (2014). Bioleaching of highly concentrated arsenic mine tailings by Acidithiobacillus ferrooxidans. *Separation and Purification Technology*, *133*, 291–296. <https://doi.org/10.1016/j.seppur.2014.06.054>
 
 ### Water Research
 
--   Seidel, H., Görsch, K., Amstätter, K., & Mattusch, J. (2005). Immobilization of arsenic in a tailings material by ferrous iron treatment. Water Research, 39(17), 4073–4082. <https://doi.org/10.1016/j.watres.2005.08.001>
+-   Seidel, H., Görsch, K., Amstätter, K., & Mattusch, J. (2005). Immobilization of arsenic in a tailings material by ferrous iron treatment. *Water Research*, 39(17), 4073–4082. <https://doi.org/10.1016/j.watres.2005.08.001>
 
 ### Journal of Hazardous Materials
 
--   Faybishenko, B., Bakhtavar, E., Hewage, K., & Sadiq, R. (2023). Chemical composition of arsenic-based acid mine drainage in the downstream of a gold mine: Fuzzy regression and clustering analysis. Journal of Hazardous Materials, 465, 133250. <https://doi.org/10.1016/j.jhazmat.2023.133250>
+-   Faybishenko, B., Bakhtavar, E., Hewage, K., & Sadiq, R. (2023). Chemical composition of arsenic-based acid mine drainage in the downstream of a gold mine: Fuzzy regression and clustering analysis. *Journal of Hazardous Materials*, 465, 133250. <https://doi.org/10.1016/j.jhazmat.2023.133250>
 
--   Wang, S., & Mulligan, C. N. (2009). Effect of natural organic matter on arsenic mobilization from mine tailings. Journal of Hazardous Materials, 168(2–3), 721–726. <https://doi.org/10.1016/j.jhazmat.2009.02.088>
+-   Wang, S., & Mulligan, C. N. (2009). Effect of natural organic matter on arsenic mobilization from mine tailings. *Journal of Hazardous Materials*, 168(2–3), 721–726. <https://doi.org/10.1016/j.jhazmat.2009.02.088>
 
 ### Environmental Science & Technology
 
--   Sun, X., Kong, T., Huang, D., Chen, Z., Zhang, Y., Häggblom, M. M., Soleimani, M., Liu, H., Ren, Y., Wang, Y., Huang, Y., Li, B., & Sun, W. (2024). Microbial Sulfur and Arsenic Oxidation Facilitate the Establishment of Biocrusts during Reclamation of Degraded Mine Tailings. Environmental Science & Technology, 58(28), 12441–12453. <https://doi.org/10.1021/acs.est.3c10945>
+-   Sun, X., Kong, T., Huang, D., Chen, Z., Zhang, Y., Häggblom, M. M., Soleimani, M., Liu, H., Ren, Y., Wang, Y., Huang, Y., Li, B., & Sun, W. (2024). Microbial Sulfur and Arsenic Oxidation Facilitate the Establishment of Biocrusts during Reclamation of Degraded Mine Tailings. *Environmental Science & Technology*, 58(28), 12441–12453. <https://doi.org/10.1021/acs.est.3c10945>
 
--   Gil-Loaiza, J., Field, J. P., White, S. A., Csavina, J., Felix, O., Betterton, E. A., Sáez, A. E., & Maier, R. M. (2018). Phytoremediation Reduces Dust Emissions from Metal(loid)-Contaminated Mine Tailings. Environmental Science & Technology, 52(10), 5851–5858. <https://doi.org/10.1021/acs.est.7b05730>
+-   Gil-Loaiza, J., Field, J. P., White, S. A., Csavina, J., Felix, O., Betterton, E. A., Sáez, A. E., & Maier, R. M. (2018). Phytoremediation Reduces Dust Emissions from Metal(loid)-Contaminated Mine Tailings. *Environmental Science & Technology*, 52(10), 5851–5858. <https://doi.org/10.1021/acs.est.7b05730>
 
--   Hammond, C. M., Root, R. A., Maier, R. M., & Chorover, J. (2017). Mechanisms of Arsenic Sequestration by Prosopis juliflora during the Phytostabilization of Metalliferous Mine Tailings. Environmental Science & Technology, 52(3), 1156–1164. <https://doi.org/10.1021/acs.est.7b04363>
+-   Hammond, C. M., Root, R. A., Maier, R. M., & Chorover, J. (2017). Mechanisms of Arsenic Sequestration by Prosopis juliflora during the Phytostabilization of Metalliferous Mine Tailings. *Environmental Science & Technology*, 52(3), 1156–1164. <https://doi.org/10.1021/acs.est.7b04363>
 
--   Majzlan, J., Plášil, J., Škoda, R., Gescher, J., Kögler, F., Rusznyak, A., Küsel, K., Neu, T. R., Mangold, S., & Rothe, J. (2014). Arsenic-Rich Acid Mine Water with Extreme Arsenic Concentration: Mineralogy, Geochemistry, Microbiology, and Environmental Implications. Environmental Science & Technology, 48(23), 13685–13693. <https://doi.org/10.1021/es5024916>
+-   Majzlan, J., Plášil, J., Škoda, R., Gescher, J., Kögler, F., Rusznyak, A., Küsel, K., Neu, T. R., Mangold, S., & Rothe, J. (2014). Arsenic-Rich Acid Mine Water with Extreme Arsenic Concentration: Mineralogy, Geochemistry, Microbiology, and Environmental Implications. *Environmental Science & Technology*, 48(23), 13685–13693. <https://doi.org/10.1021/es5024916>
 
--   Meunier, L., Walker, S. R., Wragg, J., Parsons, M. B., Koch, I., Jamieson, H. E., & Reimer, K. J. (2010). Effects of Soil Composition and Mineralogy on the Bioaccessibility of Arsenic from Tailings and Soil in Gold Mine Districts of Nova Scotia. Environmental Science & Technology, 44(7), 2667–2674. <https://doi.org/10.1021/es9035682>
+-   Meunier, L., Walker, S. R., Wragg, J., Parsons, M. B., Koch, I., Jamieson, H. E., & Reimer, K. J. (2010). Effects of Soil Composition and Mineralogy on the Bioaccessibility of Arsenic from Tailings and Soil in Gold Mine Districts of Nova Scotia. *Environmental Science & Technology*, 44(7), 2667–2674. <https://doi.org/10.1021/es9035682>
 
--   Paktunc, D., Foster, A., & Laflamme, G. (2003). Speciation and characterization of arsenic in Ketza River mine tailings using X-ray absorption spectroscopy. Environmental Science & Technology, 37(10), 2067–2074. <https://doi.org/10.1021/es026185m>
+-   Paktunc, D., Foster, A., & Laflamme, G. (2003). Speciation and characterization of arsenic in Ketza River mine tailings using X-ray absorption spectroscopy. *Environmental Science & Technology*, 37(10), 2067–2074. <https://doi.org/10.1021/es026185m>
 
 -   American Chemical Society. (2002). Stabilization of available arsenic in highly contaminated mine tailings using iron. ACS Publications. <https://doi.org/10.1021/es020799>
 
 ### Journal of Geochemical Exploration
 
--   Kim, K., Lee, B., & Kim, K. (2011). Arsenic stabilization in mine tailings using nano-sized magnetite and zero valent iron with the enhancement of mobility by surface coating. Journal of Geochemical Exploration, 113, 124–129. <https://doi.org/10.1016/j.gexplo.2011.07.002>
+-   Kim, K., Lee, B., & Kim, K. (2011). Arsenic stabilization in mine tailings using nano-sized magnetite and zero valent iron with the enhancement of mobility by surface coating. *Journal of Geochemical Exploration*, 113, 124–129. <https://doi.org/10.1016/j.gexplo.2011.07.002>
 
 ### Proceedings of the National Academy of Sciences (PNAS)
 
--   Brown, G. E., Foster, A. L., & Ostergren, J. D. (1999). Mineral surfaces and bioavailability of heavy metals: A molecular-scale perspective. Proceedings of the National Academy of Sciences, 96(7), 3388–3395. <https://doi.org/10.1073/pnas.96.7.3388>
+-   Brown, G. E., Foster, A. L., & Ostergren, J. D. (1999). Mineral surfaces and bioavailability of heavy metals: A molecular-scale perspective. *Proceedings of the National Academy of Sciences*, 96(7), 3388–3395. <https://doi.org/10.1073/pnas.96.7.3388>
 
--   Nordstrom, D. K., & Alpers, C. N. (1999). Negative pH, efflorescent mineralogy, and consequences for environmental restoration at the Iron Mountain Superfund site, California. Proceedings of the National Academy of Sciences, 96(7), 3455–3462. <https://doi.org/10.1073/pnas.96.7.3455>
+-   Nordstrom, D. K., & Alpers, C. N. (1999). Negative pH, efflorescent mineralogy, and consequences for environmental restoration at the Iron Mountain Superfund site, California. *Proceedings of the National Academy of Sciences*, 96(7), 3455–3462. <https://doi.org/10.1073/pnas.96.7.3455>
 
 ### Narute Communications
 
--   Mihajlov, I., Mozumder, M. R. H., Bostick, B. C., Stute, M., Mailloux, B. J., Knappett, P. S. K., Choudhury, I., Ahmed, K. M., Schlosser, P., & Van Geen, A. (2020). Arsenic contamination of Bangladesh aquifers exacerbated by clay layers. Nature Communications, 11(1). <https://doi.org/10.1038/s41467-020-16104-z>
+-   Mihajlov, I., Mozumder, M. R. H., Bostick, B. C., Stute, M., Mailloux, B. J., Knappett, P. S. K., Choudhury, I., Ahmed, K. M., Schlosser, P., & Van Geen, A. (2020). Arsenic contamination of Bangladesh aquifers exacerbated by clay layers. *Nature Communications*, 11(1). <https://doi.org/10.1038/s41467-020-16104-z>
 
 ### Narute Communications Earth & Environment
 
--   Wu, M., Qi, C., Derrible, S., Choi, Y., Fourie, A., & Ok, Y. S. (2024). Regional and global hotspots of arsenic contamination of topsoil identified by deep learning. Communications Earth & Environment, 5(1). <https://doi.org/10.1038/s43247-023-01177-7>
+-   Wu, M., Qi, C., Derrible, S., Choi, Y., Fourie, A., & Ok, Y. S. (2024). Regional and global hotspots of arsenic contamination of topsoil identified by deep learning. *Communications Earth & Environment*, 5(1). <https://doi.org/10.1038/s43247-023-01177-7>
 
 ### Nature Scientific Reports
 
@@ -961,7 +984,7 @@ Pink Beam
 
 ### Nature Precedings
 
--   Rayne, S., & Forest, K. (2008). Potential impacts of tailings and tailings cover fertilization on arsenic mobility in surface and ground waters. Nature Precedings. <https://doi.org/10.1038/npre.2008.1740.1>
+-   Rayne, S., & Forest, K. (2008). Potential impacts of tailings and tailings cover fertilization on arsenic mobility in surface and ground waters. *Nature Precedings*. <https://doi.org/10.1038/npre.2008.1740.1>
 
 ### NPJ
 
@@ -969,16 +992,18 @@ Pink Beam
 
 ### Applied Geochemistry
 
--   Slowey, A. J., Johnson, S. B., Newville, M., & Brown, G. E. (2007). Speciation and colloid transport of arsenic from mine tailings. Applied Geochemistry, 22(9), 1884–1898. <https://doi.org/10.1016/j.apgeochem.2007.03.053>
+-   Bailey, A. S., Jamieson, H. E., & Radková, A. B. (2021). Geochemical characterization of dust from arsenic-bearing tailings, Giant Mine, Canada. *Applied Geochemistry*, 135, 105119. <https://doi.org/10.1016/j.apgeochem.2021.105119>
+
+-   Slowey, A. J., Johnson, S. B., Newville, M., & Brown, G. E. (2007). Speciation and colloid transport of arsenic from mine tailings. *Applied Geochemistry*, 22(9), 1884–1898. <https://doi.org/10.1016/j.apgeochem.2007.03.053>
 
 ### Geochimica et Cosmochimica Acta
 
--   Hammond, C. M., Root, R. A., Maier, R. M., & Chorover, J. (2020). Arsenic and iron speciation and mobilization during phytostabilization of pyritic mine tailings. Geochimica Et Cosmochimica Acta, 286, 306–323. <https://doi.org/10.1016/j.gca.2020.07.001>
+-   Hammond, C. M., Root, R. A., Maier, R. M., & Chorover, J. (2020). Arsenic and iron speciation and mobilization during phytostabilization of pyritic mine tailings. *Geochimica Et Cosmochimica Acta*, 286, 306–323. <https://doi.org/10.1016/j.gca.2020.07.001>
 
 ### Geochemical transactions
 
--   Foster, A. L., Ashley, R. P., & Rytuba, J. J. (2011). Arsenic species in weathering mine tailings and biogenic solids at the Lava Cap Mine Superfund Site, Nevada City, CA. Geochemical Transactions, 12(1). <https://doi.org/10.1186/1467-4866-12-1>
+-   Foster, A. L., Ashley, R. P., & Rytuba, J. J. (2011). Arsenic species in weathering mine tailings and biogenic solids at the Lava Cap Mine Superfund Site, Nevada City, CA. *Geochemical Transactions*, 12(1). <https://doi.org/10.1186/1467-4866-12-1>
 
 ### Journal of Environmental Quality
 
--   Rakotonimaro, T. V., Guittonny, M., Neculita, C. M., Trépanier, F., & Pépin, G. (2019). Evaluation of Arsenic Leaching Potential in Gold Mine Tailings Amended with Peat and Mine Drainage Treatment Sludge. Journal of Environmental Quality, 48(3), 735–745. <https://doi.org/10.2134/jeq2018.11.0392>
+-   Rakotonimaro, T. V., Guittonny, M., Neculita, C. M., Trépanier, F., & Pépin, G. (2019). Evaluation of Arsenic Leaching Potential in Gold Mine Tailings Amended with Peat and Mine Drainage Treatment Sludge. *Journal of Environmental Quality*, 48(3), 735–745. <https://doi.org/10.2134/jeq2018.11.0392>
