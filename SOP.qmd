@@ -117,6 +117,8 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 ::: panel-tabset
 ## **ALEC Analytes**
 
+The following is a table showing the groups of different elements they analyze at ALEC.
+
 ```{r}
 
 # Install if needed:
