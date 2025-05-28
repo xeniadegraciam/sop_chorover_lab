@@ -28,9 +28,11 @@ Department of Environmental Sciences\
 ::: {style="text-align: left; margin-top: 30px;"}
 *NOTES:*
 
--   *Here I included my lab notes when working at Chorover's lab. I kindly ask for your understanding if you notice any language mistakes, as English is not my native language. Thank you so much!*
+-   *Here I included my lab notes when working at Chorover's lab.*
 
 -   *This is an ongoing work and a gift for Rob, to give him some rest from repeating the same information every time someone joins the lab xD*
+
+-   *Warning: English is not my native language. My apologies for any language mistakes on these notes!*
 :::
 
 ------------------------------------------------------------------------
@@ -300,6 +302,8 @@ Equipment:
 
 Carbon/Nitrogen Analyzer- Shimadzu TOC-L (Total Organic Carbon) + TNM-L (Total Nitrogen)
 
+Sample prep:
+
 -   5 mL of the sample
 -   Nothing else is added to the sample
 :::
@@ -512,6 +516,7 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 -   Analyze -\> Search Peaks
 
 ![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
+
 :::
 
 # **MINERALOGY**
@@ -539,27 +544,53 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 
 ![](SOP_files/figures/clay_flow_usgs.gif){width="768"}
 
-## **Craig's Rasmussen Lab Computer procedure for X-ray Diffraction**
+## **Craig's Rasmussen Lab Computer procedure for powder X-ray Diffraction**
 
 This procedure applies if you analyze your samples at Craig Rasmussen's lab.
 
-Request permission from him before using their facilities.
+*Request permission from him before using their facilities. Also, this machine emits radiation so is always good to communicate when you are using it.*
 
-### **X’Pert Data Collector program:**
+**Sample prep**
 
--   Check the water level and the filler. Fill them with super clean water, such as UV Reverse Osmosis water.
+-   Find the Corundum (alpha-Al2O3) in the desiccator. Heat the Corundum in the oven for at least 1 hour at 550 Celsius. Let it refresh for 1 hour. Store the Corundum on the desiccator when all the work has finished.
+-` If using toxic samples, prepare them in the fume hood.
+-   Using the Agate Mortar (or the ball mill), mix 1.5 gram of your sample, with 0.23 g of Corundum (meaning 15% of your sample). Take notes of the mass of sample, and Corundum used for each one. You need these data to fit your results afterwards.
+-   Clean the mortar and sample holder with Ethanol in between samples.
+-     Load your samples
+
+
+**Start with the Log Notebook:**
+
+-   Check the tube counter and fill out the notebook log
+-   Add your name on it, and the samples you intent to run. At the end of your analyses, you have to add the tube counter number, so everyone knows how many each person used.
+
+**Water refill:**
+
+-   Check the water level and the filler on the back of the lab. Fill them with super clean water, such as UV Reverse Osmosis water. Craig buys gallons of that treated water, ask him to repay that amopunt of water with your projects budget.
+
+**Computer:**
+
+-   Username: XRDAdmin
+-   Password: braggX431
+
+**X’Pert Data Collector Software:**
+
 -   *Username: Craig*
 -   *Password: tippy*
 -   Connect to the instrument, and click ok for the message that comes in.
 -   Click on “Instruments Settings” -\> X-Ray -\> Tension: 45 kV -\> Current: 40 mA
 
-*NOTES:*
+***NOTES:***
 
 -   The yellow light on the machine means it is shooting X-rays. The sample analyzer is delicate. Do not touch the doors because they are sensitive.
 
--   When running samples during the Monsoon season, the Tension and Current to use in the software will be 20 kV and 10 mA, respectively. For the rest of the year, it is 30 kV and 10 mA, respectively. This is because of the shortage of electricity during Monsoons.
+-   When running samples during the Monsoon season, the Tension and Current to use in the software will be 20 kV and 10 mA, respectively. For the rest of the year, it is 45 kV and 40 mA, respectively. This is because of the shortage of electricity during Monsoons.
 
-**It takes around 1.5 hours per sample to run a Quantitative scan.**
+-   Them sample holder can take 15 samples per round of analyses.
+
+-   ***It takes around 1 hour and 45 minutes per sample to run a Quantitative scan.***
+
+
 
 ## **Full Pattern Summation with powdR package (Rockjock library)**
 
@@ -573,9 +604,7 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 
 -   Chipera, Steve J., and David L. Bish. 2002. “FULLPAT: A full-pattern quantitative analysis program for X-ray powder diffraction using measured and calculated patterns.” Journal of Applied Crystallography 35 (6): 744–49. [ ](https://doi.org/10.1107/S0021889802017405).
 
--   
-
-    2013. “Fitting Full X-Ray Diffraction Patterns for Quantitative Analysis: A Method for Readily Quantifying Crystalline and Disordered Phases.” Advances in Materials Physics and Chemistry 03 (01): 47–53. [ ](https://doi.org/10.4236/ampc.2013.31A007).
+-   2013. “Fitting Full X-Ray Diffraction Patterns for Quantitative Analysis: A Method for Readily Quantifying Crystalline and Disordered Phases.” Advances in Materials Physics and Chemistry 03 (01): 47–53. [ ](https://doi.org/10.4236/ampc.2013.31A007).
 
 -   Eberl, D. D. 2003. “User’s guide to ROCKJOCK - A program for determining quantitative mineralogy from powder X-ray diffraction data.” Boulder, CA: USGS.
 
@@ -598,7 +627,24 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 
 We use the X'pert HighScore program to analyze the data with Rietveld Refinement.
 
-***Work in progress...***
+
+<h3>📄 XRD Standard Operating Procedure</h3>
+
+The following document was made by Alexander Ederer and edited by Xenia to add some Reitvield analysis steps.
+
+<iframe 
+  src="SOP_files/pdfjs/web/viewer.html?file=../XRD_SOP_XeniasEdits.pdf" 
+  width="100%" 
+  height="700px" 
+  style="border: 1px solid #ccc;">
+</iframe>
+
+<p>
+If you can’t see the embedded PDF, 
+<a href="SOP_files/XRD_SOP_XeniasEdits.pdf" target="_blank">click here to view or download the XRD SOP</a>.
+</p>
+
+
 :::
 
 # **PHYSICAL PROPERTIES**
@@ -633,11 +679,33 @@ We use the X'pert HighScore program to analyze the data with Rietveld Refinement
 
 ## **Particle size distribution**
 
+
 This is done with the Laser Diffraction from *Marcel Schaap's Lab*.
 
 Request permission from him before using their facilities.
 
-***Work in progress...***
+Equipment: LS-13-320 Laser Diffraction Particle Size Analyzer
+
+
+
+<h3>📄 Laser PSA Instructions</h3>
+
+The following document was made by Mohaddese Effati and edited by Xenia for the analysis of mine tailings.
+
+<iframe 
+  src="SOP_files/pdfjs/web/viewer.html?file=../Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" 
+  width="100%" 
+  height="700px" 
+  style="border: 1px solid #ccc;">
+</iframe>
+
+<p>
+If you can’t see the embedded PDF, 
+<a href="SOP_files/Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" target="_blank">click here to view or download the Laser PSA Instructions</a>.
+</p>
+
+
+
 
 ## **Soil-Water Characteristics**
 
@@ -645,9 +713,19 @@ Request permission from him before using their facilities.
 
 ***Work in progress...***
 
+#### Sample prep
+
+-   Pack the HYPROP cells with sample at a bulk density equal to 2.2 g/cm3
+-   To get that bulk density, we need to fill 525 g of material inside the 250 mL metal ring. Bulk Density = Mass / Volume = 525 g / 250 mL = 2.1 g/mL
+-   Start filling the ring with sample until you get a height of 1 cm of material.
+-   Compact it very well, and scratch the surface a little in 2 directions, like a cross.
+-   Add another 1 cm layer of material, compact and scratch the surface. 
+-   Repeat again until you full 525 g of material inside the ring.
+
+
 ### **WP4-C**
 
-Dry part of the Soil-Water Characteristic Curve
+This is for the Dry part of the Soil-Water Characteristic Curve:
 
 #### **Bulk Density**
 
@@ -656,7 +734,7 @@ Dry part of the Soil-Water Characteristic Curve
 
 ### **Moisture % for dry part of the SWCC**
 
--   Weight each stainless-steel cup and insert that value on the cell ***“M_c”***. Put the name of each sample on the stainless-steel cup with a sharpy.
+-   Weight each stainless-steel cup and insert that value on the cell ***“M_c”***. Put the name of each sample on the stainless-steel cup with a Sharpy.
 -   Bring your dry soil samples and take around 4 grams of each and put each on the stainless-steel cup. We need to preselect specific moisture content values for the dry part of the curve we are interested in studying. - This values can be based on the approximate known dry water content for each site. For example, if you know from previous studies an approximation of the dry water content, then the values should be around that. In this case we are selecting: 1% (0.01), 5% (0.05), 10% (0.10), 15% (0.15) and 20% (0.20). Insert these values on the cell called ***“th_v_1”***.
 -   The spreadsheet will indicate on the cell ***“M_w_1”*** how much water you should add to each sample to get the desired moisture content.
 -   Add the amount of water to each sample, cover with the lead, cover it with aluminum foil, put all your samples in a Ziploc bag to avoid loss of moisture by evaporation. Put them in the fridge for 3 days.
@@ -680,6 +758,7 @@ Dry part of the Soil-Water Characteristic Curve
 -   After reading all the samples, put them in the oven with no lead for 24 hours at 105 Celsius.
 -   Read the dry weight of each sample after the 24 hours. Insert that value o the cell called ***“M_c_ds”***.
 -   Insert all this information into the Excel template made by Mohammadreza to get the water content equivalent to each matric potential
+
 :::
 
 # **EXPERIMENTS**
@@ -687,6 +766,7 @@ Dry part of the Soil-Water Characteristic Curve
 The thesis of previous Chorover students help a lot with figuring out the steps to take for your experiments.
 
 ::: panel-tabset
+
 ## **Flow-through reactive mini-column experiment results**
 
 Lauren Bozeman's thesis (2018) is good to learn this process.
@@ -995,6 +1075,8 @@ Pink Beam
 ### Applied Geochemistry
 
 -   Bailey, A. S., Jamieson, H. E., & Radková, A. B. (2021). Geochemical characterization of dust from arsenic-bearing tailings, Giant Mine, Canada. *Applied Geochemistry*, 135, 105119. <https://doi.org/10.1016/j.apgeochem.2021.105119>
+
+-   Fukushi, K., Aoyama, K., Yang, C., Kitadai, N., & Nakashima, S. (2013). Surface complexation modeling for sulfate adsorption on ferrihydrite consistent with in situ infrared spectroscopic observations. Applied Geochemistry, 36, 92–103. https://doi.org/10.1016/j.apgeochem.2013.06.013
 
 -   Slowey, A. J., Johnson, S. B., Newville, M., & Brown, G. E. (2007). Speciation and colloid transport of arsenic from mine tailings. *Applied Geochemistry*, 22(9), 1884–1898. <https://doi.org/10.1016/j.apgeochem.2007.03.053>
 
