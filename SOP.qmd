@@ -516,7 +516,6 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 -   Analyze -\> Search Peaks
 
 ![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
-
 :::
 
 # **MINERALOGY**
@@ -529,7 +528,7 @@ Cite the database as: *Downs, R.T. and Hall-Wallace, M. (2003) The American Mine
 ## **Sample prep for powder XRD with Corundum**
 
 -   Heat the Corundum (Aluminum Oxide) in the oven for 3 hours at 550 Celsius. The fume hood from *Sam Rathke (srathke\@arizona.edu)* located at 503 lab works well for this.
--   Use 5 grams of your sample and add 10% of that weight of Corundum (0.05 g).
+-   Use 1.5 gram of your sample, with 0.23 g of Corundum (meaning 15% of your sample's weight).
 -   Use the ball mill to shake your sample with Corundum for 3 minutes.
 -   Clean the ball mill between samples with Ethanol.
 -   Then shake the ball mill with just Sand for another 3 minutes.
@@ -550,47 +549,63 @@ This procedure applies if you analyze your samples at Craig Rasmussen's lab.
 
 *Request permission from him before using their facilities. Also, this machine emits radiation so is always good to communicate when you are using it.*
 
-**Sample prep**
-
--   Find the Corundum (alpha-Al2O3) in the desiccator. Heat the Corundum in the oven for at least 1 hour at 550 Celsius. Let it refresh for 1 hour. Store the Corundum on the desiccator when all the work has finished.
--` If using toxic samples, prepare them in the fume hood.
--   Using the Agate Mortar (or the ball mill), mix 1.5 gram of your sample, with 0.23 g of Corundum (meaning 15% of your sample). Take notes of the mass of sample, and Corundum used for each one. You need these data to fit your results afterwards.
--   Clean the mortar and sample holder with Ethanol in between samples.
--     Load your samples
-
-
-**Start with the Log Notebook:**
-
--   Check the tube counter and fill out the notebook log
--   Add your name on it, and the samples you intent to run. At the end of your analyses, you have to add the tube counter number, so everyone knows how many each person used.
-
-**Water refill:**
-
--   Check the water level and the filler on the back of the lab. Fill them with super clean water, such as UV Reverse Osmosis water. Craig buys gallons of that treated water, ask him to repay that amopunt of water with your projects budget.
-
-**Computer:**
-
--   Username: XRDAdmin
--   Password: braggX431
-
-**X’Pert Data Collector Software:**
-
--   *Username: Craig*
--   *Password: tippy*
--   Connect to the instrument, and click ok for the message that comes in.
--   Click on “Instruments Settings” -\> X-Ray -\> Tension: 45 kV -\> Current: 40 mA
-
 ***NOTES:***
 
 -   The yellow light on the machine means it is shooting X-rays. The sample analyzer is delicate. Do not touch the doors because they are sensitive.
 
 -   When running samples during the Monsoon season, the Tension and Current to use in the software will be 20 kV and 10 mA, respectively. For the rest of the year, it is 45 kV and 40 mA, respectively. This is because of the shortage of electricity during Monsoons.
 
--   Them sample holder can take 15 samples per round of analyses.
+-   The sample holder can take 15 samples per round of analyses.
 
 -   ***It takes around 1 hour and 45 minutes per sample to run a Quantitative scan.***
 
+### **Sample prep**
 
+-   Find the Corundum (alpha-Al2O3) in the desiccator. Heat the Corundum in the oven for at least 1 hour at 550 Celsius. Let it refresh for 1 hour. Store the Corundum on the desiccator when all the work has finished. -\`If using toxic samples, prepare them in the fume hood.
+-   Using the Agate Mortar (or the ball mill), mix 1.5 gram of your sample, with 0.23 g of Corundum (*meaning 15% of your sample*). Take notes of the mass of sample, and Corundum used for each one. You need these data to fit your results afterwards.
+-   Clean the mortar and sample holder with Ethanol in between samples.
+-   Load your samples on the rings
+-   Overload a bit the ring and compress it. (*Each ring will consume approx. 1.5 grams of your sample*).
+-   Write your sample's ID with a Sharpy over the ring.
+
+### ***Start set up***
+
+**Log Notebook:**
+
+-   Check the tube counter and fill out the notebook log.
+-   Got to: System Maintainance -\> Tube Counters -\> TOTAL
+-   Take note on the before and after that number.
+-   Add your name on it, and the samples you intent to run. At the end of your analyses, you have to add the tube counter number, so everyone knows how many each person used.
+
+**Water refill:**
+
+-   Check the water level and the filler on the back of the lab. Fill them with super clean water, such as UV Reverse Osmosis water. Craig buys gallons of that treated water, ask him to repay the amount of water you used with your project's budget.
+
+**Computer:**
+
+-   *Username: XRDAdmin*
+-   *Password: braggX431*
+
+**X’Pert Data Collector Software:**
+
+-   *Username: Craig*
+-   *Password: tippy*
+-   Connect to the instrument, and click ok for the message that comes in.
+-   Click on “Instruments Settings” -\> X-Ray -\> Tension: 45 kV -\> Current: 40 mA -\> Apply (*you'll see the tension numbers changing on the machine*)
+
+**Creating an analysis program for your samples**
+
+-   File -\> New Program -\> Sample Changer Batch -\> OK -\> Insert -\> Parkash 5.70 -\> Change The Folder -\> New Folder -\> Rob Root (*if you are part of Chorover lab, put all your data inside Rob Root's folder, with your name*) -\> Change the file name and put your sample's ID -\> Fill out the Positions (*#1, #2...*). Do it 15 times because that is the maximum of samples the sample holder can get per time.
+-   Hit the Disk button 💾 -\> Save Program As -\> Use "*Craig*" as the user.
+
+*After loading your samples to the machine*
+
+-   Measure -\> Program -\> Select the program you just created for your samples -\> OK
+-   Bring a USB to extract your data.
+-   The files will be on .XRDML format.
+-   You can analyze that data with RockJok or X'pert. Check out the other sections of this repository to know how to analyze them.
+
+***After finished, change back the current and tension to 20kV and 10 mA to protect the machine. NEVER turn it off.***
 
 ## **Full Pattern Summation with powdR package (Rockjock library)**
 
@@ -604,7 +619,9 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 
 -   Chipera, Steve J., and David L. Bish. 2002. “FULLPAT: A full-pattern quantitative analysis program for X-ray powder diffraction using measured and calculated patterns.” Journal of Applied Crystallography 35 (6): 744–49. [ ](https://doi.org/10.1107/S0021889802017405).
 
--   2013. “Fitting Full X-Ray Diffraction Patterns for Quantitative Analysis: A Method for Readily Quantifying Crystalline and Disordered Phases.” Advances in Materials Physics and Chemistry 03 (01): 47–53. [ ](https://doi.org/10.4236/ampc.2013.31A007).
+-   
+
+    2013. “Fitting Full X-Ray Diffraction Patterns for Quantitative Analysis: A Method for Readily Quantifying Crystalline and Disordered Phases.” Advances in Materials Physics and Chemistry 03 (01): 47–53. [ ](https://doi.org/10.4236/ampc.2013.31A007).
 
 -   Eberl, D. D. 2003. “User’s guide to ROCKJOCK - A program for determining quantitative mineralogy from powder X-ray diffraction data.” Boulder, CA: USGS.
 
@@ -627,24 +644,15 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 
 We use the X'pert HighScore program to analyze the data with Rietveld Refinement.
 
-
 <h3>📄 XRD Standard Operating Procedure</h3>
 
 The following document was made by Alexander Ederer and edited by Xenia to add some Reitvield analysis steps.
 
-<iframe 
-  src="SOP_files/pdfjs/web/viewer.html?file=../XRD_SOP_XeniasEdits.pdf" 
-  width="100%" 
-  height="700px" 
-  style="border: 1px solid #ccc;">
+<iframe src="SOP_files/pdfjs/web/viewer.html?file=../XRD_SOP_XeniasEdits.pdf" width="100%" height="700px" style="border: 1px solid #ccc;">
+
 </iframe>
 
-<p>
-If you can’t see the embedded PDF, 
-<a href="SOP_files/XRD_SOP_XeniasEdits.pdf" target="_blank">click here to view or download the XRD SOP</a>.
-</p>
-
-
+<p>If you can’t see the embedded PDF, <a href="SOP_files/XRD_SOP_XeniasEdits.pdf" target="_blank">click here to view or download the XRD SOP</a>.</p>
 :::
 
 # **PHYSICAL PROPERTIES**
@@ -679,33 +687,21 @@ If you can’t see the embedded PDF,
 
 ## **Particle size distribution**
 
-
 This is done with the Laser Diffraction from *Marcel Schaap's Lab*.
 
 Request permission from him before using their facilities.
 
 Equipment: LS-13-320 Laser Diffraction Particle Size Analyzer
 
-
-
 <h3>📄 Laser PSA Instructions</h3>
 
 The following document was made by Mohaddese Effati and edited by Xenia for the analysis of mine tailings.
 
-<iframe 
-  src="SOP_files/pdfjs/web/viewer.html?file=../Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" 
-  width="100%" 
-  height="700px" 
-  style="border: 1px solid #ccc;">
+<iframe src="SOP_files/pdfjs/web/viewer.html?file=../Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" width="100%" height="700px" style="border: 1px solid #ccc;">
+
 </iframe>
 
-<p>
-If you can’t see the embedded PDF, 
-<a href="SOP_files/Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" target="_blank">click here to view or download the Laser PSA Instructions</a>.
-</p>
-
-
-
+<p>If you can’t see the embedded PDF, <a href="SOP_files/Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" target="_blank">click here to view or download the Laser PSA Instructions</a>.</p>
 
 ## **Soil-Water Characteristics**
 
@@ -719,9 +715,8 @@ If you can’t see the embedded PDF,
 -   To get that bulk density, we need to fill 525 g of material inside the 250 mL metal ring. Bulk Density = Mass / Volume = 525 g / 250 mL = 2.1 g/mL
 -   Start filling the ring with sample until you get a height of 1 cm of material.
 -   Compact it very well, and scratch the surface a little in 2 directions, like a cross.
--   Add another 1 cm layer of material, compact and scratch the surface. 
+-   Add another 1 cm layer of material, compact and scratch the surface.
 -   Repeat again until you full 525 g of material inside the ring.
-
 
 ### **WP4-C**
 
@@ -758,7 +753,6 @@ This is for the Dry part of the Soil-Water Characteristic Curve:
 -   After reading all the samples, put them in the oven with no lead for 24 hours at 105 Celsius.
 -   Read the dry weight of each sample after the 24 hours. Insert that value o the cell called ***“M_c_ds”***.
 -   Insert all this information into the Excel template made by Mohammadreza to get the water content equivalent to each matric potential
-
 :::
 
 # **EXPERIMENTS**
@@ -766,7 +760,6 @@ This is for the Dry part of the Soil-Water Characteristic Curve:
 The thesis of previous Chorover students help a lot with figuring out the steps to take for your experiments.
 
 ::: panel-tabset
-
 ## **Flow-through reactive mini-column experiment results**
 
 Lauren Bozeman's thesis (2018) is good to learn this process.
@@ -800,7 +793,6 @@ PCA with Larch
 Pre-edge fitting
 
 -   13.6. Fit Examples — xraylarch 2025.2.0 documentation. (n.d.). <https://xraypy.github.io/xraylarch/fitting_examples.html#example-2-fitting-xanes-pre-edge-peaks>
-
 
 ### Synchrotron
 
@@ -875,15 +867,15 @@ datatable(
 
 -   Anzures, B. A., Parman, S. W., Milliken, R. E., Lanzirotti, A., & Newville, M. (2019). XANES spectroscopy of sulfides stable under reducing conditions. *American Mineralogist*, 105(3), 375–381. <https://doi.org/10.2138/am-2020-7146>
 
-*The SI of this paper has the Sulfur species calculation process with Gaussian curve fitting* 
+*The SI of this paper has the Sulfur species calculation process with Gaussian curve fitting*
 
-- Nash, W. M., Smythe, D. J., & Wood, B. J. (2018). Compositional and temperature effects on sulfur speciation and solubility in silicate melts. Earth and Planetary Science Letters, 507, 187–198. <https://doi.org/10.1016/j.epsl.2018.12.006>
+-   Nash, W. M., Smythe, D. J., & Wood, B. J. (2018). Compositional and temperature effects on sulfur speciation and solubility in silicate melts. Earth and Planetary Science Letters, 507, 187–198. <https://doi.org/10.1016/j.epsl.2018.12.006>
 
 -   Langman, J. B., Blowes, D. W., Veeramani, H., Wilson, D., Smith, L., Sego, D. C., & Paktunc, D. (2015). The mineral and aqueous phase evolution of sulfur and nickel with weathering of pyrrhotite in a low sulfide, granitic waste rock. *Chemical Geology*, *401*, 169–179. <https://doi.org/10.1016/j.chemgeo.2015.02.024>
 
-*Fitting with Gaussian Curve Fitting (GCF)* 
+*Fitting with Gaussian Curve Fitting (GCF)*
 
-- Manceau, A., & Nagy, K. L. (2012). Quantitative analysis of sulfur functional groups in natural organic matter by XANES spectroscopy. *Geochimica Et Cosmochimica Acta*, 99, 206–223. <https://doi.org/10.1016/j.gca.2012.09.033>
+-   Manceau, A., & Nagy, K. L. (2012). Quantitative analysis of sulfur functional groups in natural organic matter by XANES spectroscopy. *Geochimica Et Cosmochimica Acta*, 99, 206–223. <https://doi.org/10.1016/j.gca.2012.09.033>
 
 *Alunite pre-edge Iron Mountain paper*
 
@@ -901,7 +893,7 @@ datatable(
 
 **Iron K-edge and L(III) edge analysis**
 
--   Nakada, R., Sato, M., Ushioda, M., Tamura, Y., & Yamamoto, S. (2019). Variation of iron species in plagioclase crystals by X‐ray absorption fine Structure analysis.* Geochemistry Geophysics Geosystems*, 20(11), 5319–5333. <https://doi.org/10.1029/2018gc008131>
+-   Nakada, R., Sato, M., Ushioda, M., Tamura, Y., & Yamamoto, S. (2019). Variation of iron species in plagioclase crystals by X‐ray absorption fine Structure analysis.\* Geochemistry Geophysics Geosystems\*, 20(11), 5319–5333. <https://doi.org/10.1029/2018gc008131>
 
 "*Iron K-edge XANES has a pre-edge feature which shows the oxidation state and the coordination environment of an Fe atom. The pre-edge peak analysis was performed following the previous studies (Giuli et al., 2002; Nakada et al., 2014; Wilke et al., 2001).*"
 
@@ -973,7 +965,6 @@ Schwertmannite and Jarosite in AMD
 
 ## **Chorover's Lab**
 
-
 -   Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., & Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. *Geoderma*, 432, 116377. <https://doi.org/10.1016/j.geoderma.2023.116377>
 
 -   Root, R. A., & Chorover, J. (2022). Molecular speciation controls arsenic and lead bioaccessibility in fugitive dusts from sulfidic mine tailings. *Environmental Science Processes & Impacts*, 25(2), 288–303. <https://doi.org/10.1039/d2em00182a>
@@ -984,7 +975,7 @@ Schwertmannite and Jarosite in AMD
 
 -   Hammond, C. M., Root, R. A., Maier, R. M., & Chorover, J. (2020). Arsenic and iron speciation and mobilization during phytostabilization of pyritic mine tailings. *Geochimica Et Cosmochimica Acta*, 286, 306–323. <https://doi.org/10.1016/j.gca.2020.07.001>
 
--  Thomas, A. N., Root, R. A., Lantz, R. C., Sáez, A. E., & Chorover, J. (2018). Oxidative Weathering Decreases Bioaccessibility of Toxic Metal(loid)s in PM10 Emissions From Sulfide Mine Tailings. *GeoHealth*, 2(4), 118–138. <https://doi.org/10.1002/2017gh000118>
+-   Thomas, A. N., Root, R. A., Lantz, R. C., Sáez, A. E., & Chorover, J. (2018). Oxidative Weathering Decreases Bioaccessibility of Toxic Metal(loid)s in PM10 Emissions From Sulfide Mine Tailings. *GeoHealth*, 2(4), 118–138. <https://doi.org/10.1002/2017gh000118>
 
 -   Hammond, C. M., Root, R. A., Maier, R. M., & Chorover, J. (2017). Mechanisms of Arsenic Sequestration by Prosopis juliflora during the Phytostabilization of Metalliferous Mine Tailings. *Environmental Science & Technology*, 52(3), 1156–1164. <https://doi.org/10.1021/acs.est.7b04363>
 
@@ -999,7 +990,6 @@ Schwertmannite and Jarosite in AMD
 -   Root, R. A., Dixit, S., Campbell, K. M., Jew, A. D., Hering, J. G., & O’Day, P. A. (2007). Arsenic sequestration by sorption processes in high-iron sediments. *Geochimica Et Cosmochimica Acta*, 71(23), 5782–5803. <https://doi.org/10.1016/j.gca.2007.04.038>
 
 -   Thompson, A., Chadwick, O. A., Boman, S., & Chorover, J. (2006). Colloid mobilization during soil iron redox oscillations. *Environmental Science & Technology*, 40(18), 5743–5749. <https://doi.org/10.1021/es061203b>
-
 
 ## **By Journal**
 
@@ -1096,7 +1086,9 @@ Schwertmannite and Jarosite in AMD
 -   Ji, H., Zhang, J., Zhao, Y., Huang, H., Ma, Y., Liang, D., Chen, F., Huo, H., Wang, S., & Xie, T. (2025). Heavy metal pollution migration and its ecological impact on microbial communities in the karst region of Guangxi. *Scientific Reports*, 15(1). <https://doi.org/10.1038/s41598-025-98809-z>
 
 -   Dradrach, A., Nowosad, K., Kozak, B., & Karczewska, A. (2024). Arsenic uptake by Agrostis capillaris, as related to its genotypic diversity in the area of historical ore mining and processing. *Scientific Reports*, 14(1). <https://doi.org/10.1038/s41598-024-63830-1>
-*
+
+-   
+
 -   Wang, W., Xue, J., Zhang, L., He, M., & You, J. (2024). Extraction of heavy metals from copper tailings by ryegrass (Lolium perenne L.) with the assistance of degradable chelating agents. *Scientific Reports*, 14(1). <https://doi.org/10.1038/s41598-024-58486-w>
 
 -   Pakostova, E., Hilger, D. M., Blowes, D. W., & Ptacek, C. J. (2023). Microbial processes with the potential to mobilize As from a circumneutral-pH mixture of flotation and roaster tailings. *Scientific Reports*, 13(1). <https://doi.org/10.1038/s41598-023-50435-3>
@@ -1127,10 +1119,7 @@ Schwertmannite and Jarosite in AMD
 
 -   Little, A. J., Sivarajah, B., Frendo, C., Sprague, D. D., Smol, J. P., & Vermaire, J. C. (2019). The impacts of century-old, arsenic-rich mine tailings on multi-trophic level biological assemblages in lakes from Cobalt (Ontario, Canada). *The Science of the Total Environment*, 709, 136212. <https://doi.org/10.1016/j.scitotenv.2019.136212>
 
-
 ### Water Research
 
 -   Seidel, H., Görsch, K., Amstätter, K., & Mattusch, J. (2005). Immobilization of arsenic in a tailings material by ferrous iron treatment. *Water Research*, 39(17), 4073–4082. <https://doi.org/10.1016/j.watres.2005.08.001>
-
-
 :::
