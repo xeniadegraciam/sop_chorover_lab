@@ -111,7 +111,20 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 -   Look for the Geochemist Workbench Program.
 -   In case you need access to the VPN, follow the next link to Download, Install, and Log in to the VPN on your computer (this will only let you log in if you are outside campus; I don't think it will let you log in if you are on the on-campus network).
 
-![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.PNG)
+![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.png)
+
+
+## **RS Key for weight printing on the balance**
+
+- Download the RS Key program: [Download here!](https://weighing.andonline.com/winct/)
+- Set up your interface in the same way as in this image:
+
+![RS Key set up](SOP_files/figures/rskey-1.png)
+
+- Check on your computer devices (Bluetooth and devices -> Devices), for the port com number, and use that number for the RS Key program.
+
+![Com port on devices information](SOP_files/figures/com-port.png)
+
 :::
 
 # **ANALYTICAL PROCEDURES**
@@ -321,23 +334,6 @@ Download the Orange Book [here](https://xdb.lbl.gov/)
 The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.
 
 ::: panel-tabset
-## **Databases**
-
-### International XAFS Database Portal of the Japanese XAFS Society
-
-Masashi Ishii, <https://ixdb.jxafs.org/>, established in 2024.
-
-Reference:
-
-Ishii, M., Matsuda, A., Sakamoto, K., Yamashita, S., Niwa, Y. & Inada, Y. (2025). J. Synchrotron Rad. 32, <https://doi.org/10.1107/S1600577525002206>.
-
-### Solid Spectroscopy Hosting Architecture of Databases and Expertise
-
-<https://www.sshade.eu/>
-
-### International X-ray Absorption Society (IXAS) Data Library
-
-<https://xaslib.xrayabsorption.org/elem/>
 
 ## **XAS**
 
@@ -485,6 +481,24 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
 
 -   We can plot that data with **“Plot components from fit sequence”**.
 
+### **Databases**
+
+#### International XAFS Database Portal of the Japanese XAFS Society
+
+Masashi Ishii, <https://ixdb.jxafs.org/>, established in 2024.
+
+Reference:
+
+Ishii, M., Matsuda, A., Sakamoto, K., Yamashita, S., Niwa, Y. & Inada, Y. (2025). J. Synchrotron Rad. 32, <https://doi.org/10.1107/S1600577525002206>.
+
+#### Solid Spectroscopy Hosting Architecture of Databases and Expertise
+
+<https://www.sshade.eu/>
+
+#### International X-ray Absorption Society (IXAS) Data Library
+
+<https://xaslib.xrayabsorption.org/elem/>
+
 ## **FTIR**
 
 Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectrometer**](https://choroverlab.arizona.edu/Equipment%20pages/FTIR_bench.html)
@@ -525,23 +539,6 @@ You can get the .CIFF files for minerals at the [RUFF database](https://rruff.ge
 Cite the database as: *Downs, R.T. and Hall-Wallace, M. (2003) The American Mineralogist Crystal Structure Database. American Mineralogist 88, 247-250.* [Link to paper](http://geo.arizona.edu/xtal/group/pdf/am88_247.pdf)
 
 ::: panel-tabset
-## **Sample prep for powder XRD with Corundum**
-
--   Heat the Corundum (Aluminum Oxide) in the oven for 3 hours at 550 Celsius. The fume hood from *Sam Rathke (srathke\@arizona.edu)* located at 503 lab works well for this.
--   Use 1.5 gram of your sample, with 0.23 g of Corundum (meaning 15% of your sample's weight).
--   Use the ball mill to shake your sample with Corundum for 3 minutes.
--   Clean the ball mill between samples with Ethanol.
--   Then shake the ball mill with just Sand for another 3 minutes.
--   Then proceed to shake your following sample.
--   If you are **not** analyzing your samples yourself, you can send them to the *Chemistry & Biochemistry Lab (Andrei Astachkine: andrei\@arizona.edu)*
-
-## **Clay Mineral Identification Flow Diagram**
-
-The following chart from USGS helps identify the different clays using the separation in Armstrong. You can download that chart on the following link. *(I recommend PDF format for more readability)*.
-
-USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
-
-![](SOP_files/figures/clay_flow_usgs.gif){width="768"}
 
 ## **Craig's Rasmussen Lab Computer procedure for powder X-ray Diffraction**
 
@@ -596,7 +593,7 @@ This procedure applies if you analyze your samples at Craig Rasmussen's lab.
 **Creating an analysis program for your samples**
 
 -   File -\> New Program -\> Sample Changer Batch -\> OK -\> Insert -\> Parkash 5.70 -\> Change The Folder -\> New Folder -\> Rob Root (*if you are part of Chorover lab, put all your data inside Rob Root's folder, with your name*) -\> Change the file name and put your sample's ID -\> Fill out the Positions (*#1, #2...*). Do it 15 times because that is the maximum of samples the sample holder can get per time.
--   Hit the Disk button 💾 -\> Save Program As -\> Use "*Craig*" as the user.
+-   Hit the Disk button -\> Save Program As -\> Use "*Craig*" as the user.
 
 *After loading your samples to the machine*
 
@@ -650,9 +647,31 @@ The following document was made by Alexander Ederer and edited by Xenia to add s
 
 <iframe src="SOP_files/pdfjs/web/viewer.html?file=../XRD_SOP_XeniasEdits.pdf" width="100%" height="700px" style="border: 1px solid #ccc;">
 
-</iframe>
+::: {style="text-align: center;"}
+<embed src="SOP_files/XRD_SOP_XeniasEdits.pdf" width="100%" height="700px" type="application/pdf">
+:::
 
-<p>If you can’t see the embedded PDF, <a href="SOP_files/XRD_SOP_XeniasEdits.pdf" target="_blank">click here to view or download the XRD SOP</a>.</p>
+
+If you can’t see the embedded PDF, 📎 [click here to view or download the XRD SOP.](SOP_files/XRD_SOP_XeniasEdits.pdf)
+
+## **Sample prep for powder XRD with Corundum**
+
+-   Heat the Corundum (Aluminum Oxide) in the oven for 3 hours at 550 Celsius. The fume hood from *Sam Rathke (srathke\@arizona.edu)* located at 503 lab works well for this.
+-   Use 1.5 gram of your sample, with 0.23 g of Corundum (meaning 15% of your sample's weight).
+-   Use the ball mill to shake your sample with Corundum for 3 minutes.
+-   Clean the ball mill between samples with Ethanol.
+-   Then shake the ball mill with just Sand for another 3 minutes.
+-   Then proceed to shake your following sample.
+-   If you are **not** analyzing your samples yourself, you can send them to the *Chemistry & Biochemistry Lab (Andrei Astachkine: andrei\@arizona.edu)*
+
+## **Clay Mineral Identification Flow Diagram**
+
+The following chart from USGS helps identify the different clays using the separation in Armstrong. You can download that chart on the following link. *(I recommend PDF format for more readability)*.
+
+USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
+
+![](SOP_files/figures/clay_flow_usgs.gif){width="768"}
+
 :::
 
 # **PHYSICAL PROPERTIES**
@@ -1087,7 +1106,6 @@ Schwertmannite and Jarosite in AMD
 
 -   Dradrach, A., Nowosad, K., Kozak, B., & Karczewska, A. (2024). Arsenic uptake by Agrostis capillaris, as related to its genotypic diversity in the area of historical ore mining and processing. *Scientific Reports*, 14(1). <https://doi.org/10.1038/s41598-024-63830-1>
 
--   
 
 -   Wang, W., Xue, J., Zhang, L., He, M., & You, J. (2024). Extraction of heavy metals from copper tailings by ryegrass (Lolium perenne L.) with the assistance of degradable chelating agents. *Scientific Reports*, 14(1). <https://doi.org/10.1038/s41598-024-58486-w>
 
