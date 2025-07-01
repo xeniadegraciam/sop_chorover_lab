@@ -113,18 +113,16 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 
 ![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.png)
 
-
 ## **RS Key for weight printing on the balance**
 
-- Download the RS Key program: [Download here!](https://weighing.andonline.com/winct/)
-- Set up your interface in the same way as in this image:
+-   Download the RS Key program: [Download here!](https://weighing.andonline.com/winct/)
+-   Set up your interface in the same way as in this image:
 
 ![RS Key set up](SOP_files/figures/rskey-1.png)
 
-- Check on your computer devices (Bluetooth and devices -> Devices), for the port com number, and use that number for the RS Key program.
+-   Check on your computer devices (Bluetooth and devices -\> Devices), for the port com number, and use that number for the RS Key program.
 
 ![Com port on devices information](SOP_files/figures/com-port.png)
-
 :::
 
 # **ANALYTICAL PROCEDURES**
@@ -334,7 +332,6 @@ Download the Orange Book [here](https://xdb.lbl.gov/)
 The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.
 
 ::: panel-tabset
-
 ## **XAS**
 
 ### LARCH Python package
@@ -529,7 +526,7 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 -   Auto Baseline Correction
 -   Analyze -\> Search Peaks
 
-![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
+![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.png)
 :::
 
 # **MINERALOGY**
@@ -539,7 +536,6 @@ You can get the .CIFF files for minerals at the [RUFF database](https://rruff.ge
 Cite the database as: *Downs, R.T. and Hall-Wallace, M. (2003) The American Mineralogist Crystal Structure Database. American Mineralogist 88, 247-250.* [Link to paper](http://geo.arizona.edu/xtal/group/pdf/am88_247.pdf)
 
 ::: panel-tabset
-
 ## **Craig's Rasmussen Lab Computer procedure for powder X-ray Diffraction**
 
 This procedure applies if you analyze your samples at Craig Rasmussen's lab.
@@ -645,14 +641,7 @@ We use the X'pert HighScore program to analyze the data with Rietveld Refinement
 
 The following document was made by Alexander Ederer and edited by Xenia to add some Reitvield analysis steps.
 
-<iframe src="SOP_files/pdfjs/web/viewer.html?file=../XRD_SOP_XeniasEdits.pdf" width="100%" height="700px" style="border: 1px solid #ccc;">
-
-::: {style="text-align: center;"}
-<embed src="SOP_files/XRD_SOP_XeniasEdits.pdf" width="100%" height="700px" type="application/pdf">
-:::
-
-
-If you can’t see the embedded PDF, 📎 [click here to view or download the XRD SOP.](SOP_files/XRD_SOP_XeniasEdits.pdf)
+📎 [click here to view or download the XRD SOP.](SOP_files/XRD_SOP_XeniasEdits.pdf)
 
 ## **Sample prep for powder XRD with Corundum**
 
@@ -716,11 +705,7 @@ Equipment: LS-13-320 Laser Diffraction Particle Size Analyzer
 
 The following document was made by Mohaddese Effati and edited by Xenia for the analysis of mine tailings.
 
-<iframe src="SOP_files/pdfjs/web/viewer.html?file=../Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" width="100%" height="700px" style="border: 1px solid #ccc;">
-
-</iframe>
-
-<p>If you can’t see the embedded PDF, <a href="SOP_files/Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" target="_blank">click here to view or download the Laser PSA Instructions</a>.</p>
+<a href="SOP_files/Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" target="_blank">click here to view or download the Laser PSA Instructions</a>.</p>
 
 ## **Soil-Water Characteristics**
 
@@ -1105,7 +1090,6 @@ Schwertmannite and Jarosite in AMD
 -   Ji, H., Zhang, J., Zhao, Y., Huang, H., Ma, Y., Liang, D., Chen, F., Huo, H., Wang, S., & Xie, T. (2025). Heavy metal pollution migration and its ecological impact on microbial communities in the karst region of Guangxi. *Scientific Reports*, 15(1). <https://doi.org/10.1038/s41598-025-98809-z>
 
 -   Dradrach, A., Nowosad, K., Kozak, B., & Karczewska, A. (2024). Arsenic uptake by Agrostis capillaris, as related to its genotypic diversity in the area of historical ore mining and processing. *Scientific Reports*, 14(1). <https://doi.org/10.1038/s41598-024-63830-1>
-
 
 -   Wang, W., Xue, J., Zhang, L., He, M., & You, J. (2024). Extraction of heavy metals from copper tailings by ryegrass (Lolium perenne L.) with the assistance of degradable chelating agents. *Scientific Reports*, 14(1). <https://doi.org/10.1038/s41598-024-58486-w>
 
