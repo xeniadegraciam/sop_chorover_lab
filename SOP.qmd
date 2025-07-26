@@ -257,6 +257,12 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 
 ![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
 
+
+**HNO3 at 1% is prepared:**
+
+- 10 mL of UHP HNO3 from the purchased bottle
+- 990 mL of DI water
+
 ## **Ion Chromatography (Anions)**
 
 Equipment:
