@@ -1,19 +1,21 @@
 ---
 title: "Lab Procedures & Notes"
 author: "Xenia De Gracia Medina"
-date: today
+date: last-modified
 format:
   html:
     toc: true
     number-sections: true
-    toc-depth: 3
+    toc-depth: 6
     theme: cosmo
     fontsize: 1.3em
     css: styles.css # optional, if you want to customize fonts later
+    date-format: "dddd, MMMM D, YYYY HH:mm:ss"  # Optional formatting
 execute:
   echo: false   # Hide all R code
   warning: false # Hide warnings
   message: false # Hide startup messages
+
 ---
 
 ::: {style="text-align: center; margin-top: 30px;"}
