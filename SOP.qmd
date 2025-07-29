@@ -11,6 +11,15 @@ format:
     fontsize: 1.3em
     css: styles.css # optional, if you want to customize fonts later
     date-format: "dddd, MMMM D, YYYY HH:mm:ss"  # Optional formatting
+website:
+  search: 
+    location: navbar
+    type: textbox
+    keyboard-shortcut: ["?", "H", "F"]
+    copy-button: true
+    show-item-context: true
+language: 
+  search-text-placeholder: Search
 execute:
   echo: false   # Hide all R code
   warning: false # Hide warnings
@@ -916,6 +925,19 @@ datatable(
 **LMFIT Python tool**
 
 -   <https://lmfit.github.io/lmfit-py/>
+
+### **Scorodite**
+
+
+- Tabelin, C. B., Corpuz, R. D., Igarashi, T., Villacorte-Tabelin, M., Ito, M., & Hiroyoshi, N. (2019). Hematite-catalysed scorodite formation as a novel arsenic immobilisation strategy under ambient conditions. **Chemosphere**, 233, 946–953. https://doi.org/10.1016/j.chemosphere.2019.06.020
+
+  - 
+
+- Zhu, X., Nordstrom, D. K., McCleskey, R. B., Wang, R., Lu, X., Li, S., & Teng, H. H. (2019). On the thermodynamics and kinetics of scorodite dissolution. *Geochimica Et Cosmochimica Acta*, *265*, 468–477. https://doi.org/10.1016/j.gca.2019.09.012
+
+  - The effect of crystal size on solubility. It is well-known that, due to the Gibbs-Thompson effect, solubility of small particles increases with increasing curvature (reciprocal of particle radius) of the dissolving grains. 
+  
+  - Natural scorodite is usually small (mostly nano-sized).
 
 ## **Rob's suggestions**
 
