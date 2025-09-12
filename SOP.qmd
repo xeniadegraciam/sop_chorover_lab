@@ -24,7 +24,6 @@ execute:
   echo: false   # Hide all R code
   warning: false # Hide warnings
   message: false # Hide startup messages
-
 ---
 
 ::: {style="text-align: center; margin-top: 30px;"}
@@ -268,11 +267,10 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 
 ![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
 
-
 **HNO3 at 1% is prepared:**
 
-- 10 mL of UHP HNO3 from the purchased bottle
-- 990 mL of DI water
+-   10 mL of UHP HNO3 from the purchased bottle
+-   990 mL of DI water
 
 ## **Ion Chromatography (Anions)**
 
@@ -543,7 +541,7 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 -   Auto Baseline Correction
 -   Analyze -\> Search Peaks
 
-![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.png)
+![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
 :::
 
 # **MINERALOGY**
@@ -677,7 +675,6 @@ The following chart from USGS helps identify the different clays using the separ
 USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
 
 ![](SOP_files/figures/clay_flow_usgs.gif){width="768"}
-
 :::
 
 # **PHYSICAL PROPERTIES**
@@ -722,7 +719,9 @@ Equipment: LS-13-320 Laser Diffraction Particle Size Analyzer
 
 The following document was made by Mohaddese Effati and edited by Xenia for the analysis of mine tailings.
 
-<a href="SOP_files/Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" target="_blank">click here to view or download the Laser PSA Instructions</a>.</p>
+<a href="SOP_files/Laser_PSA_Instructions_Mohaddese-XeniasEdits.pdf" target="_blank">click here to view or download the Laser PSA Instructions</a>.
+
+</p>
 
 ## **Soil-Water Characteristics**
 
@@ -781,6 +780,20 @@ This is for the Dry part of the Soil-Water Characteristic Curve:
 The thesis of previous Chorover students help a lot with figuring out the steps to take for your experiments.
 
 ::: panel-tabset
+## **Freeze-Dryer**
+
+What this machine does is that it drys the sample through Sublimation, which is when solid water goes to vapor.
+
+-   **Bring your samples frozen.**
+-   Put kimwipes between your sample and the cap, so particles don't enter the vacuum.
+-   Put the cap on.
+-   The black hose goes on the trash can for spilling.
+-   Press **AUTO**. The vacuum has to end below 300. The temperature should be -40.
+-   Grey cap connects to the black piece.
+-   If the tilted side is on the same direction that the tube, then it s open.
+-   **Leave the sample for 48 hours**
+-   *If the sample is still cold, there is still water on it, if it is room temperature, it is dry.*
+
 ## **Flow-through reactive mini-column experiment results**
 
 Lauren Bozeman's thesis (2018) is good to learn this process.
@@ -789,7 +802,7 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 
 Nick Buchanan's thesis (2023) is good to learn this process.
 
-![SSE](SOP_files/figures/Slides_SOP/Slide31.PNG)
+![SSE](SOP_files/figures/Slides_SOP/SSE.png)
 
 ![SSE](SOP_files/figures/Slides_SOP/Slide32.PNG)
 
@@ -928,16 +941,15 @@ datatable(
 
 ### **Scorodite**
 
+-   Tabelin, C. B., Corpuz, R. D., Igarashi, T., Villacorte-Tabelin, M., Ito, M., & Hiroyoshi, N. (2019). Hematite-catalysed scorodite formation as a novel arsenic immobilisation strategy under ambient conditions. **Chemosphere**, 233, 946–953. https://doi.org/10.1016/j.chemosphere.2019.06.020
 
-- Tabelin, C. B., Corpuz, R. D., Igarashi, T., Villacorte-Tabelin, M., Ito, M., & Hiroyoshi, N. (2019). Hematite-catalysed scorodite formation as a novel arsenic immobilisation strategy under ambient conditions. **Chemosphere**, 233, 946–953. https://doi.org/10.1016/j.chemosphere.2019.06.020
+    -   
 
-  - 
+-   Zhu, X., Nordstrom, D. K., McCleskey, R. B., Wang, R., Lu, X., Li, S., & Teng, H. H. (2019). On the thermodynamics and kinetics of scorodite dissolution. *Geochimica Et Cosmochimica Acta*, *265*, 468–477. https://doi.org/10.1016/j.gca.2019.09.012
 
-- Zhu, X., Nordstrom, D. K., McCleskey, R. B., Wang, R., Lu, X., Li, S., & Teng, H. H. (2019). On the thermodynamics and kinetics of scorodite dissolution. *Geochimica Et Cosmochimica Acta*, *265*, 468–477. https://doi.org/10.1016/j.gca.2019.09.012
+    -   The effect of crystal size on solubility. It is well-known that, due to the Gibbs-Thompson effect, solubility of small particles increases with increasing curvature (reciprocal of particle radius) of the dissolving grains.
 
-  - The effect of crystal size on solubility. It is well-known that, due to the Gibbs-Thompson effect, solubility of small particles increases with increasing curvature (reciprocal of particle radius) of the dissolving grains. 
-  
-  - Natural scorodite is usually small (mostly nano-sized).
+    -   Natural scorodite is usually small (mostly nano-sized).
 
 ## **Rob's suggestions**
 
