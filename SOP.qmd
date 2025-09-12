@@ -517,29 +517,48 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 
 ### **ATR-FTIR**
 
--   Computer Password: UCMerced2014
--   OMNIC Software
--   Experiment: iS50 ATR
--   Close the sampler (2 clicks)
--   Experiment Setup -\> Collect -\> Number of scans: 64 -\> Collect Background after 120 minutes -\> Save
--   Collect Background (humidity always looks the same: 3 peaks between 2800 to 2000)
+**Computer Password: UCMerced2014** 
+
+- Transmission = pellet sample 
+
+- ATR = Point sample
+
+**OMNIC Software** 
+
+- Close the Transmission 
+
+- Collect the Background 
+
+- Bach - Minimum range limit = 500 
+
+- Gain 1 = Autogain -\> SAVE 
+
+- Experiment: iS50 ATR 
+
+- Close the sampler (2 clicks)
+
+**Experiment Setup**
+
+-   Collect -\> Number of scans: 64 -\> Collect Background after 120 minutes -\> Save
+-   **Collect Background** (humidity always looks the same: 3 peaks between 2800 to 2000)
 -   Start Collection (Up-right corner)
--   A message will come after saying the data collection has stopped. Add to a new window? YES!
+-   A message will come after saying *the data collection has stopped*. *Add to a new window? YES!*
 -   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
--   Experimental Setup -\> Collect -\> Use specified Background file -\> Choose the one you just saved (get a new background every 4 hours) -\> Ok
+-   Experimental Setup -\> Collect -\> Use specified Background file (*Choose the one you just saved. Get a new background every 4 hours)* -\> Ok
 -   Put your sample under the sampler. Rotate it until hearing 2 clicks.
--   Collect Sample -\> Fill the sample ID name –\> Ok
+-   **Collect Sample** -\> Fill the sample ID name –\> Ok
 -   Start Collection (Up-right corner) -\> Add to Background? YES!
 -   Common Scale. (Or Full scale if you prefer to see your sample closer.)
 -   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
 -   Load a new sample to scan.
--   Collect Sample -\> Fill the sample ID name –\> Ok
+-   **Collect Sample** -\> Fill the sample ID name –\> Ok
 -   Start Collection (Up-right corner) -\> Add to Background? YES!
 -   Common Scale. (Or Full scale if you prefer to see your sample closer.)
 -   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
--   Process -\> Normalize Scale
--   Auto Baseline Correction
+-   Process -\> Normalize Scale (sensitivity to more peaks)
+-   Auto Baseline Correction (for th eplot to start at zero)
 -   Analyze -\> Search Peaks
+-   Common scale
 
 ![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
 :::
