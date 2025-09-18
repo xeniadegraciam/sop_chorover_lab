@@ -4,14 +4,22 @@ author: "Xenia De Gracia Medina"
 date: last-modified
 format:
   html:
+    page-layout: full      # Uses full browser width. full → maximum width, uses the whole browser. article (default) → standard narrow reading layout.
     toc: true
+    toc-location: left
     number-sections: true
     toc-depth: 6
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     fontsize: 1.3em
     css: styles.css # optional, if you want to customize fonts later
     date-format: "dddd, MMMM D, YYYY HH:mm:ss"  # Optional formatting
 website:
+  sidebar:
+    style: "docked"   # options: "floating", "docked"
+    contents: auto    # auto-build from document headings
+  bread-crumbs: true  # Show “you are here” paths to help readers orient.
   search: 
     location: navbar
     type: textbox
@@ -94,6 +102,8 @@ We order 10 Liters (30 pounds) for the big bin.
 
 Extracted from the [University Chemical Hygiene Plan](https://research.arizona.edu/compliance/RLSS/chemical-safety)
 
+[Back to top](#top)
+
 ## **Buying Lab Supplies in BuyWays**
 
 *NOTE*: this procedures is valid if you are on campus, but if you are not, you can connect to the university VPN, through the following app: Cisco Secure Client.
@@ -126,6 +136,8 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 -   At the bottom click CALCULATE
 -   SUBMIT
 
+[Back to top](#top)
+
 ## **Remote Access to 518 computer**
 
 -   Look for the "Remote Desktop Connection" app in your computer.
@@ -135,6 +147,8 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 -   In case you need access to the VPN, follow the next link to Download, Install, and Log in to the VPN on your computer (this will only let you log in if you are outside campus; I don't think it will let you log in if you are on the on-campus network).
 
 ![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.png)
+
+[Back to top](#top)
 
 ## **RS Key for weight printing on the balance**
 
@@ -146,6 +160,8 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 -   Check on your computer devices (Bluetooth and devices -\> Devices), for the port com number, and use that number for the RS Key program.
 
 ![Com port on devices information](SOP_files/figures/com-port.png)
+[Back to top](#top)
+
 :::
 
 # **ANALYTICAL PROCEDURES**
@@ -247,6 +263,8 @@ datatable(
 
 ```
 
+[Back to top](#top)
+
 ## **ALEC Sample volume required for different analyses:**
 
 | **Analysis**                                          | **Volume needed**                      |
@@ -284,6 +302,8 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 
 -   10 mL of UHP HNO3 from the purchased bottle
 -   990 mL of DI water
+
+[Back to top](#top)
 
 ## **Ion Chromatography (Anions)**
 
@@ -335,6 +355,8 @@ Ion Chromatography- Dionex ICS-6000
 -   Absorbance values above 2 are meaningless. Try again diluting them.
 -   Plot Absorbance VS Fe(II) ppm
 
+[Back to top](#top)
+
 ## **TOC (Total Organic Carbon)**
 
 Equipment:
@@ -345,6 +367,9 @@ Sample prep:
 
 -   5 mL of the sample
 -   Nothing else is added to the sample
+
+[Back to top](#top)
+
 :::
 
 # **SPECTROSCOPY**
@@ -533,6 +558,8 @@ Ishii, M., Matsuda, A., Sakamoto, K., Yamashita, S., Niwa, Y. & Inada, Y. (2025)
 
 <https://xaslib.xrayabsorption.org/elem/>
 
+[Back to top](#top)
+
 ## **FTIR**
 
 Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectrometer**](https://choroverlab.arizona.edu/Equipment%20pages/FTIR_bench.html)
@@ -583,6 +610,9 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 -   Common scale
 
 ![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
+
+[Back to top](#top)
+
 :::
 
 # **MINERALOGY**
@@ -656,6 +686,8 @@ This procedure applies if you analyze your samples at Craig Rasmussen's lab.
 
 ***After finished, change back the current and tension to 20kV and 10 mA to protect the machine. NEVER turn it off.***
 
+[Back to top](#top)
+
 ## **Full Pattern Summation with powdR package (Rockjock library)**
 
 This analysis uses Full Pattern Summation and the "powdR" package to analyze x-ray diffraction patterns.
@@ -689,6 +721,8 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 -   VESTA to get XRD
     -   CIFF files were used to get the XRD through VESTA Wavelength Copper 1.5406 2theta range: 5 – 65 Step size: 0.02
 
+[Back to top](#top)
+
 ## **Rietveld Refinement with X'pert HighScore**
 
 We use the X'pert HighScore program to analyze the data with Rietveld Refinement.
@@ -716,6 +750,8 @@ The following chart from USGS helps identify the different clays using the separ
 USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
 
 ![](SOP_files/figures/clay_flow_usgs.gif){width="768"}
+[Back to top](#top)
+
 :::
 
 # **PHYSICAL PROPERTIES**
@@ -747,6 +783,8 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Once your weights appear in the "Analysis" screen, you can press Start.
 
 **NOTE: If you have an error in the computer, take a screenshot and save it in the PPT that is open in that computer.**
+
+[Back to top](#top)
 
 ## **Particle size distribution**
 
@@ -814,6 +852,9 @@ This is for the Dry part of the Soil-Water Characteristic Curve:
 -   After reading all the samples, put them in the oven with no lead for 24 hours at 105 Celsius.
 -   Read the dry weight of each sample after the 24 hours. Insert that value o the cell called ***“M_c_ds”***.
 -   Insert all this information into the Excel template made by Mohammadreza to get the water content equivalent to each matric potential
+
+[Back to top](#top)
+
 :::
 
 # **EXPERIMENTS**
@@ -931,10 +972,13 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 ![SSE](SOP_files/figures/Slides_SOP/Slide33.PNG)
 
+[Back to top](#top)
 
 ## **Flow-through reactive mini-column experiment results**
 
 Lauren Bozeman's thesis (2018) is good to learn this process.
+
+[Back to top](#top)
 
 :::
 
@@ -1080,6 +1124,8 @@ datatable(
 
     -   Natural scorodite is usually small (mostly nano-sized).
 
+[Back to top](#top)
+
 ## **Rob's suggestions**
 
 ### Iron
@@ -1138,6 +1184,8 @@ Schwertmannite and Jarosite in AMD
 
 -   Fang, Q., Lu, A., Hong, H., Kuzyakov, Y., Algeo, T. J., Zhao, L., Olshansky, Y., Moravec, B., Barrientes, D. M., & Chorover, J. (2023). Mineral weathering is linked to microbial priming in the critical zone. *Nature Communications*, 14(1). <https://doi.org/10.1038/s41467-022-35671-x>
 
+[Back to top](#top)
+
 ## **Chorover's Lab**
 
 -   Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., & Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. *Geoderma*, 432, 116377. <https://doi.org/10.1016/j.geoderma.2023.116377>
@@ -1165,6 +1213,8 @@ Schwertmannite and Jarosite in AMD
 -   Root, R. A., Dixit, S., Campbell, K. M., Jew, A. D., Hering, J. G., & O’Day, P. A. (2007). Arsenic sequestration by sorption processes in high-iron sediments. *Geochimica Et Cosmochimica Acta*, 71(23), 5782–5803. <https://doi.org/10.1016/j.gca.2007.04.038>
 
 -   Thompson, A., Chadwick, O. A., Boman, S., & Chorover, J. (2006). Colloid mobilization during soil iron redox oscillations. *Environmental Science & Technology*, 40(18), 5743–5749. <https://doi.org/10.1021/es061203b>
+
+[Back to top](#top)
 
 ## **By Journal**
 
@@ -1295,4 +1345,7 @@ Schwertmannite and Jarosite in AMD
 ### Water Research
 
 -   Seidel, H., Görsch, K., Amstätter, K., & Mattusch, J. (2005). Immobilization of arsenic in a tailings material by ferrous iron treatment. *Water Research*, 39(17), 4073–4082. <https://doi.org/10.1016/j.watres.2005.08.001>
+
+[Back to top](#top)
+
 :::
