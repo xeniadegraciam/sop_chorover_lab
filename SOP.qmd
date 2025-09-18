@@ -96,6 +96,19 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 
 ## **Buying Lab Supplies in BuyWays**
 
+*NOTE*: this procedures is valid if you are on campus, but if you are not, you can connect to the university VPN, through the following app: Cisco Secure Client.
+
+**Connect to VPN** *(just if you are off campus)*
+
+- Download Cisco Secure Client [here](https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5686-install-cisco-anyconnect-secure-mobility-client-on-a-windows.html)
+- Set it up as follows:
+
+![VPN AnyConnect](SOP_files/figures/VPN_AnyConnect.png)
+
+- Sign in with your university NetID
+
+**BuyWays**
+
 -   Uacces
 -   Financial
 -   NetID
@@ -345,6 +358,15 @@ Download the Orange Book [here](https://xdb.lbl.gov/)
 [SYNCHROTRON VISIT LOGBOOK](https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6)
 
 The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.
+
+**Remote Access to SSRL data**
+
+- Download the WinSCP app here: [WinSCP](https://winscp.net/eng/downloads.php)
+- This app will require you to input the information of the folder that you need to access remotely.
+- Fill out the information required:
+  - Host name
+  - User name
+  - Password
 
 ::: panel-tabset
 ## **XAS**
