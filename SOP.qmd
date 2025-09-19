@@ -1042,9 +1042,13 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 
 -   Drahota, P., Ettler, V., & Košek, F. (2024). Arsenic bioaccessibility in environmentally important arsenic minerals. Journal of Hazardous Materials, 485, 136838. <https://doi.org/10.1016/j.jhazmat.2024.136838>
 
+- Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., & Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. Geoderma, 432, 116377. <https://doi.org/10.1016/j.geoderma.2023.116377>
+
 -   Root, R. A., & Chorover, J. (2022). Molecular speciation controls arsenic and lead bioaccessibility in fugitive dusts from sulfidic mine tailings. Environmental Science Processes & Impacts, 25(2), 288–303. <https://doi.org/10.1039/d2em00182a>
 
 -   Helser, J., Vassilieva, E., & Cappuyns, V. (2021). Environmental and human health risk assessment of sulfidic mine waste: Bioaccessibility, leaching and mineralogy. Journal of Hazardous Materials, 424, 127313. <https://doi.org/10.1016/j.jhazmat.2021.127313>
+
+- Bonsey, K. Dissolution of mineral-bound arsenic in biofluid: In-vitro bioaccessibility in synthetic gastric solution and in-vivo distribution in germ-free mice. M.S. thesis, University of Arizona, (2021). <https://repository.arizona.edu/handle/10150/661518>
 
 -   Manjón, I., Ramírez-Andreotta, M. D., Sáez, A. E., Root, R. A., Hild, J., Janes, M. K., & Alexander-Ozinskas, A. (2019). Ingestion and inhalation of metal(loid)s through preschool gardening: An exposure and risk assessment in legacy mining communities. The Science of the Total Environment, 718, 134639. <https://doi.org/10.1016/j.scitotenv.2019.134639>
 
