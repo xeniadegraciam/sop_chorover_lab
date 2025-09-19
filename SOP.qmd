@@ -1042,6 +1042,8 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 
 -   Drahota, P., Ettler, V., & Košek, F. (2024). Arsenic bioaccessibility in environmentally important arsenic minerals. Journal of Hazardous Materials, 485, 136838. <https://doi.org/10.1016/j.jhazmat.2024.136838>
 
+-   Kastury, F., Besedin, J., Betts, A. R., Asamoah, R., Herde, C., Netherway, P., Tully, J., Scheckel, K. G., & Juhasz, A. L. (2024). Arsenic, cadmium, lead, antimony bioaccessibility and relative bioavailability in legacy gold mining waste. *Journal of Hazardous Materials*, 469, 133948. <https://doi.org/10.1016/j.jhazmat.2024.133948>
+
 - Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., & Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. Geoderma, 432, 116377. <https://doi.org/10.1016/j.geoderma.2023.116377>
 
 -   Root, R. A., & Chorover, J. (2022). Molecular speciation controls arsenic and lead bioaccessibility in fugitive dusts from sulfidic mine tailings. Environmental Science Processes & Impacts, 25(2), 288–303. <https://doi.org/10.1039/d2em00182a>
@@ -1054,7 +1056,6 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 
 -   Thomas, A. N., Root, R. A., Lantz, R. C., Saez, A. E. & Chorover, J. Oxidative weathering decreases bioaccessibility of toxic metal(loid)s in PM10 emissions from sulfide mine tailings. Geohealth 2, 118-138 (2018). <https://doi.org:10.1002/2017GH000118>
 
--   Lindsay, M. B., Moncur, M. C., Bain, J. G., Jambor, J. L., Ptacek, C. J., & Blowes, D. W. (2015). Geochemical and mineralogical aspects of sulfide mine tailings. Applied Geochemistry, 57, 157–177. <https://doi.org/10.1016/j.apgeochem.2015.01.009>
 
 ### LARCH & LMFIT
 
@@ -1229,13 +1230,9 @@ Schwertmannite and Jarosite in AMD
 
 ### Mineralogy
 
-.
+-   Lindsay, M. B., Moncur, M. C., Bain, J. G., Jambor, J. L., Ptacek, C. J., & Blowes, D. W. (2015). Geochemical and mineralogical aspects of sulfide mine tailings. Applied Geochemistry, 57, 157–177. <https://doi.org/10.1016/j.apgeochem.2015.01.009>
 
-### Bioaccesibility
 
--   Kastury, F., Besedin, J., Betts, A. R., Asamoah, R., Herde, C., Netherway, P., Tully, J., Scheckel, K. G., & Juhasz, A. L. (2024). Arsenic, cadmium, lead, antimony bioaccessibility and relative bioavailability in legacy gold mining waste. *Journal of Hazardous Materials*, 469, 133948. <https://doi.org/10.1016/j.jhazmat.2024.133948>
-
--   Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., & Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. *Geoderma*, 432, 116377. <https://doi.org/10.1016/j.geoderma.2023.116377>
 
 ### uXCT
 
