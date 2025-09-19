@@ -368,6 +368,20 @@ Sample prep:
 -   5 mL of the sample
 -   Nothing else is added to the sample
 
+## **pH for mine tailings**
+
+For a 1:2 solid-to-solution ratio
+
+- Caliobrate your pH probe daily, with a 3-point calibration using standard buffer solutions (pH 4, 7, and 10)
+- Get 5 g of tailings
+- Add 10 g of DDI water (distilled deionized, 18.3 MΩ cm)
+- Rotate for 1 hour at 25 ᵒC
+- Centrifuge at RCF of 10,500
+- Measure the pH and EC on the supernatant
+
+
+
+
 [Back to top](#top)
 
 :::
@@ -757,30 +771,38 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 # **PHYSICAL PROPERTIES**
 
 ::: panel-tabset
+
 ## **Specific Surface Area**
+
+*NOTES*:
+
+- Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities **from 8 to 11 a.m. on weekdays**. (*See Administrative procedure for this, the link to order is there*)
+- The sample degassing pre-treatment for mine tailings takes about 12 hours, previous to the actual measurement.
+- The Black Carbon standard sample (BC) should be done daily first thing before analyzing any of your samples. . It should show an SSA of about 21 m2/g.
+
 
 ### **Sample preparation:**
 
--   Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities from 8 to 11 a.m. every day. (*See Administrative procedure for this, the link to order is there*)
--   Check that the Gas Nitrogen is available for degassing.
--   Weight a clean, empty tube
--   Fill it with a sample
--   Weight the tube+sample
--   Degas the samples overnight with a temperature of 45 Celsius because I’m using tailings. (If I increase the temperature I could convert my ferrihydrite to Goethite, and we don’t want that.)
+-   Check that the Gas Nitrogen is available for degassing, and also Liquid Nitrogen for the measurement
+-   Weight a clean, empty tube, and write down the weight on the lab notebook.
+-   Fill it with a sample using the metallic funnel. *These tubes are very fragile, so be careful*.
+-   Weight the tube+sample, and add that on the lab notebook.
+-   Degas the samples overnight with a temperature of **45 Celsius** because I’m using tailings. (*If I increase the temperature I could convert my ferrihydrite to Goethite, and we don’t want that.*)
 
 ### **Computer procedure: Gemini program**
 
--   Calibrate the machine with the Black Carbon sample, which has an SSA of about 21 m2/g.
+-   Measure the Black Carbon sample (BC) first thing daily. It should show an SSA of about **21 m2/g**.
+-   Press: "**Start Analysis**"
 -   Next
--   New
--   Method: Specific Surface Area
+-   **New**
+-   Method: **Specific Surface Area**
 -   Sample: **insert name** (The way of saving a sample is: “YearMonthDay”*”sampleID”*”yourInitials”, example: 20230121_Keating_XD)
 -   Operator: **insert your initials**
 -   Calculate
 -   Empty Weight
 -   Sample+Tube Weight
--   Save As: **same as sample name**
--   Once your weights appear in the "Analysis" screen, you can press Start.
+-   Save As: **same as sample name** (.SMP file is the default, use that one)
+-   Once your weights appear in the "Analysis" screen, you can press **Start**.
 
 **NOTE: If you have an error in the computer, take a screenshot and save it in the PPT that is open in that computer.**
 
@@ -876,7 +898,26 @@ What this machine does is that it drys the sample through Sublimation, which is 
 -   **Leave the sample for 48 hours**
 -   *If the sample is still cold, there is still water on it, if it is room temperature, it is dry.*
 
+## **Centrifuge**
 
+- Turn on the centrifuge (it cannot open until you turn it on)
+- Check that the rotor and lead that you choose are same model.
+- Weight the tubes with sample that you are using, as you will have to balance them out by putting them in opposite directions on the rotor.
+
+![Balancing out the tubes on the rotor](SOP_files/figures/centrifuge_rotor_balance.gif)
+
+- Lock the 2 leads on the rotor
+  - Big lead = cover for the rotor
+  - Small lead = core holding the entire rotor
+- On the buttons of the rotor:
+  - Select rotor 
+  - **Rotor**
+  - (look for the name of the model of rotor you are using)
+  - Set the Max RPM. You have 2 options:
+    - **RCF** (this one is to report on the manuscripts, Jon likes this one, because it doesnt change by the rotor)
+    - RPM (do not recommend using this one)
+  - **START**
+  
 
 ## **Selective Sequential Extraction**
 
