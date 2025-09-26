@@ -769,6 +769,8 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 - Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities **from 8 to 11 a.m. on weekdays**. (*See Administrative procedure for this, the link to order is there*)
 - The sample degassing pre-treatment for mine tailings takes about 12 hours, previous to the actual measurement.
 - The Black Carbon standard sample (BC) should be done daily first thing before analyzing any of your samples. . It should show an SSA of about 21 m2/g.
+- The software used is called Gemini VII Version 3.04
+- The machine used is Micromeritics
 
 
 ### **Sample preparation:**
@@ -789,8 +791,8 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Sample: **insert name** (The way of saving a sample is: “YearMonthDay”*”sampleID”*”yourInitials”, example: 20230121_Keating_XD)
 -   Operator: **insert your initials**
 -   Calculate
--   Empty Weight
--   Sample+Tube Weight
+  -   Empty Weight
+  -   Sample+Tube Weight
 -   Save As: **same as sample name** (.SMP file is the default, use that one)
 -   Once your weights appear in the "Analysis" screen, you can press **Start**.
 
@@ -904,6 +906,12 @@ What this machine does is that it drys the sample through Sublimation, which is 
 
 ## **Centrifuge**
 
+*NOTES:*
+
+- "CE" clears the alarm, if it ever get activated.
+- Metal Free Tubes maximum is 1200 RCF.
+- Ultra 30 mL darkish tubes, have a maximum of 1500 RCF.
+
 Set up:
 
 - Turn on the centrifuge (it cannot open until you turn it on)
@@ -922,12 +930,35 @@ Sowftware:
   - Select rotor 
   - **Rotor**
   - (look for the name of the model of rotor you are using)
-  - Set the Max RPM. You have 2 options:
-    - **RCF** (this one is to report on the manuscripts, Jon likes this one, because it doesnt change by the rotor)
+  - Set the Max speed of rotation. You have 2 options:
+    - **RCF** (this one is to report on the manuscripts, Jon likes this one, because it doesnt change by the rotor).
     - RPM (do not recommend using this one)
   - **START**
   
 [Back to top](#top)
+
+## **Glovebox (Anoxic chamber)**
+
+Airlock
+On (to extract the oxygen). Cycle the Airlock.
+Open the valves of the tanks:
+
+- Vacuum
+- Nitrogen
+- gas Mix (It has Hydrogen, combined with O2)
+
+If it says Anaerobic, its ok.
+
+- Cycle it with nitrogen?
+- Off
+- Cycle buttom
+- Off
+
+If the hydrogen is  below 2%, on the Starlock again until we get to 2% of Hydrogen.
+
+When leaving, vacuum the Starlock a little, and then gas it a little.
+
+At the end of the day, close the valves of Nitrogen and Hydrogen gas.
 
 ## **Selective Sequential Extraction**
 
