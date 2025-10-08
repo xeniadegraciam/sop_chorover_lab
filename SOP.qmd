@@ -628,6 +628,8 @@ Cite the database as: *Downs, R.T. and Hall-Wallace, M. (2003) The American Mine
 ::: panel-tabset
 ## **Craig's Rasmussen Lab Computer procedure for powder X-ray Diffraction**
 
+![](SOP_files/figures/XRD_machine.png)
+
 This procedure applies if you analyze your samples at Craig Rasmussen's lab.
 
 *Request permission from him before using their facilities. Also, this machine emits radiation so is always good to communicate when you are using it.*
@@ -643,6 +645,8 @@ This procedure applies if you analyze your samples at Craig Rasmussen's lab.
 -   ***It takes around 1 hour and 45 minutes per sample to run a Quantitative scan.***
 
 ### **Sample prep**
+
+![](SOP_files/figures/XRD_samples.png)
 
 -   Find the Corundum (alpha-Al2O3) in the desiccator. Heat the Corundum in the oven for at least 1 hour at 550 Celsius. Let it refresh for 1 hour. Store the Corundum on the desiccator when all the work has finished. -\`If using toxic samples, prepare them in the fume hood.
 -   Using the Agate Mortar (or the ball mill), mix 1.5 gram of your sample, with 0.23 g of Corundum (*meaning 15% of your sample*). Take notes of the mass of sample, and Corundum used for each one. You need these data to fit your results afterwards.
@@ -663,6 +667,8 @@ This procedure applies if you analyze your samples at Craig Rasmussen's lab.
 **Water refill:**
 
 -   Check the water level and the filler on the back of the lab. Fill them with super clean water, such as UV Reverse Osmosis water. Craig buys gallons of that treated water, ask him to repay the amount of water you used with your project's budget.
+
+![](SOP_files/figures/XRD_water.png)
 
 **Computer:**
 
@@ -764,6 +770,8 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 
 ## **Specific Surface Area**
 
+![lucky token](SOP_files/figures/BET_Token.png)
+
 *NOTES*:
 
 - Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities **from 8 to 11 a.m. on weekdays**. (*See Administrative procedure for this, the link to order is there*)
@@ -802,6 +810,8 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 
 ## **Particle size distribution**
 
+![](SOP_files/figures/PSD_machine.png)
+
 This is done with the Laser Diffraction from *Marcel Schaap's Lab*.
 
 Request permission from him before using their facilities.
@@ -820,6 +830,8 @@ The following document was made by Mohaddese Effati and edited by Xenia for the 
 
 ### **HYPROP for Soil-Water Characteristic Curves**
 
+![](SOP_files/figures/HYPROP.png)
+
 ***Work in progress...***
 
 #### Sample prep
@@ -832,6 +844,8 @@ The following document was made by Mohaddese Effati and edited by Xenia for the 
 -   Repeat again until you full 525 g of material inside the ring.
 
 ### **WP4-C**
+
+![](SOP_files/figures/WP4C.png)
 
 This is for the Dry part of the Soil-Water Characteristic Curve:
 
@@ -905,6 +919,8 @@ What this machine does is that it drys the sample through Sublimation, which is 
 -   *If the sample is still cold, there is still water on it, if it is room temperature, it is dry.*
 
 ## **Centrifuge**
+
+![](SOP_files/figures/centrifuge.png)
 
 *NOTES:*
 
