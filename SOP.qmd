@@ -566,48 +566,86 @@ Ishii, M., Matsuda, A., Sakamoto, K., Yamashita, S., Niwa, Y. & Inada, Y. (2025)
 
 ## **FTIR**
 
-Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectrometer**](https://choroverlab.arizona.edu/Equipment%20pages/FTIR_bench.html)
-
-### **ATR-FTIR**
-
 **Computer Password: UCMerced2014** 
+
+Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR)
+
+Spectrometer**](https://choroverlab.arizona.edu/Equipment%20pages/FTIR_bench.html)
 
 - Transmission = pellet sample 
 
 - ATR = Point sample
 
-**OMNIC Software** 
+### **ATR-FTIR**
 
-- Close the Transmission 
 
-- Collect the Background 
+**What is it doing?**
 
-- Bach - Minimum range limit = 500 
+This technique applies a heat source that bounce the molecules inside your sample (teh red laser observed is not the source, it is just for guidance).
+Part of the heat is going through the sample and part of it is surrounding it.
+Then the waves converge together and they are cancelling and constructing each other.
+That’s when the Fourier transform computation happens in the computer, bringing up the plot of **Absorbance VS. Wavelength**.
+Some molecules don’t respond to heat, nitrogen in the air doesn’t, so that’s why there is a nitrogen vacuum inside the machine, because it wont affect your sample measurement.
+Some peaks of interest for ATR inyour sample: 
+- Hydroxides are on 3400 cm-1
+- Aluminum hydroxides are on 3600 cm-1
+- Silica is from 1030 to 1100 cm-1
 
+
+**FIRST THING: ON THE MACHINE, PRESS THE BUTTON BESIDE THE ATR ACCESORY UNTIL IT LIGHTS BLUE, MEANING THE ATR MODE IS ON.**
+
+#### **Sample prep**
+
+- There are 2 types of tip on the FTIR, one is concave for bigger grains like sand, the other is flat for clays and finer soils.
+
+- Clean the surface of the machine with a wipe containing ethanol.
+
+- Put your sample over the red laser (this is just an indicative of where to place it, it is not the radiation source)
+
+- Close the sampler until you hear 2 clicks.
+
+**Random setup (check if this apply to you, if not ignore)**
+- Bach - Minimum range limit = 400 
 - Gain 1 = Autogain -\> SAVE 
 
-- Experiment: iS50 ATR 
+#### **OMNIC Software** 
 
-- Close the sampler (2 clicks)
+-   Check that the top of the window says: Experiment: iS50 ATR 
 
 **Experiment Setup**
 
 -   Collect -\> Number of scans: 64 -\> Collect Background after 120 minutes -\> Save
--   **Collect Background** (humidity always looks the same: 3 peaks between 2800 to 2000)
+
+
+**Collect Background** (humidity always looks the same: 3 peaks between 2800 to 2000)
+
 -   Start Collection (Up-right corner)
 -   A message will come after saying *the data collection has stopped*. *Add to a new window? YES!*
--   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
--   Experimental Setup -\> Collect -\> Use specified Background file (*Choose the one you just saved. Get a new background every 4 hours)* -\> Ok
--   Put your sample under the sampler. Rotate it until hearing 2 clicks.
+-   File -\> Save As -\> Set Filename to Title -\> Save it as 3 formats: SPA, SPC, CSV
+-   **Go again to Experimental Setup**
+-   Collect -\> **Use specified Background file** (*Choose the one you just saved. Get a new background every 4 hours)* -\> Ok
+-   You can check the age of the background on the low part of the plot.
+
+
+**Run a blank sample to check if looks entirely flat, that means that the background is being substracted correctly.**
+
 -   **Collect Sample** -\> Fill the sample ID name –\> Ok
--   Start Collection (Up-right corner) -\> Add to Background? YES!
+-   Start Collection (Up-right corner) -\> Add to Window? YES!
+-   Common Scale. (Or Full scale if you prefer to see your sample closer.)
+-   File -\> Save As -\> Set Filename to Title (BLANK SAMPLE) -\> Save it (SPA, SPC, CSV)
+
+**Load an actual sample to scan.**
+
+-   **Collect Sample** -\> Fill the sample ID name –\> Ok
+-   Start Collection (Up-right corner) -\> Add to Window? YES!
 -   Common Scale. (Or Full scale if you prefer to see your sample closer.)
 -   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
--   Load a new sample to scan.
--   **Collect Sample** -\> Fill the sample ID name –\> Ok
--   Start Collection (Up-right corner) -\> Add to Background? YES!
--   Common Scale. (Or Full scale if you prefer to see your sample closer.)
--   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
+
+*NOTE*: To erase the background from the plot so it doesn’t bother you, you can select it until it is red color, and then go to:
+Edit -> Cut.
+
+**Sample Normalization**
+
 -   Process -\> Normalize Scale (sensitivity to more peaks)
 -   Auto Baseline Correction (for th eplot to start at zero)
 -   Analyze -\> Search Peaks
