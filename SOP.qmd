@@ -277,6 +277,8 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 
 -   7700-X
 
+![ICP-MS](SOP_files/figures/ICP-MS.png)
+
 ***All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab***
 
 -   Prepare a batch of 2% of High Purity Nitric Acid (HNO3)
@@ -292,6 +294,8 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 
 -   10 mL of UHP HNO3 from the purchased bottle
 -   990 mL of DI water
+
+![](SOP_files/figures/UHP_Nitric_Acid.png)
 
 [Back to top](#top)
 
@@ -314,6 +318,8 @@ Ion Chromatography- Dionex ICS-6000
 
 ## **Ferrozine Method for Iron Speciation**
 
+![](SOP_files/figures/Spectrophotometer.png)
+
 ### **Materials:**
 
 -   Ferrozine 5 grams container
@@ -322,8 +328,10 @@ Ion Chromatography- Dionex ICS-6000
 -   Spectrophotometer (*We have one in 508*).
     -   Brand: Fisher Scientific
     -   Model: AccuSkan FC microplate photometer
-    -   Catalog number 14377575
--   Wavelength filter for Iron should be **562 nm**. Buy it here: [ThermoFisher](https://www.thermofisher.com/order/catalog/product/1425605)
+    -   Catalog number: 14377575
+-   Wavelength filter for Iron should be **562 nm**. 
+    -   Buy it here: [ThermoFisher](https://www.thermofisher.com/order/catalog/product/1425605)
+    -   Catalog number: 1425605
 
 ### **Sample preparation**
 
@@ -568,9 +576,7 @@ Ishii, M., Matsuda, A., Sakamoto, K., Yamashita, S., Niwa, Y. & Inada, Y. (2025)
 
 **Computer Password: UCMerced2014** 
 
-Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR)
-
-Spectrometer**](https://choroverlab.arizona.edu/Equipment%20pages/FTIR_bench.html)
+Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectrometer**](https://choroverlab.arizona.edu/Equipment%20pages/FTIR_bench.html)
 
 - Transmission = pellet sample 
 
@@ -578,44 +584,55 @@ Spectrometer**](https://choroverlab.arizona.edu/Equipment%20pages/FTIR_bench.htm
 
 ### **ATR-FTIR**
 
+![](SOP_files/figures/FTIR.png)
 
 **What is it doing?**
 
-This technique applies a heat source that bounce the molecules inside your sample (teh red laser observed is not the source, it is just for guidance).
+This technique applies a heat source that bounce the molecules inside your sample (the red laser observed is not the source, it is just for guidance).
 Part of the heat is going through the sample and part of it is surrounding it.
 Then the waves converge together and they are cancelling and constructing each other.
 That’s when the Fourier transform computation happens in the computer, bringing up the plot of **Absorbance VS. Wavelength**.
 Some molecules don’t respond to heat, nitrogen in the air doesn’t, so that’s why there is a nitrogen vacuum inside the machine, because it wont affect your sample measurement.
-Some peaks of interest for ATR inyour sample: 
+
+
+Some peaks of interest for ATR in your sample:
+
 - Hydroxides are on 3400 cm-1
 - Aluminum hydroxides are on 3600 cm-1
 - Silica is from 1030 to 1100 cm-1
 
 
-**FIRST THING: ON THE MACHINE, PRESS THE BUTTON BESIDE THE ATR ACCESORY UNTIL IT LIGHTS BLUE, MEANING THE ATR MODE IS ON.**
+**FIRST THING: ON THE MACHINE, PRESS THE BUTTON BESIDE THE ATR ACCESSORY UNTIL IT LIGHTS ON BLUE, MEANING THE ATR MODE IS ON.**
 
 #### **Sample prep**
 
-- There are 2 types of tip on the FTIR, one is concave for bigger grains like sand, the other is flat for clays and finer soils.
+- There are 2 types of tip on the ATR accessory:
+
+    - one is concave for bigger grains like sand, 
+    - the other is flat for clays and finer soils.
 
 - Clean the surface of the machine with a wipe containing ethanol.
 
 - Put your sample over the red laser (this is just an indicative of where to place it, it is not the radiation source)
 
-- Close the sampler until you hear 2 clicks.
+- Close the sampler until you hear **2 clicks**.
 
 **Random setup (check if this apply to you, if not ignore)**
+
 - Bach - Minimum range limit = 400 
 - Gain 1 = Autogain -\> SAVE 
 
 #### **OMNIC Software** 
 
--   Check that the top of the window says: Experiment: iS50 ATR 
+- Check that the top of the window says Experiment: iS50 ATR 
+
+- Window -> New Window (*This step is in case there was someone working previously and left their work plotted there.*)
 
 **Experiment Setup**
 
 -   Collect -\> Number of scans: 64 -\> Collect Background after 120 minutes -\> Save
 
+![](SOP_files/figures/FTIR_ExpSetup.png)
 
 **Collect Background** (humidity always looks the same: 3 peaks between 2800 to 2000)
 
@@ -627,19 +644,19 @@ Some peaks of interest for ATR inyour sample:
 -   You can check the age of the background on the low part of the plot.
 
 
-**Run a blank sample to check if looks entirely flat, that means that the background is being substracted correctly.**
+**Run a blank sample to check if it looks entirely flat, that means that the background is being substracted correctly.**
 
--   **Collect Sample** -\> Fill the sample ID name –\> Ok
+-   **Collect Sample** -\> Fill the sample ID name (BLANK SAMPLE) –\> Ok
 -   Start Collection (Up-right corner) -\> Add to Window? YES!
 -   Common Scale. (Or Full scale if you prefer to see your sample closer.)
--   File -\> Save As -\> Set Filename to Title (BLANK SAMPLE) -\> Save it (SPA, SPC, CSV)
+-   File -\> Save As -\> Set Filename to Title -\> Save it as 3 formats: SPA, SPC, CSV
 
 **Load an actual sample to scan.**
 
 -   **Collect Sample** -\> Fill the sample ID name –\> Ok
 -   Start Collection (Up-right corner) -\> Add to Window? YES!
 -   Common Scale. (Or Full scale if you prefer to see your sample closer.)
--   File -\> Save As -\> Set Filename to Title -\> Save it (SPA, SPC, CSV)
+-   File -\> Save As -\> Set Filename to Title -\> Save it as 3 formats: SPA, SPC, CSV
 
 *NOTE*: To erase the background from the plot so it doesn’t bother you, you can select it until it is red color, and then go to:
 Edit -> Cut.
@@ -651,7 +668,11 @@ Edit -> Cut.
 -   Analyze -\> Search Peaks
 -   Common scale
 
-![ATR-FTIR](SOP_files/figures/Slides_SOP/Slide4.PNG)
+**GRAMS Software**
+
+- This software is used to analize the sample files.
+- The [RUFF database](https://rruff.geo.arizona.edu/AMS/amcsd.php) has FTIR and XRD data for you to compare and find out different minerals.
+
 
 [Back to top](#top)
 
@@ -791,6 +812,10 @@ The following document was made by Alexander Ederer and edited by Xenia to add s
 -   Then proceed to shake your following sample.
 -   If you are **not** analyzing your samples yourself, you can send them to the *Chemistry & Biochemistry Lab (Andrei Astachkine: andrei\@arizona.edu)*
 
+![](SOP_files/figures/ball_mill.png)
+
+![](SOP_files/figures/XRD_samples.png)
+
 ## **Clay Mineral Identification Flow Diagram**
 
 The following chart from USGS helps identify the different clays using the separation in Armstrong. You can download that chart on the following link. *(I recommend PDF format for more readability)*.
@@ -827,6 +852,8 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Weight the tube+sample, and add that on the lab notebook.
 -   Degas the samples overnight with a temperature of **45 Celsius** because I’m using tailings. (*If I increase the temperature I could convert my ferrihydrite to Goethite, and we don’t want that.*)
 
+![](SOP_files/figures/BET_Dessicator_NitrogenStation.png)
+
 ### **Computer procedure: Gemini program**
 
 -   Measure the Black Carbon sample (BC) first thing daily. It should show an SSA of about **21 m2/g**.
@@ -843,6 +870,8 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Once your weights appear in the "Analysis" screen, you can press **Start**.
 
 **NOTE: If you have an error in the computer, take a screenshot and save it in the PPT that is open in that computer.**
+
+![](SOP_files/figures/BET.png)
 
 [Back to top](#top)
 
@@ -923,7 +952,7 @@ This is for the Dry part of the Soil-Water Characteristic Curve:
 
 :::
 
-# **EXPERIMENT / TOOLS**
+# **LAB TOOLS & EXPERIMENTS**
 
 The thesis of previous Chorover students help a lot with figuring out the steps to take for your experiments.
 
@@ -978,7 +1007,7 @@ Set up:
   - Big lead = cover for the rotor
   - Small lead = core holding the entire rotor
   
-Sowftware:
+Software:
 
 - On the buttons of the rotor:
   - Select rotor 
@@ -989,9 +1018,11 @@ Sowftware:
     - RPM (do not recommend using this one)
   - **START**
   
+![](SOP_files/figures/centrifuge1.png)
+  
 [Back to top](#top)
 
-## **Glovebox (Anoxic chamber)**
+## **Glovebox (Suboxic chamber)**
 
 Airlock
 On (to extract the oxygen). Cycle the Airlock.
@@ -1005,7 +1036,7 @@ If it says Anaerobic, its ok.
 
 - Cycle it with nitrogen?
 - Off
-- Cycle buttom
+- Cycle button
 - Off
 
 If the hydrogen is  below 2%, on the Starlock again until we get to 2% of Hydrogen.
@@ -1111,6 +1142,8 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 [Back to top](#top)
 
 ## **Flow-through reactive mini-column experiment results**
+
+![](SOP_files/figures/mini-columns.png)
 
 Lauren Bozeman's thesis (2018) is good to learn this process.
 
