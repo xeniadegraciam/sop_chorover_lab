@@ -685,7 +685,7 @@ Cite the database as: *Downs, R.T. and Hall-Wallace, M. (2003) The American Mine
 This procedure applies if you analyze your samples at **Craig Rasmussen's lab**.
 
 ::: callout-important
--   *Request permission from Craig Rasmussen before using their facilities. Also, this machine emits radiation so you have to be approved by RLSS to use it.*
+-   **Request permission from Craig Rasmussen** before using their facilities. Also, this machine emits radiation so you have to be approved by RLSS to use it.
 -   When running samples during the **Monsoon season**, the Tension and Current to use in the software will be **20 kV and 10 mA**, respectively. For the rest of the year, it is 45 kV and 40 mA, respectively. This is because of the shortage of electricity during Monsoons.
 -   After finished, change back the current and tension to 20kV and 10 mA to protect the machine. **NEVER turn it off**.
 :::
@@ -817,7 +817,11 @@ The following chart from USGS helps identify the different clays using the separ
 
 USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
 
-![](SOP_files/figures/clay_flow_usgs.gif){width="768"} [Back to top](#top)
+![](SOP_files/figures/clay_flow_usgs.gif){width="768"} 
+
+
+[Back to top](#top)
+
 :::
 
 # **PHYSICAL PROPERTIES**
@@ -831,7 +835,15 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities **from 8 to 11 a.m. on weekdays**. (*See Administrative procedure for this, the link to order is there*)
 :::
 
-*NOTES*: - The sample degassing pre-treatment for **mine tailings takes about 12 hours**, previous to the actual measurement. - The Black Carbon standard sample (BC) should be done daily first thing before analyzing any of your samples. . It should show an SSA of about 21 m2/g. - The software used is called Gemini VII Version 3.04 - The machine used is Micromeritics
+*NOTES*: 
+
+- The sample degassing pre-treatment for **mine tailings takes about 12 hours**, previous to the actual measurement. 
+
+- The Black Carbon standard sample (BC) should be done daily first thing before analyzing any of your samples. It should show an SSA of about 21 m2/g. 
+
+- The software used is called Gemini VII Version 3.04 
+
+- The machine used is Micromeritics
 
 ### **Sample preparation:**
 
