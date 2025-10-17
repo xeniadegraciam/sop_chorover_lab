@@ -110,12 +110,12 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 
 **Connect to VPN** *(just if you are off campus)*
 
-- Download Cisco Secure Client [here](https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5686-install-cisco-anyconnect-secure-mobility-client-on-a-windows.html)
-- Set it up as follows:
+-   Download Cisco Secure Client [here](https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5686-install-cisco-anyconnect-secure-mobility-client-on-a-windows.html)
+-   Set it up as follows:
 
 ![VPN AnyConnect](SOP_files/figures/VPN_AnyConnect.png)
 
-- Sign in with your university NetID
+-   Sign in with your university NetID
 
 **BuyWays**
 
@@ -149,9 +149,6 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 ![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.png)
 
 [Back to top](#top)
-
-
-
 :::
 
 # **ANALYTICAL PROCEDURES**
@@ -279,7 +276,9 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 
 ![ICP-MS](SOP_files/figures/ICP-MS.png)
 
-***All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab***
+::: callout-important
+**All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab**
+:::
 
 -   Prepare a batch of 2% of High Purity Nitric Acid (HNO3)
 -   Take 1 mL of the sample
@@ -329,7 +328,7 @@ Ion Chromatography- Dionex ICS-6000
     -   Brand: Fisher Scientific
     -   Model: AccuSkan FC microplate photometer
     -   Catalog number: 14377575
--   Wavelength filter for Iron should be **562 nm**. 
+-   Wavelength filter for Iron should be **562 nm**.
     -   Buy it here: [ThermoFisher](https://www.thermofisher.com/order/catalog/product/1425605)
     -   Catalog number: 1425605
 
@@ -370,27 +369,29 @@ Sample prep:
 
 For a 1:2 solid-to-solution ratio
 
-- Calibrate your pH probe daily, with a 3-point calibration using standard buffer solutions (pH 4, 7, and 10)
-- Get 5 g of tailings
-- Add 10 g of DDI water (distilled deionized, 18.3 MΩ cm)
-- Rotate for 1 hour at 25 ᵒC
-- Centrifuge at RCF of 10,500
-- Measure the pH and EC on the supernatant
-
-
-
+-   Calibrate your pH probe daily, with a 3-point calibration using standard buffer solutions (pH 4, 7, and 10)
+-   Get 5 g of tailings
+-   Add 10 g of DDI water (distilled deionized, 18.3 MΩ cm)
+-   Rotate for 1 hour at 25 ᵒC
+-   Centrifuge at RCF of 10,500
+-   Measure the pH and EC on the supernatant
 
 [Back to top](#top)
-
 :::
 
 # **SPECTROSCOPY**
 
-[**The Orange Book**]{style="color: orange;"}
+::: panel-tabset
+## **XAS**
+
+::: panel-tabset
+### [**The Orange Book**]{style="color: orange;"}
 
 Download the Orange Book [here](https://xdb.lbl.gov/)
 
 ![](SOP_files/figures/DataBook_Image.gif)
+
+### **Our Synchrotron Data**
 
 [SYNCHROTRON VISIT LOGBOOK](https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6)
 
@@ -398,15 +399,12 @@ The link above contains the scanned version of the synchrotron visit logbook wit
 
 **Remote Access to SSRL data**
 
-- Download the WinSCP app here: [WinSCP](https://winscp.net/eng/downloads.php)
-- This app will require you to input the information of the folder that you need to access remotely.
-- Fill out the information required:
-  - Host name
-  - User name
-  - Password
-
-::: panel-tabset
-## **XAS**
+-   Download the WinSCP app here: [WinSCP](https://winscp.net/eng/downloads.php)
+-   This app will require you to input the information of the folder that you need to access remotely.
+-   Fill out the information required:
+    -   Host name
+    -   User name
+    -   Password
 
 ### LARCH Python package
 
@@ -571,16 +569,17 @@ Ishii, M., Matsuda, A., Sakamoto, K., Yamashita, S., Niwa, Y. & Inada, Y. (2025)
 <https://xaslib.xrayabsorption.org/elem/>
 
 [Back to top](#top)
+:::
 
 ## **FTIR**
 
-**Computer Password: UCMerced2014** 
+**Computer Password: UCMerced2014**
 
 Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectrometer**](https://choroverlab.arizona.edu/Equipment%20pages/FTIR_bench.html)
 
-- Transmission = pellet sample 
+-   Transmission = pellet sample
 
-- ATR = Point sample
+-   ATR = Point sample
 
 ### **ATR-FTIR**
 
@@ -588,45 +587,41 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 
 **What is it doing?**
 
-This technique applies a heat source that bounce the molecules inside your sample (the red laser observed is not the source, it is just for guidance).
-Part of the heat is going through the sample and part of it is surrounding it.
-Then the waves converge together and they are cancelling and constructing each other.
-That’s when the Fourier transform computation happens in the computer, bringing up the plot of **Absorbance VS. Wavelength**.
-Some molecules don’t respond to heat, nitrogen in the air doesn’t, so that’s why there is a nitrogen vacuum inside the machine, because it wont affect your sample measurement.
-
+This technique applies a heat source that bounce the molecules inside your sample (the red laser observed is not the source, it is just for guidance). Part of the heat is going through the sample and part of it is surrounding it. Then the waves converge together and they are cancelling and constructing each other. That’s when the Fourier transform computation happens in the computer, bringing up the plot of **Absorbance VS. Wavelength**. Some molecules don’t respond to heat, nitrogen in the air doesn’t, so that’s why there is a nitrogen vacuum inside the machine, because it wont affect your sample measurement.
 
 Some peaks of interest for ATR in your sample:
 
-- Hydroxides are on 3400 cm-1
-- Aluminum hydroxides are on 3600 cm-1
-- Silica is from 1030 to 1100 cm-1
+-   Hydroxides are on 3400 cm-1
+-   Aluminum hydroxides are on 3600 cm-1
+-   Silica is from 1030 to 1100 cm-1
 
-
+::: callout-important
 **FIRST THING: ON THE MACHINE, PRESS THE BUTTON BESIDE THE ATR ACCESSORY UNTIL IT LIGHTS ON BLUE, MEANING THE ATR MODE IS ON.**
+:::
 
 #### **Sample prep**
 
-- There are 2 types of tip on the ATR accessory:
+-   There are 2 types of tip on the ATR accessory:
 
-    - one is concave for bigger grains like sand, 
-    - the other is flat for clays and finer soils.
+    -   one is concave for bigger grains like sand,
+    -   the other is flat for clays and finer soils.
 
-- Clean the surface of the machine with a wipe containing ethanol.
+-   Clean the surface of the machine with a wipe containing ethanol.
 
-- Put your sample over the red laser (this is just an indicative of where to place it, it is not the radiation source)
+-   Put your sample over the red laser (this is just an indicative of where to place it, it is not the radiation source)
 
-- Close the sampler until you hear **2 clicks**.
+-   Close the sampler until you hear **2 clicks**.
 
 **Random setup (check if this apply to you, if not ignore)**
 
-- Bach - Minimum range limit = 400 
-- Gain 1 = Autogain -\> SAVE 
+-   Bach - Minimum range limit = 400
+-   Gain 1 = Autogain -\> SAVE
 
-#### **OMNIC Software** 
+#### **OMNIC Software**
 
-- Check that the top of the window says Experiment: iS50 ATR 
+-   Check that the top of the window says Experiment: iS50 ATR
 
-- Window -> New Window (*This step is in case there was someone working previously and left their work plotted there.*)
+-   Window -\> New Window (*This step is in case there was someone working previously and left their work plotted there.*)
 
 **Experiment Setup**
 
@@ -636,13 +631,14 @@ Some peaks of interest for ATR in your sample:
 
 **Collect Background** (humidity always looks the same: 3 peaks between 2800 to 2000)
 
+![Background look on FTIR-ATR](SOP_files/figures/FTIR_backgroundLook.png)
+
 -   Start Collection (Up-right corner)
 -   A message will come after saying *the data collection has stopped*. *Add to a new window? YES!*
 -   File -\> Save As -\> Set Filename to Title -\> Save it as 3 formats: SPA, SPC, CSV
 -   **Go again to Experimental Setup**
 -   Collect -\> **Use specified Background file** (*Choose the one you just saved. Get a new background every 4 hours)* -\> Ok
 -   You can check the age of the background on the low part of the plot.
-
 
 **Run a blank sample to check if it looks entirely flat, that means that the background is being substracted correctly.**
 
@@ -658,8 +654,7 @@ Some peaks of interest for ATR in your sample:
 -   Common Scale. (Or Full scale if you prefer to see your sample closer.)
 -   File -\> Save As -\> Set Filename to Title -\> Save it as 3 formats: SPA, SPC, CSV
 
-*NOTE*: To erase the background from the plot so it doesn’t bother you, you can select it until it is red color, and then go to:
-Edit -> Cut.
+*NOTE*: To erase the background from the plot so it doesn’t bother you, you can select it until it is red color, and then go to: Edit -\> Cut.
 
 **Sample Normalization**
 
@@ -670,12 +665,10 @@ Edit -> Cut.
 
 **GRAMS Software**
 
-- This software is used to analize the sample files.
-- The [RUFF database](https://rruff.geo.arizona.edu/AMS/amcsd.php) has FTIR and XRD data for you to compare and find out different minerals.
-
+-   This software is used to analize the sample files.
+-   The [RUFF database](https://rruff.geo.arizona.edu/AMS/amcsd.php) has FTIR and XRD data for you to compare and find out different minerals.
 
 [Back to top](#top)
-
 :::
 
 # **MINERALOGY**
@@ -689,15 +682,17 @@ Cite the database as: *Downs, R.T. and Hall-Wallace, M. (2003) The American Mine
 
 ![](SOP_files/figures/XRD_machine.png)
 
-This procedure applies if you analyze your samples at Craig Rasmussen's lab.
+This procedure applies if you analyze your samples at **Craig Rasmussen's lab**.
 
-*Request permission from him before using their facilities. Also, this machine emits radiation so is always good to communicate when you are using it.*
+::: callout-important
+-   *Request permission from Craig Rasmussen before using their facilities. Also, this machine emits radiation so you have to be approved by RLSS to use it.*
+-   When running samples during the **Monsoon season**, the Tension and Current to use in the software will be **20 kV and 10 mA**, respectively. For the rest of the year, it is 45 kV and 40 mA, respectively. This is because of the shortage of electricity during Monsoons.
+-   After finished, change back the current and tension to 20kV and 10 mA to protect the machine. **NEVER turn it off**.
+:::
 
 ***NOTES:***
 
 -   The yellow light on the machine means it is shooting X-rays. The sample analyzer is delicate. Do not touch the doors because they are sensitive.
-
--   When running samples during the Monsoon season, the Tension and Current to use in the software will be 20 kV and 10 mA, respectively. For the rest of the year, it is 45 kV and 40 mA, respectively. This is because of the shortage of electricity during Monsoons.
 
 -   The sample holder can take 15 samples per round of analyses.
 
@@ -822,27 +817,21 @@ The following chart from USGS helps identify the different clays using the separ
 
 USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
 
-![](SOP_files/figures/clay_flow_usgs.gif){width="768"}
-[Back to top](#top)
-
+![](SOP_files/figures/clay_flow_usgs.gif){width="768"} [Back to top](#top)
 :::
 
 # **PHYSICAL PROPERTIES**
 
 ::: panel-tabset
-
 ## **Specific Surface Area**
 
 ![lucky token](SOP_files/figures/BET_Token.png)
 
-*NOTES*:
+::: callout-important
+Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities **from 8 to 11 a.m. on weekdays**. (*See Administrative procedure for this, the link to order is there*)
+:::
 
-- Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities **from 8 to 11 a.m. on weekdays**. (*See Administrative procedure for this, the link to order is there*)
-- The sample degassing pre-treatment for mine tailings takes about 12 hours, previous to the actual measurement.
-- The Black Carbon standard sample (BC) should be done daily first thing before analyzing any of your samples. . It should show an SSA of about 21 m2/g.
-- The software used is called Gemini VII Version 3.04
-- The machine used is Micromeritics
-
+*NOTES*: - The sample degassing pre-treatment for **mine tailings takes about 12 hours**, previous to the actual measurement. - The Black Carbon standard sample (BC) should be done daily first thing before analyzing any of your samples. . It should show an SSA of about 21 m2/g. - The software used is called Gemini VII Version 3.04 - The machine used is Micromeritics
 
 ### **Sample preparation:**
 
@@ -864,12 +853,14 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Sample: **insert name** (The way of saving a sample is: “YearMonthDay”*”sampleID”*”yourInitials”, example: 20230121_Keating_XD)
 -   Operator: **insert your initials**
 -   Calculate
-  -   Empty Weight
-  -   Sample+Tube Weight
+-   Empty Weight
+-   Sample+Tube Weight
 -   Save As: **same as sample name** (.SMP file is the default, use that one)
 -   Once your weights appear in the "Analysis" screen, you can press **Start**.
 
-**NOTE: If you have an error in the computer, take a screenshot and save it in the PPT that is open in that computer.**
+::: callout-important
+**If you have an error in the computer, take a screenshot and save it in the PPT that is open in that computer.**
+:::
 
 ![](SOP_files/figures/BET.png)
 
@@ -949,7 +940,6 @@ This is for the Dry part of the Soil-Water Characteristic Curve:
 -   Insert all this information into the Excel template made by Mohammadreza to get the water content equivalent to each matric potential
 
 [Back to top](#top)
-
 :::
 
 # **LAB TOOLS & EXPERIMENTS**
@@ -957,7 +947,6 @@ This is for the Dry part of the Soil-Water Characteristic Curve:
 The thesis of previous Chorover students help a lot with figuring out the steps to take for your experiments.
 
 ::: panel-tabset
-
 ## **RS Key for weight printing on the balance**
 
 -   Download the RS Key program: [Download here!](https://weighing.andonline.com/winct/)
@@ -989,57 +978,55 @@ What this machine does is that it drys the sample through Sublimation, which is 
 
 ![](SOP_files/figures/centrifuge.png)
 
-*NOTES:*
+::: callout-important
+-   "CE" clears the alarm, if it ever get activated.
+-   Metal Free Tubes maximum is 1200 RCF.
+-   Ultra 30 mL darkish tubes, have a maximum of 1500 RCF.
+:::
 
-- "CE" clears the alarm, if it ever get activated.
-- Metal Free Tubes maximum is 1200 RCF.
-- Ultra 30 mL darkish tubes, have a maximum of 1500 RCF.
+**Set up:**
 
-Set up:
-
-- Turn on the centrifuge (it cannot open until you turn it on)
-- Check that the rotor and lead that you choose are same model.
-- Weight the tubes with sample that you are using, as you will have to balance them out by putting them in opposite directions on the rotor.
+-   Turn on the centrifuge (it cannot open until you turn it on)
+-   Check that the rotor and lead that you choose are same model.
+-   Weight the tubes with sample that you are using, as you will have to balance them out by putting them in opposite directions on the rotor.
 
 ![Balancing out the tubes on the rotor](SOP_files/figures/centrifuge_rotor_balance.gif)
 
-- Lock the 2 leads on the rotor
-  - Big lead = cover for the rotor
-  - Small lead = core holding the entire rotor
-  
-Software:
+-   Lock the 2 leads on the rotor
+    -   Big lead = cover for the rotor
+    -   Small lead = core holding the entire rotor
 
-- On the buttons of the rotor:
-  - Select rotor 
-  - **Rotor**
-  - (look for the name of the model of rotor you are using)
-  - Set the Max speed of rotation. You have 2 options:
-    - **RCF** (this one is to report on the manuscripts, Jon likes this one, because it doesnt change by the rotor).
-    - RPM (do not recommend using this one)
-  - **START**
-  
+**Software:**
+
+-   On the buttons of the rotor:
+    -   Select rotor
+    -   **Rotor**
+    -   (look for the name of the model of rotor you are using)
+    -   Set the Max speed of rotation. You have 2 options:
+        -   **RCF** (this one is to report on the manuscripts, Jon likes this one, because it doesnt change by the rotor).
+        -   RPM (do not recommend using this one)
+    -   **START**
+
 ![](SOP_files/figures/centrifuge1.png)
-  
+
 [Back to top](#top)
 
 ## **Glovebox (Suboxic chamber)**
 
-Airlock
-On (to extract the oxygen). Cycle the Airlock.
-Open the valves of the tanks:
+Airlock On (to extract the oxygen). Cycle the Airlock. Open the valves of the tanks:
 
-- Vacuum
-- Nitrogen
-- gas Mix (It has Hydrogen, combined with O2)
+-   Vacuum
+-   Nitrogen
+-   gas Mix (It has Hydrogen, combined with O2)
 
 If it says Anaerobic, its ok.
 
-- Cycle it with nitrogen?
-- Off
-- Cycle button
-- Off
+-   Cycle it with nitrogen?
+-   Off
+-   Cycle button
+-   Off
 
-If the hydrogen is  below 2%, on the Starlock again until we get to 2% of Hydrogen.
+If the hydrogen is below 2%, on the Starlock again until we get to 2% of Hydrogen.
 
 When leaving, vacuum the Starlock a little, and then gas it a little.
 
@@ -1051,14 +1038,13 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 **Phase 1: Water-soluble solids**
 
-(bioaccesibility and high mobile elements)
-(2 hour)
+(bioaccesibility and high mobile elements) (2 hour)
 
-- 50 mL samples of 1:100 solid to solution with DI water (18.2 M) (1:100 Example = 0.1 g of tailing mixed in 10 mL of DI water)
-- 1 hour shaking
-- **XRD** before and after the DI water
-- 30 minutes centrifuged at 10,000 RCF
-- **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (~100uL) of **HNO3** before the fridge, for ICP-MS.
+-   50 mL samples of 1:100 solid to solution with DI water (18.2 M) (1:100 Example = 0.1 g of tailing mixed in 10 mL of DI water)
+-   1 hour shaking
+-   **XRD** before and after the DI water
+-   30 minutes centrifuged at 10,000 RCF
+-   **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (\~100uL) of **HNO3** before the fridge, for ICP-MS.
 
 **Phase 2: Exchangeable fraction**
 
@@ -1066,11 +1052,11 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 (2.5 hour)
 
-- **1 M Ammonium Acetate at pH 5**
-- 2 hour shaking
-- 30 minutes centrifuged at 10,000 RCF
-- **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (~100uL) of **HNO3** before the fridge, for ICP-MS.
-- **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
+-   **1 M Ammonium Acetate at pH 5**
+-   2 hour shaking
+-   30 minutes centrifuged at 10,000 RCF
+-   **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (\~100uL) of **HNO3** before the fridge, for ICP-MS.
+-   **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
 
 **Phase 3: Specifically adsorbed Arsenate**
 
@@ -1078,23 +1064,23 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 (25 hour)
 
-- **1 M Sodium Phosphate at pH 5**
-- 24 hour shaking
-- 30 minutes centrifuged at 10,000 RCF
-- **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (~100uL) of **HNO3** before the fridge, for ICP-MS.
-- **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
+-   **1 M Sodium Phosphate at pH 5**
+-   24 hour shaking
+-   30 minutes centrifuged at 10,000 RCF
+-   **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (\~100uL) of **HNO3** before the fridge, for ICP-MS.
+-   **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
 
 **Phase 4: Poorly crystalline Fe & Al oxides**
 
 (2.5 hour)
 
-- **0.2 M Acid Ammonium Oxalate at pH 3**
-- 2 hour shaking
-- **XRD** before and after
-- **XAS** after
-- 30 minutes centrifuged at 10,000 RCF
-- **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (~100uL) of HNO3 before the fridge, for ICP-MS.
-- **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
+-   **0.2 M Acid Ammonium Oxalate at pH 3**
+-   2 hour shaking
+-   **XRD** before and after
+-   **XAS** after
+-   30 minutes centrifuged at 10,000 RCF
+-   **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (\~100uL) of HNO3 before the fridge, for ICP-MS.
+-   **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
 
 **Phase 5: Reducible crystalline Fe & Mn oxides**
 
@@ -1102,26 +1088,26 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 (2.5 hour)
 
-- **1 L buffered solution with 88.88 g of Sodium Citrate & 9.3 g Sodium Bicarbonate.**
-- Add to the tailings at 1:100 ratio
-- 2 hour shaking at **Dark**, at 80 Celsius. With additions of 0.15 g of **Sodium Dithionite** every 15 minutes.
-- Maintain at pH 7.3 . Heat is applied to fasten ferric iron dissolution.
-- 30 minutes centrifuged at 10,000 RCF
-- **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (~100uL) of **HNO3** before the fridge, for ICP-MS.
-- **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
+-   **1 L buffered solution with 88.88 g of Sodium Citrate & 9.3 g Sodium Bicarbonate.**
+-   Add to the tailings at 1:100 ratio
+-   2 hour shaking at **Dark**, at 80 Celsius. With additions of 0.15 g of **Sodium Dithionite** every 15 minutes.
+-   Maintain at pH 7.3 . Heat is applied to fasten ferric iron dissolution.
+-   30 minutes centrifuged at 10,000 RCF
+-   **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (\~100uL) of **HNO3** before the fridge, for ICP-MS.
+-   **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
 
 **Phase 6: Sulfides**
 
 (5 hour)
 
-- **First extraction: 16 M Nitric Acid**
-- 2 hour shaking in a water bath at 80 Celsius.
-- DI wash
-- **Second extraction: 16 M Nitric acid + 30% hydrogen peroxide extraction**
-- 2 hour shaking in a water bath at 80 Celsius.
-- 30 minutes centrifuged at 10,000 RCF
-- **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (~100uL) of **HNO3** before the fridge, for ICP-MS.
-- **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
+-   **First extraction: 16 M Nitric Acid**
+-   2 hour shaking in a water bath at 80 Celsius.
+-   DI wash
+-   **Second extraction: 16 M Nitric acid + 30% hydrogen peroxide extraction**
+-   2 hour shaking in a water bath at 80 Celsius.
+-   30 minutes centrifuged at 10,000 RCF
+-   **Supernatant**: Decant and filtrate using 0.45 um. Store in 15 mL metal-free polypropylene tubes (VWR) at 4 Celsius. Add 5 drops (\~100uL) of **HNO3** before the fridge, for ICP-MS.
+-   **Solid pellet**: DI wash at 1:100 ratio. Rotate for 30 seconds, centrifuge again at 10 000 RCF, decant, and filter with 0.45 um. Add this new supernatant to the previous supernatant. The left pellet will be used for the next reagent.
 
 **Phase 7: Residual Fraction**
 
@@ -1129,9 +1115,8 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 (0.5 hour)
 
-- **1:3 Hydrofluoric acid: Nitric Acid** at 180 Celsius +/- 5 Celsius microwave assisted
-- 15-minute extraction.
-
+-   **1:3 Hydrofluoric acid: Nitric Acid** at 180 Celsius +/- 5 Celsius microwave assisted
+-   15-minute extraction.
 
 ![SSE](SOP_files/figures/Slides_SOP/SSE.png)
 
@@ -1148,7 +1133,6 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 Lauren Bozeman's thesis (2018) is good to learn this process.
 
 [Back to top](#top)
-
 :::
 
 # **PAPERS AND REFERENCES**
@@ -1162,18 +1146,17 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 
 -   Kastury, F., Besedin, J., Betts, A. R., Asamoah, R., Herde, C., Netherway, P., Tully, J., Scheckel, K. G., & Juhasz, A. L. (2024). Arsenic, cadmium, lead, antimony bioaccessibility and relative bioavailability in legacy gold mining waste. *Journal of Hazardous Materials*, 469, 133948. <https://doi.org/10.1016/j.jhazmat.2024.133948>
 
-- Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., & Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. Geoderma, 432, 116377. <https://doi.org/10.1016/j.geoderma.2023.116377>
+-   Liu, R., Kong, S., Shao, Y., Cai, D., Bai, B., Wei, X., Root, R. A., Gao, X., Li, C., & Chorover, J. (2023). Mechanisms and health implications of toxicity increment from arsenate-containing iron minerals through in vitro gastrointestinal digestion. Geoderma, 432, 116377. <https://doi.org/10.1016/j.geoderma.2023.116377>
 
 -   Root, R. A., & Chorover, J. (2022). Molecular speciation controls arsenic and lead bioaccessibility in fugitive dusts from sulfidic mine tailings. Environmental Science Processes & Impacts, 25(2), 288–303. <https://doi.org/10.1039/d2em00182a>
 
 -   Helser, J., Vassilieva, E., & Cappuyns, V. (2021). Environmental and human health risk assessment of sulfidic mine waste: Bioaccessibility, leaching and mineralogy. Journal of Hazardous Materials, 424, 127313. <https://doi.org/10.1016/j.jhazmat.2021.127313>
 
-- Bonsey, K. Dissolution of mineral-bound arsenic in biofluid: In-vitro bioaccessibility in synthetic gastric solution and in-vivo distribution in germ-free mice. M.S. thesis, University of Arizona, (2021). <https://repository.arizona.edu/handle/10150/661518>
+-   Bonsey, K. Dissolution of mineral-bound arsenic in biofluid: In-vitro bioaccessibility in synthetic gastric solution and in-vivo distribution in germ-free mice. M.S. thesis, University of Arizona, (2021). <https://repository.arizona.edu/handle/10150/661518>
 
 -   Manjón, I., Ramírez-Andreotta, M. D., Sáez, A. E., Root, R. A., Hild, J., Janes, M. K., & Alexander-Ozinskas, A. (2019). Ingestion and inhalation of metal(loid)s through preschool gardening: An exposure and risk assessment in legacy mining communities. The Science of the Total Environment, 718, 134639. <https://doi.org/10.1016/j.scitotenv.2019.134639>
 
--   Thomas, A. N., Root, R. A., Lantz, R. C., Saez, A. E. & Chorover, J. Oxidative weathering decreases bioaccessibility of toxic metal(loid)s in PM10 emissions from sulfide mine tailings. Geohealth 2, 118-138 (2018). <https://doi.org:10.1002/2017GH000118>
-
+-   Thomas, A. N., Root, R. A., Lantz, R. C., Saez, A. E. & Chorover, J. Oxidative weathering decreases bioaccessibility of toxic metal(loid)s in PM10 emissions from sulfide mine tailings. Geohealth 2, 118-138 (2018). [https://doi.org:10.1002/2017GH000118](https://doi.org:10.1002/2017GH000118){.uri}
 
 ### LARCH & LMFIT
 
@@ -1349,8 +1332,6 @@ Schwertmannite and Jarosite in AMD
 ### Mineralogy
 
 -   Lindsay, M. B., Moncur, M. C., Bain, J. G., Jambor, J. L., Ptacek, C. J., & Blowes, D. W. (2015). Geochemical and mineralogical aspects of sulfide mine tailings. Applied Geochemistry, 57, 157–177. <https://doi.org/10.1016/j.apgeochem.2015.01.009>
-
-
 
 ### uXCT
 
@@ -1531,5 +1512,4 @@ Schwertmannite and Jarosite in AMD
 -   Seidel, H., Görsch, K., Amstätter, K., & Mattusch, J. (2005). Immobilization of arsenic in a tailings material by ferrous iron treatment. *Water Research*, 39(17), 4073–4082. <https://doi.org/10.1016/j.watres.2005.08.001>
 
 [Back to top](#top)
-
 :::
