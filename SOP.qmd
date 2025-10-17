@@ -631,7 +631,7 @@ Some peaks of interest for ATR in your sample:
 
 **Collect Background** (humidity always looks the same: 3 peaks between 2800 to 2000)
 
-![Background look on FTIR-ATR](SOP_files/figures/FTIR_backgroundLook.png)
+![Background look on FTIR-ATR](SOP_files/figures/FTIR_BackgroundLook.png)
 
 -   Start Collection (Up-right corner)
 -   A message will come after saying *the data collection has stopped*. *Add to a new window? YES!*
