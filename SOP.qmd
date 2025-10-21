@@ -406,7 +406,17 @@ The link above contains the scanned version of the synchrotron visit logbook wit
     -   User name
     -   Password
 
-### LARCH Python package
+### **Sample prep formats**
+
+![XAS for SSRL](SOP_files/figures/Synchrotron_samples_XAS_SSRL.png)
+
+![XRD for BNL](SOP_files/figures/Synchrotron_samples_XRD_BNL.png)
+
+![XRD for SSRL](SOP_files/figures/Synchrotron_samples_XRD_SSRL.png)
+
+![XRD for SSRL](SOP_files/figures/Synchrotron_samples_XRD_SSRL2.png)
+
+### **LARCH Python package**
 
 #### XAFS Data processing
 
@@ -659,13 +669,13 @@ Some peaks of interest for ATR in your sample:
 **Sample Normalization**
 
 -   Process -\> Normalize Scale (sensitivity to more peaks)
--   Auto Baseline Correction (for th eplot to start at zero)
+-   Auto Baseline Correction (for the plot to start at zero)
 -   Analyze -\> Search Peaks
 -   Common scale
 
 **GRAMS Software**
 
--   This software is used to analize the sample files.
+-   This software is used to analyze the sample files.
 -   The [RUFF database](https://rruff.geo.arizona.edu/AMS/amcsd.php) has FTIR and XRD data for you to compare and find out different minerals.
 
 [Back to top](#top)
@@ -1043,6 +1053,28 @@ If the hydrogen is below 2%, on the Starlock again until we get to 2% of Hydroge
 When leaving, vacuum the Starlock a little, and then gas it a little.
 
 At the end of the day, close the valves of Nitrogen and Hydrogen gas.
+
+## **Particle generator**
+
+We have cyclones at the lab for the following sizes:
+
+- PM10
+- PM2.5
+- PM1.0
+
+But we also have the **Andersen Sample Impactor** which give us a smaller and more classified range of particles.
+
+![](SOP_files/figures/Andersen.png)
+
+The Andersen is composed of the metallic screening layers, and the air pump.
+
+In order for the Andersen to work accurately as it was designed to work, the pump needs to be set up at **1 ACFM (28.3 liters/min)**.
+
+![Extracted from Andersen Manual](SOP_files/figures/Andersen_PM_sizes.png)
+
+The pump has to be ran at 1 ACFM (28.3 liters/min) always for the particle diameter range to work as the diagram.
+
+
 
 ## **Selective Sequential Extraction**
 
