@@ -444,6 +444,13 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 
 The link to the manual for data analyses of XAS is at this link: [XAS Analysis Manual](https://docs.google.com/document/d/11aBW2lp7dQ3Z7M_WR1V9nHGQpyaWus9GZM6z-x5BB98/edit?usp=sharing)
 
+**References:**
+
+- Webb, S. (2006). XRD-BS. Retrieved 05/22/2006 from [https://wwwssrl.slac.stanford.edu/~swebb/xrdbs.htm]
+
+- Webb, S. M. (2005). SIXPack a Graphical User Interface for XAS Analysis Using IFEFFIT. Physica Scripta, 1011. [https://doi.org/10.1238/physica.topical.115a01011]
+
+
 ***For samples analyzed at SSRL:***
 
 **SAMS VIEW**
@@ -480,6 +487,10 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
     -   Group Spectra
 
 ### **ATHENA SOFTWARE**
+
+**References:**
+
+- Ravel, B., & Newville, M. (2005). ATHENA, ARTEMIS, HEPHAESTUS: data analysis for X-ray absorption spectroscopy using<i>IFEFFIT</i>. Journal of Synchrotron Radiation, 12(4), 537-541. [https://doi.org/10.1107/s0909049505012719]
 
 #### **DATA NORMALIZATION**
 
@@ -685,7 +696,11 @@ Some peaks of interest for ATR in your sample:
 
 You can get the .CIFF files for minerals at the [RUFF database](https://rruff.geo.arizona.edu/AMS/amcsd.php).
 
-Cite the database as: *Downs, R.T. and Hall-Wallace, M. (2003) The American Mineralogist Crystal Structure Database. American Mineralogist 88, 247-250.* [Link to paper](http://geo.arizona.edu/xtal/group/pdf/am88_247.pdf)
+**References:**
+
+- Webb, S. (2006). XRD-BS. Retrieved 05/22/2006 from [https://wwwssrl.slac.stanford.edu/~swebb/xrdbs.htm]
+
+- Downs, R.T. and Hall-Wallace, M. (2003) The American Mineralogist Crystal Structure Database. American Mineralogist 88, 247-250. [Link to paper](http://geo.arizona.edu/xtal/group/pdf/am88_247.pdf)
 
 ::: panel-tabset
 ## **Craig's Rasmussen Lab Computer procedure for powder X-ray Diffraction**
@@ -984,15 +999,21 @@ The thesis of previous Chorover students help a lot with figuring out the steps 
 
 ## **Freeze-Dryer**
 
-What this machine does is that it drys the sample through Sublimation, which is when solid water goes to vapor.
+What this machine does is that it drys the sample through **Sublimation**, which is when solid water goes to vapor.
 
 -   **Bring your samples frozen.**
--   Put kimwipes between your sample and the cap, so particles don't enter the vacuum.
--   Put the cap on.
--   The black hose goes on the trash can for spilling.
--   Press **AUTO**. The vacuum has to end below 300. The temperature should be -40.
+-   Put kimwipes as cap of the container of your sample, tied with multiple rubber bands, so the vacuum can be applied and it can dry the sample, but still you particles don't run into the vacuum.
+-   Put the black rubber cap on.
 -   Grey cap connects to the black piece.
--   If the tilted side is on the same direction that the tube, then it s open.
+-   If the tilted side of the grey cap is on the opposite direction that the transparent tube connection spot, then it is not connected to the vacuum so you can go ahead and insert the samples.
+-   Insert your samples carefully because the glass container can break if you throw them.
+- Add a paper filter to the tube connected to the central chamber, as a way to protect the central chamber from the particles of your samples.
+-   Now you can connect your samples to vacuum, by rotating the grey cap by 180 degrees, until the tilted side of the grey cap is aligned with the transparent tube that goes to your samples, allowing them to connect to the system.
+
+![](SOP_files/figures/Freeze-Dryer.png)
+
+-   The black hose goes on the base of the machine needs to go on the trash can in case there is any oil spilling.
+-   Press **AUTO**. The vacuum has to end below 300. The temperature should be -40.
 -   **Leave the sample for 48 hours**
 -   *If the sample is still cold, there is still water on it, if it is room temperature, it is dry.*
 
@@ -1002,8 +1023,8 @@ What this machine does is that it drys the sample through Sublimation, which is 
 
 ::: callout-important
 -   "CE" clears the alarm, if it ever get activated.
--   Metal Free Tubes maximum is 1200 RCF.
--   Ultra 30 mL darkish tubes, have a maximum of 1500 RCF.
+-   Metal Free Tubes maximum speed is 1200 RCF.
+-   Ultra 30 mL darkish tubes, have a maximum speed of 1500 RCF.
 :::
 
 **Set up:**
