@@ -412,9 +412,9 @@ The link above contains the scanned version of the synchrotron visit logbook wit
 
 ![XRD for BNL](SOP_files/figures/Synchrotron_samples_XRD_BNL.png)
 
-![XRD for SSRL](SOP_files/figures/Synchrotron_samples_XRD_SSRL.png)
+![XRD for BNL](SOP_files/figures/Synchrotron_samples_XRD_SSRL.png)
 
-![XRD for SSRL](SOP_files/figures/Synchrotron_samples_XRD_SSRL2.png)
+![XRD for BNL](SOP_files/figures/Synchrotron_samples_XRD_SSRL2.png)
 
 ### **LARCH Python package**
 
