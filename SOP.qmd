@@ -857,7 +857,11 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 ![lucky token](SOP_files/figures/BET_Token.png)
 
 ::: callout-important
-Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities **from 8 to 11 a.m. on weekdays**. (*See Administrative procedure for this, the link to order is there*)
+
+- DO NOT grind your samples before this analysis because you will be adding more surface area than the original specific surface area of your material.
+
+- Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities **from 8 to 11 a.m. on weekdays**. (*See Administrative procedure for this, the link to order is there*)
+
 :::
 
 *NOTES*: 
