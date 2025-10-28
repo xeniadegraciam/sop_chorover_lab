@@ -50,7 +50,7 @@ Department of Environmental Sciences\
 
 -   *This is an ongoing work and a gift for Rob, to give him some rest from repeating the same information every time someone joins the lab xD*
 
--   *Warning: English is not my native language. My apologies for any typo found on these notes!*
+-   *My apologies if you find a typo on these lab notes, as English is not my native language.*
 :::
 
 ------------------------------------------------------------------------
@@ -264,6 +264,9 @@ datatable(
 | Ferrozine method                                      | ALEC does not run this. Fan/Fan method |
 | **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
 
+
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.png)
+
 ## **ICP-MS (main cations) & Arsenic Speciation**
 
 Equipment:
@@ -277,8 +280,13 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 ![ICP-MS](SOP_files/figures/ICP-MS.png)
 
 ::: callout-important
-**All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab**
+- **All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab**
+- Use metal-free centrifuge tubes.
 :::
+
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.png)
+
+**Steps**
 
 -   Prepare a batch of 2% of High Purity Nitric Acid (HNO3)
 -   Take 1 mL of the sample
@@ -287,12 +295,12 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 -   Total volume of the mix in the tube: 10 mL
 -   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
 
-![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
+![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.png)
 
-**HNO3 at 1% is prepared:**
+**HNO3 at 2% is prepared:**
 
--   10 mL of UHP HNO3 from the purchased bottle
--   990 mL of DI water
+-   20 mL of UHP HNO3 from the purchased bottle
+-   980 mL of DI water
 
 ![](SOP_files/figures/UHP_Nitric_Acid.png)
 
@@ -911,6 +919,11 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 
 ![](SOP_files/figures/PSD_machine.png)
 
+
+::: callout-important
+- DO NOT grind your samples before this analysis because you would be changing the particle size of the original sample.
+:::
+
 This is done with the Laser Diffraction from *Marcel Schaap's Lab*.
 
 Request permission from him before using their facilities.
@@ -1020,6 +1033,12 @@ What this machine does is that it drys the sample through **Sublimation**, which
 -   Press **AUTO**. The vacuum has to end below 300. The temperature should be -40.
 -   **Leave the sample for 48 hours**
 -   *If the sample is still cold, there is still water on it, if it is room temperature, it is dry.*
+
+::: callout-important
+
+- Change the oil once a month. There is a signing spreadsheet on the bench to check when was the last time it was changed.
+
+:::
 
 ## **Centrifuge**
 
@@ -1189,9 +1208,9 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 ![SSE](SOP_files/figures/Slides_SOP/SSE.png)
 
-![SSE](SOP_files/figures/Slides_SOP/Slide32.PNG)
+![SSE](SOP_files/figures/Slides_SOP/Slide32.png)
 
-![SSE](SOP_files/figures/Slides_SOP/Slide33.PNG)
+![SSE](SOP_files/figures/Slides_SOP/Slide33.png)
 
 [Back to top](#top)
 
@@ -1200,6 +1219,63 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 ![](SOP_files/figures/mini-columns.png)
 
 Lauren Bozeman's thesis (2018) is good to learn this process.
+
+**Reagents needed:**
+
+- HNO3 Ultra High Purity at 5% for ICP-MS water samples
+- HCl at 2% for Iron Speciation
+- EDTA for Arsenic Speciation. (*This step made the tubing of ICP-MS to get salts on it, so we eliminated this*)
+- Breathable Air for air bubbles
+- Lithium Bromide for Tracer Test
+
+**Materials needed:**
+
+- Acid washed mini-columns
+- Luer Lock Female and Male 1/16"
+- Tubing
+- Water pump
+- pH probe
+- EC probe
+- Acid washed 15 mL metal-free tubes. We must have at least 500.
+- Syringes
+- 0.2 um metal-free filters
+- 10 mL Pipette: *Fisherbrand Maxi Tips Non-Filter Pipette Tips Bulk Bag. Vol 1-10 mL. Code: 02-707-466*
+- 1 mL Pipette
+- 10 mL tips for pipette
+- 1 mL tips for pipette
+- Racks to put 15 mL tubes
+- Air tank metal connection
+- Fridge space for samples
+- Scale with automatic logging of weights
+- 5 Gal tank for DI water and air diffuser
+- Air Diffuser toput inside water tank
+- Stirring bar for water tank
+- Stirring plate for water tank
+- Bromide Probe
+
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.png)
+
+![Luer lock sizes](SOP_files/figures/luer-lock.png)
+
+
+**Steps:**
+
+- Weight the components of the mini-column:
+  - frit
+  - empty column
+  - lead
+- Fill up the mini-columns with your material.
+- Weight again to know what was the mass of sample you put inside.
+- Fill up the information on the excel spreadsheet to get the porosity and pore volume for future analysis.
+- Turn on the the system, start filling up the columns with water.
+- Take samples as needed:
+  - Every 4 hours for the first 24 hours
+  - Every 12 hours for the next 10 days
+- Add the HNO3 and HCL to the respective vials to maintain speciation as much as possible.
+- Filter the samples with 0.45 um metal-free filter before bringing them to ALEC for ICP-MS (main Cations) and Ion Chromatography (Anions)
+- Plot your data concentrations to check the behavior with time.
+
+
 
 [Back to top](#top)
 :::
