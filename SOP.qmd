@@ -43,14 +43,13 @@ Department of Environmental Sciences\
 [University of Arizona]{style="font-size: 1em;"}\
 :::
 
-::: {style="text-align: left; margin-top: 30px;"}
-*NOTES:*
-
+::: {.callout-note}
 -   *Here I included some of my lab notes when working at Chorover's lab.*
+
+-   *Typos could possibly be found on these lab notes, as English is not my native language. If you do, please let me know to make the necessary corrections. Thanks!*
 
 -   *This is an ongoing work and a gift for Rob, to give him some rest from repeating the same information every time someone joins the lab xD*
 
--   *My apologies if you find a typo on these lab notes, as English is not my native language.*
 :::
 
 ------------------------------------------------------------------------
@@ -154,6 +153,21 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 # **ANALYTICAL PROCEDURES**
 
 ::: panel-tabset
+## **ALEC Sample volume required for different analyses:**
+
+| **Analysis**                                          | **Volume needed**                      |
+|-----------------------------------------|-------------------------------|
+| ICP-MS / ICP-AES / Arsenic Speciation                 | 3 mL                                   |
+| Total Organic Carbon, Total Carbon and Total Nitrogen | 17 mL                                  |
+| Ion Chromatography                                    | 1 mL                                   |
+| HPLC ICP-MS                                           | 300 uL (*micro Liters*)                |
+| HPLC electrospray ionization (ESI) MS                 | 1 mL                                   |
+| Ferrozine method                                      | ALEC does not run this. Fan/Fan method |
+| **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
+
+
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
+
 ## **ALEC Analytes**
 
 The following is a table showing the groups of different elements they analyze at ALEC.
@@ -229,7 +243,8 @@ datatable(
   analyte_table,
   extensions = 'Buttons',
   options = list(
-    pageLength = max_section_size,  # dynamically show up to 16 rows per page
+    pageLength = 68,
+    #pageLength = max_section_size,  # dynamically show up to 16 rows per page
     autoWidth = TRUE,
     dom = 'Bfrtip',
     buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
@@ -251,21 +266,6 @@ datatable(
 ```
 
 [Back to top](#top)
-
-## **ALEC Sample volume required for different analyses:**
-
-| **Analysis**                                          | **Volume needed**                      |
-|-----------------------------------------|-------------------------------|
-| ICP-MS / ICP-AES / Arsenic Speciation                 | 3 mL                                   |
-| Total Organic Carbon, Total Carbon and Total Nitrogen | 17 mL                                  |
-| Ion Chromatography                                    | 1 mL                                   |
-| HPLC ICP-MS                                           | 300 uL (*micro Liters*)                |
-| HPLC electrospray ionization (ESI) MS                 | 1 mL                                   |
-| Ferrozine method                                      | ALEC does not run this. Fan/Fan method |
-| **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
-
-
-![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
 
 ## **ICP-MS (main cations) & Arsenic Speciation**
 
@@ -454,9 +454,9 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
 
 **References:**
 
-- Webb, S. (2006). XRD-BS. Retrieved 05/22/2006 from [https://wwwssrl.slac.stanford.edu/~swebb/xrdbs.htm]
+- Webb, S. (2006). XRD-BS.  <https://www-ssrl.slac.stanford.edu/~swebb/xrdbs.htm>
 
-- Webb, S. M. (2005). SIXPack a Graphical User Interface for XAS Analysis Using IFEFFIT. Physica Scripta, 1011. [https://doi.org/10.1238/physica.topical.115a01011]
+- Webb, S. M. (2005). SIXPack a Graphical User Interface for XAS Analysis Using IFEFFIT. Physica Scripta, 1011. <https://doi.org/10.1238/physica.topical.115a01011>
 
 
 ***For samples analyzed at SSRL:***
@@ -479,7 +479,7 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
         -   Press **Enter**
     -   Press **Apply Shift to Data**. It will apply the shift that it found.
 
-![](SOP_files/figures/beamline_reference.png)
+![Diagram about Sample getting hit by beamline](SOP_files/figures/beamline_reference.png)
 
 -   **Clean the channels** with weird data:
     -   Plot type: Column
@@ -498,7 +498,7 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
 
 **References:**
 
-- Ravel, B., & Newville, M. (2005). ATHENA, ARTEMIS, HEPHAESTUS: data analysis for X-ray absorption spectroscopy using<i>IFEFFIT</i>. Journal of Synchrotron Radiation, 12(4), 537-541. [https://doi.org/10.1107/s0909049505012719]
+- Ravel, B., & Newville, M. (2005). ATHENA, ARTEMIS, HEPHAESTUS: data analysis for X-ray absorption spectroscopy using<i>IFEFFIT</i>. Journal of Synchrotron Radiation, 12(4), 537-541. <https://doi.org/10.1107/s0909049505012719>
 
 #### **DATA NORMALIZATION**
 
@@ -706,7 +706,8 @@ You can get the .CIFF files for minerals at the [RUFF database](https://rruff.ge
 
 **References:**
 
-- Webb, S. (2006). XRD-BS. Retrieved 05/22/2006 from [https://wwwssrl.slac.stanford.edu/~swebb/xrdbs.htm]
+- Webb, S. (2006). XRD-BS.  <https://www-ssrl.slac.stanford.edu/~swebb/xrdbs.htm>
+
 
 - Downs, R.T. and Hall-Wallace, M. (2003) The American Mineralogist Crystal Structure Database. American Mineralogist 88, 247-250. [Link to paper](http://geo.arizona.edu/xtal/group/pdf/am88_247.pdf)
 
@@ -795,11 +796,9 @@ This analysis uses Full Pattern Summation and the "powdR" package to analyze x-r
 
 **References:**
 
--   Chipera, Steve J., and David L. Bish. 2002. “FULLPAT: A full-pattern quantitative analysis program for X-ray powder diffraction using measured and calculated patterns.” Journal of Applied Crystallography 35 (6): 744–49. [ ](https://doi.org/10.1107/S0021889802017405).
+-   Chipera, Steve J., and David L. Bish. 2002. “FULLPAT: A full-pattern quantitative analysis program for X-ray powder diffraction using measured and calculated patterns.” Journal of Applied Crystallography 35 (6): 744–49. <https://doi.org/10.1107/S0021889802017405>.
 
--   
-
-    2013. “Fitting Full X-Ray Diffraction Patterns for Quantitative Analysis: A Method for Readily Quantifying Crystalline and Disordered Phases.” Advances in Materials Physics and Chemistry 03 (01): 47–53. [ ](https://doi.org/10.4236/ampc.2013.31A007).
+-  2013. “Fitting Full X-Ray Diffraction Patterns for Quantitative Analysis: A Method for Readily Quantifying Crystalline and Disordered Phases.” Advances in Materials Physics and Chemistry 03 (01): 47–53. <https://doi.org/10.4236/ampc.2013.31A007>.
 
 -   Eberl, D. D. 2003. “User’s guide to ROCKJOCK - A program for determining quantitative mineralogy from powder X-ray diffraction data.” Boulder, CA: USGS.
 
@@ -840,9 +839,9 @@ The following document was made by Alexander Ederer and edited by Xenia to add s
 -   Then proceed to shake your following sample.
 -   If you are **not** analyzing your samples yourself, you can send them to the *Chemistry & Biochemistry Lab (Andrei Astachkine: andrei\@arizona.edu)*
 
-![](SOP_files/figures/ball_mill.png)
+![Ground sample from the ball mill](SOP_files/figures/ball_mill.png)
 
-![](SOP_files/figures/XRD_samples.png)
+![Sample holders ready for XRD analysis](SOP_files/figures/XRD_samples.png)
 
 ## **Clay Mineral Identification Flow Diagram**
 
@@ -850,7 +849,7 @@ The following chart from USGS helps identify the different clays using the separ
 
 USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
 
-![](SOP_files/figures/clay_flow_usgs.gif){width="768"} 
+![Clay Chart](SOP_files/figures/clay_flow_usgs.gif){width="768"} 
 
 
 [Back to top](#top)
@@ -866,7 +865,7 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 
 ::: callout-important
 
-- DO NOT grind your samples before this analysis because you will be adding more surface area than the original specific surface area of your material.
+- **DO NOT grind your samples before this analysis** because you would be adding more surface area than the original specific surface area of your material.
 
 - Liquid Nitrogen must be ordered beforehand, and it can be picked up from the Cryogenics Facilities **from 8 to 11 a.m. on weekdays**. (*See Administrative procedure for this, the link to order is there*)
 
@@ -890,7 +889,7 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Weight the tube+sample, and add that on the lab notebook.
 -   Degas the samples overnight with a temperature of **45 Celsius** because I’m using tailings. (*If I increase the temperature I could convert my ferrihydrite to Goethite, and we don’t want that.*)
 
-![](SOP_files/figures/BET_Dessicator_NitrogenStation.png)
+![Drying station](SOP_files/figures/BET_Dessicator_NitrogenStation.png)
 
 ### **Computer procedure: Gemini program**
 
@@ -911,17 +910,17 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 **If you have an error in the computer, take a screenshot and save it in the PPT that is open in that computer.**
 :::
 
-![](SOP_files/figures/BET.png)
+![BET machine](SOP_files/figures/BET.png)
 
 [Back to top](#top)
 
 ## **Particle size distribution**
 
-![](SOP_files/figures/PSD_machine.png)
+![LS-13-320 Laser Diffraction Particle Size Analyzer](SOP_files/figures/PSD_machine.png)
 
 
 ::: callout-important
-- DO NOT grind your samples before this analysis because you would be changing the particle size of the original sample.
+- **DO NOT grind your samples before this analysis** because you would be changing the original particle size of the sample.
 :::
 
 This is done with the Laser Diffraction from *Marcel Schaap's Lab*.
@@ -942,7 +941,7 @@ The following document was made by Mohaddese Effati and edited by Xenia for the 
 
 ### **HYPROP for Soil-Water Characteristic Curves**
 
-![](SOP_files/figures/HYPROP.png)
+![HYPROP analysis](SOP_files/figures/HYPROP.png)
 
 ***Work in progress...***
 
@@ -957,7 +956,7 @@ The following document was made by Mohaddese Effati and edited by Xenia for the 
 
 ### **WP4-C**
 
-![](SOP_files/figures/WP4C.png)
+![WP4-C](SOP_files/figures/WP4C.png)
 
 This is for the Dry part of the Soil-Water Characteristic Curve:
 
@@ -1027,7 +1026,7 @@ What this machine does is that it drys the sample through **Sublimation**, which
 - Add a paper filter to the tube connected to the central chamber, as a way to protect the central chamber from the particles of your samples.
 -   Now you can connect your samples to vacuum, by rotating the grey cap by 180 degrees, until the tilted side of the grey cap is aligned with the transparent tube that goes to your samples, allowing them to connect to the system.
 
-![](SOP_files/figures/Freeze-Dryer.png)
+![Jars ready for Freeze-Dryer](SOP_files/figures/Freeze-Dryer.png)
 
 -   The black hose goes on the base of the machine needs to go on the trash can in case there is any oil spilling.
 -   Press **AUTO**. The vacuum has to end below 300. The temperature should be -40.
@@ -1042,7 +1041,7 @@ What this machine does is that it drys the sample through **Sublimation**, which
 
 ## **Centrifuge**
 
-![](SOP_files/figures/centrifuge.png)
+![Samples on the Centrifuge rotor](SOP_files/figures/centrifuge.png)
 
 ::: callout-important
 -   "CE" clears the alarm, if it ever get activated.
@@ -1073,7 +1072,7 @@ What this machine does is that it drys the sample through **Sublimation**, which
         -   RPM (do not recommend using this one)
     -   **START**
 
-![](SOP_files/figures/centrifuge1.png)
+![Centrifuge in 245](SOP_files/figures/centrifuge1.png)
 
 [Back to top](#top)
 
@@ -1108,7 +1107,7 @@ We have cyclones at the lab for the following sizes:
 
 But we also have the **Andersen Sample Impactor** which give us a smaller and more classified range of particles.
 
-![](SOP_files/figures/Andersen.png)
+![Andersen Sample Impactor](SOP_files/figures/Andersen.png)
 
 The Andersen is composed of the metallic screening layers, and the air pump.
 
@@ -1216,7 +1215,7 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 ## **Flow-through reactive mini-column experiment results**
 
-![](SOP_files/figures/mini-columns.png)
+![Setup for mini-column experiments](SOP_files/figures/mini-columns.png)
 
 Lauren Bozeman's thesis (2018) is good to learn this process.
 
@@ -1284,8 +1283,8 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 - Check the water tank everyday so the tubing is not getting air instead of water.
 
 
-
 [Back to top](#top)
+
 :::
 
 # **PAPERS AND REFERENCES**
