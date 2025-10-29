@@ -265,7 +265,7 @@ datatable(
 | **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
 
 
-![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.png)
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
 
 ## **ICP-MS (main cations) & Arsenic Speciation**
 
@@ -284,7 +284,7 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 - Use metal-free centrifuge tubes.
 :::
 
-![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.png)
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
 
 **Steps**
 
@@ -295,7 +295,7 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 -   Total volume of the mix in the tube: 10 mL
 -   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
 
-![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.png)
+![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
 
 **HNO3 at 2% is prepared:**
 
@@ -1274,6 +1274,14 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 - Add the HNO3 and HCL to the respective vials to maintain speciation as much as possible.
 - Filter the samples with 0.45 um metal-free filter before bringing them to ALEC for ICP-MS (main Cations) and Ion Chromatography (Anions)
 - Plot your data concentrations to check the behavior with time.
+
+
+**NOTES:**
+
+- When starting the pump, do not connect the mini-columns yet until ALL the tubing has NO AIR inside, because ifnot you will fill your columns with air.
+- Take the time of staring the flush of water.
+- Take the flow ypu set up in the pump (1.5 mL/min)
+- Check the water tank everyday so the tubing is not getting air instead of water.
 
 
 
