@@ -103,7 +103,7 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 
 [Back to top](#top)
 
-## **Buying Lab Supplies in BuyWays**
+## **BuyWays: Buy Lab Supplies**
 
 *NOTE*: this procedures is valid if you are on campus, but if you are not, you can connect to the university VPN, through the following app: Cisco Secure Client.
 
@@ -148,6 +148,14 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 ![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.png)
 
 [Back to top](#top)
+
+## **ENVS Business Office**
+
+![ENVS](SOP_files/figures/logos/ENVS_logo.png)
+
+
+<https://envs.arizona.edu/about/contact/business-office>
+
 :::
 
 # **ANALYTICAL PROCEDURES**
