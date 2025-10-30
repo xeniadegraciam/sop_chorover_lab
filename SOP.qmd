@@ -46,7 +46,7 @@ Department of Environmental Sciences\
 ::: {.callout-note}
 -   *Here I included some of my lab notes when working at Chorover's lab.*
 
--   *Typos could possibly be found on these lab notes, as English is not my native language. If you do, please let me know to make the necessary corrections. Thanks!*
+-   *Typos could be found on these lab notes, as English is not my native language. If you find some, please let me know to make the necessary corrections. Thanks!*
 
 -   *This is an ongoing work and a gift for Rob, to give him some rest from repeating the same information every time someone joins the lab xD*
 
@@ -1277,9 +1277,9 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 
 **NOTES:**
 
-- When starting the pump, do not connect the mini-columns yet until ALL the tubing has NO AIR inside, because ifnot you will fill your columns with air.
+- When starting the pump, do not connect the mini-columns yet until ALL the tubing has NO AIR inside, if not, you will fill your columns with air.
 - Take the time of staring the flush of water.
-- Take the flow ypu set up in the pump (1.5 mL/min)
+- Take the flow you set up in the pump (1.5 mL/min)
 - Check the water tank everyday so the tubing is not getting air instead of water.
 
 
