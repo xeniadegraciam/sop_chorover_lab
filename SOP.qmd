@@ -622,7 +622,13 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 
 ![](SOP_files/figures/FTIR.png)
 
-**What is it doing?**
+::: callout-important
+- **FIRST THING: ON THE MACHINE, PRESS THE BUTTON BESIDE THE ATR ACCESSORY UNTIL IT LIGHTS ON BLUE, MEANING THE ATR MODE IS ON.**
+
+- **ALWAYS check that, while scanning each sample, your Background AGE is showed in the lower-right end of the screen. This way you make sure that you are substracting the background when scanning your sample**
+:::
+
+**What is this technique doing?**
 
 This technique applies a heat source that bounce the molecules inside your sample (the red laser observed is not the source, it is just for guidance). Part of the heat is going through the sample and part of it is surrounding it. Then the waves converge together and they are cancelling and constructing each other. That’s when the Fourier transform computation happens in the computer, bringing up the plot of **Absorbance VS. Wavelength**. Some molecules don’t respond to heat, nitrogen in the air doesn’t, so that’s why there is a nitrogen vacuum inside the machine, because it wont affect your sample measurement.
 
@@ -632,9 +638,7 @@ Some peaks of interest for ATR in your sample:
 -   Aluminum hydroxides are on 3600 cm-1
 -   Silica is from 1030 to 1100 cm-1
 
-::: callout-important
-**FIRST THING: ON THE MACHINE, PRESS THE BUTTON BESIDE THE ATR ACCESSORY UNTIL IT LIGHTS ON BLUE, MEANING THE ATR MODE IS ON.**
-:::
+
 
 #### **Sample prep**
 
