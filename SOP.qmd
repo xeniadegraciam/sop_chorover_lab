@@ -62,10 +62,10 @@ Department of Environmental Sciences\
 ## **BuyWays: Buy Lab Supplies**
 
 ::: {.callout-note}
--   This procedures is valid if you are on campus, but if you are not, you can connect to the university VPN, through the following app: Cisco Secure Client.
+-   This procedure is valid if you are **on campus**, but if you are not, you can connect to the university VPN, through the following app: Cisco Secure Client.
 :::
 
-**Connect to VPN** *(just if you are off campus)*
+**Connect to VPN** **(just if you are off campus)**
 
 -   Download Cisco Secure Client [here](https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5686-install-cisco-anyconnect-secure-mobility-client-on-a-windows.html)
 -   Set it up as follows:
