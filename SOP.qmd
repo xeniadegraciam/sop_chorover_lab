@@ -59,53 +59,11 @@ Department of Environmental Sciences\
 # **ADMINISTRATIVE PROCEDURES**
 
 ::: panel-tabset
-## **RLSS**
-
-Remember to check the fulfillment of the required safety training in the Research Laboratory and Safety Services.
-
-[Link to RLSS](https://rlss.arizona.edu/services/protected/index.xhtml)
-
-## **Chemical Inventory**
-
-[Chemical Inventory Link](https://rlss.arizona.edu/services/protected/approval-management/chemical/inventory.xhtml?from=home)
-
-## **Chemical & Biohazard Waste Pickup Request**
-
-The hazardous waste pick-up happens the SECOND Thursday of every month. You have to schedule it with enough time so they can pick it up and bring you extra tanks and tags for the chemicals.
-
-[Form for Chemical & Biohazard Waste Pickup Request](https://risk.arizona.edu/forms/chemical-waste-pickup)
-
-## **Cryogenics & Compressed Gas Facility**
-
-Use this [link](https://cryo.cores.arizona.edu/cgf/) to order the Liquid Nitrogen, or any gas you may need for your lab work.
-
--   Hours of Operation: M-F 8:00AM to 4:00PM
-
--   **Pickup 8:30AM to 11AM**
-
--   Cryo Closed 11:30AM to 12:30PM daily
-
-The Liquid Nitrogen we order is: *Liquid Nitrogen, Refrigerated (Class 2.2 UN1977 Non-Flammable). Please specify the quantity in liters. MAX 60 liters/order.*
-
-We order 10 Liters (30 pounds) for the big bin.
-
-**Safety measurements to consider:**
-
--   Use the required cryogenic gloves and a face shield to handle Liquid Nitrogen.
-
--   Make sure empty cylinders are labeled or tagged.
-
--   Make sure caps are in place when not in use
-
--   Cylinders are secured, not blocking exits or pathways and stored upright in racks, straps, chains, or stands.
-
-Extracted from the [University Chemical Hygiene Plan](https://research.arizona.edu/compliance/RLSS/chemical-safety)
-
-[Back to top](#top)
-
 ## **BuyWays: Buy Lab Supplies**
 
-*NOTE*: this procedures is valid if you are on campus, but if you are not, you can connect to the university VPN, through the following app: Cisco Secure Client.
+::: {.callout-note}
+-   This procedures is valid if you are on campus, but if you are not, you can connect to the university VPN, through the following app: Cisco Secure Client.
+:::
 
 **Connect to VPN** *(just if you are off campus)*
 
@@ -136,6 +94,51 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 -   SUBMIT
 
 [Back to top](#top)
+
+## **Chemical & Biohazard Waste Pickup Request**
+
+The hazardous waste pick-up happens the **SECOND Thursday of every month**. You have to schedule it with enough time so they can pick it up and bring you extra tanks and tags for the chemicals.
+
+[Form for Chemical & Biohazard Waste Pickup Request](https://risk.arizona.edu/forms/chemical-waste-pickup)
+
+## **RLSS**
+
+Remember to check the fulfillment of the required safety training in the Research Laboratory and Safety Services.
+
+[Link to RLSS](https://rlss.arizona.edu/services/protected/index.xhtml)
+
+## **Chemical Inventory**
+
+[Chemical Inventory Link](https://rlss.arizona.edu/services/protected/approval-management/chemical/inventory.xhtml?from=home)
+
+## **Cryogenics & Compressed Gas Facility**
+
+Use this [link](https://cryo.cores.arizona.edu/cgf/) to order the Liquid Nitrogen, or any gas you may need for your lab work.
+
+-   Hours of Operation: M-F 8:00AM to 4:00PM
+
+-   **Pickup 8:30AM to 11AM**
+
+-   Cryo Closed 11:30AM to 12:30PM daily
+
+The Liquid Nitrogen we order is: *Liquid Nitrogen, Refrigerated (Class 2.2 UN1977 Non-Flammable). Please specify the quantity in liters. MAX 60 liters/order.*
+
+We order 10 Liters (30 pounds) for the big bin.
+
+**Safety measurements to consider:**
+
+-   Use the required cryogenic gloves and a face shield to handle Liquid Nitrogen.
+
+-   Make sure empty cylinders are labeled or tagged.
+
+-   Make sure caps are in place when not in use
+
+-   Cylinders are secured, not blocking exits or pathways and stored upright in racks, straps, chains, or stands.
+
+Extracted from the [University Chemical Hygiene Plan](https://research.arizona.edu/compliance/RLSS/chemical-safety)
+
+[Back to top](#top)
+
 
 ## **Remote Access to 518 computer**
 
@@ -1090,6 +1093,8 @@ What this machine does is that it drys the sample through **Sublimation**, which
 
 ## **Glovebox (Suboxic chamber)**
 
+***Work in progress...***
+
 Airlock On (to extract the oxygen). Cycle the Airlock. Open the valves of the tanks:
 
 -   Vacuum
@@ -1110,6 +1115,8 @@ When leaving, vacuum the Starlock a little, and then gas it a little.
 At the end of the day, close the valves of Nitrogen and Hydrogen gas.
 
 ## **Particle generator**
+
+***Work in progress...***
 
 We have cyclones at the lab for the following sizes:
 
