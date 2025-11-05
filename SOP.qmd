@@ -7,8 +7,10 @@ format:
     page-layout: full      # Uses full browser width. full → maximum width, uses the whole browser. article (default) → standard narrow reading layout.
     toc: true
     toc-location: left
+    toc-depth: 6        # include H1–H6
+    toc-expand: 6       # expand all levels in the TOC
     number-sections: true
-    toc-depth: 6
+    number-depth: 6     # number all levels
     theme:
       light: cosmo
       dark: darkly
@@ -19,6 +21,7 @@ website:
   sidebar:
     style: "docked"   # options: "floating", "docked"
     contents: auto    # auto-build from document headings
+    collapse-level: 6   # keep all heading levels expanded in the sidebar
   bread-crumbs: true  # Show “you are here” paths to help readers orient.
   search: 
     location: navbar
@@ -97,7 +100,7 @@ Department of Environmental Sciences\
 
 ## **Chemical & Biohazard Waste Pickup Request**
 
-::: {.callout-note}
+::: callout-important
 Risk Management **WONT pick up stuff with no labels on it**. They will leave it right there, and they wont come back **until next month**.
 :::
 
@@ -113,7 +116,7 @@ Remember to check the fulfillment of the required safety training in the Researc
 
 ## **Chemical Inventory**
 
-If you purchase a new checmical, make sure oto add it to the chemical inventory.
+If you purchase a new chemical, make sure to add it to the chemical inventory.
 
 [Chemical Inventory Link](https://rlss.arizona.edu/services/protected/approval-management/chemical/inventory.xhtml?from=home)
 
