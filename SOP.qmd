@@ -97,6 +97,10 @@ Department of Environmental Sciences\
 
 ## **Chemical & Biohazard Waste Pickup Request**
 
+::: {.callout-note}
+Risk Management **WONT pick up stuff with no labels on it**. They will leave it right there, and they wont come back **until next month**.
+:::
+
 The hazardous waste pick-up happens the **SECOND Thursday of every month**. You have to schedule it with enough time so they can pick it up and bring you extra tanks and tags for the chemicals.
 
 [Form for Chemical & Biohazard Waste Pickup Request](https://risk.arizona.edu/forms/chemical-waste-pickup)
@@ -108,6 +112,8 @@ Remember to check the fulfillment of the required safety training in the Researc
 [Link to RLSS](https://rlss.arizona.edu/services/protected/index.xhtml)
 
 ## **Chemical Inventory**
+
+If you purchase a new checmical, make sure oto add it to the chemical inventory.
 
 [Chemical Inventory Link](https://rlss.arizona.edu/services/protected/approval-management/chemical/inventory.xhtml?from=home)
 
@@ -1062,6 +1068,7 @@ What this machine does is that it drys the sample through **Sublimation**, which
 -   "CE" clears the alarm, if it ever get activated.
 -   Metal Free Tubes maximum speed is 1200 RCF.
 -   Ultra 30 mL darkish tubes, have a maximum speed of 1500 RCF.
+-   Clean the rotors with wipes or water.
 :::
 
 **Set up:**
@@ -1118,6 +1125,11 @@ At the end of the day, close the valves of Nitrogen and Hydrogen gas.
 
 ***Work in progress...***
 
+::: callout-important
+- Bring your samples already sieved as close as you can to 10um. We have a 50 um and 20 um sieve.
+- This process must be done inside the fumehood. Use masks, googles, gloves and labcoat as particles could get into your body.
+:::
+
 We have cyclones at the lab for the following sizes:
 
 - PM10
@@ -1130,12 +1142,19 @@ But we also have the **Andersen Sample Impactor** which give us a smaller and mo
 
 The Andersen is composed of the metallic screening layers, and the air pump.
 
-In order for the Andersen to work accurately as it was designed to work, the pump needs to be set up at **1 ACFM (28.3 liters/min)**.
+In order for the Andersen to work accurately as it was designed to work, the pump needs to be set up at **1 ACFM = 59 SCFH = 28.3 liters/min**.
+
+The sizes of each mesh are explained in the diagram below:
 
 ![Extracted from Andersen Manual](SOP_files/figures/Andersen_PM_sizes.png)
 
-The pump has to be ran at 1 ACFM (28.3 liters/min) always for the particle diameter range to work as the diagram.
+The pump has to be ran at 1 ACFM (28.3 liters/min) always for the particle diameter range to work as the diagram. **There is already a line drawn on the flow meter at 59 SCFH**, which corresponds to the flow it should be running.
 
+![Andersen Sample Impactor](SOP_files/figures/Andersen2.png)
+
+![Examples of particles ran](SOP_files/figures/Andersen3.png)
+
+After done with it, check the size of your particles with SEM to be sure they are correct.
 
 
 ## **Selective Sequential Extraction**
