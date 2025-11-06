@@ -108,6 +108,10 @@ The hazardous waste pick-up happens the **SECOND Thursday of every month**. You 
 
 [Form for Chemical & Biohazard Waste Pickup Request](https://risk.arizona.edu/forms/chemical-waste-pickup)
 
+Use the following link to find out how to fill up the building number of the place you are requesting the pick up to be done:
+
+<https://map.arizona.edu/>
+
 ## **RLSS**
 
 Remember to check the fulfillment of the required safety training in the Research Laboratory and Safety Services.
@@ -1164,7 +1168,7 @@ At the end of the day, close the valves of Nitrogen and Hydrogen gas.
 - This process must be done inside the hood. Use masks, googles, gloves and labcoat as particles could get into your body.
 :::
 
-We have cyclones at the lab for the following sizes:
+We have **cyclones** at the lab for the following sizes:
 
 - PM10
 - PM2.5
@@ -1188,8 +1192,23 @@ The pump has to be ran at 1 ACFM (28.3 liters/min) always for the particle diame
 
 ![Examples of particles ran](SOP_files/figures/Andersen3.png)
 
-After done with it, check the size of your particles with SEM to be sure they are correct.
+After done with it, check the size of your particles with SEM to be sure they are correct. Bring your samples on your petri-dishes to the Chemistry Biochemistry Lab.
 
+-   From this you can study the morphology of the grains to infer Mineralogy.
+-   By doing Backscatter: Heavy elements are brighter than others, so you can differentiate them that way.
+
+The following table is the result of the first ever **sizes seen on SEM**, after running the material **5 times**.
+
+| STAGE | Size (um) |
+|---------|:-----|
+| 1      | 48   |
+| 2     | 33.8  |
+| 3   | 13.76   |
+| 4      | 4.6   |
+| 5     | 1 - 3  |
+| 6   | 0.9 - 1.7   |
+
+: SEM size analysis
 
 ## **Selective Sequential Extraction**
 
