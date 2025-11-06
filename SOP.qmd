@@ -637,7 +637,9 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 ::: callout-important
 - **FIRST THING: ON THE MACHINE, PRESS THE BUTTON BESIDE THE ATR ACCESSORY UNTIL IT LIGHTS ON BLUE, MEANING THE ATR MODE IS ON.**
 
-- **ALWAYS check that, while scanning each sample, your Background AGE is showed in the lower-right end of the screen. This way you make sure that you are substracting the background when scanning your sample**
+- ALWAYS check your **Background AGE** is showed in the lower-right end of the screen. This way you make sure that you are substracting the background when scanning your sample.
+
+- **CLEAN AFTER USE**
 :::
 
 **What is this technique doing?**
@@ -656,10 +658,10 @@ Some peaks of interest for ATR in your sample:
 
 -   There are 2 types of tip on the ATR accessory:
 
-    -   one is concave for bigger grains like sand,
-    -   the other is flat for clays and finer soils.
+    -   one is **concave** for bigger grains like sand,
+    -   the other is **flat** for clays and finer soils.
 
--   Clean the surface of the machine with a wipe containing ethanol.
+-   Clean the surface of the machine with a wipe containing **ethanol**.
 
 -   Put your sample over the red laser (this is just an indicative of where to place it, it is not the radiation source)
 
@@ -670,42 +672,59 @@ Some peaks of interest for ATR in your sample:
 -   Bach - Minimum range limit = 400
 -   Gain 1 = Autogain -\> SAVE
 
-#### **OMNIC Software**
-
--   Check that the top of the window says Experiment: iS50 ATR
+#### **OMNIC Computer Software**
 
 -   Window -\> New Window (*This step is in case there was someone working previously and left their work plotted there.*)
 
-**Experiment Setup**
+-   Check that the top of the window says Experiment: iS50 ATR
 
--   Collect -\> Number of scans: 64 -\> Collect Background after 120 minutes -\> Save
+**EXPERIMENT SETUP**
+
+- Nothing has to be over the sample holder because you will measure the background first.
+
+-   Close the sampler until you hear **2 clicks**.
+
+-   Collect -\> Number of scans: 64 -\> **Collect Background after 120 minutes** -\> Save
 
 ![](SOP_files/figures/FTIR_ExpSetup.png)
 
-**Collect Background** (humidity always looks the same: 3 peaks between 2800 to 2000)
+**COLLECT BACKGROUND**
+
+-   Start Collection (Up-right corner)
+-   A message will come after saying the data collection has stopped. *Add to a new window? YES!*
+-   File -\> Save As -\> **Set Filename to Title** -\> Save it as 3 formats: SPA, SPC, CSV
+
+
+
+(*humidity always looks the same: 3 peaks between 2800 to 2000*)
 
 ![Background look on FTIR-ATR](SOP_files/figures/FTIR_BackgroundLook.png)
 
--   Start Collection (Up-right corner)
--   A message will come after saying *the data collection has stopped*. *Add to a new window? YES!*
--   File -\> Save As -\> Set Filename to Title -\> Save it as 3 formats: SPA, SPC, CSV
--   **Go again to Experimental Setup**
+
+
+::: callout-important
+-   **Go again to Experimental Setup to CALL THE BACKGROUND you just measured**
 -   Collect -\> **Use specified Background file** (*Choose the one you just saved. Get a new background every 4 hours)* -\> Ok
 -   You can check the age of the background on the low part of the plot.
+:::
 
-**Run a blank sample to check if it looks entirely flat, that means that the background is being substracted correctly.**
+**BLANK**
 
--   **Collect Sample** -\> Fill the sample ID name (BLANK SAMPLE) –\> Ok
+*Run a blank sample to check if it looks entirely flat, that means that the background is being substracted correctly.*
+
+-   **Collect Sample** -\> Fill the sample ID name: **BLANK SAMPLE** –\> Ok
 -   Start Collection (Up-right corner) -\> Add to Window? YES!
 -   Common Scale. (Or Full scale if you prefer to see your sample closer.)
--   File -\> Save As -\> Set Filename to Title -\> Save it as 3 formats: SPA, SPC, CSV
+-   File -\> Save As -\> **Set Filename to Title** -\> Save it as 3 formats: SPA, SPC, CSV
 
-**Load an actual sample to scan.**
+**SAMPLE**
+
+*Load an actual sample to scan.*
 
 -   **Collect Sample** -\> Fill the sample ID name –\> Ok
 -   Start Collection (Up-right corner) -\> Add to Window? YES!
 -   Common Scale. (Or Full scale if you prefer to see your sample closer.)
--   File -\> Save As -\> Set Filename to Title -\> Save it as 3 formats: SPA, SPC, CSV
+-   File -\> Save As -\> **Set Filename to Title** -\> Save it as 3 formats: SPA, SPC, CSV
 
 *NOTE*: To erase the background from the plot so it doesn’t bother you, you can select it until it is red color, and then go to: Edit -\> Cut.
 
@@ -862,6 +881,10 @@ The following document was made by Alexander Ederer and edited by Xenia to add s
 -   Then shake the ball mill with just Sand for another 3 minutes.
 -   Then proceed to shake your following sample.
 -   If you are **not** analyzing your samples yourself, you can send them to the *Chemistry & Biochemistry Lab (Andrei Astachkine: andrei\@arizona.edu)*
+
+Remember to acknowledge the RSS (Research Support Services) in your publications.
+
+Link to how to acknowledge them: <https://cbc.arizona.edu/rss/acknowledging-rss-units>
 
 ![Ground sample from the ball mill](SOP_files/figures/ball_mill.png)
 
@@ -1024,6 +1047,19 @@ This is for the Dry part of the Soil-Water Characteristic Curve:
 The thesis of previous Chorover students help a lot with figuring out the steps to take for your experiments.
 
 ::: panel-tabset
+
+## **SEM**
+
+You can ask Rob to contact the **Research Support Services** to do this.
+
+- Brooke Beam Massani, Ph.D.
+
+- Staff Scientist
+
+- bbeam@arizona.edu
+
+All services should be acknowledged in publications and presentation as said in here:  <https://cbc.arizona.edu/rss/acknowledging-rss-units>
+
 ## **RS Key for weight printing on the balance**
 
 -   Download the RS Key program: [Download here!](https://weighing.andonline.com/winct/)
@@ -1130,7 +1166,7 @@ At the end of the day, close the valves of Nitrogen and Hydrogen gas.
 
 ::: callout-important
 - Bring your samples already sieved as close as you can to 10um. We have a 50 um and 20 um sieve.
-- This process must be done inside the fumehood. Use masks, googles, gloves and labcoat as particles could get into your body.
+- This process must be done inside the hood. Use masks, googles, gloves and labcoat as particles could get into your body.
 :::
 
 We have cyclones at the lab for the following sizes:
