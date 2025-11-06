@@ -1197,7 +1197,7 @@ After done with it, check the size of your particles with SEM to be sure they ar
 -   From this you can study the morphology of the grains to infer Mineralogy.
 -   By doing Backscatter: Heavy elements are brighter than others, so you can differentiate them that way.
 
-The following table is the result of the first ever **sizes seen on SEM**, after running the material **5 times**.
+The following table is the result of the first ever **particle sizes observed on SEM**, after running the material **5 times**.
 
 | STAGE | Size (um) |
 |---------|:-----|
