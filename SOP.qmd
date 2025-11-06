@@ -642,7 +642,7 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 - **CLEAN AFTER USE**
 :::
 
-**What is this technique doing?**
+#### ***What is this technique doing?***
 
 This technique applies a heat source that bounce the molecules inside your sample (the red laser observed is not the source, it is just for guidance). Part of the heat is going through the sample and part of it is surrounding it. Then the waves converge together and they are cancelling and constructing each other. That’s when the Fourier transform computation happens in the computer, bringing up the plot of **Absorbance VS. Wavelength**. Some molecules don’t respond to heat, nitrogen in the air doesn’t, so that’s why there is a nitrogen vacuum inside the machine, because it wont affect your sample measurement.
 
@@ -652,38 +652,18 @@ Some peaks of interest for ATR in your sample:
 -   Aluminum hydroxides are on 3600 cm-1
 -   Silica is from 1030 to 1100 cm-1
 
-
-
-#### **Sample prep**
-
--   There are 2 types of tip on the ATR accessory:
-
-    -   one is **concave** for bigger grains like sand,
-    -   the other is **flat** for clays and finer soils.
-
--   Clean the surface of the machine with a wipe containing **ethanol**.
-
--   Put your sample over the red laser (this is just an indicative of where to place it, it is not the radiation source)
-
--   Close the sampler until you hear **2 clicks**.
-
-**Random setup (check if this apply to you, if not ignore)**
-
--   Bach - Minimum range limit = 400
--   Gain 1 = Autogain -\> SAVE
-
 #### **OMNIC Computer Software**
 
--   Window -\> New Window (*This step is in case there was someone working previously and left their work plotted there.*)
+-   Window -\> New Window 
 
--   Check that the top of the window says Experiment: iS50 ATR
+(*This step is in case there was someone working previously and left their work plotted there.*)
+
+-   Check that the top of the window says **Experiment: iS50 ATR**
 
 **EXPERIMENT SETUP**
 
-- Nothing has to be over the sample holder because you will measure the background first.
-
+-   Nothing has to be over the sample holder because you will measure the background first.
 -   Close the sampler until you hear **2 clicks**.
-
 -   Collect -\> Number of scans: 64 -\> **Collect Background after 120 minutes** -\> Save
 
 ![](SOP_files/figures/FTIR_ExpSetup.png)
@@ -721,21 +701,38 @@ Some peaks of interest for ATR in your sample:
 
 *Load an actual sample to scan.*
 
--   **Collect Sample** -\> Fill the sample ID name –\> Ok
+
+**Sample prep**
+
+-   There are 2 types of tip on the ATR accessory:
+    -   one is **concave** for bigger grains like sand,
+    -   the other is **flat** for clays and finer soils.
+-   Clean the surface of the machine with a wipe containing **ethanol**.
+-   Put your sample over the red laser (this is just an indicative of where to place it, it is not the radiation source)
+-   Close the sampler until you hear **2 clicks**.
+
+**Random setup (check if this apply to you, if not ignore)**
+
+-   Bach - Minimum range limit = 400
+-   Gain 1 = Autogain -\> SAVE
+
+**Scan Sample**
+
+-   **Collect Sample** -\> Fill the **sample ID** name –\> Ok
 -   Start Collection (Up-right corner) -\> Add to Window? YES!
 -   Common Scale. (Or Full scale if you prefer to see your sample closer.)
 -   File -\> Save As -\> **Set Filename to Title** -\> Save it as 3 formats: SPA, SPC, CSV
 
 *NOTE*: To erase the background from the plot so it doesn’t bother you, you can select it until it is red color, and then go to: Edit -\> Cut.
 
-**Sample Normalization**
+**SAMPLE NORMALIZATION**
 
 -   Process -\> Normalize Scale (sensitivity to more peaks)
 -   Auto Baseline Correction (for the plot to start at zero)
 -   Analyze -\> Search Peaks
 -   Common scale
 
-**GRAMS Software**
+**GRAMS SOFTWARE**
 
 -   This software is used to analyze the sample files.
 -   The [RUFF database](https://rruff.geo.arizona.edu/AMS/amcsd.php) has FTIR and XRD data for you to compare and find out different minerals.
@@ -1052,11 +1049,9 @@ The thesis of previous Chorover students help a lot with figuring out the steps 
 
 You can ask Rob to contact the **Research Support Services** to do this.
 
-- Brooke Beam Massani, Ph.D.
-
-- Staff Scientist
-
-- bbeam@arizona.edu
+-   Brooke Beam Massani, Ph.D.
+-   Staff Scientist
+-   bbeam@arizona.edu
 
 All services should be acknowledged in publications and presentation as said in here:  <https://cbc.arizona.edu/rss/acknowledging-rss-units>
 
