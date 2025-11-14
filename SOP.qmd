@@ -112,6 +112,29 @@ Use the following link to find out how to fill up the building number of the pla
 
 <https://map.arizona.edu/>
 
+## **Printing Posters**
+
+These are two places you can print posters on campus. Sometimes on the website, they also show the prices.
+
+***My preferred is the first one because they print in 24 hours.***
+
+**BioCommunications**
+
+<https://biocom.arizona.edu/service-type/posters/service/poster-printing>
+
+Located North Campus, close to the Banner Hospital.
+
+Use the "paper" option, it refers to Photo Paper.
+
+**FastCopy in the Student Union**
+
+<https://union.arizona.edu/fastcopy/>
+
+Products and Services -> Posters (Wide Format)). 
+
+They accept project account numbers, so you do not need to do the reimbursement.
+
+
 ## **RLSS**
 
 Remember to check the fulfillment of the required safety training in the Research Laboratory and Safety Services.
@@ -1199,7 +1222,7 @@ After done with it, check the size of your particles with SEM to be sure they ar
 
 The following table is the result of the first ever **particle sizes observed on SEM**, after running the material **5 times**.
 
-| STAGE | Size (um) |
+| **STAGE** | Size (um) |
 |---------|:-----|
 | 1      | 48   |
 | 2     | 33.8  |
