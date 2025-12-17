@@ -473,6 +473,10 @@ The link above contains the scanned version of the synchrotron visit logbook wit
 
 ### **LARCH Python package**
 
+**References:**
+
+- Newville, M. (2013). LARCH: an analysis package for XAFS and related spectroscopies. Journal of Physics Conference Series, 430, 012007. <https://doi.org/10.1088/1742-6596/430/1/012007>
+
 #### XAFS Data processing
 
 This example shows how to use Larch from Python/Jupyter for basic XAFS data processing:
@@ -1082,6 +1086,94 @@ You can ask Rob to contact the **Research Support Services** to do this.
 
 All services should be acknowledged in publications and presentation as said in here:  <https://cbc.arizona.edu/rss/acknowledging-rss-units>
 
+
+
+**PROCEDURE**
+
+**Bring:**
+
+- Labcoat
+- Masks
+- Ziplock for waste
+
+***Always plan for 30 minutes extra of your data analysis, for initiation on the machine (15 minutes process) and finalization of the machine (15 minutes process)***
+
+**STARTING PROCESS**
+
+- Load your samples to the porta-sample
+- Log in to use the computer by scanning the QR code
+- Open the N2 valve (parallel to hose is open)
+- **Vent** -> Yes (because I already opened the N2 valve)
+- Wait until the pressure increase to E10^1, then it is safe to open.
+- Load the samples to the chamber.
+- Measure the height of the samples, it must not exceed the height measured with the metallic tool.
+- Close the chamber and press it well.
+- **Pump**
+- Wait until the pressure decrease to E-4, and the drawing in the computer turns green.
+
+**Computer**
+
+- Setup:
+    - Spot: 3.0
+    - Voltage: 30 kV
+    - Map cross should be in the middle
+
+- **Beam On**
+- On "Alignment" section, find:
+    - Save Control -> Start -> Crossover (Uncheck the filament voltage) -> Increase until 1.9 (never go above 2)
+    - Wait until the phrase "Limit Voltage" comes visible to click again.
+    - If the filaments dont works (meaning you cant see anything), then modify contrast and brightness.
+    - if it is super bright, we decrease the brightness.
+- Check "Limit Voltage"
+- Press Finish
+- Go back to main screen
+- Click on Auto Contrast
+- Go to focus (press three? and right-click at the same time)
+- Use "stigmation" by using shift and right-click at the same time
+- Zoom out all the way to find your sample.
+- Double click to move?
+- Click on the graph section.
+- Rule -> Draw
+- Camera
+
+***If your samples are showing charges effect, then go for gold coating. It also makes the quality of image better.***
+
+- Press F3 to manage contrast and brightness.
+- Save As -> **.tiff file**
+- Zoom out to find your next sample.
+- Center the cross
+- Zoom in
+- Go to Focus again:
+    - Find a spot wth multiple edges
+    - Right click and move left or right to manage contrast.
+    - Left click outside to finish when you find crispy (high resolution).
+    
+***Take picture with no note first, then add your measurement notes and take the picture again***
+
+- Delete all the measurement notes you did
+
+**CLOSING PROCESS**
+
+- Go back to the center.
+- Alignments -> Start -> Uncheck the limit voltage -> Decrease the filament Voltage to 0.55
+- When at 0.55, check again the "Limit Voltage"
+- Beam Control -> **Beam Off**
+- Wait 10 minutes
+- Vent -> Open door
+- Take sample out
+- Pump again (we always want to leave it depressurized)
+- Wait until you hear the sound and open the door
+- Clean samples out of the porta-sample
+- Sign out from the app by clicking "FINISH"
+
+***Never close the software on the computer when you are done***
+
+
+
+
+
+
+
 ## **RS Key for weight printing on the balance**
 
 -   Download the RS Key program: [Download here!](https://weighing.andonline.com/winct/)
@@ -1425,6 +1517,10 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 -   Thomas, A. N., Root, R. A., Lantz, R. C., Saez, A. E. & Chorover, J. Oxidative weathering decreases bioaccessibility of toxic metal(loid)s in PM10 emissions from sulfide mine tailings. Geohealth 2, 118-138 (2018). [https://doi.org:10.1002/2017GH000118](https://doi.org:10.1002/2017GH000118){.uri}
 
 ### LARCH & LMFIT
+
+LARCH
+
+- Newville, M. (2013). LARCH: an analysis package for XAFS and related spectroscopies. Journal of Physics Conference Series, 430, 012007. <https://doi.org/10.1088/1742-6596/430/1/012007>
 
 LMFIT
 
