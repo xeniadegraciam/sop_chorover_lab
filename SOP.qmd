@@ -1086,7 +1086,7 @@ You can ask Rob to contact the **Research Support Services** to do this.
 
 All services should be acknowledged in publications and presentation as said in here:  <https://cbc.arizona.edu/rss/acknowledging-rss-units>
 
-
+![TB-B-Stage 6 of Andersen](SOP_files/figures/SEM_2_TB-B-St.6_with measur_Dec18.png)
 
 **PROCEDURE**
 
@@ -1096,79 +1096,104 @@ All services should be acknowledged in publications and presentation as said in 
 - Masks
 - Ziplock for waste
 
-***Always plan for 30 minutes extra of your data analysis, for initiation on the machine (15 minutes process) and finalization of the machine (15 minutes process)***
+::: callout-important
+- **Always plan for: 40 minutes extra. (Sample assembly = 20 min, Vent machine at start = 10 min, Vent machine in the end = 10 min)**
+- If your samples are showing charge effect, then use gold coating. It also makes the quality of image better.
+- The SEM chamber can hold 6 samples, so divide your total number of samples by 6 to calculate how many rounds you need to do.
+:::
+
 
 **STARTING PROCESS**
 
-- Load your samples to the porta-sample
+- Load your samples to the sample holder (these procedure could take 30 minutes for 6 samples)
+- Remember the position of your samples.
 - Log in to use the computer by scanning the QR code
-- Open the N2 valve (parallel to hose is open)
+- Open the N2 valve (parallel to hose = open)
 - **Vent** -> Yes (because I already opened the N2 valve)
-- Wait until the pressure increase to E10^1, then it is safe to open.
+- Wait until the pressure increase to 10^1, then it is safe to open.
 - Load the samples to the chamber.
-- Measure the height of the samples, it must not exceed the height measured with the metallic tool.
+- Remember the position of your samples.
+- Measure the height of the samples, it must NOT exceed the height measured with the metallic tool.
 - Close the chamber and press it well.
 - **Pump**
-- Wait until the pressure decrease to E-4, and the drawing in the computer turns green.
+- Wait until the pressure decrease to 10^-4, and the drawing in the computer turns green (meaning its vacuumed)
 
 **Computer**
 
 - Setup:
     - Spot: 3.0
     - Voltage: 30 kV
-    - Map cross should be in the middle
+    - Map cross should be in the middle to get on top of the Gold standard
+    - Never cross the small circle with cross, just the big one.
 
 - **Beam On**
 - On "Alignment" section, find:
-    - Save Control -> Start -> Crossover (Uncheck the filament voltage) -> Increase until 1.9 (never go above 2)
+    - Source Control -> Start -> Crossover (Uncheck the Limit voltage) -> **Increase until 1.9** (never go above 2)
+    ![Oval shape to get](SOP_files/figures/SEM_1.jpg)
+   
     - Wait until the phrase "Limit Voltage" comes visible to click again.
-    - If the filaments dont works (meaning you cant see anything), then modify contrast and brightness.
+    - If the filaments don't work (meaning you cant see anything), then modify contrast and brightness.
     - if it is super bright, we decrease the brightness.
-- Check "Limit Voltage"
-- Press Finish
+- **Check** "Limit Voltage"
+- Press **Finish**
 - Go back to main screen
-- Click on Auto Contrast
-- Go to focus (press three? and right-click at the same time)
-- Use "stigmation" by using shift and right-click at the same time
-- Zoom out all the way to find your sample.
-- Double click to move?
-- Click on the graph section.
-- Rule -> Draw
-- Camera
+- Click on **Auto Contrast**
+- Zoom in by clicking on  **+**  button, on the light-grey area of Gold.
+- Go to focus (press **"Reduced Area"** and right-click at the same time)
+- You should see like **hexagon shape for the Gold** nano particles.
+- When having the "Reduced Area" activated, you can use **"stigmation"** by using shift and right-click at the same time, slide up-to-down, or left-to-right.
+- After you found the gold hexagons, **Zoom out** all the way to find your sample (~2mm scale).
+- Double click to move to your first sample.
 
-***If your samples are showing charges effect, then go for gold coating. It also makes the quality of image better.***
+**First sample**
 
-- Press F3 to manage contrast and brightness.
+- Zoom in with **+** and focus it using the **"Reduced Area"** focus.
+- Start measuring by going to the **graph section**.
+- Camera (to take the picture)
+- Press **F3** to activate contrast and brightness graphs, and change them by sliding the bar. (This can JUST be done when having the Camera photo activated)
+- Deactivate the graph mode by clicking F3 again.
 - Save As -> **.tiff file**
-- Zoom out to find your next sample.
-- Center the cross
-- Zoom in
-- Go to Focus again:
-    - Find a spot wth multiple edges
-    - Right click and move left or right to manage contrast.
-    - Left click outside to finish when you find crispy (high resolution).
-    
-***Take picture with no note first, then add your measurement notes and take the picture again***
 
-- Delete all the measurement notes you did
+***Take picture with no measurements first, then add your measurements and take the picture again***
+
+- Rule -> Draw your measurements
+- Save Again with your measurements
+- Click on **Pause** button to deactivate the Camera mode.
+- Zoom out (~2mm scale) to find your next sample.
+
+**Next Sample**
+
+- Center the sample by having the cross in the center of the entire sample, using double-click.
+- Zoom in
+- Find a spot with multiple edges
+- Go to "Reduced Area" Focus again:
+    - Right click and move left or right to manage contrast.
+    - Left click outside the square to finish when you find crispy (high resolution).
+- Save As
+- When done, delete all the measurement notes you did
 
 **CLOSING PROCESS**
 
-- Go back to the center.
-- Alignments -> Start -> Uncheck the limit voltage -> Decrease the filament Voltage to 0.55
+- Zoom out (~2mm scale)
+- Go back to the Gold center.
+- Alignments -> Start -> **Uncheck** the "Limit voltage"
+- Decrease the filament **"Limit Voltage" to 0.55**
 - When at 0.55, check again the "Limit Voltage"
-- Beam Control -> **Beam Off**
+- Click in **"Finish"**
+- Beam Control -> **Beam Off** (the drawing of column upper from that button should get empty)
 - Wait 10 minutes
-- Vent -> Open door
-- Take sample out
-- Pump again (we always want to leave it depressurized)
-- Wait until you hear the sound and open the door
-- Clean samples out of the porta-sample
-- Sign out from the app by clicking "FINISH"
+- **Vent** (Wait to hear the "Dark Vader" opening sound)
+- Open door
+- Take samples out
+- **Pump** again (we always want to leave it on vacuumed)
+- Wait until the **pressure decrease to 10^-4**, and the drawing in the computer turns green (meaning its vacuumed)
+- Close the **N2 gas valve**
+- Sign out from the app by clicking **"FINISH"**
+- Clean samples out of the sample holder
 
-***Never close the software on the computer when you are done***
-
-
+::: callout-note
+- Never close the software on the computer when you are done.
+:::
 
 
 
