@@ -1078,6 +1078,8 @@ The thesis of previous Chorover students help a lot with figuring out the steps 
 
 ## **SEM**
 
+Sign in to: [iLab](https://azcores.ilab.agilent.com/) to make reservations or check machine schedule. Look for ***CBC Keck Center for Nano-Scale Imaging***.
+
 You can ask Rob to contact the **Research Support Services** to do this.
 
 -   Brooke Beam Massani, Ph.D.
@@ -1098,12 +1100,20 @@ All services should be acknowledged in publications and presentation as said in 
 
 ::: callout-important
 - **Always plan for: 40 minutes extra. (Sample assembly = 20 min, Vent machine at start = 10 min, Vent machine in the end = 10 min)**
-- If your samples are showing charge effect, then use gold coating. It also makes the quality of image better.
+- If your samples are showing charge effect, then use gold coating. No reservation needed, just walk-in users.
 - The SEM chamber can hold 6 samples, so divide your total number of samples by 6 to calculate how many rounds you need to do.
+- The Gold coating can hold 12 samples each round, and last for 20 days.
+- Sign the users book with your time at the end of SEM and Gold coating.
 :::
 
+**Gold Coating**
 
-**STARTING PROCESS**
+- It takes 15 minutes.
+- The sample holder of that machine can get 12 samples inside, so you should divide your total samples number by 12 to get the rounds of gold coating you need to run.
+- The gold coating can last 20 days over your sample.
+- Sign the users book with your time at the end.
+
+**SEM STARTING PROCESS**
 
 - Load your samples to the sample holder (these procedure could take 30 minutes for 6 samples)
 - Remember the position of your samples.
@@ -1128,7 +1138,7 @@ All services should be acknowledged in publications and presentation as said in 
 
 - **Beam On**
 - On "Alignment" section, find:
-    - Source Control -> Start -> Crossover (Uncheck the Limit voltage) -> **Increase until 1.9** (never go above 2)
+    - Source Control -> Start -> **Crossover** -> Uncheck the Limit voltage -> **Increase slowly until getting the same as image below, but never exceed 1.9**
     ![Oval shape to get](SOP_files/figures/SEM_1.jpg)
    
     - Wait until the phrase "Limit Voltage" comes visible to click again.
@@ -1138,6 +1148,9 @@ All services should be acknowledged in publications and presentation as said in 
 - Press **Finish**
 - Go back to main screen
 - Click on **Auto Contrast**
+
+**Gold reference**
+
 - Zoom in by clicking on  **+**  button, on the light-grey area of Gold.
 - Go to focus (press **"Reduced Area"** and right-click at the same time)
 - You should see like **hexagon shape for the Gold** nano particles.
@@ -1147,7 +1160,7 @@ All services should be acknowledged in publications and presentation as said in 
 
 **First sample**
 
-- Zoom in with **+** and focus it using the **"Reduced Area"** focus.
+- Zoom in with **+** and focus it using the **"Reduced Area"** focus. NEVER use stigmation on a sample, its just allowed for the Gold standard reference.
 - Start measuring by going to the **graph section**.
 - Camera (to take the picture)
 - Press **F3** to activate contrast and brightness graphs, and change them by sliding the bar. (This can JUST be done when having the Camera photo activated)
@@ -1172,6 +1185,30 @@ All services should be acknowledged in publications and presentation as said in 
 - Save As
 - When done, delete all the measurement notes you did
 
+**EDS**
+
+::: callout-important
+- Spectral Imaging takes 1 hour per sample.
+- Increasing the High Voltage and spot size to have a Death time between 20 to 50, could make your image blurry, so play with those (HV: 30 keV and Spot 5.0 worked well last time)
+- Make sure your energy on the x-axis is above 12 keV for Arsenic to be seen at 10.5 keV.
+:::
+
+- Switch the **COM port to "B: EDS"**.
+- Open NSS software located at the second screen.
+- Select the type of microanalysis desired: I chose Spectral Imaging to get a map of all the elements on my sample.
+- Select the **elements of interest**. As we are interest in Arsenic, remember to check that the x-axis of your plot overpass 12 keV of energy as Arsenic is 10.5keV.
+- **Edit Acquisition Properties**
+  - Max keV = 40 keV
+  - Time Constant = Rate 3
+- On the **SEM software**
+  - increase the Spot to 5.0 (or until it makes the DT between 20 to 50, on NSS software, lower-right corner below the graph)
+  - maintain High Voltage on 30 keV
+- Acquire and Average Electron Image
+- Start Acquisition
+- At the end it will allow you to **Export to Power Point**.
+
+
+
 **CLOSING PROCESS**
 
 - Zoom out (~2mm scale)
@@ -1187,8 +1224,10 @@ All services should be acknowledged in publications and presentation as said in 
 - Take samples out
 - **Pump** again (we always want to leave it on vacuumed)
 - Wait until the **pressure decrease to 10^-4**, and the drawing in the computer turns green (meaning its vacuumed)
+- **If you did EDS, switch back the COM port to "A: NPGS".**
 - Close the **N2 gas valve**
 - Sign out from the app by clicking **"FINISH"**
+- Sign the **users book** with your time.
 - Clean samples out of the sample holder
 
 ::: callout-note
