@@ -524,9 +524,9 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
     -   Derivative must be First. Second one is too noisy.
     -   Replot
     -   Select the scan you want to calibrate.
-    -   Press **Find Data E0**. This finds the peak for you. It must be around 11919 for gold.
+    -   Press **Find Data E0**. This finds the peak for you. It must be around 11919 for gold, or 7112 for iron foil.
         -   Apparent: the one it finds
-        -   Actual: 11919 (gold)
+        -   Actual: 11919 (gold) or 7112 (iron)
         -   Press **Enter**
     -   Press **Apply Shift to Data**. It will apply the shift that it found.
 
