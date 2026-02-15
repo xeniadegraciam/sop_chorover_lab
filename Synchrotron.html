@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Xenia De Gracia Medina">
+
+<title>Synchrotron Notes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Synchrotron_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Synchrotron_files/libs/quarto-html/quarto.js"></script>
+<script src="Synchrotron_files/libs/quarto-html/popper.min.js"></script>
+<script src="Synchrotron_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Synchrotron_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Synchrotron_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Synchrotron_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="Synchrotron_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="Synchrotron_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Synchrotron_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Synchrotron_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="Synchrotron_files/libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-full toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="6">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#ssrl" id="toc-ssrl" class="nav-link active" data-scroll-target="#ssrl"><span class="header-section-number">1</span> <strong>SSRL</strong></a>
+  <ul>
+  <li><a href="#bl-11-2-xas" id="toc-bl-11-2-xas" class="nav-link" data-scroll-target="#bl-11-2-xas"><span class="header-section-number">1.1</span> <strong>BL 11-2 XAS</strong></a></li>
+  <li><a href="#bl-7-2-xrf-imaging" id="toc-bl-7-2-xrf-imaging" class="nav-link" data-scroll-target="#bl-7-2-xrf-imaging"><span class="header-section-number">1.2</span> <strong>BL 7-2 XRF Imaging</strong></a></li>
+  <li><a href="#bl-2-3-xrf-imaging" id="toc-bl-2-3-xrf-imaging" class="nav-link" data-scroll-target="#bl-2-3-xrf-imaging"><span class="header-section-number">1.3</span> <strong>BL 2-3 XRF Imaging</strong></a></li>
+  </ul></li>
+  <li><a href="#sample-prep-formats" id="toc-sample-prep-formats" class="nav-link" data-scroll-target="#sample-prep-formats"><span class="header-section-number">2</span> <strong>Sample prep formats</strong></a></li>
+  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis"><span class="header-section-number">3</span> <strong>DATA ANALYSIS</strong></a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Synchrotron Notes</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-right">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Xenia De Gracia Medina </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Sunday, February 15, 2026 14:28:05</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div style="text-align: center; margin-top: 30px;">
+<p><strong>SYNCHROTRON NOTES</strong></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><em>Here I included some of my notes when working at the beamlines of Stanford Synchrotron Radiation Lightsource, and also about how to use the data analysis softwares Athena, LARCH and SIXPACK.</em></p></li>
+<li><p><em>Typos could be found on these lab notes, as English is not my native language. If you find some, please let me know to make the necessary corrections. Thanks!</em></p></li>
+</ul>
+</div>
+</div>
+<hr>
+<hr>
+<section id="ssrl" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> <strong>SSRL</strong></h1>
+<section id="bl-11-2-xas" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="bl-11-2-xas"><span class="header-section-number">1.1</span> <strong>BL 11-2 XAS</strong></h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Refill the Germanium detector with LN2 once every 24 hours.</p>
+</div>
+</div>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><strong>CHALO</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><strong>SETUP QUEUE</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href=""><strong>SCAN FINISHED</strong></a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="calibration" class="level4" data-number="1.1.0.1">
+<h4 data-number="1.1.0.1" class="anchored" data-anchor-id="calibration"><span class="header-section-number">1.1.0.1</span> <strong>CALIBRATION</strong></h4>
+<p><em>Calibration with Gold</em>.</p>
+<ul>
+<li>Start Run</li>
+<li>Change the output file, call it like: <em>Au_cal_date_time</em></li>
+<li>Apply -&gt; Start</li>
+<li>Check the uXAS Plot Utility and deselect FF/I0</li>
+<li>Select the Log I1/I2 (because I2 is your gold reference)</li>
+<li>Math -&gt; First Derivative</li>
+<li>Look at the peak, the position of Gold should be ar 11919 eV.</li>
+<li>Configure -&gt; Calibrate MONO</li>
+<li>Move to: what you just measure (peak of derivative, not the real number)</li>
+<li>Calibration eV: type the real value of Gold: 11919 eV.</li>
+<li>Move -&gt; Apply</li>
+<li>MONO position should be now 11919 on the uXaS GUI.</li>
+<li>Re SCAN if you moved your Gold Calibration by hitting Start Run.</li>
+<li>Save New Calibration file with the new time and date.</li>
+</ul>
+</section>
+<section id="harmonics" class="level4" data-number="1.1.0.2">
+<h4 data-number="1.1.0.2" class="anchored" data-anchor-id="harmonics"><span class="header-section-number">1.1.0.2</span> <strong>HARMONICS</strong></h4>
+<p><strong><em>Work in progress…</em></strong></p>
+</section>
+<section id="allignment" class="level4" data-number="1.1.0.3">
+<h4 data-number="1.1.0.3" class="anchored" data-anchor-id="allignment"><span class="header-section-number">1.1.0.3</span> <strong>ALLIGNMENT</strong></h4>
+<p><strong><em>Here we tell the program where to find the position of the center of the samples we need to run. We scan all the holder and select the center of each window.</em></strong></p>
+<ul>
+<li><strong>Detector = I1</strong>, because we are using the Ion Chamber as detector.</li>
+<li>Check your current position.</li>
+<li><strong>Scan Motor</strong></li>
+<li>Motors = <strong>VERT_ADC</strong></li>
+<li>Scan type: <strong>Absolute</strong></li>
+<li>Start:5 Stop:65 Step:0.5</li>
+<li><strong>SCAN</strong></li>
+<li>Wait until the screen says: <strong>Scan Finished</strong>. It goes all the way scanning the entire sample holder.</li>
+<li>Using the <strong>plot screen, find the center of each window</strong>, by finding the highest position of each peak. <strong>Take notes</strong> of each position for future reference.</li>
+</ul>
+</section>
+<section id="linearity" class="level4" data-number="1.1.0.4">
+<h4 data-number="1.1.0.4" class="anchored" data-anchor-id="linearity"><span class="header-section-number">1.1.0.4</span> <strong>LINEARITY</strong></h4>
+<p><strong><em>Here we are making sure that we are on the linear part of the deadtime curve, and not over the curvy part.</em></strong></p>
+<p><strong>Detector</strong></p>
+<ul>
+<li>In here we use the detector, so we need to <strong>uncover</strong> it, and add the Iron foil filter.</li>
+<li>Go to Scan Motor -&gt; Motors -&gt; Detector.</li>
+<li>Check your detector <strong>current</strong> position.</li>
+<li>Check your Scan Type is <strong>ABSOLUTE</strong>.</li>
+<li>Move the detector position to get it as close as possible to the sample. When you see the Iron foil is moving a little, it is close enough.</li>
+</ul>
+<p><strong>MONO Position</strong></p>
+<p>*We need to Fluorescence the Arsenic which is at 11875, but right now it is at 11683, so we need to move the MONO for a value after that Arsenic Fluorescence value.</p>
+<ul>
+<li><strong>Motor -&gt; TBLMONO -&gt; Scan Type:Absolute -&gt; Move to: 11875</strong> (Arsenic V)</li>
+<li>In uMap Gui, click <strong>START</strong>.</li>
+<li><strong>Check the 100 channels</strong> in uMap Gui, none should be red.</li>
+</ul>
+<p><strong>Ionic Chamber Control</strong></p>
+<ul>
+<li>Got to the <strong>Ionic Chamber Control</strong> (Channel 1 to 5), and play with the <strong>“Gain”</strong> until all the channels are below 5, and as close to zero as possible, but never zero.</li>
+</ul>
+<p><strong>uMAP GUI</strong></p>
+<ul>
+<li>On uMap GUI, <strong>click START</strong>, and check that <strong>NONE of the 100 sensors are red</strong>.</li>
+<li>The TOTAL counts on the <strong>ICR</strong> should <strong>never overpass 100K counts</strong>.</li>
+<li><strong>SC1 is the Arsenic channel</strong>, and we need it to be the highest we could get, while not overpassing the 100K counts int he ICR channel.</li>
+</ul>
+<p><strong>Choosing an HGap for each sample</strong></p>
+<p><em>SHGAP is what we want to open or close to get the beam intensity to hit our sample. Zero is the center of the window, meaning it is totally close. The higher the number, the wider the window. We can go until 10.</em></p>
+<p>First sample:</p>
+<ul>
+<li>Go to <strong>Scan Motor -&gt; Motors -&gt; VERT_ADC -&gt; Scan Type:Absolute -&gt; Move to:</strong> <em>Move to the position of the first sample you are analizing.</em></li>
+<li>Wait for the message saying: <strong><em>“Moving completed”</em></strong>.</li>
+<li>SVGAP is ALWAYS 2.</li>
+<li>Go to <strong>SHGAP</strong> and insert a small value if the concentration of your sample is high, for example: 3.</li>
+<li>Wait for the message saying: <strong><em>“Moving completed”</em></strong>.</li>
+<li>In uMap Gui, click <strong>START</strong>.</li>
+<li><strong>Check the 100 channels</strong> in uMap Gui, none should be red.</li>
+<li>Check that your total ICR counts have NOT overpass the 100K counts.</li>
+<li>If your channels are not red, and your total ICR counts are far from 100K, you can increase the SHGAP.</li>
+<li>Never exceed the limit of 10 for SHGAP.</li>
+<li>Once you found the desired SHGAP, take note on that value for each sample.</li>
+<li>Move to your next sample to choose a good SHGAP for that sample too.</li>
+</ul>
+<p>Second sample:</p>
+<ul>
+<li><strong>Scan Motor -&gt; Motors -&gt; VERT_ADC -&gt; Scan Type:Absolute -&gt; Move to:</strong></li>
+<li>Wait for the message saying: <strong><em>“Moving completed”</em></strong>.</li>
+<li>In uMap Gui, click <strong>START</strong>.</li>
+<li><strong>Check the 100 channels</strong> in uMap Gui, none should be red.</li>
+<li>Check that your total ICR counts have NOT overpass the 100K counts.</li>
+<li>If your channels are not red, and your total ICR counts are far from 100K, you can increase the SHGAP.</li>
+</ul>
+<p>Repeat those steps for all the samples.</p>
+</section>
+<section id="offset" class="level4" data-number="1.1.0.5">
+<h4 data-number="1.1.0.5" class="anchored" data-anchor-id="offset"><span class="header-section-number">1.1.0.5</span> <strong>OFFSET</strong></h4>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Beam OFF</strong></p>
+</div>
+</div>
+<ul>
+<li>Got to the <strong>Ionic Chamber Control</strong> (Channel 1 to 5), and play with the <strong>“Gain”</strong> until all the channels are below 5, and as close to zero as possible, but never zero.</li>
+<li>Offset -&gt; Detector -&gt; Settings -&gt; Offset -&gt; Counts: 10. <strong>Do not press DONE yet</strong></li>
+<li>Wait for 10 seconds until the Lead shutters are down, interrupting the beamline.</li>
+<li>Click “DONE”.</li>
+</ul>
+<p><a href="#top">Back to top</a></p>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ul>
+<li>Setup Queue -&gt; Insert names - Save Queue</li>
+<li>Accept</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Beam ON</strong></p>
+</div>
+</div>
+<ul>
+<li>Start Queue</li>
+<li>Check at the Finish Time of that scan.</li>
+</ul>
+<p><a href="#top">Back to top</a></p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Beam OFF</strong></p>
+</div>
+</div>
+<ul>
+<li>Pick up some Liquid Nitrogen from the LN2 station. Use mask and gloves.</li>
+<li>Move the detector back from the sample, to distant it and protect it when moving out the samples.</li>
+<li>Cover the detector.</li>
+<li>Close the valve of the pump and Turn it Off.</li>
+<li>Disconnect the vacuum tube from the top of the cryostat. It moves crazy so hold it tight to not hit anything. There is a small cap on that tube, so DO NOT lose it.</li>
+<li>Take out the cryostat. Unscrew it and place those scres in a known place. DO NOT loose them.</li>
+<li>Take the new cryostat and oout it on position. Screw it on 2 corners.</li>
+<li>Connect the vacuum tube again.</li>
+<li>Open the valv of the pump and Start pump. A vacuum of 10-7 or 10-6 is good for LN2. Take the LN2 dewar and the funnel and fill up the Cryostat. It will probably take 2 dewars.</li>
+<li>Cover the top of the cryostat with a kimwipe, very lose on top to avoid LN2 to escape faster.</li>
+<li>Refill the Germanium Detector with LN2 once every 24 hours.</li>
+<li>Take out the cover from the detector. Be careful t not bring the metallic cover, jut the one you used to protect it.</li>
+<li>Close the hutch.</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Beam ON</strong></p>
+</div>
+</div>
+<p><a href="#top">Back to top</a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="bl-7-2-xrf-imaging" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="bl-7-2-xrf-imaging"><span class="header-section-number">1.2</span> <strong>BL 7-2 XRF Imaging</strong></h2>
+<p><strong><em>Work in progress…</em></strong></p>
+<p><a href="#top">Back to top</a></p>
+</section>
+<section id="bl-2-3-xrf-imaging" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="bl-2-3-xrf-imaging"><span class="header-section-number">1.3</span> <strong>BL 2-3 XRF Imaging</strong></h2>
+<p><strong><em>Work in progress…</em></strong></p>
+<p><a href="#top">Back to top</a></p>
+</section>
+</section>
+<section id="sample-prep-formats" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> <strong>Sample prep formats</strong></h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/Synchrotron_samples_XAS_SSRL.png" class="img-fluid figure-img"></p>
+<figcaption>XAS for SSRL</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/Synchrotron_samples_XRD_BNL.png" class="img-fluid figure-img"></p>
+<figcaption>XRD for BNL</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/Synchrotron_samples_XRD_SSRL.png" class="img-fluid figure-img"></p>
+<figcaption>XRD for BNL</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/Synchrotron_samples_XRD_SSRL2.png" class="img-fluid figure-img"></p>
+<figcaption>XRD for BNL</figcaption>
+</figure>
+</div>
+</section>
+<section id="data-analysis" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> <strong>DATA ANALYSIS</strong></h1>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href=""><span style="color: orange;"><strong>The Orange Book</strong></span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href=""><strong>Our Synchrotron Data</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href=""><strong>SIXPACK SOFTWARE</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false" href=""><strong>ATHENA SOFTWARE</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-5" role="tab" aria-controls="tabset-2-5" aria-selected="false" href=""><strong>LARCH Python package</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-6" role="tab" aria-controls="tabset-2-6" aria-selected="false" href=""><strong>DATABASES</strong></a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>Download the Orange Book <a href="https://xdb.lbl.gov/">here</a></p>
+<p><img src="Synchrotron_files/figures/DataBook_Image.gif" class="img-fluid"></p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p><a href="https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6">SYNCHROTRON VISIT LOGBOOK</a></p>
+<p>The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.</p>
+<p><strong>Remote Access to SSRL data</strong></p>
+<ul>
+<li>Download the WinSCP app here: <a href="https://winscp.net/eng/downloads.php">WinSCP</a></li>
+<li>This app will require you to input the information of the folder that you need to access remotely.</li>
+<li>Fill out the information required:
+<ul>
+<li>Host name</li>
+<li>User name</li>
+<li>Password</li>
+</ul></li>
+</ul>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<p>The link to the manual for data analyses of XAS is at this link: <a href="https://docs.google.com/document/d/11aBW2lp7dQ3Z7M_WR1V9nHGQpyaWus9GZM6z-x5BB98/edit?usp=sharing">XAS Analysis Manual</a></p>
+<p><strong>References:</strong></p>
+<ul>
+<li><p>Webb, S. (2006). XRD-BS. <a href="https://www-ssrl.slac.stanford.edu/~swebb/xrdbs.htm" class="uri">https://www-ssrl.slac.stanford.edu/~swebb/xrdbs.htm</a></p></li>
+<li><p>Webb, S. M. (2005). SIXPack a Graphical User Interface for XAS Analysis Using IFEFFIT. Physica Scripta, 1011. <a href="https://doi.org/10.1238/physica.topical.115a01011" class="uri">https://doi.org/10.1238/physica.topical.115a01011</a></p></li>
+</ul>
+<p><strong><em>For samples analyzed at SSRL:</em></strong></p>
+<p><strong>SAMS VIEW</strong></p>
+<ul>
+<li><strong>Add many files</strong>. All must be scan replicates of the same sample (<em>files must be .xdi or .dat</em>)</li>
+<li><strong>Detector</strong>: Germanium (<em>most commonly</em>).</li>
+<li>Press Apply All.</li>
+<li><strong>Channel</strong>
+<ul>
+<li>1 for Arsenic. Or,</li>
+<li>2 for Iron (<em>check notebook</em>)</li>
+</ul></li>
+<li><strong>Calibration</strong>. To shift my value of gold to wherever the peak of gold is on my <strong>muT2</strong> Plot Type.
+<ul>
+<li>Derivative must be First. Second one is too noisy.</li>
+<li>Replot</li>
+<li>Select the scan you want to calibrate.</li>
+<li>Press <strong>Find Data E0</strong>. This finds the peak for you. It must be around 11919 for gold, or 7112 for iron foil.
+<ul>
+<li>Apparent: the one it finds</li>
+<li>Actual: 11919 (gold) or 7112 (iron)</li>
+<li>Press <strong>Enter</strong></li>
+</ul></li>
+<li>Press <strong>Apply Shift to Data</strong>. It will apply the shift that it found.</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/beamline_reference.png" class="img-fluid figure-img"></p>
+<figcaption>Diagram about Sample getting hit by beamline</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Clean the channels</strong> with weird data:
+<ul>
+<li>Plot type: Column</li>
+<li>Derivative: None</li>
+<li>Column section:
+<ul>
+<li>IFall (<em>to see all the channels plot at once</em>)</li>
+<li>IFind (<em>to check channel by channel individually</em>)</li>
+</ul></li>
+<li>Zero Selected Channel: for channels that are not working correctly</li>
+</ul></li>
+<li>Plot Type: muF</li>
+<li>Derivative: None</li>
+<li>Stack All Plots</li>
+<li>Save
+<ul>
+<li>Group Spectra</li>
+</ul></li>
+</ul>
+</div>
+<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<p><strong>References:</strong></p>
+<ul>
+<li>Ravel, B., &amp; Newville, M. (2005). ATHENA, ARTEMIS, HEPHAESTUS: data analysis for X-ray absorption spectroscopy using<i>IFEFFIT</i>. Journal of Synchrotron Radiation, 12(4), 537-541. <a href="https://doi.org/10.1107/s0909049505012719" class="uri">https://doi.org/10.1107/s0909049505012719</a></li>
+</ul>
+<section id="data-normalization" class="level4" data-number="3.0.0.1">
+<h4 data-number="3.0.0.1" class="anchored" data-anchor-id="data-normalization"><span class="header-section-number">3.0.0.1</span> <strong>DATA NORMALIZATION</strong></h4>
+<ul>
+<li>File</li>
+<li>Import Files: your average .xdi file
+<ul>
+<li>Numerator: u</li>
+<li>Denominator: nothing</li>
+<li>OK</li>
+</ul></li>
+<li>Emax: 1100</li>
+<li>E0: Depending on the element you are looking for, see below:
+<ul>
+<li>11885 for Arsenic</li>
+<li>7125 for Fe</li>
+<li>6565 for Mn</li>
+<li>13100 for Pb</li>
+</ul></li>
+<li>Deglitch and Truncate
+<ul>
+<li>Locate this option on the Drop Menu under Main Window</li>
+<li>Truncate Data if you need to drop the last 3 data points (e.g.&nbsp;fluorescence from 11-2)</li>
+<li>Select the point you want to truncate at the end of the data. (Erase the last 3 points).</li>
+</ul></li>
+<li>Main Window</li>
+<li>Shade the first sample</li>
+<li>On the Normalization Section:
+<ul>
+<li>Pre-edge range: from -150, to: -70.</li>
+<li>Normalization range: from 150, to: target the end of your curve</li>
+<li>With this, you are Normalizing the data, so the Edge step is [post-edge line - pre-edge line], this may have gotten a value of around 0.something.</li>
+<li>Choose the type of Normalization that will make the pre-edge and post-edge line to be almost parallel for your sample.
+<ul>
+<li>Normalization order
+<ul>
+<li>1 = no slope, (this one is UNcommon)</li>
+<li>2 = linear slope,</li>
+<li>3 = quadratic function</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Forward Fourier transform parameters
+<ul>
+<li>K-range should be the same in ALL the samples</li>
+</ul></li>
+<li>Mark all your samples.</li>
+<li>Group
+<ul>
+<li>Set marked group values to current.</li>
+</ul></li>
+<li>Finally, mark all your samples.</li>
+<li>File
+<ul>
+<li>Save EACH marked current group as:
+<ul>
+<li>Normalized E</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="linear-combination-fitting-automatic" class="level4" data-number="3.0.0.2">
+<h4 data-number="3.0.0.2" class="anchored" data-anchor-id="linear-combination-fitting-automatic"><span class="header-section-number">3.0.0.2</span> <strong>LINEAR COMBINATION FITTING (automatic)</strong></h4>
+<p><em>NOTE: For this process you must have all the scanned standards possibly existing on your system, to get how much percentage of each species is present on your sample.</em></p>
+<ul>
+<li><p><strong>Load</strong> your standards and sample files.</p></li>
+<li><p>Shade your sample, do not mark it.</p></li>
+<li><p>Mark your standards.</p></li>
+<li><p>On the drop menu, look for the option: <strong>Linear Combination Fitting</strong></p></li>
+<li><p>Press <strong>Use Marked Groups</strong>.</p></li>
+<li><p>On the <strong>Combinatorics</strong> section: select the number of standards you are using on the combination.</p>
+<ul>
+<li>Use at most ____ standards (the amount of standards you are using).</li>
+</ul></li>
+<li><p>Beside the enlisted Standards, there is a <strong>“Required”</strong> checkbox, check it for your initial and ending species.</p></li>
+<li><p>Press <strong>“Fit all combinations”</strong></p></li>
+<li><p>Results will be shown on the “Combinatorics” tab.</p>
+<ul>
+<li>The first combination on this list is your best fit, the one with the lower R-factor.</li>
+<li>The weight for each component is the percentage of the composition of your sample.</li>
+</ul></li>
+<li><p><strong>Save combinatorial results as an Excel file</strong></p></li>
+<li><p>Unselect your standards and select JUST the samples.</p></li>
+<li><p>Now under the <strong>Standard tab</strong>, we have the correct weight parameters from the Combinatorial.</p></li>
+<li><p>Press <strong>“Fit Marked Groups”</strong>, for all the scans to be fitted to this parameter.</p></li>
+<li><p>Under the <strong>Sequence tab</strong>, we have all the scans with the composition of each (see column titles of the table), and the concentration of each.</p></li>
+<li><p>Save that table by pressing <strong>“Save fit sequence report as an Excel file”</strong></p></li>
+<li><p>We can plot that data with <strong>“Plot components from fit sequence”</strong>.</p></li>
+</ul>
+</section>
+</div>
+<div id="tabset-2-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-5-tab">
+<p><strong>References:</strong></p>
+<ul>
+<li>Newville, M. (2013). LARCH: an analysis package for XAFS and related spectroscopies. Journal of Physics Conference Series, 430, 012007. <a href="https://doi.org/10.1088/1742-6596/430/1/012007" class="uri">https://doi.org/10.1088/1742-6596/430/1/012007</a></li>
+</ul>
+<section id="xafs-data-processing" class="level4" data-number="3.0.0.3">
+<h4 data-number="3.0.0.3" class="anchored" data-anchor-id="xafs-data-processing"><span class="header-section-number">3.0.0.3</span> XAFS Data processing</h4>
+<p>This example shows how to use Larch from Python/Jupyter for basic XAFS data processing:</p>
+<ul>
+<li>read data from an Athena Project File</li>
+<li>do XAFS background subtraction with autobk()</li>
+<li>do XAFS Fourier transform with xfft()</li>
+</ul>
+<p><a href="https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/XAFS_Processing_matplotlib.ipynb" class="uri">https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/XAFS_Processing_matplotlib.ipynb</a></p>
+</section>
+<section id="iron-k-edge-processing-example" class="level4" data-number="3.0.0.4">
+<h4 data-number="3.0.0.4" class="anchored" data-anchor-id="iron-k-edge-processing-example"><span class="header-section-number">3.0.0.4</span> Iron K-edge processing example</h4>
+<p><a href="https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/Fe-treatment.ipynb" class="uri">https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/Fe-treatment.ipynb</a></p>
+</section>
+<section id="xanes-pca-train" class="level4" data-number="3.0.0.5">
+<h4 data-number="3.0.0.5" class="anchored" data-anchor-id="xanes-pca-train"><span class="header-section-number">3.0.0.5</span> XANES PCA train</h4>
+<p><a href="https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/XANES_PCA_example.ipynb" class="uri">https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/XANES_PCA_example.ipynb</a></p>
+</section>
+<section id="feff-fitting" class="level4" data-number="3.0.0.6">
+<h4 data-number="3.0.0.6" class="anchored" data-anchor-id="feff-fitting"><span class="header-section-number">3.0.0.6</span> FEFF Fitting</h4>
+<p><a href="https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/feffit_cu_3paths.ipynb" class="uri">https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/feffit_cu_3paths.ipynb</a></p>
+</section>
+</div>
+<div id="tabset-2-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-6-tab">
+<section id="international-xafs-database-portal-of-the-japanese-xafs-society" class="level4" data-number="3.0.0.7">
+<h4 data-number="3.0.0.7" class="anchored" data-anchor-id="international-xafs-database-portal-of-the-japanese-xafs-society"><span class="header-section-number">3.0.0.7</span> International XAFS Database Portal of the Japanese XAFS Society</h4>
+<p>Masashi Ishii, <a href="https://ixdb.jxafs.org/" class="uri">https://ixdb.jxafs.org/</a>, established in 2024.</p>
+<p>Reference:</p>
+<p>Ishii, M., Matsuda, A., Sakamoto, K., Yamashita, S., Niwa, Y. &amp; Inada, Y. (2025). J. Synchrotron Rad. 32, <a href="https://doi.org/10.1107/S1600577525002206" class="uri">https://doi.org/10.1107/S1600577525002206</a>.</p>
+</section>
+<section id="solid-spectroscopy-hosting-architecture-of-databases-and-expertise" class="level4" data-number="3.0.0.8">
+<h4 data-number="3.0.0.8" class="anchored" data-anchor-id="solid-spectroscopy-hosting-architecture-of-databases-and-expertise"><span class="header-section-number">3.0.0.8</span> Solid Spectroscopy Hosting Architecture of Databases and Expertise</h4>
+<p><a href="https://www.sshade.eu/" class="uri">https://www.sshade.eu/</a></p>
+</section>
+<section id="international-x-ray-absorption-society-ixas-data-library" class="level4" data-number="3.0.0.9">
+<h4 data-number="3.0.0.9" class="anchored" data-anchor-id="international-x-ray-absorption-society-ixas-data-library"><span class="header-section-number">3.0.0.9</span> International X-ray Absorption Society (IXAS) Data Library</h4>
+<p><a href="https://xaslib.xrayabsorption.org/elem/" class="uri">https://xaslib.xrayabsorption.org/elem/</a></p>
+<p><a href="#top">Back to top</a></p>
+</section>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
