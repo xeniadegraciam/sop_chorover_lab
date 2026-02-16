@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Sunday, February 15, 2026 18:07:28</p>
+      <p class="date">Monday, February 16, 2026 01:44:09</p>
     </div>
   </div>
   
@@ -341,8 +341,9 @@ Important
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>Refill the <strong>Germanium detector with LN2</strong> once every 24 hours. Log in their notebook (SSRL) the time and date that you refilled the detector. everytime.</li>
-<li>Lock the key of the hutch back in its box once you finish using it, and log that information in their notebook.</li>
+<li>Refill the <strong>Germanium detector with LN2</strong> once every 24 hours. Log in their notebook (SSRL) the time and date that you refilled the detector.</li>
+<li>Lock the <strong>key of the hutch</strong> back in its box once you finish using it, and log that information in their notebook.</li>
+<li>The <strong>detector foil filter</strong> is chosen as: Foil filter = Z of Element of interest - 1. Example, for Arsenic, the foil filter needed is Germanium. But for Iron it will be Manganese foil.</li>
 </ul>
 </div>
 </div>
@@ -356,28 +357,27 @@ Important
 <ul>
 <li>Start Run</li>
 <li>Change the output file, call it like: <em>Au_cal_date_time</em></li>
-<li>Apply -&gt; Start</li>
+<li><strong>Apply -&gt; Start</strong></li>
 <li>Check the uXAS Plot Utility and deselect FF/I0</li>
-<li>Select the Log I1/I2 (because I2 is your gold reference)</li>
-<li>Math -&gt; First Derivative</li>
+<li>Select the <strong>Log I1/I2</strong> (because I2 is your gold reference)</li>
+<li><strong>Math -&gt; First Derivative</strong></li>
 <li>Look at the peak, the position of Gold should be ar 11919 eV.</li>
-<li>Configure -&gt; Calibrate MONO</li>
+<li><strong>Configure -&gt; Calibrate MONO</strong></li>
 <li>Move to: what you just measure (peak of derivative, not the real number)</li>
-<li>Calibration eV: type the real value of Gold: 11919 eV.</li>
-<li>Move -&gt; Apply</li>
-<li>MONO position should be now 11919 on the uXaS GUI.</li>
+<li><strong>Calibration eV</strong>: type the real value of Gold: 11919 eV.</li>
+<li><strong>Move -&gt; Apply</strong></li>
+<li>MONO position should be now 11919 now on the uXaS GUI.</li>
 <li>Re SCAN if you moved your Gold Calibration by hitting Start Run.</li>
 <li>Save New Calibration file with the new time and date.</li>
 </ul>
 </section>
 <section id="harmonics" class="level4" data-number="2.1.0.2">
 <h4 data-number="2.1.0.2" class="anchored" data-anchor-id="harmonics"><span class="header-section-number">2.1.0.2</span> <strong>HARMONICS</strong></h4>
-<p><strong><em>Work in progress…</em></strong></p>
-<p>This may require the help of the beamline scientist, depending on the beamline you are working with,</p>
+<p><strong><em>This may require the help of the beamline scientist, depending on the beamline you are working with.</em></strong></p>
 </section>
 <section id="allignment" class="level4" data-number="2.1.0.3">
 <h4 data-number="2.1.0.3" class="anchored" data-anchor-id="allignment"><span class="header-section-number">2.1.0.3</span> <strong>ALLIGNMENT</strong></h4>
-<p><strong><em>Here we tell the program where to find the position of the center of the samples we need to run. We scan all the holder and select the center of each window.</em></strong></p>
+<p><strong><em>Sample position centered on the sample holder window. We scan all the holder and select the center of each window.</em></strong></p>
 <ul>
 <li><strong>Detector = I1</strong>, because we are using the Ion Chamber as detector.</li>
 <li>Check your current position.</li>
@@ -387,7 +387,7 @@ Important
 <li>Start:5 Stop:65 Step:0.5</li>
 <li><strong>SCAN</strong></li>
 <li>Wait until the screen says: <strong>Scan Finished</strong>. It goes all the way scanning the entire sample holder.</li>
-<li>Using the <strong>plot screen, find the center of each window</strong>, by finding the highest position of each peak. <strong>Take notes</strong> of each position for future reference.</li>
+<li>Right click on the plot screen, to get new plotter, and find the <strong>center of each window</strong>. <strong>Take notes</strong> of each position for future reference.</li>
 </ul>
 </section>
 <section id="linearity" class="level4" data-number="2.1.0.4">
@@ -395,8 +395,8 @@ Important
 <p><strong><em>Here we are making sure that we are on the linear part of the deadtime curve, and not over the curvy part.</em></strong></p>
 <p><strong>Detector</strong></p>
 <ul>
-<li>In here we use the detector, so we need to <strong>uncover</strong> it, and add the Iron foil filter.</li>
-<li>Go to Scan Motor -&gt; Motors -&gt; Detector.</li>
+<li>In here we use the detector, so we need to <strong>uncover</strong> it, and add the <strong>Iron foil filter</strong>.</li>
+<li>Go to <strong>Scan Motor -&gt; Motors -&gt; Detector</strong>.</li>
 <li>Check your detector <strong>current</strong> position.</li>
 <li>Check your Scan Type is <strong>ABSOLUTE</strong>.</li>
 <li>Move the detector position to get it as close as possible to the sample. When you see the Iron foil is moving a little, it is close enough.</li>
@@ -422,8 +422,9 @@ Important
 <p><em>SHGAP is what we want to open or close to get the beam intensity to hit our sample. Zero is the center of the window, meaning it is totally close. The higher the number, the wider the window. We can go until 10.</em></p>
 <p>First sample:</p>
 <ul>
-<li>Go to <strong>Scan Motor -&gt; Motors -&gt; VERT_ADC -&gt; Scan Type:Absolute -&gt; Move to:</strong> <em>Move to the position of the first sample you are analizing.</em></li>
+<li>Go to <strong>Scan Motor -&gt; Motors -&gt; VERT_ADC -&gt; Scan Type:Absolute -&gt; Move to:</strong> <em>Move to the position of the first sample you are analyzing.</em></li>
 <li>Wait for the message saying: <strong><em>“Moving completed”</em></strong>.</li>
+<li>In uMap Gui, click <strong>START</strong> to check that your channels are NOT red.</li>
 <li>SVGAP is ALWAYS 2.</li>
 <li>Go to <strong>SHGAP</strong> and insert a small value if the concentration of your sample is high, for example: 3.</li>
 <li>Wait for the message saying: <strong><em>“Moving completed”</em></strong>.</li>
@@ -432,17 +433,8 @@ Important
 <li>Check that your total ICR counts have NOT overpass the 100K counts.</li>
 <li>If your channels are not red, and your total ICR counts are far from 100K, you can increase the SHGAP.</li>
 <li>Never exceed the limit of 10 for SHGAP.</li>
-<li>Once you found the desired SHGAP, take note on that value for each sample.</li>
+<li>Once you found the desired <strong>SHGAP, take note</strong> on that value for each sample.</li>
 <li>Move to your next sample to choose a good SHGAP for that sample too.</li>
-</ul>
-<p>Second sample:</p>
-<ul>
-<li><strong>Scan Motor -&gt; Motors -&gt; VERT_ADC -&gt; Scan Type:Absolute -&gt; Move to:</strong></li>
-<li>Wait for the message saying: <strong><em>“Moving completed”</em></strong>.</li>
-<li>In uMap Gui, click <strong>START</strong>.</li>
-<li><strong>Check the 100 channels</strong> in uMap Gui, none should be red.</li>
-<li>Check that your total ICR counts have NOT overpass the 100K counts.</li>
-<li>If your channels are not red, and your total ICR counts are far from 100K, you can increase the SHGAP.</li>
 </ul>
 <p>Repeat those steps for all the samples.</p>
 </section>
@@ -463,8 +455,24 @@ Important
 </div>
 <ul>
 <li>Got to the <strong>Ionic Chamber Control</strong> (Channel 1 to 5), and play with the <strong>“Gain”</strong> until all the channels are below 5, and as close to zero as possible, but never zero.</li>
-<li>Offset -&gt; Detector -&gt; Settings -&gt; Offset -&gt; Counts: 10. <strong>Do not press DONE yet</strong></li>
-<li><strong>Wait for 10 seconds</strong> until the Lead shutters are down, interrupting the beamline.</li>
+<li><strong>Offset -&gt; Detector -&gt; Settings -&gt; Offset</strong></li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Beam OFF</strong></p>
+</div>
+</div>
+<ul>
+<li>Counts: 10**. <em>Do not press DONE yet</em></li>
+<li><strong>Wait for 10 seconds</strong> until the Lead shutters are down <strong>(BEAM OFF)</strong>, interrupting the beamline.</li>
 <li>Click <strong>“DONE”</strong>.</li>
 </ul>
 <p><a href="#top">Back to top</a></p>
@@ -472,8 +480,11 @@ Important
 </div>
 <div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
 <ul>
-<li>Setup Queue -&gt; Insert names - Save Queue</li>
-<li>Accept</li>
+<li><strong>Setup Queue</strong></li>
+<li>Insert names, Y-position (HGap), and Z-position (VERT_ADC)</li>
+<li>The amount of Swipes to run for each sample will depend on the current ICR counts for that specific sample. Choose a number of swipes, that multiplied by the total counts of ICR, and multiplied by the 100Channels, equals around 1 Million counts.</li>
+<li><strong>Save Queue</strong></li>
+<li><strong>Accept</strong></li>
 </ul>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -508,22 +519,36 @@ Important
 <p><strong>Beam OFF</strong></p>
 </div>
 </div>
+<p><strong>Liquid Nitrogen</strong></p>
 <ul>
 <li>Pick up some <strong>Liquid Nitrogen</strong> from the LN2 station. Use mask and gloves.</li>
 <li>Move the detector back from the sample, to distant it and protect it when moving out the samples.</li>
+</ul>
+<p><strong>Move detector away</strong></p>
+<ul>
+<li><strong>Move Motor -&gt; Detector -&gt; Scan Type: Absolute -&gt; Move to: 100</strong></li>
 <li><strong>Cover the detector</strong>.</li>
+</ul>
+<p><strong>Close pump and change cryostat</strong></p>
+<ul>
 <li>Close the <strong>valve</strong> of the pump and Turn it <strong>Off</strong>.</li>
 <li>Disconnect the vacuum tube from the top of the cryostat. It moves crazy so hold it tight to not hit anything. There is a small cap on that tube, so DO NOT lose it.</li>
 <li>Take out the cryostat. <strong>Unscrew</strong> it and place those screws in a known place. DO NOT loose them.</li>
 <li>Take the <strong>new cryostat</strong> and put it on position. Screw it on 2 corners.</li>
 <li>Connect the vacuum tube again.</li>
-<li><strong>Open the valve</strong> of the pump and Start pump. A vacuum of 10-7 or 10-6 is good for LN2.</li>
+<li><strong>Turn On Pump and Open the valve</strong> of the pump and Start pump. A vacuum of 10-3 or 10-4 is good to start adding the LN2.</li>
 <li>Take the LN2 dewar and the funnel and <strong>fill up the Cryostat</strong>. It will probably take 2 dewars.</li>
 <li>Cover the top of the cryostat with a kimwipe, very lose on top to avoid LN2 to escape faster.</li>
-<li><strong>Refill the Germanium Detector</strong> with LN2 once every 24 hours.</li>
-<li>Take out the <strong>cover</strong> from the detector. Be careful t not bring the metallic cover, jut the one you used to protect it.</li>
+</ul>
+<p><strong>Detector cover off</strong></p>
+<ul>
+<li><strong>Refill the Germanium Detector</strong> with LN2 once every 24 hours, or each time you change your cryostat sample holder.</li>
+<li>Take out the <strong>cover</strong> from the detector. Be careful not to bring the metallic cover, jut the one you used to protect it.</li>
+</ul>
+<p><strong>Close hutch</strong></p>
+<ul>
+<li>Pick up key from the box.</li>
 <li>Close the hutch.</li>
-<li>Log in the time you put the hutch key back in its box.</li>
 </ul>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -538,6 +563,16 @@ Important
 <p><strong>Beam ON</strong></p>
 </div>
 </div>
+<p><strong>Channels</strong></p>
+<ul>
+<li>In uMap Gui, click <strong>START</strong>, and immediately check that all your channels are OK (no red).</li>
+<li>Got to the <strong>Ionic Chamber Control</strong> (Channel 1 to 5), and play with the <strong>“Gain”</strong> until all the channels are below 5, and as close to zero as possible, but never zero.</li>
+</ul>
+<p><strong>Key</strong></p>
+<ul>
+<li>Return the key to the box.</li>
+<li>Log in the time you put the hutch key back in its box.</li>
+</ul>
 <p><a href="#top">Back to top</a></p>
 </div>
 </div>
