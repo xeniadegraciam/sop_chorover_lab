@@ -439,9 +439,10 @@ For a 1:2 solid-to-solution ratio
 ::: panel-tabset
 ## **SYNCHROTRON**
 
-Moved to: [Synchrotron repo](https://xeniadegraciam.github.io/SOP/Synchrotron.html)
+Moved to: [Synchrotron repo](https://xeniadegraciam.github.io/sop_chorover_lab/Synchrotron.html)
 
 Everything related Synchrotron is on the link above:
+
 - Data analysis
 - Beamline procedures
 
@@ -1735,4 +1736,7 @@ Schwertmannite and Jarosite in AMD
 -   Seidel, H., Görsch, K., Amstätter, K., & Mattusch, J. (2005). Immobilization of arsenic in a tailings material by ferrous iron treatment. *Water Research*, 39(17), 4073–4082. <https://doi.org/10.1016/j.watres.2005.08.001>
 
 [Back to top](#top)
+
+:::
+
 :::
