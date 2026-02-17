@@ -247,10 +247,14 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 
 ## **BL 11-2 XAS**
 
+![BL 11-2](Synchrotron_files/figures/BL11-2/BL11-2.png)
+
 ::: callout-important
 - Refill the **Germanium detector with LN2** once every 24 hours. Log in their notebook (SSRL) the time and date that you refilled the detector.
 - Lock the **key of the hutch** back in its box once you finish using it, and log that information in their notebook.
-- The **detector foil filter** is chosen as: Foil filter = Z of Element of interest - 1. Example, for Arsenic, the foil filter needed is Germanium. But for Iron it will be Manganese foil.
+- The **detector foil filter** is chosen as: Foil filter = [ **Z of Element of interest - 1** ]. Example, for Arsenic, the foil filter needed is Germanium. But for Iron it will be Manganese foil.
+- When **Beam is On**, we move the **Gains** in Ion Chamber Control (I0, I1, I2, I3).
+- When **Beam is Off**, we move the **Offset** in Ion Chamber Control (I0, I1, I2, I3).
 :::
 
 
@@ -265,7 +269,10 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 - Change the output file, call it like: *Au_cal_date_time*
 - **Apply -> Start**
 - Check the uXAS Plot Utility and deselect FF/I0
-- Select the **Log I1/I2** (because I2 is your gold reference)
+- Select the **Log I1/I2** (because I2 is your gold reference).
+
+![gold standard](Synchrotron_files/figures/BL11-2/I2_references.png)
+
 - **Math -> First Derivative**
 - Look at the peak, the position of Gold should be ar 11919 eV.
 - **Configure -> Calibrate MONO**
@@ -273,16 +280,45 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 - **Calibration eV**: type the real value of Gold: 11919 eV.
 - **Move -> Apply**
 - MONO position should be now 11919 now on the uXaS GUI.
+
+![uXAS GUI](Synchrotron_files/figures/BL11-2/interface_uXAS_GUI.png)
+
 - Re SCAN if you moved your Gold Calibration by hitting Start Run.
+
+![Scan Motor](Synchrotron_files/figures/BL11-2/interface_ScanMotor.png)
+
 - Save New Calibration file with the new time and date.
 
 #### **HARMONICS**
 
 ***This may require the help of the beamline scientist, depending on the beamline you are working with.***
 
+- Make sure you have your energy set up to the element of interest:
+- TBLMONO -> 8000 for Iron, or 12000 for Arsenic
+
+![Move Motor](Synchrotron_files/figures/BL11-2/interface_MoveMotor.png)
+
+**Detuning**
+
+- Go to **MONO Tuning screen**
+
+![MONO tuning](Synchrotron_files/figures/BL11-2/interface_MONO_tuning.png)
+
+- Click **UP arrow** and check for **CH1**.
+- Continue clicking Up arrow until you see that CH1 doesn't go higher anymore, and it starts actually decreasing (even when you hit UP). 
+
+![interface: channel](Synchrotron_files/figures/BL11-2/interface_channels.png)
+
+- Take note of that maximum number in CH1.
+- Now multiply that number by 0.50, and take note on that.
+- Start clicking **DOWN** now, until you reach that new number on your CH1, because you are detuning.
+
+
 #### **ALLIGNMENT**
 
 ***Sample position centered on the sample holder window. We scan all the holder and select the center of each window.***
+
+![Scan Motor](Synchrotron_files/figures/BL11-2/interface_ScanMotor.png)
 
 - **Detector = I1**, because we are using the Ion Chamber as detector.
 - Check your current position.
@@ -294,17 +330,34 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 - Wait until the screen says: **Scan Finished**. It goes all the way scanning the entire sample holder.
 - Right click on the plot screen, to get new plotter, and find the **center of each window**. **Take notes** of each position for future reference.
 
+![VERT_ADC](Synchrotron_files/figures/BL11-2/notes_HGap.png)
+
+- Open the hutch to **take detector cover Off, and and add the Iron foil filter (if used)**. Be careful not to bring the metallic cover, jut the one you used to protect it.
+
+![detector_cover](Synchrotron_files/figures/BL11-2/detector_cover_caution.png)
+
+- Close the hutch and save the key in box.
+
+![hutch key](Synchrotron_files/figures/BL11-2/hutch_key.png)
+
+- Press START to check no channels are red.
+
+![interface: detector](Synchrotron_files/figures/BL11-2/interface_detector.png)
+
+- Move detector back close to the sample, using **Motor -> Detector** (~55). When you see the Iron foil is moving a little, it is close enough.
+
+![Move Motor](Synchrotron_files/figures/BL11-2/interface_MoveMotor.png)
+
 #### **LINEARITY**
 
 ***Here we are making sure that we are on the linear part of the deadtime curve, and not over the curvy part.***
 
 **Detector**
 
-- In here we use the detector, so we need to **uncover** it, and add the **Iron foil filter**.
+- In here we use the detector, so we need to have it uncover.
 - Go to **Scan Motor -> Motors -> Detector**. 
 - Check your detector **current** position.
 - Check your Scan Type is **ABSOLUTE**.
-- Move the detector position to get it as close as possible to the sample. When you see the Iron foil is moving a little, it is close enough.
 
 **MONO Position**
 
@@ -312,12 +365,17 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 
 - **Motor -> TBLMONO -> Scan Type:Absolute -> Move to: 11875** (Arsenic V)
 - In uMap Gui, click **START**.
-- **Check the 100 channels** in uMap Gui, none should be red.
+- **Check the 100 channels**, none should be red.
 
+![interface: detector](Synchrotron_files/figures/BL11-2/interface_detector.png)
 
 **Ionic Chamber Control**
 
 - Got to the **Ionic Chamber Control** (Channel 1 to 5), and play with the **"Gain"** until all the channels are below 5, and as close to zero as possible, but never zero.
+
+![interface: gains/offset](Synchrotron_files/figures/BL11-2/interface_gains_offset.png)
+
+![interface: channels](Synchrotron_files/figures/BL11-2/interface_channels.png)
 
 **uMAP GUI**
 
@@ -325,17 +383,23 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 - The TOTAL counts on the **ICR** should **never overpass 100K counts**.
 - **SC1 is the Arsenic channel**, and we need it to be the highest we could get, while not overpassing the 100K counts int he ICR channel.
 
+![interface: detector](Synchrotron_files/figures/BL11-2/interface_detector.png)
+
 **Choosing an HGap for each sample**
 
 *SHGAP is what we want to open or close to get the beam intensity to hit our sample. Zero is the center of the window, meaning it is totally close. The higher the number, the wider the window. We can go until 10.*
 
-First sample: 
-
 - Go to **Scan Motor -> Motors -> VERT_ADC -> Scan Type:Absolute -> Move to:** *Move to the position of the first sample you are analyzing.*
 - Wait for the message saying: ***"Moving completed"***.
 - In uMap Gui, click **START** to check that your channels are NOT red.
+
+![interface: detector](Synchrotron_files/figures/BL11-2/interface_detector.png)
+
 - SVGAP is ALWAYS 2.
-- Go to **SHGAP** and insert a small value if the concentration of your sample is high, for example: 3.
+- Go to **Move Motor -> SHGAP** and insert a small value if the concentration of your sample is high, for example: 3.
+
+![Move Motor](Synchrotron_files/figures/BL11-2/interface_MoveMotor.png)
+
 - Wait for the message saying: ***"Moving completed"***.
 - In uMap Gui, click **START**.
 - **Check the 100 channels** in uMap Gui, none should be red.
@@ -344,10 +408,9 @@ First sample:
 - Never exceed the limit of 10 for SHGAP.
 - Once you found the desired **SHGAP, take note** on that value for each sample.
 - Move to your next sample to choose a good SHGAP for that sample too.
+- Repeat those steps for all the samples.
 
-Repeat those steps for all the samples.
-
-
+![HGap notes](Synchrotron_files/figures/BL11-2/notes_HGap.png)
 
 #### **OFFSET**
 
@@ -355,14 +418,18 @@ Repeat those steps for all the samples.
 **Beam OFF**
 :::
 
-- Got to the **Ionic Chamber Control** (Channel 1 to 5), and play with the **"Gain"** until all the channels are below 5, and as close to zero as possible, but never zero.
+- Go to the **Ionic Chamber Control** (Channel 1 to 5), and play with the **"Gain"** until all the channels are below 5, and as close to zero as possible, but never zero.
 - **Offset -> Detector -> Settings -> Offset**
+
+![interface: gains/offset](Synchrotron_files/figures/BL11-2/interface_gains_offset.png)
+
+![interface: channels](Synchrotron_files/figures/BL11-2/interface_channels.png)
 
 ::: callout-important
 **Beam OFF**
 :::
 
-- Counts: 10**. *Do not press DONE yet*
+- Counts: 10 ***Do not press DONE yet***
 - **Wait for 10 seconds** until the Lead shutters are down **(BEAM OFF)**, interrupting the beamline.
 - Click **"DONE"**.
 
@@ -375,6 +442,8 @@ Repeat those steps for all the samples.
 - The amount of Swipes to run for each sample will depend on the current ICR counts for that specific sample. Choose a number of swipes, that multiplied by the total counts of ICR, and multiplied by the 100Channels, equals around 1 Million counts.
 - **Save Queue**
 - **Accept**
+
+![interface: gains/offset](Synchrotron_files/figures/BL11-2/interface_queue.png)
 
 ::: callout-important
 **Beam ON**
@@ -393,34 +462,51 @@ Repeat those steps for all the samples.
 
 **Liquid Nitrogen**
 
-- Pick up some **Liquid Nitrogen** from the LN2 station. Use mask and gloves.
-- Move the detector back from the sample, to distant it and protect it when moving out the samples.
+- Pick up some **Liquid Nitrogen** from the LN2 fill station. Use mask and gloves.
+
+![LN2_fill_station](Synchrotron_files/figures/BL11-2/LN2_fill_station.png)
+
 
 **Move detector away**
 
+- Move the detector back from the sample, to distant it and protect it when moving out the samples.
 - **Move Motor -> Detector -> Scan Type: Absolute -> Move to: 100**
 - **Cover the detector**.
 
 **Close pump and change cryostat**
 
+![pump](Synchrotron_files/figures/BL11-2/pump.png)
+
 - Close the **valve** of the pump and Turn it **Off**.
 - Disconnect the vacuum tube from the top of the cryostat. It moves crazy so hold it tight to not hit anything. There is a small cap on that tube, so DO NOT lose it.
+
+![pump hose](Synchrotron_files/figures/BL11-2/pump_connection.png)
+
 - Take out the cryostat. **Unscrew** it and place those screws in a known place. DO NOT loose them.
+
+![used cryo sample holder](Synchrotron_files/figures/BL11-2/cryo_sample_holder.png)
+
 - Take the **new cryostat** and put it on position. Screw it on 2 corners.
+
+![new cryo screwed](Synchrotron_files/figures/BL11-2/cryo_screw.png)
+
+**Pump ON**
+
 - Connect the vacuum tube again.
 - **Turn On Pump and Open the valve** of the pump and Start pump. A vacuum of 10-3 or 10-4 is good to start adding the LN2.
 - Take the LN2 dewar and the funnel and **fill up the Cryostat**. It will probably take 2 dewars.
 - Cover the top of the cryostat with a kimwipe, very lose on top to avoid LN2 to escape faster.
-
-**Detector cover off**
-
 - **Refill the Germanium Detector** with LN2 once every 24 hours, or each time you change your cryostat sample holder.
-- Take out the **cover** from the detector. Be careful not to bring the metallic cover, jut the one you used to protect it.
+
+
+![LN2_for_detector](Synchrotron_files/figures/BL11-2/LN2_for_detector.png)
 
 **Close hutch**
 
 - Pick up key from the box.
 - Close the hutch.
+
+![hutch key](Synchrotron_files/figures/BL11-2/hutch_key.png)
 
 ::: callout-important
 **Beam ON**
@@ -429,6 +515,9 @@ Repeat those steps for all the samples.
 **Channels**
 
 - In uMap Gui, click **START**, and immediately check that all your channels are OK (no red).
+
+![interface: detector](Synchrotron_files/figures/BL11-2/interface_detector.png)
+
 - Got to the **Ionic Chamber Control** (Channel 1 to 5), and play with the **"Gain"** until all the channels are below 5, and as close to zero as possible, but never zero.
 
 **Key**

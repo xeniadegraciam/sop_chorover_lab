@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Monday, February 16, 2026 01:44:09</p>
+      <p class="date">Tuesday, February 17, 2026 14:24:45</p>
     </div>
   </div>
   
@@ -330,6 +330,12 @@ Note
 <h1 data-number="2"><span class="header-section-number">2</span> <strong>SSRL</strong></h1>
 <section id="bl-11-2-xas" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="bl-11-2-xas"><span class="header-section-number">2.1</span> <strong>BL 11-2 XAS</strong></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/BL11-2.png" class="img-fluid figure-img"></p>
+<figcaption>BL 11-2</figcaption>
+</figure>
+</div>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -343,7 +349,9 @@ Important
 <ul>
 <li>Refill the <strong>Germanium detector with LN2</strong> once every 24 hours. Log in their notebook (SSRL) the time and date that you refilled the detector.</li>
 <li>Lock the <strong>key of the hutch</strong> back in its box once you finish using it, and log that information in their notebook.</li>
-<li>The <strong>detector foil filter</strong> is chosen as: Foil filter = Z of Element of interest - 1. Example, for Arsenic, the foil filter needed is Germanium. But for Iron it will be Manganese foil.</li>
+<li>The <strong>detector foil filter</strong> is chosen as: Foil filter = [ <strong>Z of Element of interest - 1</strong> ]. Example, for Arsenic, the foil filter needed is Germanium. But for Iron it will be Manganese foil.</li>
+<li>When <strong>Beam is On</strong>, we move the <strong>Gains</strong> in Ion Chamber Control (I0, I1, I2, I3).</li>
+<li>When <strong>Beam is Off</strong>, we move the <strong>Offset</strong> in Ion Chamber Control (I0, I1, I2, I3).</li>
 </ul>
 </div>
 </div>
@@ -359,7 +367,15 @@ Important
 <li>Change the output file, call it like: <em>Au_cal_date_time</em></li>
 <li><strong>Apply -&gt; Start</strong></li>
 <li>Check the uXAS Plot Utility and deselect FF/I0</li>
-<li>Select the <strong>Log I1/I2</strong> (because I2 is your gold reference)</li>
+<li>Select the <strong>Log I1/I2</strong> (because I2 is your gold reference).</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/I2_references.png" class="img-fluid figure-img"></p>
+<figcaption>gold standard</figcaption>
+</figure>
+</div>
+<ul>
 <li><strong>Math -&gt; First Derivative</strong></li>
 <li>Look at the peak, the position of Gold should be ar 11919 eV.</li>
 <li><strong>Configure -&gt; Calibrate MONO</strong></li>
@@ -367,17 +383,74 @@ Important
 <li><strong>Calibration eV</strong>: type the real value of Gold: 11919 eV.</li>
 <li><strong>Move -&gt; Apply</strong></li>
 <li>MONO position should be now 11919 now on the uXaS GUI.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_uXAS_GUI.png" class="img-fluid figure-img"></p>
+<figcaption>uXAS GUI</figcaption>
+</figure>
+</div>
+<ul>
 <li>Re SCAN if you moved your Gold Calibration by hitting Start Run.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_ScanMotor.png" class="img-fluid figure-img"></p>
+<figcaption>Scan Motor</figcaption>
+</figure>
+</div>
+<ul>
 <li>Save New Calibration file with the new time and date.</li>
 </ul>
 </section>
 <section id="harmonics" class="level4" data-number="2.1.0.2">
 <h4 data-number="2.1.0.2" class="anchored" data-anchor-id="harmonics"><span class="header-section-number">2.1.0.2</span> <strong>HARMONICS</strong></h4>
 <p><strong><em>This may require the help of the beamline scientist, depending on the beamline you are working with.</em></strong></p>
+<ul>
+<li>Make sure you have your energy set up to the element of interest:</li>
+<li>TBLMONO -&gt; 8000 for Iron, or 12000 for Arsenic</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_MoveMotor.png" class="img-fluid figure-img"></p>
+<figcaption>Move Motor</figcaption>
+</figure>
+</div>
+<p><strong>Detuning</strong></p>
+<ul>
+<li>Go to <strong>MONO Tuning screen</strong></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_MONO_tuning.png" class="img-fluid figure-img"></p>
+<figcaption>MONO tuning</figcaption>
+</figure>
+</div>
+<ul>
+<li>Click <strong>UP arrow</strong> and check for <strong>CH1</strong>.</li>
+<li>Continue clicking Up arrow until you see that CH1 doesn’t go higher anymore, and it starts actually decreasing (even when you hit UP).</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_channels.png" class="img-fluid figure-img"></p>
+<figcaption>interface: channel</figcaption>
+</figure>
+</div>
+<ul>
+<li>Take note of that maximum number in CH1.</li>
+<li>Now multiply that number by 0.50, and take note on that.</li>
+<li>Start clicking <strong>DOWN</strong> now, until you reach that new number on your CH1, because you are detuning.</li>
+</ul>
 </section>
 <section id="allignment" class="level4" data-number="2.1.0.3">
 <h4 data-number="2.1.0.3" class="anchored" data-anchor-id="allignment"><span class="header-section-number">2.1.0.3</span> <strong>ALLIGNMENT</strong></h4>
 <p><strong><em>Sample position centered on the sample holder window. We scan all the holder and select the center of each window.</em></strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_ScanMotor.png" class="img-fluid figure-img"></p>
+<figcaption>Scan Motor</figcaption>
+</figure>
+</div>
 <ul>
 <li><strong>Detector = I1</strong>, because we are using the Ion Chamber as detector.</li>
 <li>Check your current position.</li>
@@ -389,44 +462,124 @@ Important
 <li>Wait until the screen says: <strong>Scan Finished</strong>. It goes all the way scanning the entire sample holder.</li>
 <li>Right click on the plot screen, to get new plotter, and find the <strong>center of each window</strong>. <strong>Take notes</strong> of each position for future reference.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/notes_HGap.png" class="img-fluid figure-img"></p>
+<figcaption>VERT_ADC</figcaption>
+</figure>
+</div>
+<ul>
+<li>Open the hutch to <strong>take detector cover Off, and and add the Iron foil filter (if used)</strong>. Be careful not to bring the metallic cover, jut the one you used to protect it.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/detector_cover_caution.png" class="img-fluid figure-img"></p>
+<figcaption>detector_cover</figcaption>
+</figure>
+</div>
+<ul>
+<li>Close the hutch and save the key in box.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/hutch_key.png" class="img-fluid figure-img"></p>
+<figcaption>hutch key</figcaption>
+</figure>
+</div>
+<ul>
+<li>Press START to check no channels are red.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_detector.png" class="img-fluid figure-img"></p>
+<figcaption>interface: detector</figcaption>
+</figure>
+</div>
+<ul>
+<li>Move detector back close to the sample, using <strong>Motor -&gt; Detector</strong> (~55). When you see the Iron foil is moving a little, it is close enough.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_MoveMotor.png" class="img-fluid figure-img"></p>
+<figcaption>Move Motor</figcaption>
+</figure>
+</div>
 </section>
 <section id="linearity" class="level4" data-number="2.1.0.4">
 <h4 data-number="2.1.0.4" class="anchored" data-anchor-id="linearity"><span class="header-section-number">2.1.0.4</span> <strong>LINEARITY</strong></h4>
 <p><strong><em>Here we are making sure that we are on the linear part of the deadtime curve, and not over the curvy part.</em></strong></p>
 <p><strong>Detector</strong></p>
 <ul>
-<li>In here we use the detector, so we need to <strong>uncover</strong> it, and add the <strong>Iron foil filter</strong>.</li>
+<li>In here we use the detector, so we need to have it uncover.</li>
 <li>Go to <strong>Scan Motor -&gt; Motors -&gt; Detector</strong>.</li>
 <li>Check your detector <strong>current</strong> position.</li>
 <li>Check your Scan Type is <strong>ABSOLUTE</strong>.</li>
-<li>Move the detector position to get it as close as possible to the sample. When you see the Iron foil is moving a little, it is close enough.</li>
 </ul>
 <p><strong>MONO Position</strong></p>
 <p><em>We need to Fluorescence the Arsenic which is at 11875, but right now it is at 11683, so we need to move the MONO for a value after that Arsenic Fluorescence value.</em></p>
 <ul>
 <li><strong>Motor -&gt; TBLMONO -&gt; Scan Type:Absolute -&gt; Move to: 11875</strong> (Arsenic V)</li>
 <li>In uMap Gui, click <strong>START</strong>.</li>
-<li><strong>Check the 100 channels</strong> in uMap Gui, none should be red.</li>
+<li><strong>Check the 100 channels</strong>, none should be red.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_detector.png" class="img-fluid figure-img"></p>
+<figcaption>interface: detector</figcaption>
+</figure>
+</div>
 <p><strong>Ionic Chamber Control</strong></p>
 <ul>
 <li>Got to the <strong>Ionic Chamber Control</strong> (Channel 1 to 5), and play with the <strong>“Gain”</strong> until all the channels are below 5, and as close to zero as possible, but never zero.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_gains_offset.png" class="img-fluid figure-img"></p>
+<figcaption>interface: gains/offset</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_channels.png" class="img-fluid figure-img"></p>
+<figcaption>interface: channels</figcaption>
+</figure>
+</div>
 <p><strong>uMAP GUI</strong></p>
 <ul>
 <li>On uMap GUI, <strong>click START</strong>, and check that <strong>NONE of the 100 sensors are red</strong>.</li>
 <li>The TOTAL counts on the <strong>ICR</strong> should <strong>never overpass 100K counts</strong>.</li>
 <li><strong>SC1 is the Arsenic channel</strong>, and we need it to be the highest we could get, while not overpassing the 100K counts int he ICR channel.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_detector.png" class="img-fluid figure-img"></p>
+<figcaption>interface: detector</figcaption>
+</figure>
+</div>
 <p><strong>Choosing an HGap for each sample</strong></p>
 <p><em>SHGAP is what we want to open or close to get the beam intensity to hit our sample. Zero is the center of the window, meaning it is totally close. The higher the number, the wider the window. We can go until 10.</em></p>
-<p>First sample:</p>
 <ul>
 <li>Go to <strong>Scan Motor -&gt; Motors -&gt; VERT_ADC -&gt; Scan Type:Absolute -&gt; Move to:</strong> <em>Move to the position of the first sample you are analyzing.</em></li>
 <li>Wait for the message saying: <strong><em>“Moving completed”</em></strong>.</li>
 <li>In uMap Gui, click <strong>START</strong> to check that your channels are NOT red.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_detector.png" class="img-fluid figure-img"></p>
+<figcaption>interface: detector</figcaption>
+</figure>
+</div>
+<ul>
 <li>SVGAP is ALWAYS 2.</li>
-<li>Go to <strong>SHGAP</strong> and insert a small value if the concentration of your sample is high, for example: 3.</li>
+<li>Go to <strong>Move Motor -&gt; SHGAP</strong> and insert a small value if the concentration of your sample is high, for example: 3.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_MoveMotor.png" class="img-fluid figure-img"></p>
+<figcaption>Move Motor</figcaption>
+</figure>
+</div>
+<ul>
 <li>Wait for the message saying: <strong><em>“Moving completed”</em></strong>.</li>
 <li>In uMap Gui, click <strong>START</strong>.</li>
 <li><strong>Check the 100 channels</strong> in uMap Gui, none should be red.</li>
@@ -435,8 +588,14 @@ Important
 <li>Never exceed the limit of 10 for SHGAP.</li>
 <li>Once you found the desired <strong>SHGAP, take note</strong> on that value for each sample.</li>
 <li>Move to your next sample to choose a good SHGAP for that sample too.</li>
+<li>Repeat those steps for all the samples.</li>
 </ul>
-<p>Repeat those steps for all the samples.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/notes_HGap.png" class="img-fluid figure-img"></p>
+<figcaption>HGap notes</figcaption>
+</figure>
+</div>
 </section>
 <section id="offset" class="level4" data-number="2.1.0.5">
 <h4 data-number="2.1.0.5" class="anchored" data-anchor-id="offset"><span class="header-section-number">2.1.0.5</span> <strong>OFFSET</strong></h4>
@@ -454,9 +613,21 @@ Important
 </div>
 </div>
 <ul>
-<li>Got to the <strong>Ionic Chamber Control</strong> (Channel 1 to 5), and play with the <strong>“Gain”</strong> until all the channels are below 5, and as close to zero as possible, but never zero.</li>
+<li>Go to the <strong>Ionic Chamber Control</strong> (Channel 1 to 5), and play with the <strong>“Gain”</strong> until all the channels are below 5, and as close to zero as possible, but never zero.</li>
 <li><strong>Offset -&gt; Detector -&gt; Settings -&gt; Offset</strong></li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_gains_offset.png" class="img-fluid figure-img"></p>
+<figcaption>interface: gains/offset</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_channels.png" class="img-fluid figure-img"></p>
+<figcaption>interface: channels</figcaption>
+</figure>
+</div>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -471,7 +642,7 @@ Important
 </div>
 </div>
 <ul>
-<li>Counts: 10**. <em>Do not press DONE yet</em></li>
+<li>Counts: 10 <strong><em>Do not press DONE yet</em></strong></li>
 <li><strong>Wait for 10 seconds</strong> until the Lead shutters are down <strong>(BEAM OFF)</strong>, interrupting the beamline.</li>
 <li>Click <strong>“DONE”</strong>.</li>
 </ul>
@@ -486,6 +657,12 @@ Important
 <li><strong>Save Queue</strong></li>
 <li><strong>Accept</strong></li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_queue.png" class="img-fluid figure-img"></p>
+<figcaption>interface: gains/offset</figcaption>
+</figure>
+</div>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -521,35 +698,80 @@ Important
 </div>
 <p><strong>Liquid Nitrogen</strong></p>
 <ul>
-<li>Pick up some <strong>Liquid Nitrogen</strong> from the LN2 station. Use mask and gloves.</li>
-<li>Move the detector back from the sample, to distant it and protect it when moving out the samples.</li>
+<li>Pick up some <strong>Liquid Nitrogen</strong> from the LN2 fill station. Use mask and gloves.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/LN2_fill_station.png" class="img-fluid figure-img"></p>
+<figcaption>LN2_fill_station</figcaption>
+</figure>
+</div>
 <p><strong>Move detector away</strong></p>
 <ul>
+<li>Move the detector back from the sample, to distant it and protect it when moving out the samples.</li>
 <li><strong>Move Motor -&gt; Detector -&gt; Scan Type: Absolute -&gt; Move to: 100</strong></li>
 <li><strong>Cover the detector</strong>.</li>
 </ul>
 <p><strong>Close pump and change cryostat</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/pump.png" class="img-fluid figure-img"></p>
+<figcaption>pump</figcaption>
+</figure>
+</div>
 <ul>
 <li>Close the <strong>valve</strong> of the pump and Turn it <strong>Off</strong>.</li>
 <li>Disconnect the vacuum tube from the top of the cryostat. It moves crazy so hold it tight to not hit anything. There is a small cap on that tube, so DO NOT lose it.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/pump_connection.png" class="img-fluid figure-img"></p>
+<figcaption>pump hose</figcaption>
+</figure>
+</div>
+<ul>
 <li>Take out the cryostat. <strong>Unscrew</strong> it and place those screws in a known place. DO NOT loose them.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/cryo_sample_holder.png" class="img-fluid figure-img"></p>
+<figcaption>used cryo sample holder</figcaption>
+</figure>
+</div>
+<ul>
 <li>Take the <strong>new cryostat</strong> and put it on position. Screw it on 2 corners.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/cryo_screw.png" class="img-fluid figure-img"></p>
+<figcaption>new cryo screwed</figcaption>
+</figure>
+</div>
+<p><strong>Pump ON</strong></p>
+<ul>
 <li>Connect the vacuum tube again.</li>
 <li><strong>Turn On Pump and Open the valve</strong> of the pump and Start pump. A vacuum of 10-3 or 10-4 is good to start adding the LN2.</li>
 <li>Take the LN2 dewar and the funnel and <strong>fill up the Cryostat</strong>. It will probably take 2 dewars.</li>
 <li>Cover the top of the cryostat with a kimwipe, very lose on top to avoid LN2 to escape faster.</li>
-</ul>
-<p><strong>Detector cover off</strong></p>
-<ul>
 <li><strong>Refill the Germanium Detector</strong> with LN2 once every 24 hours, or each time you change your cryostat sample holder.</li>
-<li>Take out the <strong>cover</strong> from the detector. Be careful not to bring the metallic cover, jut the one you used to protect it.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/LN2_for_detector.png" class="img-fluid figure-img"></p>
+<figcaption>LN2_for_detector</figcaption>
+</figure>
+</div>
 <p><strong>Close hutch</strong></p>
 <ul>
 <li>Pick up key from the box.</li>
 <li>Close the hutch.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/hutch_key.png" class="img-fluid figure-img"></p>
+<figcaption>hutch key</figcaption>
+</figure>
+</div>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -566,6 +788,14 @@ Important
 <p><strong>Channels</strong></p>
 <ul>
 <li>In uMap Gui, click <strong>START</strong>, and immediately check that all your channels are OK (no red).</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/interface_detector.png" class="img-fluid figure-img"></p>
+<figcaption>interface: detector</figcaption>
+</figure>
+</div>
+<ul>
 <li>Got to the <strong>Ionic Chamber Control</strong> (Channel 1 to 5), and play with the <strong>“Gain”</strong> until all the channels are below 5, and as close to zero as possible, but never zero.</li>
 </ul>
 <p><strong>Key</strong></p>
