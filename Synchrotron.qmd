@@ -328,7 +328,7 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 - Start:5  Stop:65  Step:0.5
 - **SCAN**
 - Wait until the screen says: **Scan Finished**. It goes all the way scanning the entire sample holder.
-- Right click on the plot screen, to get new plotter, and find the **center of each window**. **Take notes** of each position for future reference.
+- Right click on the plot screen, to get new plotter, and find the **center of each window**. **Take notes** of each position for future reference. (V)
 
 ![VERT_ADC](Synchrotron_files/figures/BL11-2/notes_HGap.png)
 
