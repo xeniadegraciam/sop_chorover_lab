@@ -330,6 +330,9 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 - Wait until the screen says: **Scan Finished**. It goes all the way scanning the entire sample holder.
 - Right click on the plot screen, to get new plotter, and find the **center of each window**. **Take notes** of each position for future reference. (V)
 
+
+![VERT_ADC](Synchrotron_files/figures/BL11-2/interface_Vert_ADC.png)
+
 ![VERT_ADC](Synchrotron_files/figures/BL11-2/notes_HGap.png)
 
 - Open the hutch to **take detector cover Off, and and add the Iron foil filter (if used)**. Be careful not to bring the metallic cover, jut the one you used to protect it.
