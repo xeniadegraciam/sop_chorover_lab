@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Monday, February 23, 2026 15:10:17</p>
+      <p class="date">Tuesday, February 24, 2026 16:51:06</p>
     </div>
   </div>
   
@@ -107,7 +107,7 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><p><em>Here I included some of my notes when working at the beamlines of Stanford Synchrotron Radiation Lightsource, and also about how to use the data analysis softwares Athena, LARCH and SIXPACK.</em></p></li>
+<li><p><em>Here I included some notes when working at the beamlines of Stanford Synchrotron Radiation Lightsource, and also about how to use the data analysis softwares Athena, LARCH and SIXPACK, hoping it can help as a guide for future students at Chorover Lab when performing this kind of analyses</em></p></li>
 <li><p><em>Typos could be found on these lab notes, as English is not my native language. If you find some, please let me know to make the necessary corrections. Thanks!</em></p></li>
 </ul>
 </div>
@@ -147,7 +147,37 @@ Note
 <li><p>Webb, S. M. (2005). SIXPack a Graphical User Interface for XAS Analysis Using IFEFFIT. Physica Scripta, 1011. <a href="https://doi.org/10.1238/physica.topical.115a01011" class="uri">https://doi.org/10.1238/physica.topical.115a01011</a></p></li>
 </ul>
 <p><strong><em>For samples analyzed at SSRL:</em></strong></p>
-<p><strong>SAMS VIEW</strong></p>
+<section id="sams-view" class="level4" data-number="1.0.0.1">
+<h4 data-number="1.0.0.1" class="anchored" data-anchor-id="sams-view"><span class="header-section-number">1.0.0.1</span> <strong>SAMS VIEW</strong></h4>
+<section id="deadtime-correction" class="level5" data-number="1.0.0.1.1">
+<h5 data-number="1.0.0.1.1" class="anchored" data-anchor-id="deadtime-correction"><span class="header-section-number">1.0.0.1.1</span> <strong>Deadtime correction</strong></h5>
+<ul>
+<li>Click “New DT file”</li>
+<li>Click “Load File” and choose the .dat file measured at the beamline.</li>
+<li>Click “Fit Deadtimes”</li>
+<li>Wait until the “Fitting results” window is filled with new values.</li>
+<li>Click “Save DT file”</li>
+<li>Save the new deadtime file as “deadtime_fitted” so you know is the new one that was fitted already.</li>
+<li>Go back to main SamsView screen to the Deadtime correction area.</li>
+<li>Click “Open” and choose the new fitted deadtime file.</li>
+<li>Click on the box saying “Do the deadtime correction?”</li>
+<li>This will apply that deadtime correction to all the files you upload to the SamsView.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/sixpack_deadtime.png" class="img-fluid figure-img"></p>
+<figcaption>Fitting results</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/sixpack_deadtime2.png" class="img-fluid figure-img"></p>
+<figcaption>Deadtime correction</figcaption>
+</figure>
+</div>
+</section>
+<section id="loading-files" class="level5" data-number="1.0.0.1.2">
+<h5 data-number="1.0.0.1.2" class="anchored" data-anchor-id="loading-files"><span class="header-section-number">1.0.0.1.2</span> <strong>Loading files</strong></h5>
 <ul>
 <li><strong>Add many files</strong>. All must be scan replicates of the same sample (<em>files must be .xdi or .dat</em>)</li>
 <li><strong>Detector</strong>: Germanium (<em>most commonly</em>).</li>
@@ -194,18 +224,21 @@ Note
 <li>Stack All Plots</li>
 <li>Save
 <ul>
-<li>Group Spectra</li>
+<li>Averaged Spectra</li>
+<li>(this makes one new averaged file from all the files in the SamView at the moment)</li>
 </ul></li>
 </ul>
 <p><a href="#top">Back to top</a></p>
+</section>
+</section>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <p><strong>References:</strong></p>
 <ul>
 <li>Ravel, B., &amp; Newville, M. (2005). ATHENA, ARTEMIS, HEPHAESTUS: data analysis for X-ray absorption spectroscopy using<i>IFEFFIT</i>. Journal of Synchrotron Radiation, 12(4), 537-541. <a href="https://doi.org/10.1107/s0909049505012719" class="uri">https://doi.org/10.1107/s0909049505012719</a></li>
 </ul>
-<section id="data-normalization" class="level4" data-number="1.0.0.1">
-<h4 data-number="1.0.0.1" class="anchored" data-anchor-id="data-normalization"><span class="header-section-number">1.0.0.1</span> <strong>DATA NORMALIZATION</strong></h4>
+<section id="data-normalization" class="level4" data-number="1.0.0.2">
+<h4 data-number="1.0.0.2" class="anchored" data-anchor-id="data-normalization"><span class="header-section-number">1.0.0.2</span> <strong>DATA NORMALIZATION</strong></h4>
 <ul>
 <li>File</li>
 <li>Import Files: your average .xdi file
@@ -264,8 +297,8 @@ Note
 </ul></li>
 </ul>
 </section>
-<section id="linear-combination-fitting-automatic" class="level4" data-number="1.0.0.2">
-<h4 data-number="1.0.0.2" class="anchored" data-anchor-id="linear-combination-fitting-automatic"><span class="header-section-number">1.0.0.2</span> <strong>LINEAR COMBINATION FITTING (automatic)</strong></h4>
+<section id="linear-combination-fitting-automatic" class="level4" data-number="1.0.0.3">
+<h4 data-number="1.0.0.3" class="anchored" data-anchor-id="linear-combination-fitting-automatic"><span class="header-section-number">1.0.0.3</span> <strong>LINEAR COMBINATION FITTING (automatic)</strong></h4>
 <p><em>NOTE: For this process you must have all the scanned standards possibly existing on your system, to get how much percentage of each species is present on your sample.</em></p>
 <ul>
 <li><p><strong>Load</strong> your standards and sample files.</p></li>
@@ -300,8 +333,8 @@ Note
 <ul>
 <li>Newville, M. (2013). LARCH: an analysis package for XAFS and related spectroscopies. Journal of Physics Conference Series, 430, 012007. <a href="https://doi.org/10.1088/1742-6596/430/1/012007" class="uri">https://doi.org/10.1088/1742-6596/430/1/012007</a></li>
 </ul>
-<section id="xafs-data-processing" class="level4" data-number="1.0.0.3">
-<h4 data-number="1.0.0.3" class="anchored" data-anchor-id="xafs-data-processing"><span class="header-section-number">1.0.0.3</span> XAFS Data processing</h4>
+<section id="xafs-data-processing" class="level4" data-number="1.0.0.4">
+<h4 data-number="1.0.0.4" class="anchored" data-anchor-id="xafs-data-processing"><span class="header-section-number">1.0.0.4</span> XAFS Data processing</h4>
 <p>This example shows how to use Larch from Python/Jupyter for basic XAFS data processing:</p>
 <ul>
 <li>read data from an Athena Project File</li>
@@ -310,16 +343,16 @@ Note
 </ul>
 <p><a href="https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/XAFS_Processing_matplotlib.ipynb" class="uri">https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/XAFS_Processing_matplotlib.ipynb</a></p>
 </section>
-<section id="iron-k-edge-processing-example" class="level4" data-number="1.0.0.4">
-<h4 data-number="1.0.0.4" class="anchored" data-anchor-id="iron-k-edge-processing-example"><span class="header-section-number">1.0.0.4</span> Iron K-edge processing example</h4>
+<section id="iron-k-edge-processing-example" class="level4" data-number="1.0.0.5">
+<h4 data-number="1.0.0.5" class="anchored" data-anchor-id="iron-k-edge-processing-example"><span class="header-section-number">1.0.0.5</span> Iron K-edge processing example</h4>
 <p><a href="https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/Fe-treatment.ipynb" class="uri">https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/Fe-treatment.ipynb</a></p>
 </section>
-<section id="xanes-pca-train" class="level4" data-number="1.0.0.5">
-<h4 data-number="1.0.0.5" class="anchored" data-anchor-id="xanes-pca-train"><span class="header-section-number">1.0.0.5</span> XANES PCA train</h4>
+<section id="xanes-pca-train" class="level4" data-number="1.0.0.6">
+<h4 data-number="1.0.0.6" class="anchored" data-anchor-id="xanes-pca-train"><span class="header-section-number">1.0.0.6</span> XANES PCA train</h4>
 <p><a href="https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/XANES_PCA_example.ipynb" class="uri">https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/XANES_PCA_example.ipynb</a></p>
 </section>
-<section id="feff-fitting" class="level4" data-number="1.0.0.6">
-<h4 data-number="1.0.0.6" class="anchored" data-anchor-id="feff-fitting"><span class="header-section-number">1.0.0.6</span> FEFF Fitting</h4>
+<section id="feff-fitting" class="level4" data-number="1.0.0.7">
+<h4 data-number="1.0.0.7" class="anchored" data-anchor-id="feff-fitting"><span class="header-section-number">1.0.0.7</span> FEFF Fitting</h4>
 <p><a href="https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/feffit_cu_3paths.ipynb" class="uri">https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/feffit_cu_3paths.ipynb</a></p>
 </section>
 </div>
@@ -441,6 +474,12 @@ Important
 <li>Now multiply that number by 0.50, and take note on that.</li>
 <li>Start clicking <strong>DOWN</strong> now, until you reach that new number on your CH1, because you are detuning.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/harmonics_detuning.png" class="img-fluid figure-img"></p>
+<figcaption>Harmonics</figcaption>
+</figure>
+</div>
 </section>
 <section id="allignment" class="level4" data-number="2.1.0.3">
 <h4 data-number="2.1.0.3" class="anchored" data-anchor-id="allignment"><span class="header-section-number">2.1.0.3</span> <strong>ALLIGNMENT</strong></h4>
@@ -686,6 +725,13 @@ Important
 <li>Start Queue</li>
 <li>Check at the Finish Time of that scan.</li>
 </ul>
+<p>Remember to update the synchrotron book with good notes, for future references.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Synchrotron_files/figures/BL11-2/notes.png" class="img-fluid figure-img"></p>
+<figcaption>Synchrotron book example</figcaption>
+</figure>
+</div>
 <p><a href="#top">Back to top</a></p>
 </div>
 <div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">

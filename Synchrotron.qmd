@@ -39,7 +39,7 @@ execute:
 
 
 ::: {.callout-note}
--   *Here I included some of my notes when working at the beamlines of Stanford Synchrotron Radiation Lightsource, and also about how to use the data analysis softwares Athena, LARCH and SIXPACK.*
+-   *Here I included some notes when working at the beamlines of Stanford Synchrotron Radiation Lightsource, and also about how to use the data analysis softwares Athena, LARCH and SIXPACK, hoping it can help as a guide for future students at Chorover Lab when performing this kind of analyses*
 
 -   *Typos could be found on these lab notes, as English is not my native language. If you find some, please let me know to make the necessary corrections. Thanks!*
 
@@ -90,7 +90,26 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
 
 ***For samples analyzed at SSRL:***
 
-**SAMS VIEW**
+#### **SAMS VIEW**
+
+##### **Deadtime correction**
+
+- Click "New DT file"
+- Click "Load File" and choose the .dat file measured at the beamline.
+- Click "Fit Deadtimes"
+- Wait until the "Fitting results" window is filled with new values.
+- Click "Save DT file"
+- Save the new deadtime file as "deadtime_fitted" so you know is the new one that was fitted already.
+- Go back to main SamsView screen to the Deadtime correction area.
+- Click "Open" and choose the new fitted deadtime file.
+- Click on the box saying "Do the deadtime correction?"
+- This will apply that deadtime correction to all the files you upload to the SamsView.
+
+![Fitting results](Synchrotron_files/figures/sixpack_deadtime.png)
+
+![Deadtime correction](Synchrotron_files/figures/sixpack_deadtime2.png)
+
+##### **Loading files**
 
 -   **Add many files**. All must be scan replicates of the same sample (*files must be .xdi or .dat*)
 -   **Detector**: Germanium (*most commonly*).
@@ -121,7 +140,8 @@ The link to the manual for data analyses of XAS is at this link: [XAS Analysis M
 -   Derivative: None
 -   Stack All Plots
 -   Save
-    -   Group Spectra
+    -   Averaged Spectra
+    - (this makes one new averaged file from all the files in the SamView at the moment)
 
 [Back to top](#top)
 
@@ -313,6 +333,7 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 - Now multiply that number by 0.50, and take note on that.
 - Start clicking **DOWN** now, until you reach that new number on your CH1, because you are detuning.
 
+![Harmonics](Synchrotron_files/figures/BL11-2/harmonics_detuning.png)
 
 #### **ALLIGNMENT**
 
@@ -454,6 +475,10 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 
 - Start Queue
 - Check at the Finish Time of that scan.
+
+Remember to update the synchrotron book with good notes, for future references.
+
+![Synchrotron book example](Synchrotron_files/figures/BL11-2/notes.png)
 
 [Back to top](#top)
 
