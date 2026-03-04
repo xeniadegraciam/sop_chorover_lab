@@ -59,392 +59,22 @@ Department of Environmental Sciences\
 
 ------------------------------------------------------------------------
 
-# **ADMINISTRATIVE PROCEDURES**
 
-::: panel-tabset
-## **BuyWays: Buy Lab Supplies**
 
-::: {.callout-note}
--   This procedure is valid if you are **on campus**, but if you are not, you can connect to the university VPN, through the following app: Cisco Secure Client.
-:::
-
-**Connect to VPN** **(just if you are off campus)**
-
--   Download Cisco Secure Client [here](https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5686-install-cisco-anyconnect-secure-mobility-client-on-a-windows.html)
--   Set it up as follows:
-
-![VPN AnyConnect](SOP_files/figures/VPN_AnyConnect.png)
-
--   Sign in with your university NetID
-
-**BuyWays**
-
--   Uacces
--   Financial
--   NetID
--   More Items
--   Orders
--   [Shop catalogs](https://financials.uaccess.arizona.edu/kfs/b2b.do?methodToCall=shopCatalogs)
--   In the search tool, write what you're looking for (Catalog number, Product number or SKU number)
--   Add to cart
--   View my cart
--   ***You can only do one supplier at a time***
--   Proceed to Uaccess Financials
--   Document overview (Description, Explanation
--   Delivery -\> Search -\> Building Code = 38 -\> Return value -\> Room \# = 518 -\>
--   Items -\> Setup distribution -\> Account number. \*Check that the name of your project is under the account number\* -\> Object -\> Code for chemicals (5280) -\> For not chemicals (5290) -\> PLUS SIGN -\> In the second, level Distribute to Items -\> In Item Type for Chemicals is Quantity tax exempt, but for any other supplies Quantity Taxable.
--   At the bottom click CALCULATE
--   SUBMIT
-
-[Back to top](#top)
-
-## **Chemical & Biohazard Waste Pickup Request**
-
-::: callout-important
-Risk Management **WONT pick up stuff with no labels on it**. They will leave it right there, and they wont come back **until next month**.
-:::
-
-The hazardous waste pick-up happens the **SECOND Thursday of every month**. You have to schedule it with enough time so they can pick it up and bring you extra tanks and tags for the chemicals.
-
-[Form for Chemical & Biohazard Waste Pickup Request](https://risk.arizona.edu/forms/chemical-waste-pickup)
-
-Use the following link to find out how to fill up the building number of the place you are requesting the pick up to be done:
-
-<https://map.arizona.edu/>
-
-## **Printing Posters**
-
-These are two places you can print posters on campus. Sometimes on the website, they also show the prices.
-
-***My preferred is the first one because they print in 24 hours.***
-
-**BioCommunications**
-
-<https://biocom.arizona.edu/service-type/posters/service/poster-printing>
-
-Located North Campus, close to the Banner Hospital.
-
-Use the "paper" option, it refers to Photo Paper.
-
-**FastCopy in the Student Union**
-
-<https://union.arizona.edu/fastcopy/>
-
-Products and Services -> Posters (Wide Format)). 
-
-They accept project account numbers, so you do not need to do the reimbursement.
-
-
-## **RLSS**
-
-Remember to check the fulfillment of the required safety training in the Research Laboratory and Safety Services.
-
-[Link to RLSS](https://rlss.arizona.edu/services/protected/index.xhtml)
-
-## **Chemical Inventory**
-
-If you purchase a new chemical, make sure to add it to the chemical inventory.
-
-[Chemical Inventory Link](https://rlss.arizona.edu/services/protected/approval-management/chemical/inventory.xhtml?from=home)
-
-## **Cryogenics & Compressed Gas Facility**
-
-Use this [link](https://cryo.cores.arizona.edu/cgf/) to order the Liquid Nitrogen, or any gas you may need for your lab work.
-
--   Hours of Operation: M-F 8:00AM to 4:00PM
-
--   **Pickup 8:30AM to 11AM**
-
--   Cryo Closed 11:30AM to 12:30PM daily
-
-The Liquid Nitrogen we order is: *Liquid Nitrogen, Refrigerated (Class 2.2 UN1977 Non-Flammable). Please specify the quantity in liters. MAX 60 liters/order.*
-
-We order 10 Liters (30 pounds) for the big bin.
-
-**Safety measurements to consider:**
-
--   Use the required cryogenic gloves and a face shield to handle Liquid Nitrogen.
-
--   Make sure empty cylinders are labeled or tagged.
-
--   Make sure caps are in place when not in use
-
--   Cylinders are secured, not blocking exits or pathways and stored upright in racks, straps, chains, or stands.
-
-Extracted from the [University Chemical Hygiene Plan](https://research.arizona.edu/compliance/RLSS/chemical-safety)
-
-[Back to top](#top)
-
-
-## **Remote Access to 518 computer**
-
--   Look for the "Remote Desktop Connection" app in your computer.
--   Enter the name of the computer you want to access remotely in the blank space. The one in 518 lab is: cals-envs22-45.bluecat.arizona.edu
--   Log in with your NetID Catcard credentials.
--   Look for the Geochemist Workbench Program.
--   In case you need access to the VPN, follow the next link to Download, Install, and Log in to the VPN on your computer (this will only let you log in if you are outside campus; I don't think it will let you log in if you are on the on-campus network).
-
-![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.png)
-
-[Back to top](#top)
-
-## **ENVS Business Office**
-
-![ENVS](SOP_files/figures/logos/ENVS_logo.png)
-
-
-<https://envs.arizona.edu/about/contact/business-office>
-
-:::
-
-# **ANALYTICAL PROCEDURES**
-
-::: panel-tabset
-## **ALEC Sample volume required for different analyses:**
-
-| **Analysis**                                          | **Volume needed**                      |
-|-----------------------------------------|-------------------------------|
-| ICP-MS / ICP-AES / Arsenic Speciation                 | 3 mL                                   |
-| Total Organic Carbon, Total Carbon and Total Nitrogen | 17 mL                                  |
-| Ion Chromatography                                    | 1 mL                                   |
-| HPLC ICP-MS                                           | 300 uL (*micro Liters*)                |
-| HPLC electrospray ionization (ESI) MS                 | 1 mL                                   |
-| Ferrozine method                                      | ALEC does not run this. Fan/Fan method |
-| **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
-
-
-![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
-
-## **ALEC Analytes**
-
-The following is a table showing the groups of different elements they analyze at ALEC.
-
-```{r}
-
-# Install if needed:
-# install.packages("DT")
-
-library(DT)
-
-# ✅ Fully aligned data frame (68 rows total)
-analyte_table <- data.frame(
-  Group = c(
-    rep(1, 4),
-    rep(2, 6),
-    rep(3, 13),
-    rep(4, 16),
-    rep(5, 9),
-    rep(6, 8),
-    rep(7, 11),
-    8
-  ),
-  Group_Name = c(
-    rep("Major Cations", 4),
-    rep("DRC", 6),
-    rep("Trace Metals", 13),
-    rep("REY", 16),
-    rep("Minor/HNO3", 9),
-    rep("Minor/HCl", 8),
-    rep("Minor/HF", 11),
-    "Hg"
-  ),
-  Element = c(
-    # Section 1 (4)
-    c("K", "Ca", "Na", "Mg"),
-    # Section 2 (6)
-    c("V", "Cr", "Fe", "Co", "As", "Se"),
-    # Section 3 (13)
-    c("Be", "Al", "Mn", "Ni", "Cu", "Zn", "Mo", "Ag", "Cd", "Sn", "Sb", "Ba", "Pb"),
-    # Section 4 (16)
-    c("Y", "Ce", "Dy", "Er", "Eu", "Gd", "Ho", "La", "Lu", "Nd", "Pr", "Sm", "Tb", "Th", "Tm", "Yb"),
-    # Section 5 (9)
-    c("Li", "Ga", "Rb", "Sr", "In", "Cs", "Tl", "Bi", "U"),
-    # Section 6 (8)
-    c("Ru", "Rh", "Pd", "Te", "Hf", "Ir", "Pt", "Au"),
-    # Section 7 (11)
-    c("B", "Si", "P", "Ti", "Ge", "Zr", "Nb", "Ta", "W", "Re", "Total S"),
-    # Section 8 (1)
-    "Hg"
-  )
-)
-
-
-# Set up the color palette for Sections 1–8 (light rainbow colors)
-section_colors <- c(
-  "1" = "lightpink",      # pink (favorite)
-  "2" = "thistle",       # purple (favorite)
-  "3" = "mediumaquamarine",
-  "4" = "khaki",
-  "5" = "lightblue",
-  "6" = "lightsalmon",
-  "7" = "lightcyan",
-  "8" = "lightgray"
-)
-
-
-# Max section size (for page length)
-max_section_size <- max(table(analyte_table$Group))
-
-# Render the interactive table with color formatting
-datatable(
-  analyte_table,
-  extensions = 'Buttons',
-  options = list(
-    pageLength = 68,
-    #pageLength = max_section_size,  # dynamically show up to 16 rows per page
-    autoWidth = TRUE,
-    dom = 'Bfrtip',
-    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
-    columnDefs = list(
-      list(width = '50px', targets = 0),  # Group column
-      list(width = '150px', targets = 1), # Group_Name column
-      list(width = '50px', targets = 2)   # Element column
-    )
-  )
-) %>%
-  formatStyle(
-    'Group',
-    target = 'row',
-    backgroundColor = styleEqual(names(section_colors), section_colors),
-    color = styleEqual(names(section_colors), rep("black", length(section_colors)))  # force dark text
-  )
-
-
-```
-
-[Back to top](#top)
-
-## **ICP-MS (main cations) & Arsenic Speciation**
-
-Equipment:
-
-Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
-
--   8900
-
--   7700-X
-
-![ICP-MS](SOP_files/figures/ICP-MS.png)
-
-::: callout-important
-- **All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab**
-- Use metal-free centrifuge tubes.
-:::
-
-![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
-
-**Steps**
-
--   Prepare a batch of 2% of High Purity Nitric Acid (HNO3)
--   Take 1 mL of the sample
--   Add 7mL of EDTA 0.25M for As Speciation. ***this EDTA step messed up the tubing on the ICP-MS machine so be careful***
--   Add 2 mL of HNO3
--   Total volume of the mix in the tube: 10 mL
--   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
-
-![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
-
-**HNO3 at 2% is prepared:**
-
--   20 mL of UHP HNO3 from the purchased bottle
--   980 mL of DI water
-
-![](SOP_files/figures/UHP_Nitric_Acid.png)
-
-[Back to top](#top)
-
-## **Ion Chromatography (Anions)**
-
-Equipment:
-
-Ion Chromatography- Dionex ICS-6000
-
--   2 mL of the sample
--   Nothing else is added to the samples
-
-## **Iron Speciation**
-
--   Prepare a batch of 2% of Hydrochloric acid (HCL)
--   Take 1 mL of the sample
--   Add 9 mL of HCL
--   Total volume of the mix in the tube: 10 mL
--   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
-
-## **Ferrozine Method for Iron Speciation**
-
-![](SOP_files/figures/Spectrophotometer.png)
-
-### **Materials:**
-
--   Ferrozine 5 grams container
--   Ferrous Ammonium Sulphate 500 grams container
--   Ammonium acetate in 245 or 518
--   Spectrophotometer (*We have one in 508*).
-    -   Brand: Fisher Scientific
-    -   Model: AccuSkan FC microplate photometer
-    -   Catalog number: 14377575
--   Wavelength filter for Iron should be **562 nm**.
-    -   Buy it here: [ThermoFisher](https://www.thermofisher.com/order/catalog/product/1425605)
-    -   Catalog number: 1425605
-
-### **Sample preparation**
-
--   Complex is stable Between pH 4 and 10
--   Concentrations Between 0.01 - 3 ppm or between 2 – 10 ppm.
--   Match the metrics of your sample: Ionic Strength or Acid concentration
--   Use the cuvettes the same orientation always.
--   Add 100 microL of Ferrozine to all cuvettes. Including the blank, standards and samples.
--   Add 50microL of Buffer to all cuvettes and wait 5 minutes to color development.
-
-### **Spectrophotometer**
-
--   Turn on the spectrophotometer 15 minutes before the measurements
--   Set wavelength to 562 nm.
--   Use the cuvettes the same orientation always
--   Put the blank into the spectrophotometer and press the ZERO key.
--   Measure the standards and samples in the same manner and record the Absorbance values. As soon as possible to avoid degradation of color complexes.
--   Remove the samples from spectrophotometer.
--   Absorbance values above 2 are meaningless. Try again diluting them.
--   Plot Absorbance VS Fe(II) ppm
-
-[Back to top](#top)
-
-## **TOC (Total Organic Carbon)**
-
-Equipment:
-
-Carbon/Nitrogen Analyzer- Shimadzu TOC-L (Total Organic Carbon) + TNM-L (Total Nitrogen)
-
-Sample prep:
-
--   5 mL of the sample
--   Nothing else is added to the sample
-
-## **pH for mine tailings**
-
-For a 1:2 solid-to-solution ratio
-
--   Calibrate your pH probe daily, with a 3-point calibration using standard buffer solutions (pH 4, 7, and 10)
--   Get 5 g of tailings
--   Add 10 g of DDI water (distilled deionized, 18.3 MΩ cm)
--   Rotate for 1 hour at 25 ᵒC
--   Centrifuge at RCF of 10,500
--   Measure the pH and EC on the supernatant
-
-[Back to top](#top)
-:::
 
 # **SPECTROSCOPY**
 
 ::: panel-tabset
 ## **SYNCHROTRON**
 
-Moved to: [Synchrotron repo](https://xeniadegraciam.github.io/sop_chorover_lab/Synchrotron.html)
+Moved to this other repo due to its length: [Synchrotron repo](https://xeniadegraciam.github.io/sop_chorover_lab/Synchrotron.html)
 
 Everything related Synchrotron is on the link above:
 
 - Data analysis
 - Beamline procedures
+
+![Beamline 11-2 at Stanford Synchrotron Radiation Lightsource](SOP_files/figures/BL11-2.png)
 
 
 ## **SEM-EDS**
@@ -1035,110 +665,11 @@ The thesis of previous Chorover students help a lot with figuring out the steps 
 
 ::: panel-tabset
 
-
-## **RS Key for weight printing on the balance**
-
--   Download the RS Key program: [Download here!](https://weighing.andonline.com/winct/)
--   Set up your interface in the same way as in this image:
-
-![RS Key set up](SOP_files/figures/rskey-1.png)
-
--   Check on your computer devices (Bluetooth and devices -\> Devices), for the port com number, and use that number for the RS Key program.
-
-![Com port on devices information](SOP_files/figures/com-port.png)
-
-[Back to top](#top)
-
-## **Freeze-Dryer**
-
-What this machine does is that it drys the sample through **Sublimation**, which is when solid water goes to vapor.
-
--   **Bring your samples frozen.**
--   Put kimwipes as cap of the container of your sample, tied with multiple rubber bands, so the vacuum can be applied and it can dry the sample, but still you particles don't run into the vacuum.
--   Put the black rubber cap on.
--   Grey cap connects to the black piece.
--   If the tilted side of the grey cap is on the opposite direction that the transparent tube connection spot, then it is not connected to the vacuum so you can go ahead and insert the samples.
--   Insert your samples carefully because the glass container can break if you throw them.
-- Add a paper filter to the tube connected to the central chamber, as a way to protect the central chamber from the particles of your samples.
--   Now you can connect your samples to vacuum, by rotating the grey cap by 180 degrees, until the tilted side of the grey cap is aligned with the transparent tube that goes to your samples, allowing them to connect to the system.
-
-![Jars ready for Freeze-Dryer](SOP_files/figures/Freeze-Dryer.png)
-
--   The black hose goes on the base of the machine needs to go on the trash can in case there is any oil spilling.
--   Press **AUTO**. The vacuum has to end below 300. The temperature should be -40.
--   **Leave the sample for 48 hours**
--   *If the sample is still cold, there is still water on it, if it is room temperature, it is dry.*
-
-::: callout-important
-
-- Change the oil once a month. There is a signing spreadsheet on the bench to check when was the last time it was changed.
-
-:::
-
-## **Centrifuge**
-
-![Samples on the Centrifuge rotor](SOP_files/figures/centrifuge.png)
-
-::: callout-important
--   "CE" clears the alarm, if it ever get activated.
--   Metal Free Tubes maximum speed is 1200 RCF.
--   Ultra 30 mL darkish tubes, have a maximum speed of 1500 RCF.
--   Clean the rotors with wipes or water.
-:::
-
-**Set up:**
-
--   Turn on the centrifuge (it cannot open until you turn it on)
--   Check that the rotor and lead that you choose are same model.
--   Weight the tubes with sample that you are using, as you will have to balance them out by putting them in opposite directions on the rotor.
-
-![Balancing out the tubes on the rotor](SOP_files/figures/centrifuge_rotor_balance.gif)
-
--   Lock the 2 leads on the rotor
-    -   Big lead = cover for the rotor
-    -   Small lead = core holding the entire rotor
-
-**Software:**
-
--   On the buttons of the rotor:
-    -   Select rotor
-    -   **Rotor**
-    -   (look for the name of the model of rotor you are using)
-    -   Set the Max speed of rotation. You have 2 options:
-        -   **RCF** (this one is to report on the manuscripts, Jon likes this one, because it doesnt change by the rotor).
-        -   RPM (do not recommend using this one)
-    -   **START**
-
-![Centrifuge in 245](SOP_files/figures/centrifuge1.png)
-
-[Back to top](#top)
-
-## **Glovebox (Suboxic chamber)**
-
-***Work in progress...***
-
-Airlock On (to extract the oxygen). Cycle the Airlock. Open the valves of the tanks:
-
--   Vacuum
--   Nitrogen
--   gas Mix (It has Hydrogen, combined with O2)
-
-If it says Anaerobic, its ok.
-
--   Cycle it with nitrogen?
--   Off
--   Cycle button
--   Off
-
-If the hydrogen is below 2%, on the Starlock again until we get to 2% of Hydrogen.
-
-When leaving, vacuum the Starlock a little, and then gas it a little.
-
-At the end of the day, close the valves of Nitrogen and Hydrogen gas.
-
 ## **Particle generator**
 
-***Work in progress...***
+**References:**
+
+- Pepper, I., Rensing, C., & Gerba, C. (2004). ENVIRONMENTAL MICROBIAL PROPERTIES AND PROCESSES. In Elsevier eBooks (pp. 263–280). <https://doi.org/10.1016/b978-012064477-3/50016-3>
 
 ::: callout-important
 - Bring your samples already sieved as close as you can to 10um. We have a 50 um and 20 um sieve.
@@ -1186,6 +717,181 @@ The following table is the result of the first ever **particle sizes observed on
 | 6   | 0.9 - 1.7   |
 
 : *Andersen samples size seen with SEM*
+
+## **Centrifuge**
+
+![Samples on the Centrifuge rotor](SOP_files/figures/centrifuge.png)
+
+::: callout-important
+-   "CE" clears the alarm, if it ever get activated.
+-   Metal Free Tubes maximum speed is 1200 RCF.
+-   Ultra 30 mL darkish tubes, have a maximum speed of 1500 RCF.
+-   Clean the rotors with wipes or water.
+:::
+
+**Set up:**
+
+-   Turn on the centrifuge (it cannot open until you turn it on)
+-   Check that the rotor and lead that you choose are same model.
+-   Weight the tubes with sample that you are using, as you will have to balance them out by putting them in opposite directions on the rotor.
+
+![Balancing out the tubes on the rotor](SOP_files/figures/centrifuge_rotor_balance.gif)
+
+-   Lock the 2 leads on the rotor
+    -   Big lead = cover for the rotor
+    -   Small lead = core holding the entire rotor
+
+**Software:**
+
+-   On the buttons of the rotor:
+    -   Select rotor
+    -   **Rotor**
+    -   (look for the name of the model of rotor you are using)
+    -   Set the Max speed of rotation. You have 2 options:
+        -   **RCF** (this one is to report on the manuscripts, Jon likes this one, because it doesnt change by the rotor).
+        -   RPM (do not recommend using this one)
+    -   **START**
+
+![Centrifuge in 245](SOP_files/figures/centrifuge1.png)
+
+[Back to top](#top)
+
+
+## **Freeze-Dryer**
+
+What this machine does is that it drys the sample through **Sublimation**, which is when solid water goes to vapor.
+
+-   **Bring your samples frozen.**
+-   Put kimwipes as cap of the container of your sample, tied with multiple rubber bands, so the vacuum can be applied and it can dry the sample, but still you particles don't run into the vacuum.
+-   Put the black rubber cap on.
+-   Grey cap connects to the black piece.
+-   If the tilted side of the grey cap is on the opposite direction that the transparent tube connection spot, then it is not connected to the vacuum so you can go ahead and insert the samples.
+-   Insert your samples carefully because the glass container can break if you throw them.
+- Add a paper filter to the tube connected to the central chamber, as a way to protect the central chamber from the particles of your samples.
+-   Now you can connect your samples to vacuum, by rotating the grey cap by 180 degrees, until the tilted side of the grey cap is aligned with the transparent tube that goes to your samples, allowing them to connect to the system.
+
+![Jars ready for Freeze-Dryer](SOP_files/figures/Freeze-Dryer.png)
+
+-   The black hose goes on the base of the machine needs to go on the trash can in case there is any oil spilling.
+-   Press **AUTO**. The vacuum has to end below 300. The temperature should be -40.
+-   **Leave the sample for 48 hours**
+-   *If the sample is still cold, there is still water on it, if it is room temperature, it is dry.*
+
+::: callout-important
+
+- Change the oil once a month. There is a signing spreadsheet on the bench to check when was the last time it was changed.
+
+:::
+
+## **RS Key for weight printing on the balance**
+
+-   Download the RS Key program: [Download here!](https://weighing.andonline.com/winct/)
+-   Set up your interface in the same way as in this image:
+
+![RS Key set up](SOP_files/figures/rskey-1.png)
+
+-   Check on your computer devices (Bluetooth and devices -\> Devices), for the port com number, and use that number for the RS Key program.
+
+![Com port on devices information](SOP_files/figures/com-port.png)
+
+[Back to top](#top)
+
+
+## **Glovebox (Suboxic chamber)**
+
+***Work in progress...***
+
+Airlock On (to extract the oxygen). Cycle the Airlock. Open the valves of the tanks:
+
+-   Vacuum
+-   Nitrogen
+-   gas Mix (It has Hydrogen, combined with O2)
+
+If it says Anaerobic, its ok.
+
+-   Cycle it with nitrogen?
+-   Off
+-   Cycle button
+-   Off
+
+If the hydrogen is below 2%, on the Starlock again until we get to 2% of Hydrogen.
+
+When leaving, vacuum the Starlock a little, and then gas it a little.
+
+At the end of the day, close the valves of Nitrogen and Hydrogen gas.
+
+## **Flow-through reactive mini-column experiment results**
+
+![Setup for mini-column experiments](SOP_files/figures/mini-columns.png)
+
+Lauren Bozeman's thesis (2018) is good to learn this process.
+
+**Reagents needed:**
+
+- HNO3 Ultra High Purity at 5% for ICP-MS water samples
+- HCl at 2% for Iron Speciation
+- EDTA for Arsenic Speciation. (*This step made the tubing of ICP-MS to get salts on it, so we eliminated this*)
+- Breathable Air for air bubbles
+- Lithium Bromide for Tracer Test
+
+**Materials needed:**
+
+- Acid washed mini-columns
+- Luer Lock Female and Male 1/16"
+- Tubing
+- Water pump
+- pH probe
+- EC probe
+- Acid washed 15 mL metal-free tubes. We must have at least 500.
+- Syringes
+- 0.2 um metal-free filters
+- 10 mL Pipette: *Fisherbrand Maxi Tips Non-Filter Pipette Tips Bulk Bag. Vol 1-10 mL. Code: 02-707-466*
+- 1 mL Pipette
+- 10 mL tips for pipette
+- 1 mL tips for pipette
+- Racks to put 15 mL tubes
+- Air tank metal connection
+- Fridge space for samples
+- Scale with automatic logging of weights
+- 5 Gal tank for DI water and air diffuser
+- Air Diffuser toput inside water tank
+- Stirring bar for water tank
+- Stirring plate for water tank
+- Bromide Probe
+
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.png)
+
+![Luer lock sizes](SOP_files/figures/luer-lock.png)
+
+
+**Steps:**
+
+- Weight the components of the mini-column:
+  - frit
+  - empty column
+  - lead
+- Fill up the mini-columns with your material.
+- Weight again to know what was the mass of sample you put inside.
+- Fill up the information on the excel spreadsheet to get the porosity and pore volume for future analysis.
+- Turn on the the system, start filling up the columns with water.
+- Take samples as needed:
+  - Every 4 hours for the first 24 hours
+  - Every 12 hours for the next 10 days
+- Add the HNO3 and HCL to the respective vials to maintain speciation as much as possible.
+- Filter the samples with 0.45 um metal-free filter before bringing them to ALEC for ICP-MS (main Cations) and Ion Chromatography (Anions)
+- Plot your data concentrations to check the behavior with time.
+
+
+**NOTES:**
+
+- When starting the pump, do not connect the mini-columns yet until ALL the tubing has NO AIR inside, if not, you will fill your columns with air.
+- Take the time of staring the flush of water.
+- Take the flow you set up in the pump (1.5 mL/min)
+- Check the water tank everyday so the tubing is not getting air instead of water.
+
+
+[Back to top](#top)
+
 
 ## **Selective Sequential Extraction**
 
@@ -1281,77 +987,380 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 [Back to top](#top)
 
-## **Flow-through reactive mini-column experiment results**
 
-![Setup for mini-column experiments](SOP_files/figures/mini-columns.png)
+:::
+# **ANALYTICAL PROCEDURES**
 
-Lauren Bozeman's thesis (2018) is good to learn this process.
+::: panel-tabset
+## **ALEC Sample volume required for different analyses:**
 
-**Reagents needed:**
-
-- HNO3 Ultra High Purity at 5% for ICP-MS water samples
-- HCl at 2% for Iron Speciation
-- EDTA for Arsenic Speciation. (*This step made the tubing of ICP-MS to get salts on it, so we eliminated this*)
-- Breathable Air for air bubbles
-- Lithium Bromide for Tracer Test
-
-**Materials needed:**
-
-- Acid washed mini-columns
-- Luer Lock Female and Male 1/16"
-- Tubing
-- Water pump
-- pH probe
-- EC probe
-- Acid washed 15 mL metal-free tubes. We must have at least 500.
-- Syringes
-- 0.2 um metal-free filters
-- 10 mL Pipette: *Fisherbrand Maxi Tips Non-Filter Pipette Tips Bulk Bag. Vol 1-10 mL. Code: 02-707-466*
-- 1 mL Pipette
-- 10 mL tips for pipette
-- 1 mL tips for pipette
-- Racks to put 15 mL tubes
-- Air tank metal connection
-- Fridge space for samples
-- Scale with automatic logging of weights
-- 5 Gal tank for DI water and air diffuser
-- Air Diffuser toput inside water tank
-- Stirring bar for water tank
-- Stirring plate for water tank
-- Bromide Probe
-
-![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.png)
-
-![Luer lock sizes](SOP_files/figures/luer-lock.png)
+| **Analysis**                                          | **Volume needed**                      |
+|-----------------------------------------|-------------------------------|
+| ICP-MS / ICP-AES / Arsenic Speciation                 | 3 mL                                   |
+| Total Organic Carbon, Total Carbon and Total Nitrogen | 17 mL                                  |
+| Ion Chromatography                                    | 1 mL                                   |
+| HPLC ICP-MS                                           | 300 uL (*micro Liters*)                |
+| HPLC electrospray ionization (ESI) MS                 | 1 mL                                   |
+| Ferrozine method                                      | ALEC does not run this. Fan/Fan method |
+| **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
 
 
-**Steps:**
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
 
-- Weight the components of the mini-column:
-  - frit
-  - empty column
-  - lead
-- Fill up the mini-columns with your material.
-- Weight again to know what was the mass of sample you put inside.
-- Fill up the information on the excel spreadsheet to get the porosity and pore volume for future analysis.
-- Turn on the the system, start filling up the columns with water.
-- Take samples as needed:
-  - Every 4 hours for the first 24 hours
-  - Every 12 hours for the next 10 days
-- Add the HNO3 and HCL to the respective vials to maintain speciation as much as possible.
-- Filter the samples with 0.45 um metal-free filter before bringing them to ALEC for ICP-MS (main Cations) and Ion Chromatography (Anions)
-- Plot your data concentrations to check the behavior with time.
+## **ALEC Analytes**
+
+The following is a table showing the groups of different elements they analyze at ALEC.
+
+```{r}
+
+# Install if needed:
+# install.packages("DT")
+
+library(DT)
+
+# ✅ Fully aligned data frame (68 rows total)
+analyte_table <- data.frame(
+  Group = c(
+    rep(1, 4),
+    rep(2, 6),
+    rep(3, 13),
+    rep(4, 16),
+    rep(5, 9),
+    rep(6, 8),
+    rep(7, 11),
+    8
+  ),
+  Group_Name = c(
+    rep("Major Cations", 4),
+    rep("DRC", 6),
+    rep("Trace Metals", 13),
+    rep("REY", 16),
+    rep("Minor/HNO3", 9),
+    rep("Minor/HCl", 8),
+    rep("Minor/HF", 11),
+    "Hg"
+  ),
+  Element = c(
+    # Section 1 (4)
+    c("K", "Ca", "Na", "Mg"),
+    # Section 2 (6)
+    c("V", "Cr", "Fe", "Co", "As", "Se"),
+    # Section 3 (13)
+    c("Be", "Al", "Mn", "Ni", "Cu", "Zn", "Mo", "Ag", "Cd", "Sn", "Sb", "Ba", "Pb"),
+    # Section 4 (16)
+    c("Y", "Ce", "Dy", "Er", "Eu", "Gd", "Ho", "La", "Lu", "Nd", "Pr", "Sm", "Tb", "Th", "Tm", "Yb"),
+    # Section 5 (9)
+    c("Li", "Ga", "Rb", "Sr", "In", "Cs", "Tl", "Bi", "U"),
+    # Section 6 (8)
+    c("Ru", "Rh", "Pd", "Te", "Hf", "Ir", "Pt", "Au"),
+    # Section 7 (11)
+    c("B", "Si", "P", "Ti", "Ge", "Zr", "Nb", "Ta", "W", "Re", "Total S"),
+    # Section 8 (1)
+    "Hg"
+  )
+)
 
 
-**NOTES:**
+# Set up the color palette for Sections 1–8 (light rainbow colors)
+section_colors <- c(
+  "1" = "lightpink",      # pink (favorite)
+  "2" = "thistle",       # purple (favorite)
+  "3" = "mediumaquamarine",
+  "4" = "khaki",
+  "5" = "lightblue",
+  "6" = "lightsalmon",
+  "7" = "lightcyan",
+  "8" = "lightgray"
+)
 
-- When starting the pump, do not connect the mini-columns yet until ALL the tubing has NO AIR inside, if not, you will fill your columns with air.
-- Take the time of staring the flush of water.
-- Take the flow you set up in the pump (1.5 mL/min)
-- Check the water tank everyday so the tubing is not getting air instead of water.
 
+# Max section size (for page length)
+max_section_size <- max(table(analyte_table$Group))
+
+# Render the interactive table with color formatting
+datatable(
+  analyte_table,
+  extensions = 'Buttons',
+  options = list(
+    pageLength = 68,
+    #pageLength = max_section_size,  # dynamically show up to 16 rows per page
+    autoWidth = TRUE,
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+    columnDefs = list(
+      list(width = '50px', targets = 0),  # Group column
+      list(width = '150px', targets = 1), # Group_Name column
+      list(width = '50px', targets = 2)   # Element column
+    )
+  )
+) %>%
+  formatStyle(
+    'Group',
+    target = 'row',
+    backgroundColor = styleEqual(names(section_colors), section_colors),
+    color = styleEqual(names(section_colors), rep("black", length(section_colors)))  # force dark text
+  )
+
+
+```
 
 [Back to top](#top)
+
+## **ICP-MS (main cations) & Arsenic Speciation**
+
+Equipment:
+
+Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
+
+-   8900
+
+-   7700-X
+
+![ICP-MS](SOP_files/figures/ICP-MS.png)
+
+::: callout-important
+- **All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab**
+- Use metal-free centrifuge tubes.
+:::
+
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
+
+**Steps**
+
+-   Prepare a batch of 2% of High Purity Nitric Acid (HNO3)
+-   Take 1 mL of the sample
+-   Add 7mL of EDTA 0.25M for As Speciation. ***this EDTA step messed up the tubing on the ICP-MS machine so be careful***
+-   Add 2 mL of HNO3
+-   Total volume of the mix in the tube: 10 mL
+-   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
+
+![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
+
+**HNO3 at 2% is prepared:**
+
+-   20 mL of UHP HNO3 from the purchased bottle
+-   980 mL of DI water
+
+![](SOP_files/figures/UHP_Nitric_Acid.png)
+
+[Back to top](#top)
+
+## **Ion Chromatography (Anions)**
+
+Equipment:
+
+Ion Chromatography- Dionex ICS-6000
+
+-   2 mL of the sample
+-   Nothing else is added to the samples
+
+## **Iron Speciation**
+
+-   Prepare a batch of 2% of Hydrochloric acid (HCL)
+-   Take 1 mL of the sample
+-   Add 9 mL of HCL
+-   Total volume of the mix in the tube: 10 mL
+-   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
+
+## **Ferrozine Method for Iron Speciation**
+
+![](SOP_files/figures/Spectrophotometer.png)
+
+### **Materials:**
+
+-   Ferrozine 5 grams container
+-   Ferrous Ammonium Sulphate 500 grams container
+-   Ammonium acetate in 245 or 518
+-   Spectrophotometer (*We have one in 508*).
+    -   Brand: Fisher Scientific
+    -   Model: AccuSkan FC microplate photometer
+    -   Catalog number: 14377575
+-   Wavelength filter for Iron should be **562 nm**.
+    -   Buy it here: [ThermoFisher](https://www.thermofisher.com/order/catalog/product/1425605)
+    -   Catalog number: 1425605
+
+### **Sample preparation**
+
+-   Complex is stable Between pH 4 and 10
+-   Concentrations Between 0.01 - 3 ppm or between 2 – 10 ppm.
+-   Match the metrics of your sample: Ionic Strength or Acid concentration
+-   Use the cuvettes the same orientation always.
+-   Add 100 microL of Ferrozine to all cuvettes. Including the blank, standards and samples.
+-   Add 50microL of Buffer to all cuvettes and wait 5 minutes to color development.
+
+### **Spectrophotometer**
+
+-   Turn on the spectrophotometer 15 minutes before the measurements
+-   Set wavelength to 562 nm.
+-   Use the cuvettes the same orientation always
+-   Put the blank into the spectrophotometer and press the ZERO key.
+-   Measure the standards and samples in the same manner and record the Absorbance values. As soon as possible to avoid degradation of color complexes.
+-   Remove the samples from spectrophotometer.
+-   Absorbance values above 2 are meaningless. Try again diluting them.
+-   Plot Absorbance VS Fe(II) ppm
+
+[Back to top](#top)
+
+## **TOC (Total Organic Carbon)**
+
+Equipment:
+
+Carbon/Nitrogen Analyzer- Shimadzu TOC-L (Total Organic Carbon) + TNM-L (Total Nitrogen)
+
+Sample prep:
+
+-   5 mL of the sample
+-   Nothing else is added to the sample
+
+## **pH for mine tailings**
+
+For a 1:2 solid-to-solution ratio
+
+-   Calibrate your pH probe daily, with a 3-point calibration using standard buffer solutions (pH 4, 7, and 10)
+-   Get 5 g of tailings
+-   Add 10 g of DDI water (distilled deionized, 18.3 MΩ cm)
+-   Rotate for 1 hour at 25 ᵒC
+-   Centrifuge at RCF of 10,500
+-   Measure the pH and EC on the supernatant
+
+[Back to top](#top)
+:::
+
+# **ADMINISTRATIVE PROCEDURES**
+
+::: panel-tabset
+## **BuyWays: Buy Lab Supplies**
+
+::: {.callout-note}
+-   This procedure is valid if you are **on campus**, but if you are not, you can connect to the university VPN, through the following app: Cisco Secure Client.
+:::
+
+**Connect to VPN** **(just if you are off campus)**
+
+-   Download Cisco Secure Client [here](https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5686-install-cisco-anyconnect-secure-mobility-client-on-a-windows.html)
+-   Set it up as follows:
+
+![VPN AnyConnect](SOP_files/figures/VPN_AnyConnect.png)
+
+-   Sign in with your university NetID
+
+**BuyWays**
+
+-   Uacces
+-   Financial
+-   NetID
+-   More Items
+-   Orders
+-   [Shop catalogs](https://financials.uaccess.arizona.edu/kfs/b2b.do?methodToCall=shopCatalogs)
+-   In the search tool, write what you're looking for (Catalog number, Product number or SKU number)
+-   Add to cart
+-   View my cart
+-   ***You can only do one supplier at a time***
+-   Proceed to Uaccess Financials
+-   Document overview (Description, Explanation
+-   Delivery -\> Search -\> Building Code = 38 -\> Return value -\> Room \# = 518 -\>
+-   Items -\> Setup distribution -\> Account number. \*Check that the name of your project is under the account number\* -\> Object -\> Code for chemicals (5280) -\> For not chemicals (5290) -\> PLUS SIGN -\> In the second, level Distribute to Items -\> In Item Type for Chemicals is Quantity tax exempt, but for any other supplies Quantity Taxable.
+-   At the bottom click CALCULATE
+-   SUBMIT
+
+[Back to top](#top)
+
+## **Chemical & Biohazard Waste Pickup Request**
+
+::: callout-important
+Risk Management **WONT pick up stuff with no labels on it**. They will leave it right there, and they wont come back **until next month**.
+:::
+
+The hazardous waste pick-up happens the **SECOND Thursday of every month**. You have to schedule it with enough time so they can pick it up and bring you extra tanks and tags for the chemicals.
+
+[Form for Chemical & Biohazard Waste Pickup Request](https://risk.arizona.edu/forms/chemical-waste-pickup)
+
+Use the following link to find out how to fill up the building number of the place you are requesting the pick up to be done:
+
+<https://map.arizona.edu/>
+
+## **Printing Posters**
+
+These are two places you can print posters on campus. Sometimes on the website, they also show the prices.
+
+***My preferred is the first one because they print in 24 hours.***
+
+**BioCommunications**
+
+<https://biocom.arizona.edu/service-type/posters/service/poster-printing>
+
+Located North Campus, close to the Banner Hospital.
+
+Use the "paper" option, it refers to Photo Paper.
+
+**FastCopy in the Student Union**
+
+<https://union.arizona.edu/fastcopy/>
+
+Products and Services -> Posters (Wide Format)). 
+
+They accept project account numbers, so you do not need to do the reimbursement.
+
+
+## **RLSS**
+
+Remember to check the fulfillment of the required safety training in the Research Laboratory and Safety Services.
+
+[Link to RLSS](https://rlss.arizona.edu/services/protected/index.xhtml)
+
+## **Chemical Inventory**
+
+If you purchase a new chemical, make sure to add it to the chemical inventory.
+
+[Chemical Inventory Link](https://rlss.arizona.edu/services/protected/approval-management/chemical/inventory.xhtml?from=home)
+
+## **Cryogenics & Compressed Gas Facility**
+
+Use this [link](https://cryo.cores.arizona.edu/cgf/) to order the Liquid Nitrogen, or any gas you may need for your lab work.
+
+-   Hours of Operation: M-F 8:00AM to 4:00PM
+
+-   **Pickup 8:30AM to 11AM**
+
+-   Cryo Closed 11:30AM to 12:30PM daily
+
+The Liquid Nitrogen we order is: *Liquid Nitrogen, Refrigerated (Class 2.2 UN1977 Non-Flammable). Please specify the quantity in liters. MAX 60 liters/order.*
+
+We order 10 Liters (30 pounds) for the big bin.
+
+**Safety measurements to consider:**
+
+-   Use the required cryogenic gloves and a face shield to handle Liquid Nitrogen.
+
+-   Make sure empty cylinders are labeled or tagged.
+
+-   Make sure caps are in place when not in use
+
+-   Cylinders are secured, not blocking exits or pathways and stored upright in racks, straps, chains, or stands.
+
+Extracted from the [University Chemical Hygiene Plan](https://research.arizona.edu/compliance/RLSS/chemical-safety)
+
+[Back to top](#top)
+
+
+## **Remote Access to 518 computer**
+
+-   Look for the "Remote Desktop Connection" app in your computer.
+-   Enter the name of the computer you want to access remotely in the blank space. The one in 518 lab is: cals-envs22-45.bluecat.arizona.edu
+-   Log in with your NetID Catcard credentials.
+-   Look for the Geochemist Workbench Program.
+-   In case you need access to the VPN, follow the next link to Download, Install, and Log in to the VPN on your computer (this will only let you log in if you are outside campus; I don't think it will let you log in if you are on the on-campus network).
+
+![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.png)
+
+[Back to top](#top)
+
+## **ENVS Business Office**
+
+![ENVS](SOP_files/figures/logos/ENVS_logo.png)
+
+
+<https://envs.arizona.edu/about/contact/business-office>
 
 :::
 

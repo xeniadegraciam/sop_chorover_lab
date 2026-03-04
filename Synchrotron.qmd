@@ -45,7 +45,10 @@ execute:
 
 :::
 
-------------------------------------------------------------------------
+
+***Click the link below if needed to go back to the main repository for other Lab Notes not related to Synchrotron:***
+
+[SOP repo](https://xeniadegraciam.github.io/sop_chorover_lab/SOP.html)
 
 ------------------------------------------------------------------------
 
