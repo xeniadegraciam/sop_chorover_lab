@@ -1407,6 +1407,8 @@ Pre-edge fitting
 
 ### Synchrotron
 
+-   Ravel, B., & Newville, M. (2005). ATHENA,ARTEMIS,HEPHAESTUS: data analysis for X-ray absorption spectroscopy using IFEFFIT. Journal of Synchrotron Radiation, 12(4), 537–541. <https://doi.org/10.1107/s0909049505012719>
+
 Normalization process
 
 -   Bugarin, L., Orduz, H. a. S., & Glatzel, P. (2024). Area normalization of HERFD-XANES spectra. Journal of Synchrotron Radiation, 31(5), 1118–1125. <https://doi.org/10.1107/s1600577524005307>
