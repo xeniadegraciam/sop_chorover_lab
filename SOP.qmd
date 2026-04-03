@@ -74,10 +74,14 @@ Everything related Synchrotron is on the link above:
 - Data analysis
 - Beamline procedures
 
-![Beamline 11-2 at Stanford Synchrotron Radiation Lightsource](SOP_files/figures/BL11-2.png)
+![Beamline 11-2 at Stanford Synchrotron Radiation Lightsource](SOP_files/figures/BL11-2.png){width="4in"}
 
 
 ## **SEM-EDS**
+
+References:
+
+- Ali, A., Zhang, N., & Santos, R. M. (2023). Mineral characterization using Scanning Electron Microscopy (SEM): A review of the fundamentals, advancements, and research directions. Applied Sciences, 13(23), 12600. <https://doi.org/10.3390/app132312600>
 
 Sign in to: [iLab](https://azcores.ilab.agilent.com/) to make reservations or check machine schedule. Look for ***CBC Keck Center for Nano-Scale Imaging***.
 
@@ -89,7 +93,7 @@ You can ask Rob to contact the **Research Support Services** to do this.
 
 All services should be acknowledged in publications and presentation as said in here:  <https://cbc.arizona.edu/rss/acknowledging-rss-units>
 
-![TB-B-Stage 6 of Andersen](SOP_files/figures/SEM_2_TB-B-St.6_with measur_Dec18.png)
+![TB-B-Stage 6 of Andersen](SOP_files/figures/SEM_2_TB-B-St.6_with measur_Dec18.png){width="5in"}
 
 **PROCEDURE**
 
@@ -142,7 +146,9 @@ All services should be acknowledged in publications and presentation as said in 
     - Source Control -> Start
     - **Crossover**
     - Uncheck the Limit voltage -> **Increase slowly until getting the same as image below, but never exceed 1.9** This step takes around 2 minutes.
-    ![Oval shape to get](SOP_files/figures/SEM_1.jpg)
+
+
+![Oval shape to get](SOP_files/figures/SEM_1.jpg){width="4in"}
    
     - Wait until the phrase "Limit Voltage" comes visible to click again.
     - If the filaments don't work (meaning you cant see anything), then modify contrast and brightness.
@@ -251,7 +257,7 @@ Equipment: [**Nicolet Magna-IR 560 Fourier Transform Infrared (FTIR) Spectromete
 
 ### **ATR-FTIR**
 
-![](SOP_files/figures/FTIR.png)
+![](SOP_files/figures/FTIR.png){width="4in"}
 
 ::: callout-important
 - **FIRST THING: ON THE MACHINE, PRESS THE BUTTON BESIDE THE ATR ACCESSORY UNTIL IT LIGHTS ON BLUE, MEANING THE ATR MODE IS ON.**
@@ -285,7 +291,7 @@ Some peaks of interest for ATR in your sample:
 -   Close the sampler until you hear **2 clicks**.
 -   Collect -\> Number of scans: 64 -\> **Collect Background after 120 minutes** -\> Save
 
-![](SOP_files/figures/FTIR_ExpSetup.png)
+![](SOP_files/figures/FTIR_ExpSetup.png){width="6in"}
 
 **COLLECT BACKGROUND**
 
@@ -297,7 +303,7 @@ Some peaks of interest for ATR in your sample:
 
 (*humidity always looks the same: 3 peaks between 2800 to 2000*)
 
-![Background look on FTIR-ATR](SOP_files/figures/FTIR_BackgroundLook.png)
+![Background look on FTIR-ATR](SOP_files/figures/FTIR_BackgroundLook.png){width="6in"}
 
 
 
@@ -374,7 +380,7 @@ You can get the .CIFF files for minerals at the [RUFF database](https://rruff.ge
 ::: panel-tabset
 ## **Craig's Rasmussen Lab Computer procedure for powder X-ray Diffraction**
 
-![](SOP_files/figures/XRD_machine.png)
+![](SOP_files/figures/XRD_machine.png){width="4in"}
 
 This procedure applies if you analyze your samples at **Craig Rasmussen's lab**.
 
@@ -394,7 +400,7 @@ This procedure applies if you analyze your samples at **Craig Rasmussen's lab**.
 
 ### **Sample prep**
 
-![](SOP_files/figures/XRD_samples.png)
+![](SOP_files/figures/XRD_samples.png){width="5in"}
 
 -   Find the Corundum (alpha-Al2O3) in the desiccator. Heat the Corundum in the oven for at least 1 hour at 550 Celsius. Let it refresh for 1 hour. Store the Corundum on the desiccator when all the work has finished. -\`If using toxic samples, prepare them in the fume hood.
 -   Using the Agate Mortar (or the ball mill), mix 1.5 gram of your sample, with 0.23 g of Corundum (*meaning 15% of your sample*). Take notes of the mass of sample, and Corundum used for each one. You need these data to fit your results afterwards.
@@ -416,7 +422,7 @@ This procedure applies if you analyze your samples at **Craig Rasmussen's lab**.
 
 -   Check the water level and the filler on the back of the lab. Fill them with super clean water, such as UV Reverse Osmosis water. Craig buys gallons of that treated water, ask him to repay the amount of water you used with your project's budget.
 
-![](SOP_files/figures/XRD_water.png)
+![](SOP_files/figures/XRD_water.png){width="3in"}
 
 **Computer:**
 
@@ -503,9 +509,9 @@ Remember to acknowledge the RSS (Research Support Services) in your publications
 
 Link to how to acknowledge them: <https://cbc.arizona.edu/rss/acknowledging-rss-units>
 
-![Ground sample from the ball mill](SOP_files/figures/ball_mill.png)
+![Ground sample from the ball mill](SOP_files/figures/ball_mill.png){width="3in"}
 
-![Sample holders ready for XRD analysis](SOP_files/figures/XRD_samples.png)
+![Sample holders ready for XRD analysis](SOP_files/figures/XRD_samples.png){width="4in"}
 
 ## **Clay Mineral Identification Flow Diagram**
 
@@ -513,7 +519,7 @@ The following chart from USGS helps identify the different clays using the separ
 
 USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.usgs.gov/of/2001/of01-041/htmldocs/flow/index.htm>
 
-![Clay Chart](SOP_files/figures/clay_flow_usgs.gif){width="768"} 
+![Clay Chart](SOP_files/figures/clay_flow_usgs.gif){width="120%"} 
 
 
 [Back to top](#top)
@@ -525,7 +531,7 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 ::: panel-tabset
 ## **Specific Surface Area**
 
-![lucky token](SOP_files/figures/BET_Token.png)
+![lucky token](SOP_files/figures/BET_Token.png){width="2in"}
 
 ::: callout-important
 
@@ -553,7 +559,7 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Weight the tube+sample, and add that on the lab notebook.
 -   Degas the samples overnight with a temperature of **45 Celsius** because I’m using tailings. (*If I increase the temperature I could convert my ferrihydrite to Goethite, and we don’t want that.*)
 
-![Drying station](SOP_files/figures/BET_Dessicator_NitrogenStation.png)
+![Drying station](SOP_files/figures/BET_Dessicator_NitrogenStation.png){width="4in"}
 
 ### **Computer procedure: Gemini program**
 
@@ -574,13 +580,13 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 **If you have an error in the computer, take a screenshot and save it in the PPT that is open in that computer.**
 :::
 
-![BET machine](SOP_files/figures/BET.png)
+![BET machine](SOP_files/figures/BET.png){width="4in"}
 
 [Back to top](#top)
 
 ## **Particle size distribution**
 
-![LS-13-320 Laser Diffraction Particle Size Analyzer](SOP_files/figures/PSD_machine.png)
+![LS-13-320 Laser Diffraction Particle Size Analyzer](SOP_files/figures/PSD_machine.png){width="4in"}
 
 
 ::: callout-important
@@ -605,7 +611,7 @@ The following document was made by Mohaddese Effati and edited by Xenia for the 
 
 ### **HYPROP for Soil-Water Characteristic Curves**
 
-![HYPROP analysis](SOP_files/figures/HYPROP.png)
+![HYPROP analysis](SOP_files/figures/HYPROP.png){width="6in"}
 
 ***Work in progress...***
 
@@ -620,7 +626,7 @@ The following document was made by Mohaddese Effati and edited by Xenia for the 
 
 ### **WP4-C**
 
-![WP4-C](SOP_files/figures/WP4C.png)
+![WP4-C](SOP_files/figures/WP4C.png){width="6in"}
 
 This is for the Dry part of the Soil-Water Characteristic Curve:
 
@@ -684,7 +690,7 @@ We have **cyclones** at the lab for the following sizes:
 
 But we also have the **Andersen Sample Impactor** which give us a smaller and more classified range of particles.
 
-![Andersen Sample Impactor](SOP_files/figures/Andersen.png)
+![Andersen Sample Impactor](SOP_files/figures/Andersen.png){width="4in"}
 
 The Andersen is composed of the metallic screening layers, and the air pump.
 
@@ -692,13 +698,13 @@ In order for the Andersen to work accurately as it was designed to work, the pum
 
 The sizes of each mesh are explained in the diagram below:
 
-![Extracted from Andersen Manual](SOP_files/figures/Andersen_PM_sizes.png)
+![Extracted from Andersen Manual](SOP_files/figures/Andersen_PM_sizes.png){width="6in"}
 
 The pump has to be ran at 1 ACFM (28.3 liters/min) always for the particle diameter range to work as the diagram. **There is already a line drawn on the flow meter at 59 SCFH**, which corresponds to the flow it should be running.
 
-![Andersen Sample Impactor](SOP_files/figures/Andersen2.png)
+![Andersen Sample Impactor](SOP_files/figures/Andersen2.png){width="4in"}
 
-![Examples of particles ran](SOP_files/figures/Andersen3.png)
+![Examples of particles ran](SOP_files/figures/Andersen3.png){width="8in"}
 
 After done with it, check the size of your particles with SEM to be sure they are correct. Bring your samples on your petri-dishes to the Chemistry Biochemistry Lab.
 
@@ -720,7 +726,7 @@ The following table is the result of the first ever **particle sizes observed on
 
 ## **Centrifuge**
 
-![Samples on the Centrifuge rotor](SOP_files/figures/centrifuge.png)
+![Samples on the Centrifuge rotor](SOP_files/figures/centrifuge.png){width="4in"}
 
 ::: callout-important
 -   "CE" clears the alarm, if it ever get activated.
@@ -735,7 +741,7 @@ The following table is the result of the first ever **particle sizes observed on
 -   Check that the rotor and lead that you choose are same model.
 -   Weight the tubes with sample that you are using, as you will have to balance them out by putting them in opposite directions on the rotor.
 
-![Balancing out the tubes on the rotor](SOP_files/figures/centrifuge_rotor_balance.gif)
+![Balancing out the tubes on the rotor](SOP_files/figures/centrifuge_rotor_balance.gif){width="2in"}
 
 -   Lock the 2 leads on the rotor
     -   Big lead = cover for the rotor
@@ -752,7 +758,7 @@ The following table is the result of the first ever **particle sizes observed on
         -   RPM (do not recommend using this one)
     -   **START**
 
-![Centrifuge in 245](SOP_files/figures/centrifuge1.png)
+![Centrifuge in 245](SOP_files/figures/centrifuge1.png){width="4in"}
 
 [Back to top](#top)
 
@@ -770,7 +776,7 @@ What this machine does is that it drys the sample through **Sublimation**, which
 - Add a paper filter to the tube connected to the central chamber, as a way to protect the central chamber from the particles of your samples.
 -   Now you can connect your samples to vacuum, by rotating the grey cap by 180 degrees, until the tilted side of the grey cap is aligned with the transparent tube that goes to your samples, allowing them to connect to the system.
 
-![Jars ready for Freeze-Dryer](SOP_files/figures/Freeze-Dryer.png)
+![Jars ready for Freeze-Dryer](SOP_files/figures/Freeze-Dryer.png){width="4in"}
 
 -   The black hose goes on the base of the machine needs to go on the trash can in case there is any oil spilling.
 -   Press **AUTO**. The vacuum has to end below 300. The temperature should be -40.
@@ -822,7 +828,7 @@ At the end of the day, close the valves of Nitrogen and Hydrogen gas.
 
 ## **Flow-through reactive mini-column experiment results**
 
-![Setup for mini-column experiments](SOP_files/figures/mini-columns.png)
+![Setup for mini-column experiments](SOP_files/figures/mini-columns.png){width="6in"}
 
 Lauren Bozeman's thesis (2018) is good to learn this process.
 
@@ -859,9 +865,9 @@ Lauren Bozeman's thesis (2018) is good to learn this process.
 - Stirring plate for water tank
 - Bromide Probe
 
-![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.png)
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.png){width="6in"}
 
-![Luer lock sizes](SOP_files/figures/luer-lock.png)
+![Luer lock sizes](SOP_files/figures/luer-lock.png){width="3in"}
 
 
 **Steps:**
@@ -979,7 +985,7 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 -   **1:3 Hydrofluoric acid: Nitric Acid** at 180 Celsius +/- 5 Celsius microwave assisted
 -   15-minute extraction.
 
-![SSE](SOP_files/figures/Slides_SOP/SSE.png)
+![SSE](SOP_files/figures/Slides_SOP/SSE.png){width="120%"}
 
 ![SSE](SOP_files/figures/Slides_SOP/Slide32.png)
 
@@ -1005,7 +1011,7 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 | **TOTAL VOLUME NEEDED PER SAMPLING POINT:**           | **25 mL**                              |
 
 
-![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG){width="6in"}
 
 ## **ALEC Analytes**
 
@@ -1116,14 +1122,14 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 
 -   7700-X
 
-![ICP-MS](SOP_files/figures/ICP-MS.png)
+![ICP-MS](SOP_files/figures/ICP-MS.png){width="4in"}
 
 ::: callout-important
 - **All ALEC samples need to be filtered with 0.45um filters before submitting them to the lab**
 - Use metal-free centrifuge tubes.
 :::
 
-![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG)
+![Metal-Free Tubes](SOP_files/figures/metal-free-tubes.PNG){width="6in"}
 
 **Steps**
 
@@ -1141,7 +1147,7 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 -   20 mL of UHP HNO3 from the purchased bottle
 -   980 mL of DI water
 
-![](SOP_files/figures/UHP_Nitric_Acid.png)
+![](SOP_files/figures/UHP_Nitric_Acid.png){width="2in"}
 
 [Back to top](#top)
 
@@ -1164,7 +1170,7 @@ Ion Chromatography- Dionex ICS-6000
 
 ## **Ferrozine Method for Iron Speciation**
 
-![](SOP_files/figures/Spectrophotometer.png)
+![](SOP_files/figures/Spectrophotometer.png){width="4in"}
 
 ### **Materials:**
 
@@ -1351,13 +1357,13 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 -   Look for the Geochemist Workbench Program.
 -   In case you need access to the VPN, follow the next link to Download, Install, and Log in to the VPN on your computer (this will only let you log in if you are outside campus; I don't think it will let you log in if you are on the on-campus network).
 
-![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.png)
+![Remote Access Connection](SOP_files/figures/Slides_SOP/518vpn.png){width="6in"}
 
 [Back to top](#top)
 
 ## **ENVS Business Office**
 
-![ENVS](SOP_files/figures/logos/ENVS_logo.png)
+![ENVS](SOP_files/figures/logos/ENVS_logo.png){width="4in"}
 
 
 <https://envs.arizona.edu/about/contact/business-office>
@@ -1476,7 +1482,7 @@ datatable(
 
 ```
 
-.
+
 
 -   Anzures, B. A., Parman, S. W., Milliken, R. E., Lanzirotti, A., & Newville, M. (2019). XANES spectroscopy of sulfides stable under reducing conditions. *American Mineralogist*, 105(3), 375–381. <https://doi.org/10.2138/am-2020-7146>
 
@@ -1531,6 +1537,12 @@ datatable(
     -   Natural scorodite is usually small (mostly nano-sized).
 
 [Back to top](#top)
+
+## **Boyoungb's suggestions**
+
+### KdD Partition Coefficients
+
+- Geochemical Earth Reference Model (GERM) -- Home page. (n.d.). <https://earthref.org/GERM/#gsc.tab=0>
 
 ## **Rob's suggestions**
 
