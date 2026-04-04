@@ -7,13 +7,12 @@ format:
     page-layout: full      # Uses full browser width. full → maximum width, uses the whole browser. article (default) → standard narrow reading layout.
     toc: true
     toc-location: left
-    toc-depth: 6        # include H1–H6
-    toc-expand: 6       # expand all levels in the TOC
     number-sections: true
-    number-depth: 6     # number all levels
+    toc-depth: 20
     theme:
       light: cosmo
       dark: darkly
+    lightbox: auto   # enables built-in gallery support
     fontsize: 1.3em
     css: styles.css # optional, if you want to customize fonts later
     date-format: "dddd, MMMM D, YYYY HH:mm:ss"  # Optional formatting
@@ -21,7 +20,6 @@ website:
   sidebar:
     style: "docked"   # options: "floating", "docked"
     contents: auto    # auto-build from document headings
-    collapse-level: 6   # keep all heading levels expanded in the sidebar
   bread-crumbs: true  # Show “you are here” paths to help readers orient.
   search: 
     location: navbar
