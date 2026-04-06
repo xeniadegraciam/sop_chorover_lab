@@ -1,6 +1,13 @@
 ---
 title: "Synchrotron Notes"
-author: "Xenia De Gracia Medina"
+author:
+  - name: "Xenia De Gracia Medina"
+    #affiliation: "Department of Environmental Sciences, University of Arizona"
+    email: "xeniadegracia@arizona.edu"
+    corresponding: true
+  - name: "Rob Root"
+    #affiliation: "Department of Environmental Sciences, University of Arizona"
+    email: rroot@arizona.edu
 date: last-modified
 format:
   html:
@@ -29,6 +36,7 @@ website:
     show-item-context: true
 language: 
   search-text-placeholder: Search
+engine: python
 execute:
   echo: false   # Hide all R code
   warning: false # Hide warnings
@@ -36,7 +44,7 @@ execute:
 ---
 
 ::: callout-note
--   *Here I included some notes when working at the beamlines of Stanford Synchrotron Radiation Lightsource, and also about how to use the data analysis softwares Athena, LARCH and SIXPACK, hoping it can help as a guide for future students at Chorover Lab when performing this kind of analyses*
+-   *Here are included some notes taken when working at the beamlines of Stanford Synchrotron Radiation Lightsource, and also about how to use the data analysis softwares Athena, LARCH and SIXPACK, hoping it can help as a guide for future students at Chorover Lab when performing this kind of analyses*
 
 -   *Typos could be found on these lab notes, as English is not my native language. If you find some, please let me know to make the necessary corrections. Thanks!*
 :::
@@ -256,11 +264,53 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 <https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/feffit_cu_3paths.ipynb>
 :::
 
+# **ROB's REFERENCES**
+
+::: callout-note
+*Some of the hundreds of XAS references that Dr. Rob Root has collected during his numerous trips to the synchrotrons around the world.*
+:::
+
+::: panel-tabset
+## **Arsenic**
+
+:::{.html}
+<iframe 
+  src="../Synchrotron_files/figures/RobRefs_As_XANES.html" 
+  width="100%" 
+  height="600px" 
+  style="border:none;">
+</iframe>
+:::
+
+## **Iron**
+
+:::{.html}
+<iframe 
+  src="../Synchrotron_files/figures/RobRefs_Fe_XANES.html" 
+  width="80%" 
+  height="600px" 
+  style="border:none;">
+</iframe>
+:::
+
+## **Sulfur**
+
+:::{.html}
+<iframe 
+  src="../Synchrotron_files/figures/RobRefs_S_XANES.html" 
+  width="80%" 
+  height="600px" 
+  style="border:none;">
+</iframe>
+:::
+
+:::
+
 # **SSRL**
 
 ## **BL 11-2 XAS**
 
-![BL 11-2](Synchrotron_files/figures/BL11-2/BL11-2.png){width="5in"}
+![BL 11-2](Synchrotron_files/figures/BL11-2/BL11-2.png){width="4in"}
 
 ::: callout-important
 -   Refill the **Germanium detector with LN2** once every 24 hours. Log in their notebook (SSRL) the time and date that you refilled the detector.
@@ -586,3 +636,4 @@ Ishii, M., Matsuda, A., Sakamoto, K., Yamashita, S., Niwa, Y. & Inada, Y. (2025)
 <https://xaslib.xrayabsorption.org/elem/>
 
 [Back to top](#top)
+

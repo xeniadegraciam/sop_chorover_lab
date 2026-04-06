@@ -47,7 +47,7 @@ Department of Environmental Sciences\
 :::
 
 ::: {.callout-note}
--   *Here I included some of my lab notes when working at Chorover's lab.*
+-   *Here are included some of my lab notes when working at Chorover's lab.*
 
 -   *Typos could be found on these lab notes, as English is not my native language. If you find some, please let me know to make the necessary corrections. Thanks!*
 
