@@ -275,10 +275,10 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 
 :::{.html}
 <iframe 
-  src="../Synchrotron_files/figures/RobRefs_As_XANES.html" 
+  src="Synchrotron_files/figures/RobRefs_As_XANES.html" 
   width="100%" 
-  height="600px" 
-  style="border:none;">
+  height="900px" 
+  style="border:none; overflow:auto;">
 </iframe>
 :::
 
@@ -286,10 +286,10 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 
 :::{.html}
 <iframe 
-  src="../Synchrotron_files/figures/RobRefs_Fe_XANES.html" 
-  width="80%" 
-  height="600px" 
-  style="border:none;">
+  src="Synchrotron_files/figures/RobRefs_Fe_XANES.html" 
+  width="100%" 
+  height="900px" 
+  style="border:none; overflow:auto;">
 </iframe>
 :::
 
@@ -297,10 +297,10 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 
 :::{.html}
 <iframe 
-  src="../Synchrotron_files/figures/RobRefs_S_XANES.html" 
-  width="80%" 
-  height="600px" 
-  style="border:none;">
+  src="Synchrotron_files/figures/RobRefs_S_XANES.html" 
+  width="100%" 
+  height="900px" 
+  style="border:none; overflow:auto;">
 </iframe>
 :::
 
