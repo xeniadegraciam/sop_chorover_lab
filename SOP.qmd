@@ -74,6 +74,7 @@ Everything related Synchrotron is on the link above:
 - Data analysis
 - Beamline procedures
 
+
 ![Beamline 11-2 at Stanford Synchrotron Radiation Lightsource](SOP_files/figures/BL11-2.png){width="4in"}
 
 
@@ -531,7 +532,9 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 ::: panel-tabset
 ## **Specific Surface Area**
 
-![lucky token](SOP_files/figures/BET_Token.png){width="2in"}
+::: {#fig-bl112 fig-align="center"}
+![*Legend says (Rob) tapping this token fix the BET*](SOP_files/figures/BET_Token.png){width="2in"}
+:::
 
 ::: callout-important
 
