@@ -676,6 +676,9 @@ The thesis of previous Chorover students help a lot with figuring out the steps 
 
 ## **Particle generator**
 
+::: panel-tabset
+### ***Andersen Impactor***
+
 **References:**
 
 - Pepper, I., Rensing, C., & Gerba, C. (2004). ENVIRONMENTAL MICROBIAL PROPERTIES AND PROCESSES. In Elsevier eBooks (pp. 263–280). <https://doi.org/10.1016/b978-012064477-3/50016-3>
@@ -726,6 +729,17 @@ The following table is the result of the first ever **particle sizes observed on
 | 6   | 0.9 - 1.7   |
 
 : *Andersen samples size seen with SEM*
+
+### **Ramirez Lab Dust Generator**
+
+The SOP of this machine is at Ramirez Lab, and it was created by Andreanna Roros, and revised by Zain.
+
+These below are some notes specifically applied to my research projects:
+
+- The samples taken were sieved at the mine site to 2mm.
+- previous to the dust generator, the samples were sieved to 150 um and 63 um, as requested in the project proposal.
+
+:::
 
 ## **Centrifuge**
 
