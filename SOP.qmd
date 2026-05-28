@@ -1134,12 +1134,16 @@ datatable(
 **EPA Protocol 3052**
 
 - Use Teflon vessels (CEM Xpress)
-- Microwave samples
-- Start acid digestion by using a ratio of **3:1** of Aristar Plus quality **nitric acid (HNO3)** and **hydrofluoric acid (HF)** (i.e., 1.5 mL HNO3 and 0.5 mL HF) at **180 ᵒC**.
-- After high pressure and high temperature digestion,
+- Start acid digestion at a fumehood.
+- Use a ratio of **3:1** of Aristar Plus quality **nitric acid (HNO3)** and **hydrofluoric acid (HF)** (i.e., 1.5 mL HNO3 and 0.5 mL HF)
+- Microwave samples at **180 ᵒC** for 9.5 minutes.
 - Add 2.5 mL **boric acid (8% H2BO4)**
 - Heat samples again at **170 ᵒC** for neutralization
-- After digestion, proceed with ICP-MS in collision mode to inhibit isobaric interference.
+- After high pressure and high temperature digestion,
+- Allow the vessels to cool for 5 minutes before removing them from the microwave
+- uncapping and venting each vessel in a fume hood.   
+- If the digested sample contains particulates which may clog nebulizers or interfere with injection of the sample into the instrument, the sample may be centrifuged, allowed to settle, or filtered.
+- Proceed with ICP-MS in collision mode to inhibit isobaric interference.
 
 
 ## **ICP-MS (main cations) & Arsenic Speciation**
