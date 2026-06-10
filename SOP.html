@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Wednesday, May 13, 2026 22:42:29</p>
+      <p class="date">Wednesday, June 10, 2026 13:11:20</p>
     </div>
   </div>
   
@@ -228,13 +228,20 @@ Important
 <li>The gold coating can last 20 days over your sample.</li>
 <li>Sign the users book with your time at the end.</li>
 </ul>
-<p><strong>SEM STARTING PROCESS</strong></p>
+<p><strong>Working station: Loading Samples in Sample Holder</strong></p>
 <ul>
 <li>Load your samples to the sample holder (these procedure could take 30 minutes for 6 samples)</li>
-<li>Remember the position of your samples.</li>
-<li>Log in to use the computer by scanning the QR code</li>
-<li>Open the N2 valve (parallel to hose = open)</li>
+<li>Make a mark in the tape to differentiate your samples from one another.</li>
+<li>Remember the position of your samples, take pictures an dnotes if neccessary.</li>
+</ul>
+<p><strong>SEM STARTING PROCESS</strong></p>
+<ul>
+<li>Open the N2 valve, located behind the SEM machine, on the wall. (parallel to hose = open)</li>
+<li><strong>Log in</strong> to use the computer by scanning the <strong>QR code</strong> located at the machine table.</li>
 <li><strong>Vent</strong> -&gt; Yes (because I already opened the N2 valve)</li>
+</ul>
+<p><img src="SOP_files/figures/SEM_Vent.jpg" class="img-fluid" style="width:3in"></p>
+<ul>
 <li>Wait until the pressure increase to 10^1, then it is safe to open.</li>
 <li>Load the samples to the chamber.</li>
 <li>Remember the position of your samples.</li>
@@ -243,7 +250,9 @@ Important
 <li><strong>Pump</strong></li>
 <li>Wait until the pressure decrease to 10^-4, and the drawing in the computer turns green (meaning its vacuumed)</li>
 </ul>
+<p><img src="SOP_files/figures/SEM_Pump.jpg" class="img-fluid" style="width:2in"></p>
 <p><strong>Computer</strong></p>
+<p><img src="SOP_files/figures/SEM_Spot.jpg" class="img-fluid" style="width:2in"></p>
 <ul>
 <li>Setup:
 <ul>
@@ -253,34 +262,38 @@ Important
 <li>Never cross the small circle with cross, just the big one.</li>
 </ul></li>
 <li><strong>Beam On</strong></li>
-<li>On “Alignment” section, find:
-<ul>
-<li>Source Control -&gt; Start</li>
-<li><strong>Crossover</strong></li>
-<li>Uncheck the Limit voltage -&gt; <strong>Increase slowly until getting the same as image below, but never exceed 1.9</strong> This step takes around 2 minutes.</li>
-</ul></li>
+<li>On “Alignment” section, find:</li>
 </ul>
+<p><img src="SOP_files/figures/SEM_Toolbar_Alignment.jpg" class="img-fluid"></p>
+<pre><code>- Source Control -&gt; Start
+- **Crossover**
+- **AUTO** for it to find the oval image for itself
+- Uncheck the Limit voltage -&gt; **Increase slowly until getting the same as image below, but never exceed 2.5** This step takes around 2 minutes.
+- Wait until the phrase "Limit Voltage" comes visible to click again.</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="SOP_files/figures/SEM_1.jpg" class="img-fluid figure-img" style="width:4in"></p>
 <figcaption>Oval shape to get</figcaption>
 </figure>
 </div>
-<pre><code>- Wait until the phrase "Limit Voltage" comes visible to click again.
-- If the filaments don't work (meaning you cant see anything), then modify contrast and brightness.
-- if it is super bright, we decrease the brightness.</code></pre>
 <ul>
+<li>If the filaments don’t work (meaning you can’t see anything), then modify contrast and brightness.</li>
+<li>if it is super bright, we decrease the brightness.</li>
 <li><strong>Check</strong> “Limit Voltage”</li>
 <li>Press <strong>Finish</strong></li>
 <li>Go back to main screen</li>
 <li>Click on <strong>Auto Contrast</strong></li>
 </ul>
+<p><img src="SOP_files/figures/SEM_Toolbar_AutoContrast.jpg" class="img-fluid"></p>
 <p><strong>Gold reference</strong></p>
 <ul>
 <li>Zoom in by clicking on <strong>+</strong> button, on the light-grey area of Gold.</li>
 <li>Go to focus (press <strong>“Reduced Area”</strong> and right-click at the same time)</li>
-<li>You should see like <strong>hexagon shape for the Gold</strong> nano particles.</li>
-<li>When having the “Reduced Area” activated, you can use <strong>“stigmation”</strong> by using shift and right-click at the same time, slide up-to-down, or left-to-right.</li>
+</ul>
+<p><img src="SOP_files/figures/SEM_ReducedArea.jpg" class="img-fluid" style="width:2in"></p>
+<ul>
+<li>You should see like <strong>hexagon shape for the Gold</strong> nano particles, magnification shoould be at 50,000X</li>
+<li>When having the “Reduced Area” activated, you can use <strong>“stigmation”</strong> by using <strong>shift and right-click</strong> at the same time, slide up-to-down, or left-to-right.</li>
 <li>After you found the gold hexagons, <strong>Zoom out</strong> all the way to find your sample (~2mm scale).</li>
 <li>Double click to move to your first sample.</li>
 </ul>
@@ -289,6 +302,9 @@ Important
 <li>Zoom in with <strong>+</strong> and focus it using the <strong>“Reduced Area”</strong> focus. NEVER use stigmation on a sample, its just allowed for the Gold standard reference.</li>
 <li>Start measuring by going to the <strong>graph section</strong>.</li>
 <li>Camera (to take the picture)</li>
+</ul>
+<p><img src="SOP_files/figures/SEM_Toolbar_Camera.jpg" class="img-fluid"></p>
+<ul>
 <li>Press <strong>F3</strong> to activate contrast and brightness graphs, and change them by sliding the bar. (This can JUST be done when having the Camera photo activated)</li>
 <li>Deactivate the graph mode by clicking F3 again.</li>
 <li>Save As -&gt; <strong>.tiff file</strong></li>
@@ -314,6 +330,7 @@ Important
 <li>When done, delete all the measurement notes you did</li>
 </ul>
 <p><strong>EDS</strong></p>
+<p><em>energy-dispersive X-ray spectroscopy (EDS or EDX)</em></p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -360,7 +377,10 @@ Important
 <li>Click in <strong>“Finish”</strong></li>
 <li>Beam Control -&gt; <strong>Beam Off</strong> (the drawing of column upper from that button should get empty)</li>
 <li>Wait 10 minutes</li>
-<li><strong>Vent</strong> (Wait to hear the “Dark Vader” opening sound)</li>
+<li><strong>Vent</strong> (Wait to hear the “Darth Vader” opening sound)</li>
+</ul>
+<p><img src="SOP_files/figures/SEM_DarthVader.jpg" class="img-fluid" style="width:2in"></p>
+<ul>
 <li>Open door</li>
 <li>Take samples out</li>
 <li><strong>Pump</strong> again (we always want to leave it on vacuumed)</li>
@@ -1415,8 +1435,8 @@ Important
 <p>The following is a table showing the groups of different elements they analyze at ALEC.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-643e9be05095be4cb6dc" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-643e9be05095be4cb6dc">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68"],[1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,8],["Major Cations","Major Cations","Major Cations","Major Cations","DRC","DRC","DRC","DRC","DRC","DRC","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Hg"],["K","Ca","Na","Mg","V","Cr","Fe","Co","As","Se","Be","Al","Mn","Ni","Cu","Zn","Mo","Ag","Cd","Sn","Sb","Ba","Pb","Y","Ce","Dy","Er","Eu","Gd","Ho","La","Lu","Nd","Pr","Sm","Tb","Th","Tm","Yb","Li","Ga","Rb","Sr","In","Cs","Tl","Bi","U","Ru","Rh","Pd","Te","Hf","Ir","Pt","Au","B","Si","P","Ti","Ge","Zr","Nb","Ta","W","Re","Total S","Hg"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Group<\/th>\n      <th>Group_Name<\/th>\n      <th>Element<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":68,"autoWidth":true,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[{"width":"50px","targets":0},{"width":"150px","targets":1},{"width":"50px","targets":2},{"className":"dt-right","targets":1},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Group","targets":1},{"name":"Group_Name","targets":2},{"name":"Element","targets":3}],"order":[],"orderClasses":false,"lengthMenu":[10,25,50,68,100],"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[1]; $(row).css({'color':value == \"1\" ? \"black\" : value == \"2\" ? \"black\" : value == \"3\" ? \"black\" : value == \"4\" ? \"black\" : value == \"5\" ? \"black\" : value == \"6\" ? \"black\" : value == \"7\" ? \"black\" : value == \"8\" ? \"black\" : null,'background-color':value == \"1\" ? \"lightpink\" : value == \"2\" ? \"thistle\" : value == \"3\" ? \"mediumaquamarine\" : value == \"4\" ? \"khaki\" : value == \"5\" ? \"lightblue\" : value == \"6\" ? \"lightsalmon\" : value == \"7\" ? \"lightcyan\" : value == \"8\" ? \"lightgray\" : null});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-09c505d01e398fbf7d0e" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-09c505d01e398fbf7d0e">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68"],[1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,8],["Major Cations","Major Cations","Major Cations","Major Cations","DRC","DRC","DRC","DRC","DRC","DRC","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","Trace Metals","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","REY","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HNO3","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HCl","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Minor/HF","Hg"],["K","Ca","Na","Mg","V","Cr","Fe","Co","As","Se","Be","Al","Mn","Ni","Cu","Zn","Mo","Ag","Cd","Sn","Sb","Ba","Pb","Y","Ce","Dy","Er","Eu","Gd","Ho","La","Lu","Nd","Pr","Sm","Tb","Th","Tm","Yb","Li","Ga","Rb","Sr","In","Cs","Tl","Bi","U","Ru","Rh","Pd","Te","Hf","Ir","Pt","Au","B","Si","P","Ti","Ge","Zr","Nb","Ta","W","Re","Total S","Hg"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Group<\/th>\n      <th>Group_Name<\/th>\n      <th>Element<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":68,"autoWidth":true,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[{"width":"50px","targets":0},{"width":"150px","targets":1},{"width":"50px","targets":2},{"className":"dt-right","targets":1},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Group","targets":1},{"name":"Group_Name","targets":2},{"name":"Element","targets":3}],"order":[],"orderClasses":false,"lengthMenu":[10,25,50,68,100],"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[1]; $(row).css({'color':value == \"1\" ? \"black\" : value == \"2\" ? \"black\" : value == \"3\" ? \"black\" : value == \"4\" ? \"black\" : value == \"5\" ? \"black\" : value == \"6\" ? \"black\" : value == \"7\" ? \"black\" : value == \"8\" ? \"black\" : null,'background-color':value == \"1\" ? \"lightpink\" : value == \"2\" ? \"thistle\" : value == \"3\" ? \"mediumaquamarine\" : value == \"4\" ? \"khaki\" : value == \"5\" ? \"lightblue\" : value == \"6\" ? \"lightsalmon\" : value == \"7\" ? \"lightcyan\" : value == \"8\" ? \"lightgray\" : null});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
 </div>
 </div>
 <p><a href="#top">Back to top</a></p>
@@ -1425,12 +1445,17 @@ Important
 <p><strong>EPA Protocol 3052</strong></p>
 <ul>
 <li>Use Teflon vessels (CEM Xpress)</li>
-<li>Microwave samples</li>
-<li>Start acid digestion by using a ratio of <strong>3:1</strong> of Aristar Plus quality <strong>nitric acid (HNO3)</strong> and <strong>hydrofluoric acid (HF)</strong> (i.e., 1.5 mL HNO3 and 0.5 mL HF) at <strong>180 ᵒC</strong>.</li>
-<li>After high pressure and high temperature digestion,</li>
+<li>Start acid digestion at a fumehood.</li>
+<li>Use a ratio of <strong>3:1</strong> of Aristar Plus quality <strong>nitric acid (HNO3)</strong> and <strong>hydrofluoric acid (HF)</strong> (i.e., 1.5 mL HNO3 and 0.5 mL HF)</li>
+<li>Microwave samples at <strong>180 ᵒC</strong> for 9.5 minutes.</li>
 <li>Add 2.5 mL <strong>boric acid (8% H2BO4)</strong></li>
 <li>Heat samples again at <strong>170 ᵒC</strong> for neutralization</li>
-<li>After digestion, proceed with ICP-MS in collision mode to inhibit isobaric interference.</li>
+<li>After high pressure and high temperature digestion,</li>
+<li>Allow the vessels to cool for 5 minutes before removing them from the microwave</li>
+<li>uncapping and venting each vessel in a fume hood.<br>
+</li>
+<li>If the digested sample contains particulates which may clog nebulizers or interfere with injection of the sample into the instrument, the sample may be centrifuged, allowed to settle, or filtered.</li>
+<li>Proceed with ICP-MS in collision mode to inhibit isobaric interference.</li>
 </ul>
 </div>
 <div id="tabset-6-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-4-tab">
@@ -1775,8 +1800,8 @@ Important
 <h3 data-number="7.0.4" class="anchored" data-anchor-id="sulfur-xanes"><span class="header-section-number">7.0.4</span> Sulfur XANES</h3>
 <div class="cell">
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-5da4619628a92aebf314" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-5da4619628a92aebf314">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["Anglesite","Chalcopyrite","Coquimbite","Galena","Gypsum","Jarosite","Marcasite","Melanterite","Natrojarosite","Pyrite","Pyrrhotite-4C","Sphalerite"],[2481.8,2472,2482.6,2472.7,2482.5,2482.8,2472,2482.2,2482.7,2472.1,2470.2,2473.8],["https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/anglesite/anglesite.pdf","https://xasdb.lightsource.ca/","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/coquimbite/coquimbite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/galena/galena.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/gypsum/gypsum.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/jarosite/jarosite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/marcassite/marcassite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/melanterite/melanterite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/natrojarosite/natrojarosite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrite/pyrite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrrhotite-4C/pyrrhotite4C.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/sphalerite/sphalerite.pdf"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Mineral<\/th>\n      <th>Sulfur_K_edge_eV<\/th>\n      <th>Reference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":12,"autoWidth":true,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[{"width":"120px","targets":0},{"width":"80px","targets":1},{"width":"300px","targets":2},{"className":"dt-right","targets":1},{"name":"Mineral","targets":0},{"name":"Sulfur_K_edge_eV","targets":1},{"name":"Reference","targets":2}],"order":[],"orderClasses":false,"lengthMenu":[10,12,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-fe52f04153dec73e5922" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-fe52f04153dec73e5922">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["Anglesite","Chalcopyrite","Coquimbite","Galena","Gypsum","Jarosite","Marcasite","Melanterite","Natrojarosite","Pyrite","Pyrrhotite-4C","Sphalerite"],[2481.8,2472,2482.6,2472.7,2482.5,2482.8,2472,2482.2,2482.7,2472.1,2470.2,2473.8],["https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/anglesite/anglesite.pdf","https://xasdb.lightsource.ca/","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/coquimbite/coquimbite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/galena/galena.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/gypsum/gypsum.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/jarosite/jarosite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/marcassite/marcassite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/melanterite/melanterite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/natrojarosite/natrojarosite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrite/pyrite.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/pyrrhotite-4C/pyrrhotite4C.pdf","https://www.esrf.fr/files/live/sites/www/files/UsersAndScience/Experiments/XNP/ID21/php/sphalerite/sphalerite.pdf"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Mineral<\/th>\n      <th>Sulfur_K_edge_eV<\/th>\n      <th>Reference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":12,"autoWidth":true,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[{"width":"120px","targets":0},{"width":"80px","targets":1},{"width":"300px","targets":2},{"className":"dt-right","targets":1},{"name":"Mineral","targets":0},{"name":"Sulfur_K_edge_eV","targets":1},{"name":"Reference","targets":2}],"order":[],"orderClasses":false,"lengthMenu":[10,12,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <ul>

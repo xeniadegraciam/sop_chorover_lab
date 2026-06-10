@@ -119,13 +119,20 @@ All services should be acknowledged in publications and presentation as said in 
 - The gold coating can last 20 days over your sample.
 - Sign the users book with your time at the end.
 
-**SEM STARTING PROCESS**
+**Working station: Loading Samples in Sample Holder**
 
 - Load your samples to the sample holder (these procedure could take 30 minutes for 6 samples)
-- Remember the position of your samples.
-- Log in to use the computer by scanning the QR code
-- Open the N2 valve (parallel to hose = open)
+- Make a mark in the tape to differentiate your samples from one another.
+- Remember the position of your samples, take pictures an dnotes if neccessary.
+
+**SEM STARTING PROCESS**
+
+- Open the N2 valve, located behind the SEM machine, on the wall.  (parallel to hose = open)
+- **Log in** to use the computer by scanning the **QR code** located at the machine table.
 - **Vent** -> Yes (because I already opened the N2 valve)
+
+![](SOP_files/figures/SEM_Vent.jpg){width="3in"}
+
 - Wait until the pressure increase to 10^1, then it is safe to open.
 - Load the samples to the chamber.
 - Remember the position of your samples.
@@ -134,7 +141,13 @@ All services should be acknowledged in publications and presentation as said in 
 - **Pump**
 - Wait until the pressure decrease to 10^-4, and the drawing in the computer turns green (meaning its vacuumed)
 
+![](SOP_files/figures/SEM_Pump.jpg){width="2in"}
+
 **Computer**
+
+
+
+![](SOP_files/figures/SEM_Spot.jpg){width="2in"}
 
 - Setup:
     - Spot: 3.0
@@ -142,29 +155,42 @@ All services should be acknowledged in publications and presentation as said in 
     - Map cross should be in the middle to get on top of the Gold standard
     - Never cross the small circle with cross, just the big one.
 
+
+
 - **Beam On**
 - On "Alignment" section, find:
+
+![](SOP_files/figures/SEM_Toolbar_Alignment.jpg)
+
+
     - Source Control -> Start
     - **Crossover**
-    - Uncheck the Limit voltage -> **Increase slowly until getting the same as image below, but never exceed 1.9** This step takes around 2 minutes.
+    - **AUTO** for it to find the oval image for itself
+    - Uncheck the Limit voltage -> **Increase slowly until getting the same as image below, but never exceed 2.5** This step takes around 2 minutes.
+    - Wait until the phrase "Limit Voltage" comes visible to click again.
 
 
 ![Oval shape to get](SOP_files/figures/SEM_1.jpg){width="4in"}
    
-    - Wait until the phrase "Limit Voltage" comes visible to click again.
-    - If the filaments don't work (meaning you cant see anything), then modify contrast and brightness.
-    - if it is super bright, we decrease the brightness.
+
+- If the filaments don't work (meaning you can't see anything), then modify contrast and brightness.
+- if it is super bright, we decrease the brightness.
 - **Check** "Limit Voltage"
 - Press **Finish**
 - Go back to main screen
 - Click on **Auto Contrast**
 
+![](SOP_files/figures/SEM_Toolbar_AutoContrast.jpg)
+
 **Gold reference**
 
 - Zoom in by clicking on  **+**  button, on the light-grey area of Gold.
 - Go to focus (press **"Reduced Area"** and right-click at the same time)
-- You should see like **hexagon shape for the Gold** nano particles.
-- When having the "Reduced Area" activated, you can use **"stigmation"** by using shift and right-click at the same time, slide up-to-down, or left-to-right.
+
+![](SOP_files/figures/SEM_ReducedArea.jpg){width="2in"}
+
+- You should see like **hexagon shape for the Gold** nano particles, magnification shoould be at 50,000X
+- When having the "Reduced Area" activated, you can use **"stigmation"** by using **shift and right-click** at the same time, slide up-to-down, or left-to-right.
 - After you found the gold hexagons, **Zoom out** all the way to find your sample (~2mm scale).
 - Double click to move to your first sample.
 
@@ -173,6 +199,9 @@ All services should be acknowledged in publications and presentation as said in 
 - Zoom in with **+** and focus it using the **"Reduced Area"** focus. NEVER use stigmation on a sample, its just allowed for the Gold standard reference.
 - Start measuring by going to the **graph section**.
 - Camera (to take the picture)
+
+![](SOP_files/figures/SEM_Toolbar_Camera.jpg)
+
 - Press **F3** to activate contrast and brightness graphs, and change them by sliding the bar. (This can JUST be done when having the Camera photo activated)
 - Deactivate the graph mode by clicking F3 again.
 - Save As -> **.tiff file**
@@ -196,6 +225,8 @@ All services should be acknowledged in publications and presentation as said in 
 - When done, delete all the measurement notes you did
 
 **EDS**
+
+*energy-dispersive X-ray spectroscopy (EDS or EDX)*
 
 ::: callout-important
 - Spectral Imaging takes 1 hour per sample.
@@ -229,7 +260,10 @@ All services should be acknowledged in publications and presentation as said in 
 - Click in **"Finish"**
 - Beam Control -> **Beam Off** (the drawing of column upper from that button should get empty)
 - Wait 10 minutes
-- **Vent** (Wait to hear the "Dark Vader" opening sound)
+- **Vent** (Wait to hear the "Darth Vader" opening sound)
+
+![](SOP_files/figures/SEM_DarthVader.jpg){width="2in"}
+
 - Open door
 - Take samples out
 - **Pump** again (we always want to leave it on vacuumed)
