@@ -160,11 +160,11 @@ All services should be acknowledged in publications and presentation as said in 
 ![](SOP_files/figures/SEM_Toolbar_Alignment.jpg)
 
 
-    - Source Control -> Start
-    - **Crossover**
-    - **AUTO** for it to find the oval image for itself
-    - Uncheck the Limit voltage -> **Increase slowly until getting the same as image below, but never exceed 2.5** This step takes around 2 minutes.
-    - Wait until the phrase "Limit Voltage" comes visible to click again.
+- Source Control -> Start
+- **Crossover**
+- **AUTO** for it to find the oval image for itself
+- Uncheck the Limit voltage -> **Increase slowly until getting the same as image below, but never exceed 2.5** This step takes around 2 minutes.
+- Wait until the phrase "Limit Voltage" comes visible to click again.
 
 
 ![Oval shape to get](SOP_files/figures/SEM_1.jpg){width="4in"}
