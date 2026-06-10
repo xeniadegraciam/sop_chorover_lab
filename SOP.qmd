@@ -129,6 +129,11 @@ All services should be acknowledged in publications and presentation as said in 
 
 - Open the N2 valve, located behind the SEM machine, on the wall.  (parallel to hose = open)
 - **Log in** to use the computer by scanning the **QR code** located at the machine table.
+
+**Computer**
+
+*XT microscope control software*
+
 - **Vent** -> Yes (because I already opened the N2 valve)
 
 ![](SOP_files/figures/SEM_Vent.jpg){width="3in"}
@@ -143,19 +148,11 @@ All services should be acknowledged in publications and presentation as said in 
 
 ![](SOP_files/figures/SEM_Pump.jpg){width="2in"}
 
-**Computer**
-
-
-
-![](SOP_files/figures/SEM_Spot.jpg){width="2in"}
-
 - Setup:
     - Spot: 3.0
     - Voltage: 30 kV
     - Map cross should be in the middle to get on top of the Gold standard
     - Never cross the small circle with cross, just the big one.
-
-
 
 - **Beam On**
 - On "Alignment" section, find:
