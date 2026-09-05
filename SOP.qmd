@@ -756,7 +756,7 @@ These below are some notes specifically applied to my research projects:
 ![Samples on the Centrifuge rotor](SOP_files/figures/centrifuge.png){width="4in"}
 
 ::: callout-important
--   "CE" clears the alarm, if it ever get activated.
+-   "CE" clears the centrifuge alarm, if it ever get activated.
 -   Metal Free Tubes maximum speed is 1200 RCF.
 -   Ultra 30 mL darkish tubes, have a maximum speed of 1500 RCF.
 -   Clean the rotors with wipes or water.
@@ -847,17 +847,40 @@ Our research is focused on
 -   Boisa, N., et al. (2014). "Development and application of an inhalation bioaccessibility method (IBM) for lead in the PM10 size fraction of soil." Environ Int 70: 132–142.
 -   Thomas, A. N., et al. (2018). "Oxidative Weathering Decreases Bioaccessibility of Toxic Metal(loid)s in PM10 Emissions From Sulfide Mine Tailings." GeoHealth 2(4): 118–138.
 
-### **SELF**
+### **Methodology**
 
-### **ALF**
+- Prepare the respective lung fluids to simulate.
+- Pre-heat the fluids to **37 C.** Store them in the fridge when finish.
+- Use centrifuge tubes.
+- Use **ALEC scale** because that one has  the capacoty to measure 3 decimal figures.
+- Add **0.002 grams of mass to 10 mL of lung fluid**. Prepare triplicates of each sample, to achieve a 1:5000 solid to liquid ratio. (1 / 5000 = 0.002 factor)
+- Wrap each vessel with aluminum foil to avoid photo-oxidation.
+- Prepare 6 replicates per sample, because we need 3 for 1-hour incubation time, and other 3 for 24-hour incubation time.
+- Rotate in Rotisserie inside the pre-heated incubator for 1 hour at **37 Celcius. Rotation of 60 rpm.**
+- Take the 1 hour incubation samples to the centrifuge.
+- Centrifuge at **23 600 g, for 10 minutes**. The centrifuge can fit just **6 vessels per time**, which means 2 samples (in triplicates). Refer to the rounds calculation tab to check how to organiz the rounds of centrifuge.
+- Separate the supernatant solution.
+- Using a syringe, filter the supernatant with **0.22 um** acid washed hydrophobic polypropylene GHP membranes (acro-disc, Pall Corp. PN 28139).
+- Measure pH, EC, and dissolved oxygen?
+- For ICP-MS: Acidify samples to preserve the arsenic speciation, by adding:
+    - **500 uL of 0.250 M EDTA added to 10 mL sample (Fe conc < 500 mg/L) or**
+    - 100 uL of 0.125 M EDTA added to 10 mL sample (Fe conc < 10 mg/L) **or**
+    - 2% w/w HNO3
+    - 100 uL of HNO3 (63% v/v) **or** 
+- For Ion Chromatography: don't add any extra acid.
+- For Iron Speciation: add HCl.
+- Store supernatant at 4 C until analysis in ALEC.
+- The solid residue  of each sample needs to be washed with DI water and stored at -45 C, prior to solid phase characterization and spectroscopic analysis.
+- Do the same with the samples that stayed rotating for 24 hours.
+- Store the lung fluids in the fridge at 4 C when not using them.
 
-### **PSG**
 
-## **Materials/Equipment**
+### **Materials/Equipment**
 
 - Centrifuge tubes
 - 10mL pipette
 - 10 mL pipette tips
+- EDTA, HCl, HNO3 for conservation of species
 - ALEC scale (for 3 decimal figures)
 - weightboat
 - Heater
@@ -865,46 +888,85 @@ Our research is focused on
 - Incubator
 - Rotisserie
 
-### **Sample calculation**
+### **Centrifuge rounds division**
+
+Samples:
 
 - 7 sites
 - 3 fluids
-- 3 triplicates
+- 3 replicates
 - 2 time steps (1 hour and 24 hour)
 
 Total: 126 vessels
 
-*Centrifuge can fit just 6 vessels per round*
+***Centrifuge can fit just 6 vessels per round***
 
 126 vessels / 6 = 21 rounds in centrifuge
 
+**Centrifuge rounds**
+
+Round 1 (SELF)
+
+- IK-B-PM10-SELF-1hr-1
+- IK-B-PM10-SELF-1hr-2
+- IK-B-PM10-SELF-1hr-3
+- IK-B-PM2.5-SELF-1hr-1
+- IK-B-PM2.5-SELF-1hr-2
+- IK-B-PM2.5-SELF-1hr-3
+
+Round 2 (ALF)
+
+- IK-B-PM10-ALF-1hr-1
+- IK-B-PM10-ALF-1hr-2
+- IK-B-PM10-ALF-1hr-3
+- IK-B-PM2.5-ALF-1hr-1
+- IK-B-PM2.5-ALF-1hr-2
+- IK-B-PM2.5-ALF-1hr-3
+
+Round 3 (PSF)
+
+- IK-B-PM10-PSF-1hr-1
+- IK-B-PM10-PSF-1hr-2
+- IK-B-PM10-PSF-1hr-3
+- IK-B-PM2.5-PSF-1hr-1
+- IK-B-PM2.5-PSF-1hr-2
+- IK-B-PM2.5-PSF-1hr-3
+
+Round 4 (SELF)
+
+- MG-B-PM10-SELF-1hr-1
+- MG-B-PM10-SELF-1hr-2
+- MG-B-PM10-SELF-1hr-3
+- MG-B-PM2.5-SELF-1hr-1
+- MG-B-PM2.5-SELF-1hr-2
+- MG-B-PM2.5-SELF-1hr-3
+
+Round 5 (ALF)
+
+- MG-B-PM10-ALF-1hr-1
+- MG-B-PM10-ALF-1hr-2
+- MG-B-PM10-ALF-1hr-3
+- MG-B-PM2.5-ALF-1hr-1
+- MG-B-PM2.5-ALF-1hr-2
+- MG-B-PM2.5-ALF-1hr-3
+
+Round 6 (PSF)
+
+- MG-B-PM10-PSF-1hr-1
+- MG-B-PM10-PSF-1hr-2
+- MG-B-PM10-PSF-1hr-3
+- MG-B-PM2.5-PSF-1hr-1
+- MG-B-PM2.5-PSF-1hr-2
+- MG-B-PM2.5-PSF-1hr-3
+
+**And so on... until it is time for the 24-hour samples.**
+
 ::: callout-important
--   "CE" clears the alarm, if it ever get activated.
+-   "CE" clears the centrifuge alarm, if it ever get activated.
 -   Metal Free Tubes maximum speed is 1200 RCF.
 -   Ultra 30 mL darkish tubes, have a maximum speed of 1500 RCF.
 -   Clean the rotors with wipes or water.
 :::
-
-
-### **Methodology**
-
-- Prepare the respective lung fluids to simulate.
-- Heat the fluids to 37 C
-- Use centrifuge tubes.
-- Use ALEC weight scale because that one has  the capacoty to measure 3 decimal figures.
-- Add 0.002 grams of mass to 10 mL of lung fluid. Make triplicates of each sample, to achieve a 1:5000 solid to liquid ratio. (1 / 5000 = 0.002 factor)
-- Wrap each vessel with aluminum foil to avoid photo-oxidation.
-- Prepare 6 replicates per sample, because we need 3 for 1 hour incubation time, and other 3 for 24 hour incubation time.
-- Rotate in Rotisserie inside the pre-heated incubator for 1 hour at 37 Celcius. Rotation of 60 rpm.
-- Take the 1 hour incubation samples to the centrifuge.
-- Centrifuge at 23 600 g. The centrifuge can fit just 6 vessels per time, which means 2 samples (in triplicates)
-- Separate the supernatant solution.
-- Using a syringe, filter the supernatant with 0.22 mm acid washed hydrophobic polypropylene GHP membranes (acro-disc, Pall Corp. PN 28139).
-- Measure pH, EC, and dissolved oxygen?
-- Acidified using 100 mL of HNO3 (63% v/v) or EDTA. Store at 4 C until analysis.
-- Bring filtered supernatant to ALEC, to get it analyzed by ICP-MS for the elemental BAc concentrations.
-- The solid residue  of each sample needs to be washed with DI water and lyophilized at −45 C and 0.013 kPa prior to solid phase characterization and spectroscopic analysis.
-- Do the same with the samples that stayed in the incubator for 24 hours.
 
 
 :::
@@ -1287,11 +1349,12 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 
 **Steps**
 
--   Prepare a batch of 2% of High Purity Nitric Acid (HNO3)
--   Take 1 mL of the sample
--   Add 7mL of EDTA 0.25M for As Speciation. ***this EDTA step messed up the tubing on the ICP-MS machine so be careful***
--   Add 2 mL of HNO3
--   Total volume of the mix in the tube: 10 mL
+-   Take 10 mL of the sample
+
+-   Add:
+        - 500 uL of 0.250 M EDTA added to 10 mL sample (Fe conc < 500 mg/L) **or**
+        - 100 uL of 0.125 M EDTA added to 10 mL sample (Fe conc < 10 mg/L) **or**
+
 -   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
 
 ![Step-by-step](SOP_files/figures/Slides_SOP/Slide19.PNG)
