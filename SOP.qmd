@@ -858,7 +858,7 @@ Our research is focused on
 - Prepare 6 replicates per sample, because we need 3 for 1-hour incubation time, and other 3 for 24-hour incubation time.
 - Rotate in Rotisserie inside the pre-heated incubator for 1 hour at **37 Celcius. Rotation of 60 rpm.**
 - Take the 1 hour incubation samples to the centrifuge.
-- Centrifuge at **23 600 g, for 10 minutes**. The centrifuge can fit just **6 vessels per time**, which means 2 samples (in triplicates). Refer to the rounds calculation tab to check how to organiz the rounds of centrifuge.
+- Centrifuge at **RCF = 23 600 g, for 10 minutes**. The centrifuge can fit just **6 vessels per time**, which means 2 samples (in triplicates). Refer to the rounds calculation tab to check how to organize the rounds of centrifuge.
 - Separate the supernatant solution.
 - Using a syringe, filter the supernatant with **0.22 um** acid washed hydrophobic polypropylene GHP membranes (acro-disc, Pall Corp. PN 28139).
 - Measure pH, EC, and dissolved oxygen?
