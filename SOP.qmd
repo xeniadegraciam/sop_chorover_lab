@@ -865,14 +865,12 @@ Our research is focused on
 - For ICP-MS: Acidify samples to preserve the arsenic speciation, by adding:
     - **500 uL of 0.250 M EDTA added to 10 mL sample (Fe conc < 500 mg/L) or**
     - 100 uL of 0.125 M EDTA added to 10 mL sample (Fe conc < 10 mg/L) **or**
-    - 2% w/w HNO3
-    - 100 uL of HNO3 (63% v/v) **or** 
 - For Ion Chromatography: don't add any extra acid.
 - For Iron Speciation: add HCl.
-- Store supernatant at 4 C until analysis in ALEC.
-- The solid residue  of each sample needs to be washed with DI water and stored at -45 C, prior to solid phase characterization and spectroscopic analysis.
+- Store supernatant at 4 Celcius until analysis in ALEC.
+- The solid residue  of each sample needs to be washed with DI water and stored at -45 Celcius, prior to solid phase characterization and spectroscopic analysis.
 - Do the same with the samples that stayed rotating for 24 hours.
-- Store the lung fluids in the fridge at 4 C when not using them.
+- Store the lung fluids in the fridge at 4 Celcius when not using them.
 
 
 ### **Materials/Equipment**
