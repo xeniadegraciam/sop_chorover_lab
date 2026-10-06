@@ -851,20 +851,31 @@ Our research is focused on
 
 - Prepare the respective lung fluids to simulate.
 - Pre-heat the fluids to **37 C.** Store them in the fridge when finish.
-- Use centrifuge tubes.
-- Use **ALEC scale** because that one has  the capacoty to measure 3 decimal figures.
-- Add **0.002 grams of mass to 10 mL of lung fluid**. Prepare triplicates of each sample, to achieve a 1:5000 solid to liquid ratio. (1 / 5000 = 0.002 factor)
+- Use **ALEC scale** because that one has  the capacity to measure 3 decimal figures.
+- Add **0.010 grams of mass to 50 mL of lung fluid**. Prepare triplicates of each sample, to achieve a 1:5000 solid to liquid ratio. (1 / 5000 = 0.0002 factor)
 - Wrap each vessel with aluminum foil to avoid photo-oxidation.
 - Prepare 6 replicates per sample, because we need 3 for 1-hour incubation time, and other 3 for 24-hour incubation time.
 - Rotate in Rotisserie inside the pre-heated incubator for 1 hour at **37 Celcius. Rotation of 60 rpm.**
 - Take the 1 hour incubation samples to the centrifuge.
-- Centrifuge at **RCF = 23 600 g, for 10 minutes**. The centrifuge can fit just **6 vessels per time**, which means 2 samples (in triplicates). Refer to the rounds calculation tab to check how to organize the rounds of centrifuge.
+
+**Centrifuge**
+
+- Use the Thermo Scientific Sorvall WX+ ultracentrifuge in 518 lab.
+- Rotor: Fiberlite F37L-8×100 fixed-angle.
+- Bottles: 010-1333 polycarbonate bottles.
+- Set the velocity to **12,260 rpm**, which for this specific rotor is **20,000 × g** at the maximum rotor radius.
+- Centrifuge for **10 min**.
+- The rotor can fit just **8 vessels per time**. Refer to the rounds calculation tab to check how to organize the rounds of centrifuge.
 - Separate the supernatant solution.
 - Using a syringe, filter the supernatant with **0.22 um** acid washed hydrophobic polypropylene GHP membranes (acro-disc, Pall Corp. PN 28139).
+- Store supernatant at 4 Celcius until analysis in ALEC.
+
+**Analyses**
+
 - Measure pH, EC, and dissolved oxygen?
 - For ICP-MS: Acidify samples to preserve the arsenic speciation, by adding:
     - **500 uL of 0.250 M EDTA added to 10 mL sample (Fe conc < 500 mg/L) or**
-    - 100 uL of 0.125 M EDTA added to 10 mL sample (Fe conc < 10 mg/L) **or**
+    - 100 uL of 0.125 M EDTA added to 10 mL sample (Fe conc. < 10 mg/L) **or**
 - For Ion Chromatography: don't add any extra acid.
 - For Iron Speciation: add HCl.
 - Store supernatant at 4 Celcius until analysis in ALEC.
@@ -876,7 +887,7 @@ Our research is focused on
 ### **Materials/Equipment**
 
 - Centrifuge tubes
-- 10mL pipette
+- 10 mL pipette
 - 10 mL pipette tips
 - EDTA, HCl, HNO3 for conservation of species
 - ALEC scale (for 3 decimal figures)
