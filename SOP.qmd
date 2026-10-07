@@ -565,8 +565,15 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 ### **Sample preparation:**
 
 -   Check that the Gas Nitrogen is available for degassing, and also Liquid Nitrogen for the measurement
+
+![Nitrogen Gas Valve](SOP_files/figures/BET_Nitrogen_Gas_Valve.png){width="2in"}
+
 -   Weight a clean, empty tube, and write down the weight on the lab notebook.
 -   Fill it with a sample using the metallic funnel. *These tubes are very fragile, so be careful*.
+
+
+![](SOP_files/figures/BET_funnel.png){width="2in"}
+
 -   Weight the tube+sample, and add that on the lab notebook.
 -   Degas the samples overnight with a temperature of **45 Celsius** because I’m using tailings. (*If I increase the temperature I could convert my ferrihydrite to Goethite, and we don’t want that.*)
 
@@ -744,16 +751,23 @@ The following table is the result of the first ever **particle sizes observed on
 
 The SOP of this machine is at Ramirez Lab, and it was created by Andreanna Roros, and revised by Zain.
 
+![Ramirez' Dust Generator](SOP_files/figures/Dust_Generator){width="2in"}
+
 These below are some notes specifically applied to my research projects:
 
 -   The samples taken were sieved at the mine site to 2mm.
 -   Sites like Iron King, with big sandy percentage, were left for 254 hours, instead of 4 hours like their protocol mentioned, to be able to break those big particles to more fine particle size, to be able to generate the required amount of dust for the analyses.
 
+
+
 :::
 
 ## **Centrifuge**
 
-![Samples on the Centrifuge rotor](SOP_files/figures/centrifuge.png){width="4in"}
+![](SOP_files/figures/centrifuge.png){width="3in"}
+
+**245 Centrifuge**
+
 
 ::: callout-important
 -   "CE" clears the centrifuge alarm, if it ever get activated.
@@ -786,6 +800,24 @@ These below are some notes specifically applied to my research projects:
     -   **START**
 
 ![Centrifuge in 245](SOP_files/figures/centrifuge1.png){width="4in"}
+
+**518 Ultracentrifuge**
+
+![518 Ultracentrifuge ](SOP_files/figures/Centrifuge_518.png){width="4in"}
+
+- Thermo Scientific Sorvall WX+ ultracentrifuge in 518 lab.
+- Rotor: Fiberlite F37L-8×100 fixed-angle.
+
+![Fiberlite F37L-8×100 fixed-angle](SOP_files/figures/Centrifuge_518_rotor.png){width="3in"}
+
+- Bottles: 010-1333 polycarbonate.
+
+![010-1333 polycarbonate bottles](SOP_files/figures/Centrifuge_518_bottle.png){width="3in"}
+
+- Set the velocity to **12,260 rpm**, which for this specific rotor is **20,000 × g** at the maximum rotor radius.
+- Centrifuge for **10 min**.
+- The rotor can fit just **8 vessels per time**.
+
 
 [Back to top](#top)
 
