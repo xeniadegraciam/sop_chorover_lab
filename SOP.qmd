@@ -1804,7 +1804,7 @@ datatable(
 
 [Back to top](#top)
 
-## **Boyoungb's suggestions**
+## **Boyoung's suggestions**
 
 ### KdD Partition Coefficients
 
