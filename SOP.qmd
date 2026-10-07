@@ -881,8 +881,20 @@ Our research is focused on
 
 ### **Methodology**
 
-- Prepare the respective lung fluids to simulate.
-- Pre-heat the fluids to **37 C.** Store them in the fridge when finish.
+**Preparing the fluids**
+
+- Measure approximately 750 to 800 mL ultrapure/DI water with a 1 L graduated cylinder.
+- Transfer it to the bottle where the solution will be mixed.
+- Add the reagents sequentially and dissolve them completely.
+- Adjust pH according to the IVBA protocol.
+- Transfer the solution to a 1 L volumetric flask.
+- Add DI water until the bottom of the meniscus reaches the 1.000 L calibration line.
+Mix thoroughly.
+- Transfer the finished fluid to the appropriate storage bottle.
+
+**Mixing fluids with tailings**
+
+- Pre-heat the fluids to **37 C.** When not using them, store them in the fridge at 4 Celcius.
 - Use **ALEC scale** because that one has  the capacity to measure 3 decimal figures.
 - Add **0.010 grams of mass to 50 mL of lung fluid**. Prepare triplicates of each sample, to achieve a 1:5000 solid to liquid ratio. (1 / 5000 = 0.0002 factor)
 - Wrap each vessel with aluminum foil to avoid photo-oxidation.
