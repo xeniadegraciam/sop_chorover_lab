@@ -6,7 +6,8 @@ The complete lab procedures are stored on this other address: [SOP](https://xeni
 
 This is an ongoing work, this repository has all the procedures and links I needed while working on Chorover's Lab at the University of Arizona. Some of them may not be complete, but they are a start.
 
-(*Also, this is a gift for Rob, to give him some rest from repeating the same information every time someone joins the lab xD* )
+README file location:
+.../Research/FieldNotes/SOP/sop_chorover_lab/README.md
 
 # ***LINKS OF INTEREST***
 
