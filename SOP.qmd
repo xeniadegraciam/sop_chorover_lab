@@ -571,7 +571,6 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Weight a clean, empty tube, and write down the weight on the lab notebook.
 -   Fill it with a sample using the metallic funnel. *These tubes are very fragile, so be careful*.
 
-
 ![](SOP_files/figures/BET_funnel.png){width="2in"}
 
 -   Weight the tube+sample, and add that on the lab notebook.
@@ -680,15 +679,13 @@ This is for the Dry part of the Soil-Water Characteristic Curve:
 -   Insert all this information into the Excel template made by Mohammadreza to get the water content equivalent to each matric potential
 
 [Back to top](#top)
-
 :::
 
-# **LAB TOOLS & EXPERIMENTS**
+# **LAB TOOLS**
 
 The thesis of previous Chorover students help a lot with figuring out the steps to take for your experiments.
 
 ::: panel-tabset
-
 ## **Particle generator**
 
 ::: panel-tabset
@@ -758,8 +755,6 @@ These below are some notes specifically applied to my research projects:
 -   The samples taken were sieved at the mine site to 2mm.
 -   Sites like Iron King, with big sandy percentage, were left for 254 hours, instead of 4 hours like their protocol mentioned, to be able to break those big particles to more fine particle size, to be able to generate the required amount of dust for the analyses.
 
-
-
 :::
 
 ## **Centrifuge**
@@ -767,7 +762,6 @@ These below are some notes specifically applied to my research projects:
 ![](SOP_files/figures/centrifuge.png){width="3in"}
 
 **245 Centrifuge**
-
 
 ::: callout-important
 -   "CE" clears the centrifuge alarm, if it ever get activated.
@@ -803,226 +797,24 @@ These below are some notes specifically applied to my research projects:
 
 **518 Ultracentrifuge**
 
-![518 Ultracentrifuge ](SOP_files/figures/Centrifuge_518.png){width="4in"}
+![518 Ultracentrifuge](SOP_files/figures/Centrifuge_518.png){width="4in"}
 
-- Thermo Scientific Sorvall WX+ ultracentrifuge in 518 lab.
-- Rotor: Fiberlite F37L-8×100 fixed-angle.
+-   Thermo Scientific Sorvall WX+ ultracentrifuge in 518 lab.
+-   Rotor: Fiberlite F37L-8×100 fixed-angle.
 
 ![Fiberlite F37L-8×100 fixed-angle](SOP_files/figures/Centrifuge_518_rotor.png){width="3in"}
 
-- Bottles: 010-1333 polycarbonate.
+-   Bottles: 010-1333 polycarbonate.
 
 ![010-1333 polycarbonate bottles](SOP_files/figures/Centrifuge_518_bottle.png){width="3in"}
 
-- Set the velocity to **12,260 rpm**, which for this specific rotor is **20,000 × g** at the maximum rotor radius.
-- Centrifuge for **10 min**.
-- The rotor can fit just **8 vessels per time**.
-
+-   Set the velocity to **12,260 rpm**, which for this specific rotor is **20,000 × g** at the maximum rotor radius.
+-   Centrifuge for **10 min**.
+-   The rotor can fit just **8 vessels per time**.
 
 [Back to top](#top)
 
 
-## **Lung IVBA**
-
-::: panel-tabset
-### **Summary**
-
-Comparison of different simulated fluids used in literature:
-
-Our research is focused on
-
--   **SELF** for Epithelium.
-
--   **ALF** for Alveolar Macrophage simulation - studying the release of arsenic by chelation effect by citrate.
-
--   **PSF** for Alveolar Macrophage simulation - studying the release of arsenic by dissolution of minerals due to low pH.
-
-|                                                      | Guldberg et al. (1998) | Guldberg et al. (1998) | Stefaniak et al. (2005)      | Midander et al. (2007)        | Boisa et al. (2014) | Thomas et al. (2018) |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| **Reagent (g/L)**                                    | **C: MK (phthalate)**  | **E: MG (HCl)**        | **"PSF"**                    | **"ALF"**                     | **"SELF"**          | **"SLF"**            |
-| MgCl2 \* 6 H2O                                       | \-                     | 0.160                  | \-                           | \-                            | 0.200               | 0.219                |
-| MgCl2                                                | \-                     | \-                     | \-                           | 0.0497                        | \-                  | \-                   |
-| NaCl                                                 | 6.650                  | 6.171                  | 6.650                        | 3.210                         | 6.020               | 6.415                |
-| NaOH                                                 | \-                     | \-                     | \-                           | 6.000                         | \-                  | \-                   |
-| KCl                                                  | \-                     | 0.031                  | \-                           | \-                            | 0.298               | \-                   |
-| CaCl2 \* 2 H2O                                       | 0.029                  | 0.060                  | 0.029                        | 0.128                         | 0.256               | 0.257                |
-| NH4Cl                                                | 0.535                  | \-                     | \-                           | \-                            | \-                  | \-                   |
-| Na2SO4 (anhydrous)                                   | 0.071                  | 0.080                  | 0.071                        | 0.039                         | 0.072               | 0.079                |
-| Na2HPO4                                              | 0.171                  | 0.148                  | 0.142                        | 0.071                         | 0.150               | 0.150                |
-| NaHCO3                                               | \-                     | 1.900                  | \-                           | \-                            | 2.700               | 2.706                |
-| NaCH3CO2 \* 3 H2O                                    | 0.954                  | \-                     | \-                           | \-                            | \-                  | \-                   |
-| Na2-tartrate \* 2 H2O                                | \-                     | 0.180                  | \-                           | 0.090                         | \-                  | 0.181                |
-| Citric acid                                          | \-                     | \-                     | \-                           | 20.800                        | \-                  | \-                   |
-| Na3-citrate \* 2 H2O                                 | 0.059                  | 0.152                  | \-                           | 0.077                         | \-                  | 0.154                |
-| 90% lactic acid                                      | \-                     | 0.056                  | \-                           | \-                            | \-                  | \-                   |
-| Na-lactate                                           | \-                     | \-                     | \-                           | 0.085                         | \-                  | 0.174                |
-| Glycine (NH2CH2COOH)                                 | 0.450                  | 0.118                  | 0.450                        | 0.059                         | 0.376               | 0.118                |
-| KH-phthalate                                         | 2.043                  | \-                     | 4.085                        | \-                            | \-                  | \-                   |
-| Na-pyruvate                                          | \-                     | 0.172                  | \-                           | 0.086                         | \-                  | 0.177                |
-| Benzalconium-Cl                                      | \-                     | \-                     | 50 ppm                       | \-                            | \-                  | \-                   |
-| HCl                                                  | \-                     | 0.881                  | \-                           | \-                            | \-                  | \-                   |
-| L-Cysteine (C3H7NO2S)                                | \-                     | \-                     | \-                           | \-                            | 0.122               | \-                   |
-| DPPC (dipalmitoyl phosphatidyl choline) (C40H80NO8P) | \-                     | \-                     | \-                           | \-                            | 0.100               | \-                   |
-| Ascorbic acid                                        | \-                     | \-                     | \-                           | \-                            | 0.018               | \-                   |
-| Uric Acid                                            | \-                     | \-                     | \-                           | \-                            | 0.016               | \-                   |
-| Glutathione                                          | \-                     | \-                     | \-                           | \-                            | 0.030               | \-                   |
-| Albumin (Bovine Serum Albumine (BSA))                | \-                     | \-                     | \-                           | \-                            | 0.260               | \-                   |
-| Mucin                                                | \-                     | \-                     | \-                           | \-                            | 0.500               | \-                   |
-| pH                                                   |                        |                        | 4.5 (Adjusted using 1 M KOH) | 4.5 (Adjusted using 1 M NaOH) | 7.4                 | 7.4                  |
-
-**References**
-
--   Kastury, F., et al. (2018). "Methodological factors influencing inhalation bioaccessibility of metal(loid)s in PM(2.5) using simulated lung fluid." Environ Pollut 241: 930–937.
--   Stefaniak, A. B., et al. (2005). "Characterization of phagolysosomal simulant fluid for study of beryllium aerosol particle dissolution." Toxicol In Vitro 19(1): 123–134.
--   Midander, K., Pan, J., Wallinder, I.O., Leygraf, C., 2007. Metal release from stainless steel particles in vitro-influence of particle size. J. Environ. Monit. 9, 74e81.
--   Zanoni, I., et al. (2022). "Dissolution Rate of Nanomaterials Determined by Ions and Particle Size under Lysosomal Conditions: Contributions to Standardization of Simulant Fluids and Analytical Methods." Chem Res Toxicol 35(6): 963–980.
--   Boisa, N., et al. (2014). "Development and application of an inhalation bioaccessibility method (IBM) for lead in the PM10 size fraction of soil." Environ Int 70: 132–142.
--   Thomas, A. N., et al. (2018). "Oxidative Weathering Decreases Bioaccessibility of Toxic Metal(loid)s in PM10 Emissions From Sulfide Mine Tailings." GeoHealth 2(4): 118–138.
-
-### **Methodology**
-
-**Preparing the fluids**
-
-- Measure approximately 750 to 800 mL ultrapure/DI water with a 1 L graduated cylinder.
-- Transfer it to the bottle where the solution will be mixed.
-- Add the reagents sequentially and dissolve them completely.
-- Adjust pH according to the IVBA protocol.
-- Transfer the solution to a 1 L volumetric flask.
-- Add DI water until the bottom of the meniscus reaches the 1.000 L calibration line.
-Mix thoroughly.
-- Transfer the finished fluid to the appropriate storage bottle.
-
-**Mixing fluids with tailings**
-
-- Pre-heat the fluids to **37 C.** When not using them, store them in the fridge at 4 Celcius.
-- Use **ALEC scale** because that one has  the capacity to measure 3 decimal figures.
-- Add **0.010 grams of mass to 50 mL of lung fluid**. Prepare triplicates of each sample, to achieve a 1:5000 solid to liquid ratio. (1 / 5000 = 0.0002 factor)
-- Wrap each vessel with aluminum foil to avoid photo-oxidation.
-- Prepare 6 replicates per sample, because we need 3 for 1-hour incubation time, and other 3 for 24-hour incubation time.
-- Rotate in Rotisserie inside the pre-heated incubator for 1 hour at **37 Celcius. Rotation of 60 rpm.**
-- Take the 1 hour incubation samples to the centrifuge.
-
-**Centrifuge**
-
-- Use the Thermo Scientific Sorvall WX+ ultracentrifuge in 518 lab.
-- Rotor: Fiberlite F37L-8×100 fixed-angle.
-- Bottles: 010-1333 polycarbonate bottles.
-- Set the velocity to **12,260 rpm**, which for this specific rotor is **20,000 × g** at the maximum rotor radius.
-- Centrifuge for **10 min**.
-- The rotor can fit just **8 vessels per time**. Refer to the rounds calculation tab to check how to organize the rounds of centrifuge.
-- Separate the supernatant solution.
-- Using a syringe, filter the supernatant with **0.22 um** acid washed hydrophobic polypropylene GHP membranes (acro-disc, Pall Corp. PN 28139).
-- Store supernatant at 4 Celcius until analysis in ALEC.
-
-**Analyses**
-
-- Measure pH, EC, and dissolved oxygen?
-- For ICP-MS: Acidify samples to preserve the arsenic speciation, by adding:
-    - **500 uL of 0.250 M EDTA added to 10 mL sample (Fe conc < 500 mg/L) or**
-    - 100 uL of 0.125 M EDTA added to 10 mL sample (Fe conc. < 10 mg/L) **or**
-- For Ion Chromatography: don't add any extra acid.
-- For Iron Speciation: add HCl.
-- Store supernatant at 4 Celcius until analysis in ALEC.
-- The solid residue  of each sample needs to be washed with DI water and stored at -45 Celcius, prior to solid phase characterization and spectroscopic analysis.
-- Do the same with the samples that stayed rotating for 24 hours.
-- Store the lung fluids in the fridge at 4 Celcius when not using them.
-
-
-### **Materials/Equipment**
-
-- Centrifuge tubes
-- 10 mL pipette
-- 10 mL pipette tips
-- EDTA, HCl, HNO3 for conservation of species
-- ALEC scale (for 3 decimal figures)
-- weightboat
-- Heater
-- Centrifuge
-- Incubator
-- Rotisserie
-
-### **Centrifuge rounds division**
-
-Samples:
-
-- 7 sites
-- 3 fluids
-- 3 replicates
-- 2 time steps (1 hour and 24 hour)
-
-Total: 126 vessels
-
-***Centrifuge can fit just 6 vessels per round***
-
-126 vessels / 6 = 21 rounds in centrifuge
-
-**Centrifuge rounds**
-
-Round 1 (SELF)
-
-- IK-B-PM10-SELF-1hr-1
-- IK-B-PM10-SELF-1hr-2
-- IK-B-PM10-SELF-1hr-3
-- IK-B-PM2.5-SELF-1hr-1
-- IK-B-PM2.5-SELF-1hr-2
-- IK-B-PM2.5-SELF-1hr-3
-
-Round 2 (ALF)
-
-- IK-B-PM10-ALF-1hr-1
-- IK-B-PM10-ALF-1hr-2
-- IK-B-PM10-ALF-1hr-3
-- IK-B-PM2.5-ALF-1hr-1
-- IK-B-PM2.5-ALF-1hr-2
-- IK-B-PM2.5-ALF-1hr-3
-
-Round 3 (PSF)
-
-- IK-B-PM10-PSF-1hr-1
-- IK-B-PM10-PSF-1hr-2
-- IK-B-PM10-PSF-1hr-3
-- IK-B-PM2.5-PSF-1hr-1
-- IK-B-PM2.5-PSF-1hr-2
-- IK-B-PM2.5-PSF-1hr-3
-
-Round 4 (SELF)
-
-- MG-B-PM10-SELF-1hr-1
-- MG-B-PM10-SELF-1hr-2
-- MG-B-PM10-SELF-1hr-3
-- MG-B-PM2.5-SELF-1hr-1
-- MG-B-PM2.5-SELF-1hr-2
-- MG-B-PM2.5-SELF-1hr-3
-
-Round 5 (ALF)
-
-- MG-B-PM10-ALF-1hr-1
-- MG-B-PM10-ALF-1hr-2
-- MG-B-PM10-ALF-1hr-3
-- MG-B-PM2.5-ALF-1hr-1
-- MG-B-PM2.5-ALF-1hr-2
-- MG-B-PM2.5-ALF-1hr-3
-
-Round 6 (PSF)
-
-- MG-B-PM10-PSF-1hr-1
-- MG-B-PM10-PSF-1hr-2
-- MG-B-PM10-PSF-1hr-3
-- MG-B-PM2.5-PSF-1hr-1
-- MG-B-PM2.5-PSF-1hr-2
-- MG-B-PM2.5-PSF-1hr-3
-
-**And so on... until it is time for the 24-hour samples.**
-
-::: callout-important
--   "CE" clears the centrifuge alarm, if it ever get activated.
--   Metal Free Tubes maximum speed is 1200 RCF.
--   Ultra 30 mL darkish tubes, have a maximum speed of 1500 RCF.
--   Clean the rotors with wipes or water.
-:::
-
-
-:::
 
 ## **Freeze-Dryer**
 
@@ -1047,6 +839,7 @@ What this machine does is that it drys the sample through **Sublimation**, which
 ::: callout-important
 -   Change the oil once a month. There is a signing spreadsheet on the bench to check when was the last time it was changed.
 :::
+
 
 ## **RS Key for weight printing on the balance**
 
@@ -1083,6 +876,298 @@ If the hydrogen is below 2%, on the Starlock again until we get to 2% of Hydroge
 When leaving, vacuum the Starlock a little, and then gas it a little.
 
 At the end of the day, close the valves of Nitrogen and Hydrogen gas.
+
+[Back to top](#top)
+
+:::
+
+# **EXPERIMENTS**
+
+::: panel-tabset
+## **Lung IVBA**
+
+::: panel-tabset
+### **Summary**
+
+Comparison of different simulated fluids used in literature:
+
+Our research is focused on
+
+-   **SELF** for Epithelium.
+
+-   **ALF** for Alveolar Macrophage simulation - studying the release of arsenic by chelation effect by citrate.
+
+-   **PSF** for Alveolar Macrophage simulation - studying the release of arsenic by dissolution of minerals due to low pH.
+
+<style>
+
+/* 🧪 Main IVBA comparison table */
+.ivba-fluid-table table {
+  width: 100%;
+}
+
+/* ⚪ Reagent names */
+.ivba-fluid-table th:nth-child(1),
+.ivba-fluid-table td:nth-child(1) {
+  background-color: #F2F2F2;
+}
+
+/* 🟠 C: MK, reference fluid */
+.ivba-fluid-table th:nth-child(2),
+.ivba-fluid-table td:nth-child(2) {
+  background-color: #FFF0D5;
+}
+
+/* 🔵 E: MG, reference fluid */
+.ivba-fluid-table th:nth-child(3),
+.ivba-fluid-table td:nth-child(3) {
+  background-color: #E4F1F7;
+}
+
+/* 🟢 PSF, main macrophage fluid */
+.ivba-fluid-table th:nth-child(4),
+.ivba-fluid-table td:nth-child(4) {
+  background-color: #BFDDAE;
+}
+
+/* 🔴 ALF, main macrophage fluid */
+.ivba-fluid-table th:nth-child(5),
+.ivba-fluid-table td:nth-child(5) {
+  background-color: #F1B6B8;
+}
+
+/* 🟣 SELF, main epithelial fluid */
+.ivba-fluid-table th:nth-child(6),
+.ivba-fluid-table td:nth-child(6) {
+  background-color: #C8BCE3;
+}
+
+/* 🟠 SLF, comparison fluid */
+.ivba-fluid-table th:nth-child(7),
+.ivba-fluid-table td:nth-child(7) {
+  background-color: #FDE5CF;
+}
+
+/* 📖 Cell formatting */
+.ivba-fluid-table th,
+.ivba-fluid-table td {
+  color: #222222;
+  border: 1px solid #C7C7C7;
+  padding: 7px 9px;
+  vertical-align: middle;
+}
+
+/* 📌 Publication headings */
+.ivba-fluid-table th {
+  font-weight: 700;
+}
+
+/* 🧪 Fluid-name row */
+.ivba-fluid-table tbody tr:first-child {
+  font-weight: 700;
+  font-size: 1.02em;
+}
+
+</style>
+
+::: {.ivba-fluid-table}
+
+
+
+|                                                      | Guldberg et al. (1998) | Guldberg et al. (1998) | Stefaniak et al. (2005)      | Midander et al. (2007)        | Boisa et al. (2014) | Thomas et al. (2018) |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| **Reagent (g/L)**                                    | **C: MK (phthalate)**  | **E: MG (HCl)**        | **"PSF"**                    | **"ALF"**                     | **"SELF"**          | **"SLF"**            |
+| MgCl2 \* 6 H2O                                       | \-                     | 0.160                  | \-                           | \-                            | 0.200               | 0.219                |
+| MgCl2                                                | \-                     | \-                     | \-                           | 0.0497                        | \-                  | \-                   |
+| NaCl                                                 | 6.650                  | 6.171                  | 6.650                        | 3.210                         | 6.020               | 6.415                |
+| NaOH                                                 | \-                     | \-                     | \-                           | 6.000                         | \-                  | \-                   |
+| KCl                                                  | \-                     | 0.031                  | \-                           | \-                            | 0.298               | \-                   |
+| CaCl2 \* 2 H2O                                       | 0.029                  | 0.060                  | 0.029                        | 0.128                         | 0.256               | 0.257                |
+| NH4Cl                                                | 0.535                  | \-                     | \-                           | \-                            | \-                  | \-                   |
+| Na2SO4 (anhydrous)                                   | 0.071                  | 0.080                  | 0.071                        | 0.039                         | 0.072               | 0.079                |
+| Na2HPO4                                              | 0.171                  | 0.148                  | 0.142                        | 0.071                         | 0.150               | 0.150                |
+| NaHCO3                                               | \-                     | 1.900                  | \-                           | \-                            | 2.700               | 2.706                |
+| NaCH3CO2 \* 3 H2O                                    | 0.954                  | \-                     | \-                           | \-                            | \-                  | \-                   |
+| Na2-tartrate \* 2 H2O                                | \-                     | 0.180                  | \-                           | 0.090                         | \-                  | 0.181                |
+| Citric acid                                          | \-                     | \-                     | \-                           | 20.800                        | \-                  | \-                   |
+| Na3-citrate \* 2 H2O                                 | 0.059                  | 0.152                  | \-                           | 0.077                         | \-                  | 0.154                |
+| 90% lactic acid                                      | \-                     | 0.056                  | \-                           | \-                            | \-                  | \-                   |
+| Na-lactate                                           | \-                     | \-                     | \-                           | 0.085                         | \-                  | 0.174                |
+| Glycine (NH2CH2COOH)                                 | 0.450                  | 0.118                  | 0.450                        | 0.059                         | 0.376               | 0.118                |
+| KH-phthalate                                         | 2.043                  | \-                     | 4.085                        | \-                            | \-                  | \-                   |
+| Na-pyruvate                                          | \-                     | 0.172                  | \-                           | 0.086                         | \-                  | 0.177                |
+| Benzalconium-Cl                                      | \-                     | \-                     | 50 ppm                       | \-                            | \-                  | \-                   |
+| HCl                                                  | \-                     | 0.881                  | \-                           | \-                            | \-                  | \-                   |
+| L-Cysteine (C3H7NO2S)                                | \-                     | \-                     | \-                           | \-                            | 0.122               | \-                   |
+| DPPC (dipalmitoyl phosphatidyl choline) (C40H80NO8P) | \-                     | \-                     | \-                           | \-                            | 0.100               | \-                   |
+| Ascorbic acid                                        | \-                     | \-                     | \-                           | \-                            | 0.018               | \-                   |
+| Uric Acid                                            | \-                     | \-                     | \-                           | \-                            | 0.016               | \-                   |
+| Glutathione                                          | \-                     | \-                     | \-                           | \-                            | 0.030               | \-                   |
+| Albumin (Bovine Serum Albumine (BSA))                | \-                     | \-                     | \-                           | \-                            | 0.260               | \-                   |
+| Mucin                                                | \-                     | \-                     | \-                           | \-                            | 0.500               | \-                   |
+| pH                                                   |                        |                        | 4.5 (Adjusted using 1 M KOH) | 4.5 (Adjusted using 1 M NaOH) | 7.4                 | 7.4                  |
+
+:::
+
+
+
+**References**
+
+-   Kastury, F., et al. (2018). "Methodological factors influencing inhalation bioaccessibility of metal(loid)s in PM(2.5) using simulated lung fluid." Environ Pollut 241: 930–937.
+-   Stefaniak, A. B., et al. (2005). "Characterization of phagolysosomal simulant fluid for study of beryllium aerosol particle dissolution." Toxicol In Vitro 19(1): 123–134.
+-   Midander, K., Pan, J., Wallinder, I.O., Leygraf, C., 2007. Metal release from stainless steel particles in vitro-influence of particle size. J. Environ. Monit. 9, 74e81.
+-   Zanoni, I., et al. (2022). "Dissolution Rate of Nanomaterials Determined by Ions and Particle Size under Lysosomal Conditions: Contributions to Standardization of Simulant Fluids and Analytical Methods." Chem Res Toxicol 35(6): 963–980.
+-   Boisa, N., et al. (2014). "Development and application of an inhalation bioaccessibility method (IBM) for lead in the PM10 size fraction of soil." Environ Int 70: 132–142.
+-   Thomas, A. N., et al. (2018). "Oxidative Weathering Decreases Bioaccessibility of Toxic Metal(loid)s in PM10 Emissions From Sulfide Mine Tailings." GeoHealth 2(4): 118–138.
+
+[Back to top](#top)
+
+### **Methodology**
+
+**Preparing the fluids**
+
+-   Measure approximately 750 to 800 mL ultrapure/DI water with a 1 L graduated cylinder.
+-   Transfer it to the bottle where the solution will be mixed.
+-   Add the reagents sequentially and dissolve them completely.
+-   Adjust pH according to the IVBA protocol.
+-   Transfer the solution to a 1 L volumetric flask.
+-   Add DI water until the bottom of the meniscus reaches the 1.000 L calibration line. Mix thoroughly.
+-   Transfer the finished fluid to the appropriate storage bottle.
+
+**Mixing fluids with tailings**
+
+-   Pre-heat the fluids to **37 C.** When not using them, store them in the fridge at 4 Celcius.
+-   Use **ALEC scale** because that one has the capacity to measure 3 decimal figures.
+-   Add **0.010 grams of mass to 50 mL of lung fluid**. Prepare triplicates of each sample, to achieve a 1:5000 solid to liquid ratio. (1 / 5000 = 0.0002 factor)
+-   Wrap each vessel with aluminum foil to avoid photo-oxidation.
+-   Prepare 6 replicates per sample, because we need 3 for 1-hour incubation time, and other 3 for 24-hour incubation time.
+-   Rotate in Rotisserie inside the pre-heated incubator for 1 hour at **37 Celcius. Rotation of 60 rpm.**
+-   Take the 1 hour incubation samples to the centrifuge.
+
+**Centrifuge**
+
+-   Use the Thermo Scientific Sorvall WX+ ultracentrifuge in 518 lab.
+-   Rotor: Fiberlite F37L-8×100 fixed-angle.
+-   Bottles: 010-1333 polycarbonate bottles.
+-   Set the velocity to **12,260 rpm**, which for this specific rotor is **20,000 × g** at the maximum rotor radius.
+-   Centrifuge for **10 min**.
+-   The rotor can fit just **8 vessels per time**. Refer to the rounds calculation tab to check how to organize the rounds of centrifuge.
+-   Separate the supernatant solution.
+-   Using a syringe, filter the supernatant with **0.22 um** acid washed hydrophobic polypropylene GHP membranes (acro-disc, Pall Corp. PN 28139).
+-   Store supernatant at 4 Celcius until analysis in ALEC.
+
+**Analyses**
+
+-   Measure pH, EC, and dissolved oxygen?
+-   For ICP-MS: Acidify samples to preserve the arsenic speciation, by adding:
+    -   **500 uL of 0.250 M EDTA added to 10 mL sample (Fe conc \< 500 mg/L) or**
+    -   100 uL of 0.125 M EDTA added to 10 mL sample (Fe conc. \< 10 mg/L) **or**
+-   For Ion Chromatography: don't add any extra acid.
+-   For Iron Speciation: add HCl.
+-   Store supernatant at 4 Celcius until analysis in ALEC.
+-   The solid residue of each sample needs to be washed with DI water and stored at -45 Celcius, prior to solid phase characterization and spectroscopic analysis.
+-   Do the same with the samples that stayed rotating for 24 hours.
+-   Store the lung fluids in the fridge at 4 Celcius when not using them.
+
+[Back to top](#top)
+
+### **Materials/Equipment**
+
+-   1 L graduated cylinder
+-   Centrifuge tubes
+-   10 mL pipette
+-   10 mL pipette tips
+-   EDTA, HCl, HNO3 for conservation of species
+-   ALEC scale (for 3 decimal figures)
+-   weightboats
+-   Heater
+-   Centrifuge
+-   Incubator
+-   Rotisserie
+
+### **Centrifuge rounds division**
+
+**Samples:**
+
+-   7 sites
+-   3 fluids
+-   3 replicates
+-   2 time steps (1 hour and 24 hour)
+
+Total: 126 vessels
+
+***Centrifuge can fit just 6 vessels per round***
+
+126 vessels / 6 = 21 rounds in centrifuge
+
+**Centrifuge rounds**
+
+Round 1 (SELF)
+
+-   IK-B-PM10-SELF-1hr-1
+-   IK-B-PM10-SELF-1hr-2
+-   IK-B-PM10-SELF-1hr-3
+-   IK-B-PM2.5-SELF-1hr-1
+-   IK-B-PM2.5-SELF-1hr-2
+-   IK-B-PM2.5-SELF-1hr-3
+
+Round 2 (ALF)
+
+-   IK-B-PM10-ALF-1hr-1
+-   IK-B-PM10-ALF-1hr-2
+-   IK-B-PM10-ALF-1hr-3
+-   IK-B-PM2.5-ALF-1hr-1
+-   IK-B-PM2.5-ALF-1hr-2
+-   IK-B-PM2.5-ALF-1hr-3
+
+Round 3 (PSF)
+
+-   IK-B-PM10-PSF-1hr-1
+-   IK-B-PM10-PSF-1hr-2
+-   IK-B-PM10-PSF-1hr-3
+-   IK-B-PM2.5-PSF-1hr-1
+-   IK-B-PM2.5-PSF-1hr-2
+-   IK-B-PM2.5-PSF-1hr-3
+
+Round 4 (SELF)
+
+-   MG-B-PM10-SELF-1hr-1
+-   MG-B-PM10-SELF-1hr-2
+-   MG-B-PM10-SELF-1hr-3
+-   MG-B-PM2.5-SELF-1hr-1
+-   MG-B-PM2.5-SELF-1hr-2
+-   MG-B-PM2.5-SELF-1hr-3
+
+Round 5 (ALF)
+
+-   MG-B-PM10-ALF-1hr-1
+-   MG-B-PM10-ALF-1hr-2
+-   MG-B-PM10-ALF-1hr-3
+-   MG-B-PM2.5-ALF-1hr-1
+-   MG-B-PM2.5-ALF-1hr-2
+-   MG-B-PM2.5-ALF-1hr-3
+
+Round 6 (PSF)
+
+-   MG-B-PM10-PSF-1hr-1
+-   MG-B-PM10-PSF-1hr-2
+-   MG-B-PM10-PSF-1hr-3
+-   MG-B-PM2.5-PSF-1hr-1
+-   MG-B-PM2.5-PSF-1hr-2
+-   MG-B-PM2.5-PSF-1hr-3
+
+**And so on... until it is time for the 24-hour samples.**
+
+::: callout-important
+-   "CE" clears the centrifuge alarm, if it ever get activated.
+-   Metal Free Tubes maximum speed is 1200 RCF.
+-   Ultra 30 mL darkish tubes, have a maximum speed of 1500 RCF.
+-   Clean the rotors with wipes or water.
+:::
+
+[Back to top](#top)
+
+:::
 
 ## **Flow-through reactive mini-column experiment**
 
@@ -1245,7 +1330,7 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 
 ![SSE](SOP_files/figures/Slides_SOP/Slide33.png)
 
-[Back to top](#top) 
+[Back to top](#top)
 
 :::
 
@@ -1404,9 +1489,7 @@ Inductively Coupled Plasma Mass Spectrometer (ICP-MS)
 
 -   Take 10 mL of the sample
 
--   Add:
-        - 500 uL of 0.250 M EDTA added to 10 mL sample (Fe conc < 500 mg/L) **or**
-        - 100 uL of 0.125 M EDTA added to 10 mL sample (Fe conc < 10 mg/L) **or**
+-   Add: - 500 uL of 0.250 M EDTA added to 10 mL sample (Fe conc \< 500 mg/L) **or** - 100 uL of 0.125 M EDTA added to 10 mL sample (Fe conc \< 10 mg/L) **or**
 
 -   Dilution factor = Final Volume / Initial Volume = 10/1 = 10
 
@@ -1500,7 +1583,6 @@ For a 1:2 solid-to-solution ratio
 -   Measure the pH and EC on the supernatant
 
 [Back to top](#top)
-
 :::
 
 # **ADMINISTRATIVE PROCEDURES**
@@ -1635,7 +1717,6 @@ Extracted from the [University Chemical Hygiene Plan](https://research.arizona.e
 ![ENVS](SOP_files/figures/logos/ENVS_logo.png){width="4in"}
 
 <https://envs.arizona.edu/about/contact/business-office>
-
 :::
 
 # **PAPERS AND REFERENCES**
@@ -2026,5 +2107,4 @@ Schwertmannite and Jarosite in AMD
 
 [Back to top](#top)
 :::
-
 :::
