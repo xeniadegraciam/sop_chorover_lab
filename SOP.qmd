@@ -1885,11 +1885,6 @@ datatable(
 
 [Back to top](#top)
 
-## **Boyoung's suggestions**
-
-### KdD Partition Coefficients
-
--   Geochemical Earth Reference Model (GERM) -- Home page. (n.d.). <https://earthref.org/GERM/#gsc.tab=0>
 
 ## **Rob's suggestions**
 
@@ -1974,6 +1969,12 @@ Schwertmannite and Jarosite in AMD
 -   Thompson, A., Chadwick, O. A., Boman, S., & Chorover, J. (2006). Colloid mobilization during soil iron redox oscillations. *Environmental Science & Technology*, 40(18), 5743–5749. <https://doi.org/10.1021/es061203b>
 
 [Back to top](#top)
+
+## **Boyoung's suggestions**
+
+### KdD Partition Coefficients
+
+-   Geochemical Earth Reference Model (GERM) -- Home page. (n.d.). <https://earthref.org/GERM/#gsc.tab=0>
 
 ## **By Journal**
 
@@ -2107,4 +2108,4 @@ Schwertmannite and Jarosite in AMD
 
 [Back to top](#top)
 :::
-:::
+
