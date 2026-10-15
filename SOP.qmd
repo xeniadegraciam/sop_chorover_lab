@@ -571,12 +571,16 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Weight a clean, empty tube, and write down the weight on the lab notebook.
 -   Fill it with a sample using the metallic funnel. *These tubes are very fragile, so be careful*.
 
-![](SOP_files/figures/BET_funnel.png){width="2in"}
+![BET funnel](SOP_files/figures/BET_funnel.png){width="2in"}
 
 -   Weight the tube+sample, and add that on the lab notebook.
 -   Degas the samples overnight with a temperature of **45 Celsius** because I’m using tailings. (*If I increase the temperature I could convert my ferrihydrite to Goethite, and we don’t want that.*)
 
 ![Drying station](SOP_files/figures/BET_Dessicator_NitrogenStation.png){width="4in"}
+
+-   To insert the tube in the BET machine, do it gently and slowly, don't move or remove the O-ring seals to protect the machine, or it will start showing errors, and without them, particles of your sample can go inside the machine, damaging it.
+
+![O-rings are inside here](SOP_files/figures/BET_O-rings.png){width="2in"}
 
 ### **Computer procedure: Gemini program**
 
@@ -588,13 +592,13 @@ USGS OFR01-041: Clay Mineral Identification Flow Diagram. (n.d.). <https://pubs.
 -   Sample: **insert name** (The way of saving a sample is: “YearMonthDay”*”sampleID”*”yourInitials”, example: 20230121_Keating_XD)
 -   Operator: **insert your initials**
 -   Calculate
--   Empty Weight
+-   Empty Weight
 -   Sample+Tube Weight
 -   Save As: **same as sample name** (.SMP file is the default, use that one)
 -   Once your weights appear in the "Analysis" screen, you can press **Start**.
 
 ::: callout-important
-**If you have an error in the computer, take a screenshot and save it in the PPT that is open in that computer.**
+-   **If you have an error in the computer, take a screenshot and save it in the PPT that is open in that computer.**
 :::
 
 ![BET machine](SOP_files/figures/BET.png){width="4in"}
@@ -754,7 +758,6 @@ These below are some notes specifically applied to my research projects:
 
 -   The samples taken were sieved at the mine site to 2mm.
 -   Sites like Iron King, with big sandy percentage, were left for 254 hours, instead of 4 hours like their protocol mentioned, to be able to break those big particles to more fine particle size, to be able to generate the required amount of dust for the analyses.
-
 :::
 
 ## **Centrifuge**
@@ -814,8 +817,6 @@ These below are some notes specifically applied to my research projects:
 
 [Back to top](#top)
 
-
-
 ## **Freeze-Dryer**
 
 What this machine does is that it drys the sample through **Sublimation**, which is when solid water goes to vapor.
@@ -839,7 +840,6 @@ What this machine does is that it drys the sample through **Sublimation**, which
 ::: callout-important
 -   Change the oil once a month. There is a signing spreadsheet on the bench to check when was the last time it was changed.
 :::
-
 
 ## **RS Key for weight printing on the balance**
 
@@ -878,7 +878,6 @@ When leaving, vacuum the Starlock a little, and then gas it a little.
 At the end of the day, close the valves of Nitrogen and Hydrogen gas.
 
 [Back to top](#top)
-
 :::
 
 # **EXPERIMENTS**
@@ -899,6 +898,7 @@ Our research is focused on
 
 -   **PSF** for Alveolar Macrophage simulation - studying the release of arsenic by dissolution of minerals due to low pH.
 
+```{=html}
 <style>
 
 /* 🧪 Main IVBA comparison table */
@@ -969,11 +969,8 @@ Our research is focused on
 }
 
 </style>
-
-::: {.ivba-fluid-table}
-
-
-
+```
+::: ivba-fluid-table
 |                                                      | Guldberg et al. (1998) | Guldberg et al. (1998) | Stefaniak et al. (2005)      | Midander et al. (2007)        | Boisa et al. (2014) | Thomas et al. (2018) |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | **Reagent (g/L)**                                    | **C: MK (phthalate)**  | **E: MG (HCl)**        | **"PSF"**                    | **"ALF"**                     | **"SELF"**          | **"SLF"**            |
@@ -1006,10 +1003,7 @@ Our research is focused on
 | Albumin (Bovine Serum Albumine (BSA))                | \-                     | \-                     | \-                           | \-                            | 0.260               | \-                   |
 | Mucin                                                | \-                     | \-                     | \-                           | \-                            | 0.500               | \-                   |
 | pH                                                   |                        |                        | 4.5 (Adjusted using 1 M KOH) | 4.5 (Adjusted using 1 M NaOH) | 7.4                 | 7.4                  |
-
 :::
-
-
 
 **References**
 
@@ -1166,7 +1160,6 @@ Round 6 (PSF)
 :::
 
 [Back to top](#top)
-
 :::
 
 ## **Flow-through reactive mini-column experiment**
@@ -1331,7 +1324,6 @@ Nick Buchanan's thesis (2023) is good to learn this process.
 ![SSE](SOP_files/figures/Slides_SOP/Slide33.png)
 
 [Back to top](#top)
-
 :::
 
 # **ANALYTICAL PROCEDURES**
@@ -1885,7 +1877,6 @@ datatable(
 
 [Back to top](#top)
 
-
 ## **Rob's suggestions**
 
 ### Iron
@@ -2108,4 +2099,3 @@ Schwertmannite and Jarosite in AMD
 
 [Back to top](#top)
 :::
-
