@@ -49,9 +49,26 @@ execute:
 -   *Typos could be found on these lab notes, as English is not my native language. If you find some, please let me know to make the necessary corrections. Thanks!*
 :::
 
-***Click the link below if needed to go back to the main repository for other Lab Notes not related to Synchrotron:***
+***Click the link below if needed to go back to the main repository for other Lab Notes not related to Synchrotron, or the other button to checkout some of the XAS references we have***
 
-[SOP repo](https://xeniadegraciam.github.io/sop_chorover_lab/SOP.html)
+
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin: 25px 0;">
+
+  <a href="https://xeniadegraciam.github.io/sop_chorover_lab/SOP.html"
+     class="btn btn-primary btn-lg"
+     target="_blank"
+     rel="noopener noreferrer">
+    <i class="bi bi-journal-text"></i> Lab SOPs
+  </a>
+
+  <a href="https://xeniadegraciam.github.io/SPECTRA"
+     class="btn btn-success btn-lg"
+     target="_blank"
+     rel="noopener noreferrer">
+    <i class="bi bi-database"></i> SPECTRA Database
+  </a>
+
+</div>
 
 ------------------------------------------------------------------------
 
@@ -64,22 +81,7 @@ Download the Orange Book [here](https://xdb.lbl.gov/)
 
 ![](Synchrotron_files/figures/DataBook_Image.gif)
 
-## **Our Synchrotron Data**
 
-[SYNCHROTRON VISIT LOGBOOK](https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6)
-
-The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.
-
-**Remote Access to SSRL data**
-
--   Download the WinSCP app here: [WinSCP](https://winscp.net/eng/downloads.php)
--   This app will require you to input the information of the folder that you need to access remotely.
--   Fill out the information required:
-    -   Host name
-    -   User name
-    -   Password
-
-[Back to top](#top)
 
 ## **SIXPACK SOFTWARE**
 
@@ -264,47 +266,185 @@ This example shows how to use Larch from Python/Jupyter for basic XAFS data proc
 <https://github.com/xraypy/xraylarch/blob/master/examples/Jupyter/feffit_cu_3paths.ipynb>
 :::
 
-# **ROB's REFERENCES**
+# **OUR DATA**
+
+## **Synchrotron Notebooks**
+
+The buttons below contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.
+
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin: 25px 0;">
+
+  <a href="https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6"
+     class="btn btn-primary btn-lg"
+     target="_blank"
+     rel="noopener noreferrer">
+    <i class="bi bi-journal-text"></i> 2015-Current Notebook
+  </a>
+
+  <a href="https://emailarizona-my.sharepoint.com/:b:/g/personal/xeniadegracia_arizona_edu/IQDErI4anoLQSJ60Qgojzc4TAcAZpFMN0eA1v44D3Ik4H28?e=ni7Ef4"
+     class="btn btn-success btn-lg"
+     target="_blank"
+     rel="noopener noreferrer">
+    <i class="bi bi-journal-text"></i> 2009-2014 Notebook
+  </a>
+
+</div>
+
+
+## **SPECTRA Database**
 
 ::: callout-note
 *Some of the hundreds of XAS references that Dr. Rob Root has collected during his numerous trips to the synchrotrons around the world.*
 :::
 
-::: panel-tabset
-## **Arsenic**
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin: 25px 0;">
 
-:::{.html}
-<iframe 
-  src="Synchrotron_files/figures/RobRefs_As_XANES.html" 
-  width="100%" 
-  height="900px" 
-  style="border:none; overflow:auto;">
-</iframe>
-:::
+  <a href="https://xeniadegraciam.github.io/SPECTRA"
+     class="btn btn-success btn-lg"
+     target="_blank"
+     rel="noopener noreferrer">
+    <i class="bi bi-database"></i> SPECTRA Database
+  </a>
 
-## **Iron**
+</div>
 
-:::{.html}
-<iframe 
-  src="Synchrotron_files/figures/RobRefs_Fe_XANES.html" 
-  width="100%" 
-  height="900px" 
-  style="border:none; overflow:auto;">
-</iframe>
-:::
 
-## **Sulfur**
+## **Remote Access to Our SSRL Data**
 
-:::{.html}
-<iframe 
-  src="Synchrotron_files/figures/RobRefs_S_XANES.html" 
-  width="100%" 
-  height="900px" 
-  style="border:none; overflow:auto;">
-</iframe>
-:::
+- Download the WinSCP application using the button below.
+- WinSCP requires connection information to access SSRL data remotely.
+- Fill out the information required:
+    -   Host name
+    -   User name
+    -   Password
+- Complete the laboratory verification question to display the link to the protected connection information.
 
-:::
+[<i class="bi bi-download"></i> Download WinSCP](https://winscp.net/eng/downloads.php){.btn .btn-primary target="_blank"}
+
+
+### Access Connection Information
+
+```{=html}
+<div class="card shadow-sm" style="max-width: 600px; margin: 20px 0;">
+  <div class="card-body">
+
+    <h5 class="card-title">
+      <i class="bi bi-shield-lock"></i> Laboratory Verification
+    </h5>
+
+    <p>
+      Answer the laboratory question below to reveal the link
+      to the university-protected connection information.
+    </p>
+
+    <!-- 🔐 Laboratory verification question -->
+    <label for="ssrl-answer" class="form-label">
+      <strong>What is the bio-cabinet lab pin number?</strong>
+    </label>
+
+    <!-- 📝 Answer input -->
+    <input
+      type="text"
+      id="ssrl-answer"
+      class="form-control"
+      placeholder="Enter your answer here!"
+      autocomplete="off"
+    >
+
+    <!-- ✅ Verification button -->
+    <button
+      type="button"
+      class="btn btn-primary mt-3"
+      onclick="checkSSRLAnswer()">
+      Verify Answer
+    </button>
+
+    <!-- 📢 Verification feedback -->
+    <p id="ssrl-result" role="status" class="mt-3"></p>
+
+    <!-- 🔓 University-protected link -->
+    <div id="ssrl-protected-link" hidden>
+
+      <div class="alert alert-success mt-3">
+
+        <strong>Correct answer!</strong>
+
+        <p class="mt-2">
+          Click below to access the connection information.
+          University authentication is required.
+        </p>
+
+        <a
+          href="https://emailarizona-my.sharepoint.com/:i:/g/personal/xeniadegracia_arizona_edu/IQB43FZUKOOaRJmLkLZELcL6ARM2TGJruVGYQsxlyz-z3vQ"
+          class="btn btn-success"
+          target="_blank"
+          rel="noopener noreferrer">
+          View Connection Information
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+
+// 🔐 Expected answer to the laboratory verification question.
+// ⚠️ The answer is visible in the public webpage source.
+const ssrlCorrectAnswer = "258046";
+
+// ✅ Verify the submitted answer.
+function checkSSRLAnswer() {
+
+  // 📝 Retrieve and normalize the submitted answer.
+  const submittedAnswer = document
+    .getElementById("ssrl-answer")
+    .value
+    .trim()
+    .toLowerCase();
+
+  // 🔎 Identify the interface elements.
+  const resultElement = document.getElementById("ssrl-result");
+  const protectedLink = document.getElementById("ssrl-protected-link");
+
+  // ✅ Reveal the link after a correct answer.
+  if (submittedAnswer === ssrlCorrectAnswer) {
+
+    protectedLink.hidden = false;
+
+    resultElement.textContent = "Verification successful!";
+    resultElement.style.color = "green";
+
+  } else {
+
+    // ⚠️ Hide the link after an incorrect answer.
+    protectedLink.hidden = true;
+
+    resultElement.textContent = "Incorrect answer. Please try again.";
+    resultElement.style.color = "red";
+
+  }
+}
+
+// ⌨️ Allow verification using the Enter key.
+document.getElementById("ssrl-answer")
+  .addEventListener("keydown", function(event) {
+
+    if (event.key === "Enter") {
+      event.preventDefault();
+      checkSSRLAnswer();
+    }
+
+  });
+
+</script>
+```
+
+
+[Back to top](#top)
+
 
 # **SSRL**
 

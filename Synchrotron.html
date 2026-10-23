@@ -54,7 +54,15 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link active" data-scroll-target="#data-analysis"><span class="header-section-number">1</span> <strong>DATA ANALYSIS</strong></a></li>
-  <li><a href="#robs-references" id="toc-robs-references" class="nav-link" data-scroll-target="#robs-references"><span class="header-section-number">2</span> <strong>ROB’s REFERENCES</strong></a></li>
+  <li><a href="#our-data" id="toc-our-data" class="nav-link" data-scroll-target="#our-data"><span class="header-section-number">2</span> <strong>OUR DATA</strong></a>
+  <ul>
+  <li><a href="#synchrotron-notebooks" id="toc-synchrotron-notebooks" class="nav-link" data-scroll-target="#synchrotron-notebooks"><span class="header-section-number">2.1</span> <strong>Synchrotron Notebooks</strong></a></li>
+  <li><a href="#spectra-database" id="toc-spectra-database" class="nav-link" data-scroll-target="#spectra-database"><span class="header-section-number">2.2</span> <strong>SPECTRA Database</strong></a></li>
+  <li><a href="#remote-access-to-our-ssrl-data" id="toc-remote-access-to-our-ssrl-data" class="nav-link" data-scroll-target="#remote-access-to-our-ssrl-data"><span class="header-section-number">2.3</span> <strong>Remote Access to Our SSRL Data</strong></a>
+  <ul>
+  <li><a href="#access-connection-information" id="toc-access-connection-information" class="nav-link" data-scroll-target="#access-connection-information"><span class="header-section-number">2.3.1</span> Access Connection Information</a></li>
+  </ul></li>
+  </ul></li>
   <li><a href="#ssrl" id="toc-ssrl" class="nav-link" data-scroll-target="#ssrl"><span class="header-section-number">3</span> <strong>SSRL</strong></a>
   <ul>
   <li><a href="#bl-11-2-xas" id="toc-bl-11-2-xas" class="nav-link" data-scroll-target="#bl-11-2-xas"><span class="header-section-number">3.1</span> <strong>BL 11-2 XAS</strong></a></li>
@@ -90,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Monday, April 6, 2026 04:20:19</p>
+      <p class="date">Thursday, October 22, 2026 19:59:35</p>
     </div>
   </div>
   
@@ -118,35 +126,22 @@ Note
 </ul>
 </div>
 </div>
-<p><strong><em>Click the link below if needed to go back to the main repository for other Lab Notes not related to Synchrotron:</em></strong></p>
-<p><a href="https://xeniadegraciam.github.io/sop_chorover_lab/SOP.html">SOP repo</a></p>
+<p><strong><em>Click the link below if needed to go back to the main repository for other Lab Notes not related to Synchrotron, or the other button to checkout some of the XAS references we have</em></strong></p>
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin: 25px 0;">
+<p><a href="https://xeniadegraciam.github.io/sop_chorover_lab/SOP.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer"> <i class="bi bi-journal-text"></i> Lab SOPs </a></p>
+<p><a href="https://xeniadegraciam.github.io/SPECTRA" class="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer"> <i class="bi bi-database"></i> SPECTRA Database </a></p>
+</div>
 <hr>
 <section id="data-analysis" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> <strong>DATA ANALYSIS</strong></h1>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><span style="color: orange;"><strong>The Orange Book</strong></span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><strong>Our Synchrotron Data</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href=""><strong>SIXPACK SOFTWARE</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href=""><strong>ATHENA SOFTWARE</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href=""><strong>LARCH Python package</strong></a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><span style="color: orange;"><strong>The Orange Book</strong></span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><strong>SIXPACK SOFTWARE</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href=""><strong>ATHENA SOFTWARE</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href=""><strong>LARCH Python package</strong></a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Download the Orange Book <a href="https://xdb.lbl.gov/">here</a></p>
 <p><a href="Synchrotron_files/figures/DataBook_Image.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="Synchrotron_files/figures/DataBook_Image.gif" class="img-fluid"></a></p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><a href="https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6">SYNCHROTRON VISIT LOGBOOK</a></p>
-<p>The link above contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits, from page 1 to page 233 of the logbook (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.</p>
-<p><strong>Remote Access to SSRL data</strong></p>
-<ul>
-<li>Download the WinSCP app here: <a href="https://winscp.net/eng/downloads.php">WinSCP</a></li>
-<li>This app will require you to input the information of the folder that you need to access remotely.</li>
-<li>Fill out the information required:
-<ul>
-<li>Host name</li>
-<li>User name</li>
-<li>Password</li>
-</ul></li>
-</ul>
-<p><a href="#top">Back to top</a></p>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p>The link to the manual for data analyses of XAS is at this link: <a href="https://docs.google.com/document/d/11aBW2lp7dQ3Z7M_WR1V9nHGQpyaWus9GZM6z-x5BB98/edit?usp=sharing">XAS Analysis Manual</a></p>
 <p><strong>References:</strong></p>
 <ul>
@@ -239,7 +234,7 @@ Note
 </section>
 </section>
 </div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p><strong>References:</strong></p>
 <ul>
 <li>Ravel, B., &amp; Newville, M. (2005). ATHENA, ARTEMIS, HEPHAESTUS: data analysis for X-ray absorption spectroscopy using<i>IFEFFIT</i>. Journal of Synchrotron Radiation, 12(4), 537-541. <a href="https://doi.org/10.1107/s0909049505012719" class="uri">https://doi.org/10.1107/s0909049505012719</a></li>
@@ -335,7 +330,7 @@ Note
 <p><a href="#top">Back to top</a></p>
 </section>
 </div>
-<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <p><strong>References:</strong></p>
 <ul>
 <li>Newville, M. (2013). LARCH: an analysis package for XAFS and related spectroscopies. Journal of Physics Conference Series, 430, 012007. <a href="https://doi.org/10.1088/1742-6596/430/1/012007" class="uri">https://doi.org/10.1088/1742-6596/430/1/012007</a></li>
@@ -366,8 +361,18 @@ Note
 </div>
 </div>
 </section>
-<section id="robs-references" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> <strong>ROB’s REFERENCES</strong></h1>
+<section id="our-data" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> <strong>OUR DATA</strong></h1>
+<section id="synchrotron-notebooks" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="synchrotron-notebooks"><span class="header-section-number">2.1</span> <strong>Synchrotron Notebooks</strong></h2>
+<p>The buttons below contains the scanned version of the synchrotron visit logbook with all the notes taken during synchrotron visits (last synchrotron visit scanned: December 2024). This helps identify the labels used on the data files scanned and if there were specific observations to note during the synchrotron visit.</p>
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin: 25px 0;">
+<p><a href="https://arizona.box.com/s/hsgb6jg237s6oge5pqmd8hn69ml6k7s6" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer"> <i class="bi bi-journal-text"></i> 2015-Current Notebook </a></p>
+<p><a href="https://emailarizona-my.sharepoint.com/:b:/g/personal/xeniadegracia_arizona_edu/IQDErI4anoLQSJ60Qgojzc4TAcAZpFMN0eA1v44D3Ik4H28?e=ni7Ef4" class="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer"> <i class="bi bi-journal-text"></i> 2009-2014 Notebook </a></p>
+</div>
+</section>
+<section id="spectra-database" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="spectra-database"><span class="header-section-number">2.2</span> <strong>SPECTRA Database</strong></h2>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -381,29 +386,131 @@ Note
 <p><em>Some of the hundreds of XAS references that Dr.&nbsp;Rob Root has collected during his numerous trips to the synchrotrons around the world.</em></p>
 </div>
 </div>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href=""><strong>Arsenic</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href=""><strong>Iron</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href=""><strong>Sulfur</strong></a></li></ul>
-<div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<div class="html">
-<iframe src="Synchrotron_files/figures/RobRefs_As_XANES.html" width="100%" height="900px" style="border:none; overflow:auto;">
-</iframe>
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin: 25px 0;">
+<p><a href="https://xeniadegraciam.github.io/SPECTRA" class="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer"> <i class="bi bi-database"></i> SPECTRA Database </a></p>
 </div>
+</section>
+<section id="remote-access-to-our-ssrl-data" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="remote-access-to-our-ssrl-data"><span class="header-section-number">2.3</span> <strong>Remote Access to Our SSRL Data</strong></h2>
+<ul>
+<li>Download the WinSCP application using the button below.</li>
+<li>WinSCP requires connection information to access SSRL data remotely.</li>
+<li>Fill out the information required:
+<ul>
+<li>Host name</li>
+<li>User name</li>
+<li>Password</li>
+</ul></li>
+<li>Complete the laboratory verification question to display the link to the protected connection information.</li>
+</ul>
+<p><a href="https://winscp.net/eng/downloads.php" class="btn btn-primary" target="_blank"><i class="bi bi-download"></i> Download WinSCP</a></p>
+<section id="access-connection-information" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="access-connection-information"><span class="header-section-number">2.3.1</span> Access Connection Information</h3>
+<div class="card shadow-sm" style="max-width: 600px; margin: 20px 0;">
+  <div class="card-body">
+
+    <h5 class="card-title anchored">
+      <i class="bi bi-shield-lock"></i> Laboratory Verification
+    </h5>
+
+    <p>
+      Answer the laboratory question below to reveal the link
+      to the university-protected connection information.
+    </p>
+
+    <!-- 🔐 Laboratory verification question -->
+    <label for="ssrl-answer" class="form-label">
+      <strong>What is the bio-cabinet lab pin number?</strong>
+    </label>
+
+    <!-- 📝 Answer input -->
+    <input type="text" id="ssrl-answer" class="form-control" placeholder="Enter your answer here!" autocomplete="off">
+
+    <!-- ✅ Verification button -->
+    <button type="button" class="btn btn-primary mt-3" onclick="checkSSRLAnswer()">
+      Verify Answer
+    </button>
+
+    <!-- 📢 Verification feedback -->
+    <p id="ssrl-result" role="status" class="mt-3"></p>
+
+    <!-- 🔓 University-protected link -->
+    <div id="ssrl-protected-link" hidden="">
+
+      <div class="alert alert-success mt-3">
+
+        <strong>Correct answer!</strong>
+
+        <p class="mt-2">
+          Click below to access the connection information.
+          University authentication is required.
+        </p>
+
+        <a href="https://emailarizona-my.sharepoint.com/:i:/g/personal/xeniadegracia_arizona_edu/IQB43FZUKOOaRJmLkLZELcL6ARM2TGJruVGYQsxlyz-z3vQ" class="btn btn-success" target="_blank" rel="noopener noreferrer">
+          View Connection Information
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
 </div>
-<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<div class="html">
-<iframe src="Synchrotron_files/figures/RobRefs_Fe_XANES.html" width="100%" height="900px" style="border:none; overflow:auto;">
-</iframe>
-</div>
-</div>
-<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
-<div class="html">
-<iframe src="Synchrotron_files/figures/RobRefs_S_XANES.html" width="100%" height="900px" style="border:none; overflow:auto;">
-</iframe>
-</div>
-</div>
-</div>
-</div>
+
+<script>
+
+// 🔐 Expected answer to the laboratory verification question.
+// ⚠️ The answer is visible in the public webpage source.
+const ssrlCorrectAnswer = "258046";
+
+// ✅ Verify the submitted answer.
+function checkSSRLAnswer() {
+
+  // 📝 Retrieve and normalize the submitted answer.
+  const submittedAnswer = document
+    .getElementById("ssrl-answer")
+    .value
+    .trim()
+    .toLowerCase();
+
+  // 🔎 Identify the interface elements.
+  const resultElement = document.getElementById("ssrl-result");
+  const protectedLink = document.getElementById("ssrl-protected-link");
+
+  // ✅ Reveal the link after a correct answer.
+  if (submittedAnswer === ssrlCorrectAnswer) {
+
+    protectedLink.hidden = false;
+
+    resultElement.textContent = "Verification successful!";
+    resultElement.style.color = "green";
+
+  } else {
+
+    // ⚠️ Hide the link after an incorrect answer.
+    protectedLink.hidden = true;
+
+    resultElement.textContent = "Incorrect answer. Please try again.";
+    resultElement.style.color = "red";
+
+  }
+}
+
+// ⌨️ Allow verification using the Enter key.
+document.getElementById("ssrl-answer")
+  .addEventListener("keydown", function(event) {
+
+    if (event.key === "Enter") {
+      event.preventDefault();
+      checkSSRLAnswer();
+    }
+
+  });
+
+</script>
+<p><a href="#top">Back to top</a></p>
+</section>
+</section>
 </section>
 <section id="ssrl" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> <strong>SSRL</strong></h1>
@@ -435,9 +542,9 @@ Important
 </div>
 </div>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true" href=""><strong>CHALO</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false" href=""><strong>SETUP QUEUE</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false" href=""><strong>SCAN FINISHED</strong></a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href=""><strong>CHALO</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href=""><strong>SETUP QUEUE</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href=""><strong>SCAN FINISHED</strong></a></li></ul>
 <div class="tab-content">
-<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <section id="calibration" class="level4" data-number="3.1.0.1">
 <h4 data-number="3.1.0.1" class="anchored" data-anchor-id="calibration"><span class="header-section-number">3.1.0.1</span> <strong>CALIBRATION</strong></h4>
 <p><strong><em>Calibration with Gold</em></strong></p>
@@ -740,7 +847,7 @@ Important
 <p><a href="#top">Back to top</a></p>
 </section>
 </div>
-<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
 <ul>
 <li><strong>Setup Queue</strong></li>
 <li>Insert names, Y-position (HGap), and Z-position (VERT_ADC)</li>
@@ -780,7 +887,7 @@ Important
 </div>
 <p><a href="#top">Back to top</a></p>
 </div>
-<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1524,7 +1631,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
